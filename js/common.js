@@ -37,7 +37,7 @@ function setPosition(checkAnim){
 		template.animate({ 
 			opacity: 1
 	  	}, 1000);
-	  	checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 1000, wrap);
+	  	checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
 	  }
 	  else{
 		orangeSquare.css({"top": top, "left": left});
@@ -99,5 +99,6 @@ $(function() {
 	setPosition(checkAnim);
 });
 $(window).resize(function(){
+	console.log("resize");
 	setPosition();
 });

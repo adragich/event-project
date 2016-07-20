@@ -10,7 +10,7 @@
 			define("SPEAKERS","Prelegenci");
 			define("PROJECTS","Projekcje");
 			define("TICKETS","Bilety");
-			define("BATTLES","Bitwe graficzne");
+			define("BATTLES","Bitwy graficzne");
 
 			define("LANGUAGE","English language");
 			define("HOMEPAGE","Strona główna");
@@ -46,7 +46,7 @@
 			define("SPEAKERS","Prelegenci");
 			define("PROJECTS","Projekcje");
 			define("TICKETS","Bilety");
-			define("BATTLES","Bitwe graficzne");
+			define("BATTLES","Bitwy graficzne");
 
 			define("LANGUAGE","English language");
 			define("HOMEPAGE","Strona główna");

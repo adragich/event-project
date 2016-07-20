@@ -7,8 +7,11 @@ function constructMenuLinks(){
 	else{		
 		var li = $(".nav li");
 	}
-	var height = ($(".sideBar").height() - $(".lang").height() - $(".socials").height() - parseInt($(".socials").css("bottom"))) / li.length;
-	li.css("line-height", height + "px");
+	var height = ($(window).height() - parseInt($(".sideBar").css("padding-top")) - 2*parseInt($(".nav").css("padding-top")) 
+		- parseInt($(".lang a").css("line-height")) - $(".socials a").height() - parseInt($(".socials").css("bottom"))) / li.length ;
+	console.log($(window).height() + " " +parseInt($(".sideBar").css("padding-top")) + " " + parseInt($(".nav").css("padding-top")) + " " + parseInt($(".lang a").css("line-height")) 
+		+ " " + $(".socials a").height() + " " +  parseInt($(".socials").css("bottom")) + " " + li.length + " " + height);
+	li.css("line-height", height + "px"); 
 }
 $(function() {
 	constructMenuLinks();
@@ -24,3 +27,6 @@ $(function() {
 $(window).resize(function(){
 	constructMenuLinks();
 });
+$( window ).on( "orientationchange", function( event ) { 
+	constructMenuLinks();
+} );
