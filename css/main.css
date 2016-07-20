@@ -455,11 +455,12 @@ transform-origin:50% 50%;
 }
 .imageCenter{
   left:382px;
-  top:-webkit-calc((100% - 253px)/2)!important;
-  top:calc((100% - 253px)/2)!important;
-  height:253px;
-  width:215px;
-    opacity:0;
+  top: -webkit-calc((100% - 253px)/2);
+  top: calc((100% - 253px)/2); 
+  /**/
+  height: 253px;
+  width: 215px;
+  opacity:0;
 }
 #orangeSquare{
   width:115px;
