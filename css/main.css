@@ -690,7 +690,7 @@ transform-origin:50% 50%;
     right: 105px;
   }
 }
-@media (max-width: 675px) and (min-width:375px){
+@media (max-width: 675px){
   .event-left-link {
     z-index:4!important;
   }
