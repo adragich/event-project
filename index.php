@@ -1,13 +1,8 @@
-<?php 
-	@include("partials/text.php");
-	@include("partials/lang.php");
-?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo TITLE;?></title>
 	<?php
-		@include("partials/head.html")
+		@include("partials/head.php")
 	?>
 
 </head>

@@ -1,4 +1,5 @@
 <?php
+	//TODO: fix cleaning the session after changing page
 	//Starting the session
 	session_start();
 	//This is the default language. We will use it 2 places, so i am put it 
