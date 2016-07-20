@@ -18,7 +18,6 @@
 	?>
 	<section class="static-content transition">
 		<div class="container">
-
 			<!--header-->
 			<?php
 				@include("partials/top.html")
@@ -31,9 +30,9 @@
 				</div>
 			</div>
 			<div class="additionalInfo right-align">
-				<p class="bold date">5-11-2016</p>
-				<p class="city"><?php echo CITY;?></p>
-				<p><?php echo COMPANY;?></p>
+				<p class="bold date hide">5-11-2016</p>
+				<p class="city hide"><?php echo CITY;?></p>
+				<p class="company hide"><?php echo COMPANY;?></p>
 			</div>
 			<!--button for menu-->
 			<?php

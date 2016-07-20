@@ -283,16 +283,39 @@ body{
     position: absolute;
     background: #3e3e3e;
 }
+.static-content .container{ 
+   /*background: -webkit-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
+   background: -moz-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
+   background: -o-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
+   background: linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);*/
+}
+[class*='grey-stripe']{
+    position: absolute;
+    background: #f6f6f6;
+    width: 50px;
+    height: 100%;
+    z-index: 1;
+    right: calc(56% - 26px);
+    top: 0;
+    width: 17%;
+}
+.big-grey-stripe{
+  width: calc(56% - 30px);
+  right:0;
+  left:inherit;
+}
 [class*='container']{
   width:87%;
   max-width: 1674px;
   margin: 0 auto;
     min-height: 100%;
+    background: #fff;
 }
 .fixer-container{
   min-height: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 .static-content{
   height:100vh;
@@ -389,19 +412,13 @@ body{
     opacity:0;
 }
 .loadAnimation.ready:before {
-    content: "";
+  /*  content: "";
     height: 100%;
     position: absolute;
     width: 4px;
     background: #fff;
     top: 0;
-    left: 25px;
-}
-.static-content .container{ 
-   background: -webkit-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
-   background: -moz-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
-   background: -o-linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
-   background: linear-gradient(left,#fff 0%,#fff 30% , #f6f6f6 30%, #f6f6f6 100%);
+    left: 25px;*/
 }
 .loadAnimation > div:not(.imageCenter){
   opacity:0;
@@ -509,10 +526,17 @@ body{
 
   .loadAnimation.ready:before {
     left: calc(50% - 30px);
-}
-.event-left-link img{
-    width: 34px;
-}
+  }
+  .grey-stripe {
+    width: 28%;
+    right: calc(31% - 26px);
+  }
+  .big-grey-stripe {
+    width: calc(31% - 30px);
+  }
+  .event-left-link img{
+      width: 34px;
+  }
   .loadAnimation {
     background: #fff;
   }
@@ -635,10 +659,12 @@ body{
   }
 }
 @media (max-width: 375px) { 
-
-.event-left-link span{
-    display: none;
-}
+  [class*='grey-stripe'] {
+      display: none;
+  }
+  .event-left-link span{
+      display: none;
+  }
   .static-content {
       background: #fff;
   }

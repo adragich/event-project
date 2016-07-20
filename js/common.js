@@ -73,39 +73,31 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
 				 wrap.css({"right": right, "left": "inherit"}).addClass("ready");
 				 $(".static-content").css("opacity", 1);
 				 $(".aside.left").addClass(" animated slideInDown");
+
+				 setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/2);
 				 setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/2);
-				 setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  duration);
-				 setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration);
-				 setTimeout('$(".note").addClass(" animated fadeInUp")',  duration*1.2);
-				 setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*1.4);
+
+				 setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration);
+				 setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  1.5*duration);
+	
+				 setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  2*duration);
+
+
+				 setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration*2.5);
+				 setTimeout('$(".note").addClass(" animated fadeInUp")',  duration*2.7);
+				 setTimeout('$(".date").addClass(" animated fadeInUp")',  duration*2.9);
+				 setTimeout('$(".city").addClass(" animated fadeInUp")',  duration*3.1);
+				 setTimeout('$(".company").addClass(" animated fadeInUp")',  duration*3.3);
+
+				 setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*2);
 				 return true;
 			});
 		  });
 }
-function constructMenuLinks(){
-	if($(window).width > 768){
-		var li = $(".nav li:not(.bilety)");
-	}
-	else{		
-		var li = $(".nav li");
-	}
-	var height = ($(".sideBar").height() - $(".lang").height() - $(".socials").height() - parseInt($(".socials").css("bottom"))) / li.length;
-	li.css("line-height", height + "px");
-}
 $(function() {
 	var checkAnim = false;
 	setPosition(checkAnim);
-	constructMenuLinks();
-	$(".menu").click(function(){
-			$(".sideBar").addClass("appeared");
-			$(".overlay").removeClass("clear");
-	});
-	$(".close").click(function(){
-			$(".sideBar").removeClass("appeared");
-			$(".overlay").addClass("clear");
-	});
 });
 $(window).resize(function(){
 	setPosition();
-	constructMenuLinks();
 });
