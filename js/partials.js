@@ -1,4 +1,6 @@
 function constructMenuLinks(){
+	var minHeight = $(window).height();
+	$(".container").css("min-height", minHeight + "px");
 	if($(window).width > 768){
 		var li = $(".nav li:not(.bilety)");
 	}

@@ -70,9 +70,9 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
 			}, duration, function() {
 				var right = 0,
 					strings = $(".additionalInfo p");
-				 wrap.css({"right": right, "left": "inherit"}).addClass("ready");
+				 wrap.css({"right": right, "left": "45%"}).addClass("ready");
 				 $(".static-content").css("opacity", 1);
-				 $(".aside.left").addClass(" animated slideInDown");
+				 $(".aside.left").addClass(" animated fadeInDown");
 
 				 setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/2);
 				 setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/2);

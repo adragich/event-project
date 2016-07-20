@@ -48,11 +48,24 @@ body{
   -o-transform: rotate(-90deg);
   -webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
   -moz-transform: rotate(-90deg);
+
+transform-origin:50% 50%;
+-ms-transform: rotate(-90deg); /* IE 9 */
+-ms-transform-origin:0% 50%; /* IE 9 */
+-webkit-transform: rotate(-90deg); /* Safari and Chrome */
+-webkit-transform-origin:0% 50%; /* Safari and Chrome */
+-moz-transform: rotate(-90deg); /* Firefox */
+-moz-transform-origin:0% 50%; /* Firefox */
+-o-transform: rotate(-90deg); /* Opera */
+-o-transform-origin:0% 50%; /* Opera */
+
 }
 .vertically-text{
     position: absolute;
     top: 50%;
     left: 50%;
+    right: 0;
+    margin: auto;
     white-space: nowrap;
     letter-spacing: 0.5px;
     line-height: 35px;
@@ -126,7 +139,7 @@ body{
     z-index: 998;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 100%;height: 100vh;
     width: 100%;
     box-sizing: border-box;
     position: absolute;
@@ -196,7 +209,7 @@ body{
 }
 .aside{
     top: 0;
-    height: 100vh;
+    height: 100%;height: 100vh;
     width: 6.5%;
     min-width: 49px; 
 }
@@ -206,11 +219,17 @@ body{
 .main{
     width: 100%;
     padding-left: 10%; 
+    min-height: 35%;
+    padding-top: 15%;
     min-height: 35vh;
     padding-top: 15vh;
+    box-sizing: border-box;
+        z-index: 10!important;
+    display: block!important;
+    position: relative;
 }
 .fullHeight{
-  height: 100vh;
+  height: 100%;height: 100vh;
   width: 100%
 }
 .flex{
@@ -270,6 +289,8 @@ body{
     bottom: 0;
     background: #fff;
     padding: 65px 10%;
+    width: 44.5%;
+    width: -webkit-calc(44% + 25px);
     width: calc(44% + 25px);
     box-sizing: border-box;
 }
@@ -279,6 +300,8 @@ body{
     max-width: 114px;
     width: 20%;
     left: -15px;
+    top: 50%;
+    top: -webkit-calc(50% - 2px);
     top: calc(50% - 2px);
     position: absolute;
     background: #3e3e3e;
@@ -295,12 +318,16 @@ body{
     width: 50px;
     height: 100%;
     z-index: 1;
+    right: 56.5%;
     right: calc(56% - 26px);
+    right: -webkit-calc(56% - 26px);
     top: 0;
     width: 17%;
 }
 .big-grey-stripe{
+  width: 56%;
   width: calc(56% - 30px);
+  width: -webkit-calc(56% - 30px);
   right:0;
   left:inherit;
 }
@@ -309,6 +336,7 @@ body{
   max-width: 1674px;
   margin: 0 auto;
     min-height: 100%;
+    min-height: 100vh;
     background: #fff;
 }
 .fixer-container{
@@ -318,6 +346,7 @@ body{
     z-index: 2;
 }
 .static-content{
+  height:100%;
   height:100vh;
   overflow: hidden;
   opacity: 0;
@@ -407,6 +436,7 @@ body{
     z-index: 1;
     background: #f6f6f6;
     top: 0;
+    max-height:100%;
     max-height:100vh;
     overflow: hidden;
     opacity:0;
@@ -425,7 +455,8 @@ body{
 }
 .imageCenter{
   left:382px;
-  top:calc((100% - 253px)/2);
+  top:-webkit-calc((100% - 253px)/2)!important;
+  top:calc((100% - 253px)/2)!important;
   height:253px;
   width:215px;
     opacity:0;
@@ -525,13 +556,19 @@ body{
 @media (max-width: 768px) { 
 
   .loadAnimation.ready:before {
+    left: 50%;
+    left: -webkit-calc(50% - 30px);
     left: calc(50% - 30px);
   }
   .grey-stripe {
     width: 28%;
+    right: 31.5%;
+    right: -webkit-calc(31% - 26px);
     right: calc(31% - 26px);
   }
   .big-grey-stripe {
+    width: 31%;
+    width: -webkit-calc(31% - 30px);
     width: calc(31% - 30px);
   }
   .event-left-link img{
@@ -604,6 +641,8 @@ body{
   }
   .bottom-link {
     padding: 40px 0 40px 39px;
+    width: 69.5%;
+    width: -webkit-calc(70% + 20px);
     width: calc(70% + 20px);
     border-top: 2px solid #f6f6f6;
     text-align: center;
@@ -646,6 +685,9 @@ body{
   }
 }
 @media (max-width: 600px) { 
+  .inside {
+      padding-right: 0;
+  }
   .mainTitle {
     font-size: 40px;
   }
@@ -657,6 +699,11 @@ body{
   .bottom-link {
     font-size: 16px;
   }
+}
+@media (max-height: 375px){
+  .main {
+      padding-top: 0;
+  }  
 }
 @media (max-width: 375px) { 
   [class*='grey-stripe'] {
@@ -707,6 +754,8 @@ body{
     top: 62%;
   }
   .bottom-link{
+    width: 99%;
+    width: -webkit-calc(100% - 49px);
     width: calc(100% - 49px);
     left: 49px;
     border: none;
