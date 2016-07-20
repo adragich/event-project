@@ -1,17 +1,15 @@
-<?php 
-	@include("partials/text.php");
-	@include("partials/lang.php");
-?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Meta title</title>
 	<?php
-		@include("partials/head.html")
+		@include("partials/head.php");
 	?>
 
 </head>
 <body>
+	<!--block for animation-->
+	<!--TODO: create unique block for the page-->
 	<section class="static-content transition">
 		<div class="container">
 
@@ -34,6 +32,23 @@
 			?>
 		</div>
 	</section>	
+	<section class="scrollableContent">
+		<div class="container">
+			<div class="col l6 m6 s12">
+				<div class="col l8">
+					<img src="" alt="">
+					<div class="s12 speaker-info">
+						<p class="blockTitle">Kriss Hermansson</p>
+						<p class="block-content">Creative Director at Resn</p>
+						<p class="block-note">www.resn.co.nz</p>
+					</div>
+				</div>
+				<div class="col l4 stick-bottom">
+					<a href="" class="learn-more-link">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--menu-->
 	<?php
 		@include("partials/sidebar.html")

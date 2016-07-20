@@ -1,7 +1,7 @@
 <?php 
-	@include("partials/text.php");
-	@include("partials/config.php");
-	@include("partials/lang.php");
+	@include("/partials/text.php");
+	@include("/partials/config.php");
+	@include("/partials/lang.php");
 ?>
 	<title><?php echo TITLE;?></title>
 	<base href="<?php echo $domain; ?>">

@@ -1,13 +1,10 @@
-<?php 
-	@include("partials/text.php");
-	@include("partials/lang.php");
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Meta title</title>
 	<?php
-		@include("partials/head.html")
+		@include("partials/head.php")
 	?>
 
 </head>
