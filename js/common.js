@@ -24,6 +24,7 @@ function setPosition(checkAnim){
 		position = [top, left, right, bottomDefigned];
 		console.log(position);
 		template.css({"top": top, "left": left});
+		console.log(parseInt($(".loadAnimation").css("top")));
 	//define position of elements
 	  if(checkAnim == false){
 		orangeSquare.css({"left": left});
@@ -99,6 +100,5 @@ $(function() {
 	setPosition(checkAnim);
 });
 $(window).resize(function(){
-	console.log("resize");
 	setPosition();
 });
