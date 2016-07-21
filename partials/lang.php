@@ -4,7 +4,7 @@
 	session_start();
 	//This is the default language. We will use it 2 places, so i am put it 
 	//into a varaible.
-    if (empty($_GET["lang"])) {
+    if (empty($_GET["lang"]) && empty($_SESSION['lang'])) {
 		$_SESSION['lang'] = "pl";
 		$currLang = "pl";
 	} 

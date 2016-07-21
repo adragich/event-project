@@ -8,6 +8,7 @@
 			define("CITY","Poznań");
 			define("COMPANY","Concordia Design");
 			define("SPEAKERS","Prelegenci");
+			define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
 			define("PROJECTS","Projekcje");
 			define("TICKETS","Bilety");
 			define("BATTLES","Bitwy graficzne");
@@ -18,6 +19,7 @@
 			define("PLACE","Miejsce");
 			define("PARTNERS","Partnerzy");
 			define("ABOUT_US","O nas");
+			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
 			break;
 			case "en":
 			define("TITLE","Event page ???");
@@ -44,6 +46,7 @@
 			define("CITY","Poznań");
 			define("COMPANY","Concordia Design");
 			define("SPEAKERS","Prelegenci");
+			define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
 			define("PROJECTS","Projekcje");
 			define("TICKETS","Bilety");
 			define("BATTLES","Bitwy graficzne");
@@ -54,6 +57,7 @@
 			define("PLACE","Miejsce");
 			define("PARTNERS","Partnerzy");
 			define("ABOUT_US","O nas");
+			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
 			break;
 		}
 	}
