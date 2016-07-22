@@ -10,8 +10,12 @@
 			define("SPEAKERS","Prelegenci");
 			define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
 			define("PROJECTS","Projekcje");
+			define("PROJECTS_LINK","Czym są projekcje ?");
 			define("TICKETS","Bilety");
 			define("BATTLES","Bitwy graficzne");
+			define("BATTLES_2","Gotowi do bitwy?");
+			define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski.");
+			define("APPLY_TO_BATTLE","Dołącz do bitwy !");
 
 			define("LANGUAGE","English language");
 			define("HOMEPAGE","Strona główna");
@@ -48,8 +52,11 @@
 			define("SPEAKERS","Prelegenci");
 			define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
 			define("PROJECTS","Projekcje");
+			define("PROJECTS_LINK","Czym są projekcje ?");
 			define("TICKETS","Bilety");
 			define("BATTLES","Bitwy graficzne");
+			define("BATTLES_2","Gotowi do bitwy?");
+			define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski.");
 
 			define("LANGUAGE","English language");
 			define("HOMEPAGE","Strona główna");
@@ -58,6 +65,7 @@
 			define("PARTNERS","Partnerzy");
 			define("ABOUT_US","O nas");
 			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
+			define("APPLY_TO_BATTLE","Dołącz do bitwy !");
 			break;
 		}
 	}

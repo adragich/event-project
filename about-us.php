@@ -7,13 +7,13 @@
 	?>
 
 </head>
-<body>
+<body class="about-us-body">
 	<!--block for animation-->
 	<!--TODO: create unique block for the page-->
 	<?php
 		@include("partials/preloader-about-us.html")
 	?>
-	<section class="transition">
+	<section class="transition white">
 		<div class="container">
 
 			<!--header-->
@@ -21,25 +21,37 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="main sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="main about-us sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo ABOUT_US;?></p>
 					<p class="note"><?php echo ABOUT_US_NOTE;?>.</p>
-					<div class="about-us l12">
-						<p class="blockTitle animated fadeInUp wow" data-wow-delay="2s">Projekcje to pomysł projektantów</p>
-						<p class="block-content animated fadeInUp wow" data-wow-delay="2s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+			</div>
+			<div class="main about-us sub info flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+				<div class="inside text">
+					<div class="about-us-info l12">
+						<p class="blockTitle animated fadeInUp wow" data-wow-delay="1s">Projekcje to pomysł projektantów</p>
+						<p class="block-content animated fadeInUp wow" data-wow-delay="1s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 						<br><br>
-						<p class="blockTitle">Dla projektantów</p>
-						<p class="block-content">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-						<br><br><br><br>
+						<p class="blockTitle section-two animated fadeInUp wow" data-wow-delay="1.5s">Dla projektantów</p>
+						<p class="block-content animated fadeInUp wow" data-wow-delay="1.5s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				</div>
+				<div class="animation-space">
+					<!--TODO: ask about that animation space-->
+					ANIMATION???
+				</div>
+			</div>
+			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+				<div class="inside orgs">
 						<p class="mainTitle">Organizatorzy projekcji</p>
 						<br>
-						<p class="note">Projektanci dla projektantów.</p>
+						<p class="note">Projektanci organizujący event dla projektantów.</p>
 					</div>
 				</div>
 			</div>
 			<!--button for menu-->
-			<div class="navigation animated fadeInUp wow" data-wow-delay="3s" data-wow-duration="2s">
+			<div class="navigation animated fadeInUp wow" data-wow-delay="3s" data-wow-duration="2s" data-scroll="0">
 				<i class="fa fa-angle-down"  data-parallax='{"y" : -300, "smoothness": 20}' aria-hidden="true"></i>
 			</div>
 			<?php
