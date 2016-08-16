@@ -1044,7 +1044,7 @@ transform-origin:50% 50%;
     padding-top: 0;
 }
 .program #middlePart{
-    left: 57%;
+    left: 60%;
     top: 48%;
 }
 .program-wrap{
@@ -1137,14 +1137,14 @@ transform-origin:50% 50%;
 .concordia-image:before{
     border-bottom: 4px solid #dedede;
     border-left: 4px solid #dedede;
-    bottom: -137px;
-    left: 130px;
+    bottom: -141px;
+    left: 127px;
 }
 .concordia-image:after{
     border-top: 4px solid #dedede;
     border-right: 4px solid #dedede;
-    top: -137px;
-    right: 130px;
+    top: -143px;
+    right: 126px;
 }
 .concordia-image img{
     width: 100%;
