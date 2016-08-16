@@ -45,14 +45,15 @@
 					</tr>
 				</thead>
 				<tbody>
+				<tr class="clear-string"></tr>
 				<tr>
 					<td>10:00</td>
-					<td>
+					<td class="left-align">
 						<p class="blockTitle">Grzegorz Róg</p>
 						<p class="block-content">Owner at eduweb.pl _</p>
 					</td>
 					<td class="yellow-gradient">
-						<img src="img/speakers/rog.jpg" alt="Grzegorz Róg">
+						<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
 						<span class="block-content">Projektowanie aplikacji w praktyce</span>
 					</td>
 				</tr>

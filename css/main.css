@@ -1059,12 +1059,14 @@ transform-origin:50% 50%;
     letter-spacing: 2px;
     padding-left: 96px;
     width: 44%;
+    text-align: left;
 }
 .program-date span{
     font-size: 65px;
     font-weight: 800;
     color: #3e3e3e;
     font-family: 'PlayfairDisplayBold2', sans-serif;
+    line-height: 20px;
 }
 .program-wrap thead{
     background: #f6f6f6;
@@ -1072,7 +1074,7 @@ transform-origin:50% 50%;
 .program-wrap thead tr{
     height: 110px
 }
-.program-wrap th{
+.program-wrap th, .program-wrap td{
     vertical-align: middle;
 }
 .program-types li{
@@ -1090,11 +1092,20 @@ transform-origin:50% 50%;
     display: inline-block;
     box-sizing: border-box;
 }
+.program-wrap tbody tr:not(:first-child){
+    border-bottom: 4px solid #dedede;
+}
 .blue-light{
     background: #ccf9ff;
 }
 .yellow-light{
     background: #f9f3bd;
+}
+.clear-string{
+    height: 108px;
+}
+.left-align{
+    text-align: left;
 }
 @media (min-width: 1500px){
   .xl12{
