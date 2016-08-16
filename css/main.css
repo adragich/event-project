@@ -1125,7 +1125,8 @@ transform-origin:50% 50%;
     letter-spacing: 1px;
 }
 .concordia-image{
-    padding-bottom: 365px;
+    margin-bottom: 365px;
+    position: relative;
 }
 .concordia-image:before, .concordia-image:after{
     content: "";
@@ -1137,11 +1138,13 @@ transform-origin:50% 50%;
     border-bottom: 4px solid #dedede;
     border-left: 4px solid #dedede;
     bottom: -137px;
+    left: 130px;
 }
 .concordia-image:after{
     border-top: 4px solid #dedede;
     border-right: 4px solid #dedede;
     top: -137px;
+    right: 130px;
 }
 .concordia-image img{
     width: 100%;
