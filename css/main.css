@@ -222,7 +222,7 @@ transform-origin:50% 50%;
   background: #f6f6f6!important
 }
 .clear{
-  z-index: -1;
+  z-index: 0;
   opacity:0;
 }
 .pointer{
