@@ -1092,7 +1092,7 @@ transform-origin:50% 50%;
     display: inline-block;
     box-sizing: border-box;
 }
-.program-wrap tbody tr:not(:first-child){
+.program-wrap tbody .content-string{
     border-bottom: 4px solid #dedede;
     border-left: 4px solid #dedede;
     height: 200px;
@@ -1106,18 +1106,24 @@ transform-origin:50% 50%;
     position: relative;
     padding-left: 80px;
 }
-.yellow-gradient{
-    background: #fff9c3;
+.program-time{
+    font-size: 24px;
+    font-family: "stolzlmedium", sans-serif;
+    letter-spacing: 1px;
+    padding: 0 20px;
 }
-.yellow-gradient:before{
+.program-wrap .image:before{
     content: "";
-    background: #fff9c3;
     height:60px;
     width: 100%;
     position: absolute;
     bottom: 100%;
+    left:0;
 }
-.blue-light{
+.yellow-gradient, .yellow-gradient:before{
+    background: #fff9c3;
+}
+.blue-light, .blue-light:before{
     background: #ccf9ff;
 }
 .yellow-light{

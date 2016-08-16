@@ -44,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="program.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/program.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="327">
+              <caret line="81" column="75" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="1114" column="16" selection-start-line="1114" selection-start-column="16" selection-end-line="1114" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="1115" column="16" selection-start-line="1115" selection-start-column="16" selection-end-line="1115" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
-        <option value="$PROJECT_DIR$/program.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/program.php" />
       </list>
     </option>
   </component>
@@ -253,12 +253,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
-      <workItem from="1471345529097" duration="6915000" />
+      <workItem from="1471345529097" duration="7419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6915000" />
+    <option name="totallyTimeSpent" value="7419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -347,18 +347,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="1115" column="16" selection-start-line="1115" selection-start-column="16" selection-end-line="1115" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/program.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="1114" column="16" selection-start-line="1114" selection-start-column="16" selection-end-line="1114" selection-end-column="16" />
+        <state relative-caret-position="327">
+          <caret line="81" column="75" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="75" />
           <folding />
         </state>
       </provider>

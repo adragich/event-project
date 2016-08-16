@@ -47,8 +47,8 @@
 				<tbody>
 				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
-				<tr>
-					<td>10:00</td>
+				<tr class="content-string">
+					<td class="program-time">10:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Grzegorz Róg</p>
 						<p class="block-content">Owner at eduweb.pl _</p>
@@ -56,6 +56,31 @@
 					<td class="left-align image yellow-gradient">
 						<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
 						<span class="block-content">Projektowanie aplikacji w praktyce</span>
+					</td>
+				</tr>
+				<tr class="offset-string"></tr>
+				<tr class="content-string">
+					<td class="program-time">11:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Martyna Wędzicka</p>
+						<p class="block-content">lesstudio.pl _</p>
+					</td>
+					<td class="left-align image yellow-gradient">
+						<img src="img/program/program_small_2.jpg" alt="Martyna Wędzicka">
+						<span class="block-content">Inspiracje w projektowaniu marki</span>
+					</td>
+				</tr>
+				<tr class="offset-string"></tr>
+				<tr class="content-string">
+					<td class="program-time">13:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Patryk Hardziej</p>
+						<p class="block-content">negation studio _</p>
+					</td>
+					<td class="left-align image blue-light">
+						<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
+						<span class="block-content">Ilustracje abstrakcyjne</span>
+						<a href="#" class="workshop">Apply for workshop</a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
