@@ -1058,6 +1058,7 @@ transform-origin:50% 50%;
     font-size: 30px;
     letter-spacing: 2px;
     padding-left: 96px;
+    width: 44%;
 }
 .program-date span{
     font-size: 65px;
@@ -1078,6 +1079,8 @@ transform-origin:50% 50%;
     float: left;
     font-size: 16px;
     font-family: "stolzlmedium", sans-serif;
+    align-items: center;
+    padding-right: 80px;
 }
 .program-types li span{
     width:44px;
