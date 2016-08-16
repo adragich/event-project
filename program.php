@@ -46,6 +46,7 @@
 				</thead>
 				<tbody>
 				<tr class="clear-string"></tr>
+				<tr class="offset-string"></tr>
 				<tr>
 					<td>10:00</td>
 					<td class="left-align">
@@ -57,6 +58,7 @@
 						<span class="block-content">Projektowanie aplikacji w praktyce</span>
 					</td>
 				</tr>
+				<tr class="offset-string"></tr>
 				</tbody>
 			</table>
 		</div>

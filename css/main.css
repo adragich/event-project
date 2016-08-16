@@ -1109,6 +1109,14 @@ transform-origin:50% 50%;
 .yellow-gradient{
     background: #fff9c3;
 }
+.yellow-gradient:before{
+    content: "";
+    background: #fff9c3;
+    height:60px;
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+}
 .blue-light{
     background: #ccf9ff;
 }
@@ -1117,6 +1125,9 @@ transform-origin:50% 50%;
 }
 .clear-string{
     height: 110px;
+}
+.offset-string{
+    height: 60px;
 }
 .left-align{
     text-align: left;
