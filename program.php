@@ -18,7 +18,8 @@
 
 			<div class="main flex flex-center">
 				<div class="inside">
-					<p>main content</p>
+					<p class="mainTitle"><?php echo TITLE;?>,</p>
+					<p class="note"><?php echo NOTE;?>.</p>
 				</div>
 			</div>
 			<div class="additionalInfo right-align">
