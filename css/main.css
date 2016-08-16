@@ -1126,6 +1126,7 @@ transform-origin:50% 50%;
 }
 .concordia-image{
     margin-bottom: 365px;
+    margin-top: 35px;
     position: relative;
 }
 .concordia-image:before, .concordia-image:after{

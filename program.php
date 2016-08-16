@@ -119,7 +119,9 @@
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
-			<div class="concordia-image"><img src="img/program/program_concordia.jpg" alt="Concordia design"></div>
+			<div class="concordia-image">
+				<a href="#"><img src="img/program/program_concordia.jpg" alt="Concordia design"></a>
+			</div>
 		</div>
 	</section>
 	<!--menu-->
