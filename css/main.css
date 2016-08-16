@@ -37,6 +37,15 @@
          url('../fonts/StolzlLight.ttf') format('truetype'),
          url('../fonts/StolzlLight.svg#StolzlLight') format('svg');
 }
+@font-face {
+    font-family: 'PlayfairDisplayBold2';
+    src: url('../fonts/PlayfairDisplayBold2.eot');
+    src: url('../fonts/PlayfairDisplayBold2.eot') format('embedded-opentype'),
+    url('../fonts/PlayfairDisplayBold2.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplayBold2.woff') format('woff'),
+    url('../fonts/PlayfairDisplayBold2.ttf') format('truetype'),
+    url('../fonts/PlayfairDisplayBold2.svg#PlayfairDisplayBold2') format('svg');
+}
 
 @font-face {
     font-family: 'PlayfairDisplayBold';
@@ -1029,6 +1038,60 @@ transform-origin:50% 50%;
 .team-member span{
     font-family: "playfairdisplayregular", sanf-serif;
     font-size: 18px;
+}
+/*program*/
+.program.main{
+    padding-top: 0;
+}
+.program #middlePart{
+    left: 57%;
+    top: 48%;
+}
+.program-wrap{
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.program-wrap table{
+    width: 100%;
+}
+.program-date{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 96px;
+}
+.program-date span{
+    font-size: 65px;
+    font-weight: 800;
+    color: #3e3e3e;
+    font-family: 'PlayfairDisplayBold2', sans-serif;
+}
+.program thead{
+    background: #f6f6f6;
+}
+.program thead tr{
+    height: 110px
+}
+.program th{
+    vertical-align: middle;
+}
+.program-types li{
+    float: left;
+    font-size: 16px;
+    font-family: "stolzlmedium", sans-serif;
+}
+.program-types li span{
+    width:44px;
+    height:44px;
+    border:3px solid #dedede;
+    margin-right:23px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.blue-light{
+    background: #ccf9ff;
+}
+.yellow-light{
+    background: #f9f3bd;
 }
 @media (min-width: 1500px){
   .xl12{

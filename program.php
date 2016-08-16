@@ -17,7 +17,7 @@
 			?>
 			<div class="anim-space"><img src="img/space.jpg" alt=""></div>
 
-			<div class="main flex flex-center padding-2x">
+			<div class="main flex flex-center padding-2x program">
 				<div class="inside">
 					<p class="mainTitle"><?php echo PROGRAM_TITLE;?></p>
 					<p class="note"><?php echo PROGRAM_NOTE;?></p>
@@ -31,15 +31,15 @@
 		</div>
 	</section>
 	<section class="scrollableContent relative">
-		<div class="container">
+		<div class="container program-wrap">
 			<table>
 				<thead>
 					<tr>
-						<th colspan="2"><span>05</span> November 2016 _</th>
+						<th colspan="2" class="program-date"><span>05</span> November 2016 _</th>
 						<th>
 							<ul class="program-types">
-								<li><span class="blue-square"></span>Prelekcje</li>
-								<li><span class="yellow-square"></span>Warsztaty</li>
+								<li><span class="blue-light"></span>Prelekcje</li>
+								<li><span class="yellow-light"></span>Warsztaty</li>
 							</ul>
 						</th>
 					</tr>
