@@ -24,6 +24,9 @@
 			define("PARTNERS","Partnerzy");
 			define("ABOUT_US","O nas");
 			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
+
+			define("PROGRAM_TITLE","Program");
+			define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
 			break;
 			case "en":
 			define("TITLE","Event page ???");
@@ -42,6 +45,9 @@
 			define("PLACE","Place ???");
 			define("PARTNERS","Partners ???");
 			define("ABOUT_US","About us ???");
+
+            define("PROGRAM_TITLE","Program ???");
+            define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej. ???");
 			break;
 			default:
 			define("TITLE","Event dla projektantów");
@@ -66,6 +72,10 @@
 			define("ABOUT_US","O nas");
 			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
 			define("APPLY_TO_BATTLE","Dołącz do bitwy !");
+
+
+            define("PROGRAM_TITLE","Program");
+            define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
 			break;
 		}
 	}
