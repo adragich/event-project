@@ -17,13 +17,21 @@
 			?>
 			<div class="anim-space"><img src="img/space.jpg" alt=""></div>
 
-			<div class="main flex flex-center">
+			<div class="main flex flex-center padding-2x">
 				<div class="inside">
 					<p class="mainTitle"><?php echo PROGRAM_TITLE;?></p>
-					<p class="note"><?php echo PROGRAM_NOTE;?>.</p>
+					<p class="note"><?php echo PROGRAM_NOTE;?></p>
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
+			<!--button for menu-->
+			<?php
+				@include("partials/menu-button.html")
+			?>
+		</div>
+	</section>
+	<section class="scrollableContent relative">
+		<div class="container">
 			<table>
 				<thead>
 					<tr>
@@ -37,25 +45,21 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td>10:00</td>
-						<td>
-							<p class="blockTitle">Grzegorz Róg</p>
-							<p class="block-content">Owner at eduweb.pl _</p>
-						</td>
-						<td class="yellow-gradient">
-							<img src="img/speakers/rog.jpg" alt="Grzegorz Róg">
-							<span class="block-content">Projektowanie aplikacji w praktyce</span>
-						</td>
-					</tr>
+				<tr>
+					<td>10:00</td>
+					<td>
+						<p class="blockTitle">Grzegorz Róg</p>
+						<p class="block-content">Owner at eduweb.pl _</p>
+					</td>
+					<td class="yellow-gradient">
+						<img src="img/speakers/rog.jpg" alt="Grzegorz Róg">
+						<span class="block-content">Projektowanie aplikacji w praktyce</span>
+					</td>
+				</tr>
 				</tbody>
 			</table>
-			<!--button for menu-->
-			<?php
-				@include("partials/menu-button.html")
-			?>
 		</div>
-	</section>	
+	</section>
 	<!--menu-->
 	<?php
 		@include("partials/sidebar.html")
