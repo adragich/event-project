@@ -52,7 +52,7 @@
 						<p class="blockTitle">Grzegorz Róg</p>
 						<p class="block-content">Owner at eduweb.pl _</p>
 					</td>
-					<td class="yellow-gradient">
+					<td class="left-align image yellow-gradient">
 						<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
 						<span class="block-content">Projektowanie aplikacji w praktyce</span>
 					</td>

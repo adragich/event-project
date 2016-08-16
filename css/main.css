@@ -1094,6 +1094,20 @@ transform-origin:50% 50%;
 }
 .program-wrap tbody tr:not(:first-child){
     border-bottom: 4px solid #dedede;
+    border-left: 4px solid #dedede;
+    height: 200px;
+}
+.program-wrap .image img{
+    position: absolute;
+    left: -96px;
+    top: 60px;
+}
+.program-wrap .image{
+    position: relative;
+    padding-left: 80px;
+}
+.yellow-gradient{
+    background: #fff9c3;
 }
 .blue-light{
     background: #ccf9ff;
@@ -1102,7 +1116,7 @@ transform-origin:50% 50%;
     background: #f9f3bd;
 }
 .clear-string{
-    height: 108px;
+    height: 110px;
 }
 .left-align{
     text-align: left;
