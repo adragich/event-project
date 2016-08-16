@@ -80,7 +80,7 @@
 					<td class="left-align image blue-light">
 						<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
 						<span class="block-content">Ilustracje abstrakcyjne</span>
-						<a href="#" class="workshop">Apply for workshop</a>
+						<a href="#" class="workshop transition">Apply for workshop</a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
@@ -106,12 +106,20 @@
 					<td class="left-align image blue-light">
 						<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
 						<span class="block-content">Something new...</span>
-						<a href="#" class="workshop">Apply for workshop</a>
+						<a href="#" class="workshop transition">Apply for workshop</a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
 				</tbody>
 			</table>
+			<div class="main flex flex-center padding-2x program">
+				<div class="inside">
+					<p class="mainTitle"><?php echo PROGRAM_TITLE_2;?></p>
+					<p class="note"><?php echo PROGRAM_NOTE_2;?></p>
+					<div id="middlePart" class="transition hide animated fadeIn"></div>
+				</div>
+			</div>
+			<div class="concordia-image"><img src="img/program/program_concordia.jpg" alt="Concordia design"></div>
 		</div>
 	</section>
 	<!--menu-->

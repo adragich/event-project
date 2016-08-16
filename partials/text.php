@@ -27,6 +27,9 @@
 
 			define("PROGRAM_TITLE","Program");
 			define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
+
+                define("PROGRAM_TITLE_2","Jesteśmy tutaj");
+                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland");
 			break;
 			case "en":
 			define("TITLE","Event page ???");
@@ -48,6 +51,9 @@
 
             define("PROGRAM_TITLE","Program ???");
             define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej. ???");
+
+                define("PROGRAM_TITLE_2","Jesteśmy tutaj ???");
+                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland ???");
 			break;
 			default:
 			define("TITLE","Event dla projektantów");
@@ -76,6 +82,9 @@
 
             define("PROGRAM_TITLE","Program");
             define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
+
+                define("PROGRAM_TITLE_2","Jesteśmy tutaj");
+                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland");
 			break;
 		}
 	}
