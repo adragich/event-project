@@ -1065,13 +1065,13 @@ transform-origin:50% 50%;
     color: #3e3e3e;
     font-family: 'PlayfairDisplayBold2', sans-serif;
 }
-.program thead{
+.program-wrap thead{
     background: #f6f6f6;
 }
-.program thead tr{
+.program-wrap thead tr{
     height: 110px
 }
-.program th{
+.program-wrap th{
     vertical-align: middle;
 }
 .program-types li{
