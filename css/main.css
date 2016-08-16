@@ -1120,6 +1120,28 @@ transform-origin:50% 50%;
     bottom: 100%;
     left:0;
 }
+.program-wrap .block-contect{
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.workshop{
+    position: absolute;
+    text-decoration: none;
+    height: 57px;
+    width: 217px;
+    display: inline-block;
+    right: 40px;
+    top: -20px;
+    border-bottom: 2px solid #f9ed53;
+    border-top: 3px solid #59edff;
+    border-left: 1px solid #66edf0;
+    border-right: 1px solid #66edf0;
+    line-height: 57px;
+    text-align: center;
+    color: #3e3e3e;
+    font-family: "stolzlmedium", sans-serif;
+    background: #58edff;
+}
 .yellow-gradient, .yellow-gradient:before{
     background: #fff9c3;
 }

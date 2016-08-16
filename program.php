@@ -84,6 +84,32 @@
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
+				<tr class="content-string">
+					<td class="program-time">14:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Hopa Studio</p>
+						<p class="block-content">hopastudio.com _</p>
+					</td>
+					<td class="left-align image yellow-gradient">
+						<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
+						<span class="block-content">Inspiracja marką</span>
+					</td>
+				</tr>
+				<tr class="offset-string"></tr>
+				<tr class="content-string">
+					<td class="program-time">16:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Kriss Hermansson <br>Marcus Brown
+							</p>
+						<p class="block-content">resn.co.nz _</p>
+					</td>
+					<td class="left-align image blue-light">
+						<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
+						<span class="block-content">Something new...</span>
+						<a href="#" class="workshop">Apply for workshop</a>
+					</td>
+				</tr>
+				<tr class="offset-string"></tr>
 				</tbody>
 			</table>
 		</div>
