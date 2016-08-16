@@ -38,8 +38,8 @@
 						<th colspan="2" class="program-date"><span>05</span> November 2016 _</th>
 						<th>
 							<ul class="program-types flex">
-								<li><span class="yellow-light flex"></span>Prelekcje</li>
-								<li><span class="blue-light flex"></span>Warsztaty</li>
+								<li class="flex"><span class="yellow-light"></span>Prelekcje</li>
+								<li class="flex"><span class="blue-light"></span>Warsztaty</li>
 							</ul>
 						</th>
 					</tr>
