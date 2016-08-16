@@ -1190,6 +1190,10 @@ transform-origin:50% 50%;
     text-align: left;
 }
 @media (min-width: 1500px){
+
+  .program #middlePart{
+      left: 950px;
+  }
   .xl12{
     width:100%;
   }
