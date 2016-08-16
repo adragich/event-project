@@ -24,6 +24,9 @@
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
+			<div class="navigation animated fadeInUp wow" data-wow-delay="3s">
+				<i class="fa fa-angle-down" aria-hidden="true"></i>
+			</div>
 			<!--button for menu-->
 			<?php
 				@include("partials/menu-button.html")
