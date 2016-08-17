@@ -1430,7 +1430,27 @@ transform-origin:50% 50%;
   }
 }
 @media (max-width: 1024px) {
-
+/*partners*/
+    .partners-main .inside {
+        padding-right: 0;
+    }
+    #topPart.partners {
+        border-width: 54px 0 0 61px;
+        top: 194px;
+        left: -12px;
+    }
+    .partners-body #middlePart {
+        left: 48%;
+    }
+    #secondPart.partners {
+        height: 75px;
+        width: 38px;
+    }
+    #fourthPart.partners {
+        height: 61px;
+        width: 36px;
+    }
+    /**/
   .m12{
     width:100%;
   }

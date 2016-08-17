@@ -7,7 +7,7 @@
 	?>
 
 </head>
-<body>
+<body class="partners-body">
 <!--block for animation-->
 <!--TODO: create unique block for the page-->
 <?php
@@ -21,7 +21,7 @@
 		@include("partials/top.html")
 		?>
 
-		<div class="main sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+		<div class="main sub partners-main flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 			<div class="inside">
 				<p class="mainTitle"><?php echo PARTNERS;?></p>
 				<p class="note"><?php echo PARTNERS_NOTE;?>.</p>
@@ -43,20 +43,28 @@
 			<p class="blockTitle left-align">Główni sponsorzy
 			</p>
 			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_01.png"
-										alt="Allegro" class="partner-image"></div>
+				<div class="inner flex flex-center">
+					<img src="img/partners/projections-partners_01.png"
+										alt="Allegro" class="partner-image">
+				</div>
 			</div>
 			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_02.png"
-										alt="Concordia Designs" class="partner-image"></div>
+				<div class="inner flex flex-center">
+					<img src="img/partners/projections-partners_02.png"
+										alt="Concordia Designs" class="partner-image">
+				</div>
 			</div>
 			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_03.png"
-										alt="Redro" class="partner-image"></div>
+				<div class="inner flex flex-center">
+					<img src="img/partners/projections-partners_03.png"
+										alt="Redro" class="partner-image">
+				</div>
 			</div>
 			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_02.png"
-										alt="Concordia Designs" class="partner-image"></div>
+				<div class="inner flex flex-center">
+					<img src="img/partners/projections-partners_02.png"
+										alt="Concordia Designs" class="partner-image">
+				</div>
 			</div>
 		</div>
 		<div class="sponsors col l12 left-align">
