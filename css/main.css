@@ -1729,15 +1729,10 @@ transform-origin:50% 50%;
         padding-right: 10px;
     }
     .placeWrap:nth-child(3) img{
-        height: 307px; 
+        height: 307px;
         object-fit: cover;
         object-position: left;
         margin-top: 50px;
-    }
-    .placeWrap:nth-child(2) img{
-        max-height: 230px;
-        object-fit: cover;
-        width: 100%;
     }
 
     /**/
@@ -1988,6 +1983,12 @@ transform-origin:50% 50%;
     .placeWrap:nth-child(3) img {
         height: 229px;
         margin-bottom: 25px;
+    }
+
+    .placeWrap:nth-child(2) img{
+        max-height: 230px;
+        object-fit: cover;
+        width: 100%;
     }
     /**/
 
