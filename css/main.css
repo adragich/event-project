@@ -1921,7 +1921,7 @@ transform-origin:50% 50%;
     .placeWrap:first-child {
         flex-direction: column;
         padding-left: 52px;
-        padding-bottom: 0;
+        padding-bottom: 40px;
     }
     #topPartPlace {
         width: 45px;
@@ -1939,8 +1939,10 @@ transform-origin:50% 50%;
         right: 91px;
     }
     .placeWrap:not(:first-child) {
-        padding-top: 40px;
+        padding-top: 0;
         width: 100%;
+        padding-left: 50px;
+        padding-right:0;
     }
     .placeWrap:first-child:before, .placeWrap:first-child:after{
         display:none;
@@ -1959,6 +1961,20 @@ transform-origin:50% 50%;
     }
     .place-info .block-content {
         padding-top: 10px;
+    }
+    .place-offset {
+        height: 30px;
+    }
+    .place-info .blockTitle {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .place-info .block-content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .place-info .blockTitle.big {
+        font-size: 18px;
     }
     /**/
 
