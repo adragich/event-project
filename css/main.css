@@ -93,8 +93,15 @@ img{
 .l8{
   width: 66.666%;
 }
+
+.l7{
+    width:55.333%;
+}
 .l6{
   width:50%;
+}
+.l5{
+    width:41.666%;
 }
 .l4{
   width: 33.333%;
@@ -1084,6 +1091,12 @@ transform-origin:50% 50%;
 }
 .place-section{
     padding-top: 200px;
+}
+.placeWrap:first-child{
+    padding-left: 120px;
+}
+.place-info > p{
+    max-width: 684px;
 }
 /**/
 
