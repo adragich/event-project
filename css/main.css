@@ -1822,6 +1822,12 @@ transform-origin:50% 50%;
       line-height: 26px;
       letter-spacing: 0px;
   }
+    .program-wrap {
+        padding-left: 56px;
+    }
+    .program-wrap table, .program-wrap thead, .program-wrap tr {
+        display: block;
+    }
 
   /**/
   .subHeight {
