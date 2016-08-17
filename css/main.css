@@ -1678,6 +1678,20 @@ transform-origin:50% 50%;
         right: 0;
         top: -110px;
     }
+
+    .program-wrap .image:before{
+        display: none;
+    }
+
+    .program-post-info{
+        display: none;
+    }
+    .program-section{
+        margin-bottom: 100px;
+    }
+    .workshop {
+        top: 28px;
+    }
     /**/
 }
 @media (max-width: 675px){
@@ -1756,9 +1770,6 @@ transform-origin:50% 50%;
         padding-left: 0;
         position: static;
     }
-    .program-wrap .image:before{
-        display: none;
-    }
     .offset-string {
         height: 30px;
     }
@@ -1774,9 +1785,6 @@ transform-origin:50% 50%;
         bottom: 0;
         line-height: 52px;
         top: inherit;
-    }
-    .program-post-info{
-        display: none;
     }
     /**/
   .navigation{
