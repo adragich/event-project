@@ -1075,8 +1075,9 @@ transform-origin:50% 50%;
 .grey-corner-left-top{
     position: absolute;
     height: 283px;
-    width:290px;
-    left: 47px;
+    width: 290px;
+    left: 176px;
+    z-index: 1;
     bottom: -113px;
     border-left: 3px solid #dedede;
     border-top: 3px solid #dedede;
