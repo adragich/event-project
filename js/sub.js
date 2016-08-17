@@ -37,7 +37,7 @@
 		});
 
 		function screwDesigners(){
-			var checker = $('.placeWrap');
+			var checker = $('.place-section');
 
 			if(checker.length > 0){
 				var wrap1 = $('.placeWrap:nth-child(2)'),
@@ -49,12 +49,12 @@ console.log(text1.html());
 				if($(window).width() < 678 && !checker.is('.screwed')){
 					wrap1.append(text2);
 					wrap2.append(text1);
-					$('.place-section').addClass('screwed');
+					checker.addClass('screwed');
 				}
 				else if($(window).width() > 677 && checker.is('.screwed')){
-					wrap1.append(text2);
-					wrap2.append(text1);
-					$('.place-section').removeClass('screwed');
+					wrap1.append(text1);
+					wrap2.append(text2);
+					checker.removeClass('screwed');
 				}
 			}
 		}
