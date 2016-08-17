@@ -58,7 +58,7 @@
 				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.25s">
 					<p class="blockTitle">Sale warsztatowe w Concordia Design</p>
 					<p class="block-content">
-						Spacious and easy to arrange – ideal for conferences, banquets, <br>concerts, team-building events, fashion shows, and many other occasions. </p>
+						Spacious and easy to arrange – ideal for conferences, banquets,concerts, team-building events, fashion shows, and many other occasions. </p>
 				</div>
 		</div>
 		<div class="col m6 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
