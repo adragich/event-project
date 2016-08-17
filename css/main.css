@@ -1677,9 +1677,23 @@ transform-origin:50% 50%;
         position: absolute;
         height:100%;
         width: 100px;
-        right:0;
+        right: -100px;
         top:0;
         background: #f6f6f6;
+    }
+    .place-info{
+        padding-right: 55px;
+        min-height: 326px;
+    }
+    .place-info .blockTitle {
+        font-size: 20px;
+    }
+    .place-info .block-content {
+        font-size: 18px;
+    }
+    .placeWrap:first-child {
+        padding-left: 50px;
+        padding-right: 0;
     }
     /**/
 
