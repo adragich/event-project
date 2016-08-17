@@ -1727,7 +1727,12 @@ transform-origin:50% 50%;
     .placeWrap:nth-child(3) .block-content{
         padding-right: 10px;
     }
-
+    .placeWrap:nth-child(3) img{
+        height: 307px;
+        object-fit: cover;
+        object-position: left;
+        margin-top: 50px;
+    }
 
     /**/
 
