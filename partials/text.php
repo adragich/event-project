@@ -48,6 +48,7 @@
 			define("HOMEPAGE","Homepage ???");
 			define("PROGRAM","Program ???");
 			define("PLACE","Place ???");
+                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland ???");
 			define("PARTNERS","Partners ???");
 			define("ABOUT_US","About us ???");
 
@@ -75,7 +76,8 @@
 			define("LANGUAGE","English language");
 			define("HOMEPAGE","Strona główna");
 			define("PROGRAM","Program");
-			define("PLACE","Miejsce");
+                define("PLACE","Miejsce");
+                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
 			define("PARTNERS","Partnerzy");
 			define("ABOUT_US","O nas");
 			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
