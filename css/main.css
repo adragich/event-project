@@ -1660,6 +1660,24 @@ transform-origin:50% 50%;
     .grey-corner-left-top{
         display: none;
     }
+    .place-section{
+        margin-top: -120px;
+    }
+    .place-body .subHeight {
+        height: 90%;
+        height: 90vh;
+    }
+    .placeWrap:first-child:before {
+        width: 74%;
+        width: calc(74% - 30px);
+        width: -webkit-calc(74% - 30px);
+    }
+    .placeWrap:first-child{
+        background: -webkit-linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
+        background: -moz-linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
+        background: -o-linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
+        background: linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
+    }
     /**/
 
 
