@@ -35,7 +35,7 @@
 	</section>
 	<section class="scrollableContent relative">
 		<div class="container program-wrap">
-			<table>
+			<table class="program-table" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 				<thead>
 					<tr>
 						<th colspan="2" class="program-date"><span>05</span> November 2016 _</th>

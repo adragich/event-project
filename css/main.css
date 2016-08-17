@@ -1818,10 +1818,12 @@ transform-origin:50% 50%;
   .program.main{
       padding-top: 40px;
   }
-    .program.main .note{
-        line-height: 26px;
-        letter-spacing: 0px;
-    }
+  .program.main .note{
+      line-height: 26px;
+      letter-spacing: 0px;
+  }
+    
+  /**/
   .subHeight {
     background: #fff;
   }
