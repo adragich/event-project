@@ -1672,11 +1672,14 @@ transform-origin:50% 50%;
         width: calc(74% - 30px);
         width: -webkit-calc(74% - 30px);
     }
-    .placeWrap:first-child{
-        background: -webkit-linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
-        background: -moz-linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
-        background: -o-linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
-        background: linear-gradient(left,#fff 0%,#fff 50% , #f6f6f6 50%, #f6f6f6 100%);
+    .placeWrap:first-child:after{
+        content: "";
+        position: absolute;
+        height:100%;
+        width: 100px;
+        right:0;
+        top:0;
+        background: #f6f6f6;
     }
     /**/
 
