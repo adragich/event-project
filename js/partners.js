@@ -1,7 +1,7 @@
 
 		$(function(){
 			var part1 = $("#secondPart"), part2 = $("#fourthPart");
-			var point = getPoint(0.8, 0.57), nav = $(".navigation"),
+			var point = getPoint(0.4, 0.4), nav = $(".navigation"),
 				scroll = $("body").scrollTop() + $(window).height() - 300 + parseInt(nav.attr("data-scroll"));
 
 
@@ -11,7 +11,7 @@
 			translateToPoint(x - part2.width(), y - part2.height()/2, part2, 250);
 
 			$(window).resize(function(){
-				point = getPoint(0.8, 0.57);
+				point = getPoint(0.4, 0.4);
 				var x = point[0], y = point[1];
 				translateToPoint(x, y, part1, 0);
 				translateToPoint(x - part2.width(), y - part2.height()/2, part2, 250);
