@@ -47,7 +47,7 @@
 			<div class="col l7 s12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
 				<p class="blockTitle">Sala expo w Concordia Design</p>
 				<p class="block-content">
-					Spacious and easy to arrange – ideal for conferences, banquets, <Br> concerts, team-building events, fashion shows, and many other occasions.
+					Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions.
 				</p>
 			</div>
 
