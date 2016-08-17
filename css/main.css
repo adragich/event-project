@@ -1596,8 +1596,22 @@ transform-origin:50% 50%;
   /*program*/
     .program.main {
         padding-top: 110px;
-        min-height: auto;
+        min-height: 0;
     }
+    .program .inside {
+        padding-right: 0;
+    }
+    .program #middlePart {
+        top: 65%;
+    }
+    .program-static-section .navigation{
+        margin: 100px auto;
+        left: 0;
+    }
+    .program-static-section{
+        height: auto;
+    }
+    /**/
 }
 @media (max-width: 675px){
 
@@ -1605,9 +1619,6 @@ transform-origin:50% 50%;
     .program-static-section .navigation{
         margin: 50px auto;
         position: relative;
-    }
-    .program-static-section{
-        height: auto;
     }
     .program.main{
         padding-top: 40px;
