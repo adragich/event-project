@@ -8,13 +8,13 @@
 			var x = point[0], y = point[1];
 
 			translateToPoint(x, y, part1, 0);
-			translateToPoint(x, y, part2, 250);
+			translateToPoint(x - part2.width(), y - part2.height()/2, part2, 250);
 
 			$(window).resize(function(){
-				point = getPoint(0.4, 0.3);
+				point = getPoint(0.8, 0.57);
 				var x = point[0], y = point[1];
-				translateToPoint(x - part1.width(), y - part1.height()/2, part1, 0);
-				translateToPoint(x, y, part2, 250);
+				translateToPoint(x, y, part1, 0);
+				translateToPoint(x - part2.width(), y - part2.height()/2, part2, 250);
 			});
 
 			console.log(scroll);
