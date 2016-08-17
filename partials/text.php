@@ -24,6 +24,7 @@
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
 
 			define("PARTNERS","Partnerzy");
+                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
 			define("ABOUT_US","O nas");
 			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
 
@@ -50,6 +51,7 @@
 			define("PLACE","Place ???");
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland ???");
 			define("PARTNERS","Partners ???");
+			define("PARTNERS_NOTE","Partners ???");
 			define("ABOUT_US","About us ???");
 
             define("PROGRAM_TITLE","Program ???");
@@ -79,6 +81,7 @@
                 define("PLACE","Miejsce");
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
 			define("PARTNERS","Partnerzy");
+                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
 			define("ABOUT_US","O nas");
 			define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
 			define("APPLY_TO_BATTLE","Dołącz do bitwy !");
