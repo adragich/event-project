@@ -7,7 +7,7 @@
 	?>
 
 </head>
-<body class="about-us-body">
+<body class="place-body">
 <!--block for animation-->
 <!--TODO: create unique block for the page-->
 <?php

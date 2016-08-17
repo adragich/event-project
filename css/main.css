@@ -1132,7 +1132,6 @@ transform-origin:50% 50%;
 .place-offset{
     height: 200px;
 }
-
 /**/
 
 
@@ -1635,6 +1634,35 @@ transform-origin:50% 50%;
   .scrollableContent{
     background: #fff;
   }
+  /*place*/
+
+    .place-body .left.aside {
+        padding-top: 30%;
+    }
+    #topPartPlace {
+        width: 78px;
+        height: 78px;
+        top: 143px;
+        left: -39px;
+    }
+    #middlePartPlace {
+        width: 42px;
+        height: 67px;
+        right: 20px;
+        top: 450px;
+    }
+    #bottomPartPlace {
+        bottom: 180px;
+        width: 42px;
+        height: 24px;
+        right: 20px;
+    }
+    .grey-corner-left-top{
+        display: none;
+    }
+    /**/
+
+
   /*about us*/
 
   .inside.orgs:after{
