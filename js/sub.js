@@ -41,16 +41,18 @@
 
 			if(checker.length > 0){
 				var wrap1 = $('.placeWrap:nth-child(2)'),
-					wrap2 = $('.placeWrap:nth-child(3)'),
-					text1 = wrap1.find("[data-index='1']"),
-					text2 = wrap2.find("[data-index='2']");
+					wrap2 = $('.placeWrap:nth-child(3)'),text1, text2;
 
 				if($(window).width() < 678 && !checker.is('.screwed')){
+					text1 = wrap1.find("[data-index='1']");
+					text2 = wrap2.find("[data-index='2']");
 					wrap1.append(text2);
 					wrap2.append(text1);
 					checker.addClass('screwed');
 				}
 				else if($(window).width() > 677 && checker.is('.screwed')){
+					text1 = wrap1.find("[data-index='2']");
+					text2 = wrap2.find("[data-index='1']");
 					wrap1.append(text1);
 					wrap2.prepend(text2);
 					console.log(text1.length);
