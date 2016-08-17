@@ -1977,6 +1977,10 @@ transform-origin:50% 50%;
     .place-info .blockTitle.big {
         font-size: 18px;
     }
+    .placeWrap:nth-child(3) img {
+        height: 229px;
+        margin-bottom: 25px;
+    }
     /**/
 
     /*program*/
