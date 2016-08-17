@@ -1703,6 +1703,7 @@ transform-origin:50% 50%;
     }
     .program-static-section .navigation{
         margin: 50px auto;
+        left: 20px;
     }
     .program.main{
         padding-top: 40px;
@@ -1769,6 +1770,7 @@ transform-origin:50% 50%;
     .program-wrap .image {
         padding-left: 0;
         position: static;
+        top: inherit;
     }
     .offset-string {
         height: 30px;
@@ -1785,6 +1787,15 @@ transform-origin:50% 50%;
         bottom: 0;
         line-height: 52px;
         top: inherit;
+    }
+    .program-wrap thead tr, .program-wrap .content-string{
+        display: block;
+    }
+    .program-wrap .content-string {
+        margin-bottom: 0;
+    }
+    .program-section {
+        margin-bottom: 0;
     }
     /**/
   .navigation{
@@ -2009,7 +2020,7 @@ transform-origin:50% 50%;
     /*program*/
 
     .program-section{
-        margin-top: -100px;
+        margin-top: 100px;
     }
     /**/
   .subHeight {
