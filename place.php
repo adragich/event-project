@@ -52,9 +52,10 @@
 		</div>
 		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
 
-				<img src="img/place/projections-venue_2.jpg" alt="Sale warsztatowe w Concordia Design">
+				<img src="img/place/projections-venue_2.jpg" alt="Sale warsztatowe w Concordia Design"
+					 class="animated fadeInUp wow" data-wow-delay="0.5s">
 				<div class="place-offset"></div>
-				<div class="l12 place-info">
+				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
 					<p class="blockTitle">Sale warsztatowe w Concordia Design</p>
 					<p class="block-content">
 						Spacious and easy to arrange – ideal for conferences, banquets, <br>concerts, team-building events, fashion shows, and many other occasions. </p>
@@ -62,13 +63,13 @@
 		</div>
 		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
 
-				<div class="l12 place-info">
+				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
 					<p class="blockTitle big">228 m²</p>
 					<p class="block-content">
 						The interior can be freely divided to create additional space.</p>
 				</div>
 				<div class="place-offset"></div>
-				<img src="img/place/projections-venue_3.jpg" alt="Space">
+				<img src="img/place/projections-venue_3.jpg" alt="Space" class="animated fadeInUp wow" data-wow-delay="0.5s">
 		</div>
 	</div>
 </section>
