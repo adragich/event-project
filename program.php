@@ -33,7 +33,7 @@
 			?>
 		</div>
 	</section>
-	<section class="scrollableContent relative" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
+	<section class="scrollableContent relative program-section">
 		<div class="container program-wrap">
 			<table class="program-table">
 				<thead>

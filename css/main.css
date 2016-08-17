@@ -1867,6 +1867,7 @@ transform-origin:50% 50%;
         box-sizing: border-box;
         width: 100%;
         padding-bottom: 80px;
+        position: relative;
     }
     .program-wrap .content-string.no-button {
         background: #fff9c3;
@@ -1876,12 +1877,16 @@ transform-origin:50% 50%;
         padding: 0;
         font-size: 18px;
     }
+    .program-section{
+        margin-top: -50px;
+    }
     .program-wrap .block-content{
         padding-top: 0;
         padding-bottom: 10px;
     }
     .program-wrap .image {
         padding-left: 0;
+        position: static;
     }
     .program-wrap .image:before{
         display: none;
