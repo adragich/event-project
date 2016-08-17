@@ -1097,7 +1097,7 @@ transform-origin:50% 50%;
     display: inline-block;
     box-sizing: border-box;
 }
-.program-wrap tbody .content-string{
+.program-wrap .content-string{
     border-bottom: 4px solid #dedede;
     border-left: 4px solid #dedede;
     height: 200px;
@@ -1825,7 +1825,7 @@ transform-origin:50% 50%;
     .program-wrap {
         padding-left: 56px;
     }
-    .program-wrap table, .program-wrap thead, .program-wrap tr {
+    .program-wrap table, .program-wrap thead, .program-wrap tr, .program-wrap tbody {
         display: block;
         width: 100%;
     }
@@ -1859,11 +1859,12 @@ transform-origin:50% 50%;
     }
     .program-wrap .content-string {
         background: #ccf9ff;
-        height: 200px;
+        height: auto;
         text-align: left;
         padding: 20px 15px 0;
         border: none;
         box-sizing: border-box;
+        width: 100%;
     }
     .program-wrap .content-string.no-button {
         background: #fff9c3;
@@ -1875,6 +1876,19 @@ transform-origin:50% 50%;
     .program-wrap .block-content{
         padding-top: 0;
         padding-bottom: 10px;
+    }
+    .program-wrap .image {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .program-wrap .image:before{
+        display: none;
+    }
+    .offset-string {
+        height: 30px;
+    }
+    .clear-string {
+        height: 20px;
     }
   /**/
   .subHeight {
