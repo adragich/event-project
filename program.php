@@ -115,15 +115,17 @@
 				<tr class="offset-string"></tr>
 				</tbody>
 			</table>
-			<div class="main flex flex-center padding-2x program">
-				<div class="inside">
-					<p class="mainTitle"><?php echo PROGRAM_TITLE_2;?></p>
-					<p class="note"><?php echo PROGRAM_NOTE_2;?></p>
-					<div id="middlePart" class="transition hide animated fadeIn"></div>
+			<div class="program-post-info">
+				<div class="main flex flex-center padding-2x program">
+					<div class="inside">
+						<p class="mainTitle"><?php echo PROGRAM_TITLE_2;?></p>
+						<p class="note"><?php echo PROGRAM_NOTE_2;?></p>
+						<div id="middlePart" class="transition hide animated fadeIn"></div>
+					</div>
 				</div>
-			</div>
-			<div class="concordia-image">
-				<a href="#"><img src="img/program/program_concordia.jpg" alt="Concordia design"></a>
+				<div class="concordia-image">
+					<a href="#"><img src="img/program/program_concordia.jpg" alt="Concordia design"></a>
+				</div>
 			</div>
 		</div>
 	</section>
