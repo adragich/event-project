@@ -1912,7 +1912,34 @@ transform-origin:50% 50%;
     }
     /**/
 }
+.placeWrap:first-child {
+    flex-direction: column-reverse;
+}
 @media (max-width: 675px){
+
+    .placeWrap:first-child {
+        flex-direction: column;
+    }
+    /*place*/
+    .main.place {
+        padding-left: 30px;
+    }
+    #topPartPlace {
+        width: 45px;
+        height: 45px;
+        top: 73px;
+    }
+    #middlePartPlace {
+        width: 24px;
+        height: 39px;
+        top: 132px;
+    }
+    #bottomPartPlace {
+        width: 24px;
+        height: 14px;
+        right: 91px;
+    }
+    /**/
 
     /*program*/
 

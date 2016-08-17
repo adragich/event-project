@@ -21,7 +21,7 @@
 		@include("partials/top.html")
 		?>
 
-		<div class="main about-us sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+		<div class="main about-us place sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 			<div class="inside">
 				<p class="mainTitle"><?php echo PLACE;?></p>
 				<p class="note"><?php echo PLACE_NOTE;?>.</p>
@@ -40,15 +40,17 @@
 <section class="scrollableContent place-section relative"  data-parallax='{"y" : -50, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 	<div class="container">
 		<div class="col l12 m12 s12 placeWrap flex flex-center fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
+
+			<div class="col l5 s12 place-photo animated fadeInUp wow" data-wow-delay="0.5s">
+				<img src="img/place/projections-venue_1.jpg" alt="Sala expo w Concordia Design">
+			</div>
 			<div class="col l7 s12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
 				<p class="blockTitle">Sala expo w Concordia Design</p>
 				<p class="block-content">
 					Spacious and easy to arrange – ideal for conferences, banquets, <Br> concerts, team-building events, fashion shows, and many other occasions.
 				</p>
 			</div>
-			<div class="col l5 s12 place-photo animated fadeInUp wow" data-wow-delay="0.5s">
-				<img src="img/place/projections-venue_1.jpg" alt="Sala expo w Concordia Design">
-			</div>
+
 		</div>
 		<div class="col m6 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
 
