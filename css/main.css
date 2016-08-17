@@ -1602,7 +1602,7 @@ transform-origin:50% 50%;
 @media (max-width: 675px){
 
     /*program*/
-    .navigation{
+    .program-static-section .navigation{
         margin: 50px auto;
     }
     .program-static-section{
