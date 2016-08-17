@@ -53,8 +53,8 @@
 				else if($(window).width() > 677 && checker.is('.screwed')){
 					text1 = wrap1.find("[data-index='2']");
 					text2 = wrap2.find("[data-index='1']");
-					wrap1.append(text1);
-					wrap2.prepend(text2);
+					wrap1.append(text2);
+					wrap2.prepend(text1);
 					console.log(text1.length);
 					console.log(text2.length);
 					console.log(text1.html());
