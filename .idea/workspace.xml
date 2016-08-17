@@ -56,11 +56,9 @@
       <file leaf-file-name="place.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/place.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -292,12 +290,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="11801000" />
+      <workItem from="1471415658051" duration="11885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22578000" />
+    <option name="totallyTimeSpent" value="22662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="0" />
@@ -459,11 +457,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/place.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
