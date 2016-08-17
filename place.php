@@ -57,11 +57,10 @@
 	<?php
 	@include("partials/menu-button.html")
 	?>
-	</div>
 </section>
-<section class="scrollableContent about relative">
+<section class="scrollableContent place relative">
 	<div class="container">
-		<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
+		<div class="col l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 			<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">
 				<img src="img/speakers/Piotr-Swierkowski.jpg" alt="Piotr Swierkowski">
 				<div class="l12 speaker-info">
@@ -94,19 +93,6 @@
 					<p class="blockTitle">Natalia Żerko</p>
 					<p class="block-content">Head and Art Directior / illustrator w Komunikat _</p>
 					<p class="block-note">behance.net/komunikat</p>
-				</div>
-			</div>
-			<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
-				<a href="" class="learn-more-link yellow">Learn more</a>
-			</div>
-		</div>
-		<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
-			<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">
-				<img src="img/speakers/Ewelina-Dymek.jpg" alt="Ewelina Dymek">
-				<div class="l12 speaker-info">
-					<p class="blockTitle">Ewelina Dymek</p>
-					<p class="block-content">Branding Studio _</p>
-					<p class="block-note">behance.net/edmk</p>
 				</div>
 			</div>
 			<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
