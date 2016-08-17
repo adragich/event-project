@@ -1606,6 +1606,7 @@ transform-origin:50% 50%;
     }
     .program-static-section .navigation{
         margin: 100px auto;
+        position: relative;
         left: 0;
     }
     .program-static-section{
@@ -1618,7 +1619,6 @@ transform-origin:50% 50%;
     /*program*/
     .program-static-section .navigation{
         margin: 50px auto;
-        position: relative;
     }
     .program.main{
         padding-top: 40px;
