@@ -36,7 +36,8 @@
 		?>
 	</div>
 </section>
-<section class="scrollableContent relative">
+<section class="scrollableContent relative partners-section"
+		 data-parallax='{"y" : -250, "distance": 1400, "smoothness": 10}'>
 	<div class="container">
 		<div class="sponsors col l12">
 			<p class="blockTitle left-align">Główni sponsorzy

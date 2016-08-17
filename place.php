@@ -37,7 +37,8 @@
 	?>
 	<div class="grey-corner-left-top"></div>
 </section>
-<section class="scrollableContent place-section relative"  data-parallax='{"y" : -50, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
+<section class="scrollableContent place-section relative"
+		 data-parallax='{"y" : -50, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 	<div class="container">
 		<div class="col l12 m12 s12 placeWrap flex flex-center fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 

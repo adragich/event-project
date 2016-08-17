@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.php" afterPath="$PROJECT_DIR$/partners.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/place.php" afterPath="$PROJECT_DIR$/place.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="1117" column="33" selection-start-line="1117" selection-start-column="33" selection-end-line="1117" selection-end-column="33" />
+            <state relative-caret-position="385">
+              <caret line="1120" column="22" selection-start-line="1120" selection-start-column="22" selection-end-line="1122" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partners.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partners.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state relative-caret-position="172">
+              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -64,14 +66,14 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/program.php" />
         <option value="$PROJECT_DIR$/partials/preloader-place.html" />
-        <option value="$PROJECT_DIR$/place.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/js/partials.js" />
         <option value="$PROJECT_DIR$/js/sub.js" />
         <option value="$PROJECT_DIR$/js/partners.js" />
         <option value="$PROJECT_DIR$/partials/preloader-partners.html" />
-        <option value="$PROJECT_DIR$/partners.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/place.php" />
+        <option value="$PROJECT_DIR$/partners.php" />
       </list>
     </option>
   </component>
@@ -284,12 +286,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="22306000" />
+      <workItem from="1471415658051" duration="22487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33083000" />
+    <option name="totallyTimeSpent" value="33264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -426,14 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/place.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -556,18 +550,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partners.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state relative-caret-position="385">
+          <caret line="1120" column="22" selection-start-line="1120" selection-start-column="22" selection-end-line="1122" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/place.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="1117" column="33" selection-start-line="1117" selection-start-column="33" selection-end-line="1117" selection-end-column="33" />
+        <state relative-caret-position="547">
+          <caret line="40" column="92" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding />
         </state>
       </provider>
