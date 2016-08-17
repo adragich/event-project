@@ -1939,6 +1939,10 @@ transform-origin:50% 50%;
         height: 14px;
         right: 91px;
     }
+
+    .placeWrap:first-child:before{
+        display:none;
+    }
     /**/
 
     /*program*/
