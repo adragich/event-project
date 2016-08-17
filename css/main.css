@@ -1114,6 +1114,9 @@ transform-origin:50% 50%;
 .partner .inner{
     height:124px;
     max-width: 290px;
+    justify-content: center;
+    border-top:4px solid #dedede;
+    border-left:4px solid #dedede;
 }
 /**/
 
