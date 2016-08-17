@@ -1624,6 +1624,10 @@ transform-origin:50% 50%;
     }
     .program-wrap thead tr {
         padding-right: 24px;
+        display: table;
+    }
+    .program-date span {
+        font-size: 38px;
     }
     .program-date {
         font-size: 21px;
@@ -1639,6 +1643,40 @@ transform-origin:50% 50%;
         width: 36px;
         height: 36px;
         margin-right: 17px;
+    }
+    .clear-string {
+        height: 30px;
+    }
+    .program-time {
+        width: 32%;
+        padding-left: 38px;
+        text-align: left;
+    }
+    .program-wrap .content-string {
+        height: 120px;
+        position: relative;
+        margin-bottom: 122px;
+        display: table;
+    }
+    .content-string .block-contect{
+        margin-top: 0;
+    }
+    .program-wrap .image {
+        position: absolute;
+        padding: 50px 40px;
+        box-sizing: border-box;
+        top: 100%;
+        margin-top: 2px;
+        left: -4px;
+        right: 0;
+        display: block;
+        height: 122px;
+    }
+    .program-wrap .image img {
+        position: absolute;
+        left: initial;
+        right: 0;
+        top: -110px;
     }
     /**/
 }
