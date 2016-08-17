@@ -1059,7 +1059,9 @@ transform-origin:50% 50%;
     top: -50px;
     z-index: 999;
 }
-
+.content-string td > .blockTitle, .content-string td > .block-content{
+    padding-right: 100px;
+}
 .program-static-section{
     height: auto;
     min-height: 0;
