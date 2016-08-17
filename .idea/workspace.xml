@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/place.php" afterPath="$PROJECT_DIR$/place.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="place.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="place.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/place.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="1125" column="11" selection-start-line="1125" selection-start-column="11" selection-end-line="1125" selection-end-column="11" />
+            <state relative-caret-position="616">
+              <caret line="1130" column="1" selection-start-line="1130" selection-start-column="1" selection-end-line="1130" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/program.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/partials/preloader-place.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/place.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -290,12 +290,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="11358000" />
+      <workItem from="1471415658051" duration="11469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22135000" />
+    <option name="totallyTimeSpent" value="22246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="0" />
@@ -439,14 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="1125" column="11" selection-start-line="1125" selection-start-column="11" selection-end-line="1125" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/preloader-place.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -459,6 +451,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="1130" column="1" selection-start-line="1130" selection-start-column="1" selection-end-line="1130" selection-end-column="1" />
           <folding />
         </state>
       </provider>

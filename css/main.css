@@ -1099,7 +1099,7 @@ transform-origin:50% 50%;
 }
 .placeWrap:not(:first-child){
     padding-top: 80px;
-    padding-left: 130px;
+    padding-left: 110px;
     text-align: left;
 }
 .placeWrap:first-child:before{
@@ -1125,6 +1125,9 @@ transform-origin:50% 50%;
 }
 .place-info .blockTitle{
     font-size: 26px;
+}
+.place-info .blockTitle.big {
+    font-size: 60px;
 }
 .place-offset{
     height: 200px;
