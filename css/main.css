@@ -1602,6 +1602,9 @@ transform-origin:50% 50%;
 @media (max-width: 675px){
 
     /*program*/
+    .program-static-section{
+        height: auto;
+    }
     .program.main{
         padding-top: 40px;
     }

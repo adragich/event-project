@@ -8,7 +8,7 @@
 
 </head>
 <body>
-	<section class="static-content transition">
+	<section class="static-content transition program-static-section">
 		<div class="container">
 
 			<!--header-->
