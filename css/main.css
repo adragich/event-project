@@ -1985,7 +1985,7 @@ transform-origin:50% 50%;
         margin-bottom: 25px;
     }
 
-    .placeWrap:nth-child(2) img{
+    .placeWrap:first-child img{
         max-height: 230px;
         object-fit: cover;
         width: 100%;
