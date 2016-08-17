@@ -40,13 +40,13 @@
 <section class="scrollableContent place relative"  data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 	<div class="container">
 		<div class="col l12 m12 s12 placeWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
-			<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">
-				<div class="l12 speaker-info">
-					<p class="blockTitle">Sala expo w Concordia Design</p>
-					<p class="block-content">
-						Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions.
-					</p>
-				</div>
+			<div class="col l7 s12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
+				<p class="blockTitle">Sala expo w Concordia Design</p>
+				<p class="block-content">
+					Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions.
+				</p>
+			</div>
+			<div class="col l5 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">
 				<img src="img/place/projections-venue_1.jpg" alt="Sala expo w Concordia Design">
 			</div>
 		</div>
