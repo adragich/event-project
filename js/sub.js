@@ -37,19 +37,23 @@
 		});
 
 		function screwDesigners(){
-			var checker = $('.placeWrap'),
-				wrap1 = $('.placeWrap:nth-child(2)'),
-				wrap2 = $('.placeWrap:nth-child(3)'),
-				text1 = wrap1.find(".place-info"),
-				text2 = wrap2.find(".place-info");
-			if($(window).width() < 678 && checker.length > 0 && !checker.is('.screwed')){
-				wrap1.append(text2);
-				wrap2.append(text1);
-				$('.place-section').addClass('screwed');
-			}
-			else if($(window).width() > 678 && checker.length > 0 && checker.is('.screwed')){
-				wrap1.append(text2);
-				wrap2.append(text1);
-				$('.place-section').removeClass('screwed');
+			var checker = $('.placeWrap');
+
+			if(checker.length > 0){
+				var wrap1 = $('.placeWrap:nth-child(2)'),
+					wrap2 = $('.placeWrap:nth-child(3)'),
+					text1 = wrap1.find("[data-index='1']"),
+					text2 = wrap2.find("[data-index='2']");
+
+				if($(window).width() < 678 && checker.length > 0 && !checker.is('.screwed')){
+					wrap1.append(text2);
+					wrap2.append(text1);
+					$('.place-section').addClass('screwed');
+				}
+				else if($(window).width() > 678 && checker.length > 0 && checker.is('.screwed')){
+					wrap1.append(text2);
+					wrap2.append(text1);
+					$('.place-section').removeClass('screwed');
+				}
 			}
 		}
