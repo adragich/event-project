@@ -1450,6 +1450,11 @@ transform-origin:50% 50%;
         height: 61px;
         width: 36px;
     }
+    .partners-body .big-grey-stripe.bigger, .partners-body .additional-parts {
+        width: 74%;
+        width: calc(74% - 30px);
+        width: -webkit-calc(74% - 30px);
+    }
     /**/
   .m12{
     width:100%;
