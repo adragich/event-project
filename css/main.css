@@ -1593,8 +1593,111 @@ transform-origin:50% 50%;
   .main.about-us.info{
     background: none
   }
+  /*program*/
+    .program.main {
+        padding-top: 110px;
+        min-height: 280px;
+    }
 }
 @media (max-width: 675px){
+
+    /*program*/
+    .program.main{
+        padding-top: 40px;
+    }
+    .program.main .note{
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+    .program-wrap {
+        padding-left: 50px;
+    }
+    .program-wrap table, .program-wrap thead, .program-wrap tr, .program-wrap tbody {
+        display: block;
+        width: 100%;
+    }
+    .program-wrap thead tr {
+        height: auto;
+        padding: 0 25px 17px;
+    }
+    .program-wrap th, .program-wrap td {
+        display: inline-block;
+        width: 100%;
+    }
+    .program-types{
+        display: block!important;
+    }
+    .program-types li {
+        float: none;
+        margin-bottom: 18px;
+        letter-spacing: 0;
+    }
+    .program-date {
+        font-size: 16px;
+        letter-spacing: 1px;
+        width: 100%;
+        padding: 40px 0;
+        box-sizing: border-box;
+    }
+    .program-date span {
+        font-size: 20px;
+    }
+    .program-wrap .image img {
+        display: none;
+    }
+    .program-wrap .content-string {
+        background: #ccf9ff;
+        height: auto;
+        text-align: left;
+        padding: 20px 15px 0;
+        border: none;
+        box-sizing: border-box;
+        width: 100%;
+        padding-bottom: 80px;
+        position: relative;
+    }
+    .program-wrap .content-string.no-button {
+        background: #fff9c3;
+        padding-bottom: 20px;
+    }
+    .program-time {
+        padding: 0;
+        font-size: 18px;
+    }
+    .program-section{
+        margin-top: -50px;
+    }
+    .program-wrap .block-content{
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .program-wrap .image {
+        padding-left: 0;
+        position: static;
+    }
+    .program-wrap .image:before{
+        display: none;
+    }
+    .offset-string {
+        height: 30px;
+    }
+    .clear-string {
+        height: 20px;
+    }
+    .workshop {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        line-height: 52px;
+        top: inherit;
+    }
+    .program-post-info{
+        display: none;
+    }
+    /**/
   .navigation{
     margin: auto;
     left: 49px;
@@ -1814,102 +1917,6 @@ transform-origin:50% 50%;
   }
 }
 @media (max-width: 375px) {
-  /*program*/
-  .program.main{
-      padding-top: 40px;
-  }
-  .program.main .note{
-      line-height: 26px;
-      letter-spacing: 0px;
-  }
-    .program-wrap {
-        padding-left: 50px;
-    }
-    .program-wrap table, .program-wrap thead, .program-wrap tr, .program-wrap tbody {
-        display: block;
-        width: 100%;
-    }
-    .program-wrap thead tr {
-        height: auto;
-        padding: 0 25px 17px;
-    }
-    .program-wrap th, .program-wrap td {
-        display: inline-block;
-        width: 100%;
-    }
-    .program-types{
-        display: block!important;
-    }
-    .program-types li {
-        float: none;
-        margin-bottom: 18px;
-        letter-spacing: 0;
-    }
-    .program-date {
-        font-size: 16px;
-        letter-spacing: 1px;
-        width: 100%;
-        padding: 40px 0;
-        box-sizing: border-box;
-    }
-    .program-date span {
-        font-size: 20px;
-    }
-    .program-wrap .image img {
-        display: none;
-    }
-    .program-wrap .content-string {
-        background: #ccf9ff;
-        height: auto;
-        text-align: left;
-        padding: 20px 15px 0;
-        border: none;
-        box-sizing: border-box;
-        width: 100%;
-        padding-bottom: 80px;
-        position: relative;
-    }
-    .program-wrap .content-string.no-button {
-        background: #fff9c3;
-        padding-bottom: 20px;
-    }
-    .program-time {
-        padding: 0;
-        font-size: 18px;
-    }
-    .program-section{
-        margin-top: -50px;
-    }
-    .program-wrap .block-content{
-        padding-top: 0;
-        padding-bottom: 10px;
-    }
-    .program-wrap .image {
-        padding-left: 0;
-        position: static;
-    }
-    .program-wrap .image:before{
-        display: none;
-    }
-    .offset-string {
-        height: 30px;
-    }
-    .clear-string {
-        height: 20px;
-    }
-    .workshop {
-        width: 100%;
-        display: inline-block;
-        box-sizing: border-box;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        line-height: 52px;
-    }
-    .program-post-info{
-        display: none;
-    }
-  /**/
   .subHeight {
     background: #fff;
   }
