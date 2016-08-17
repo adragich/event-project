@@ -1734,6 +1734,11 @@ transform-origin:50% 50%;
         object-position: left;
         margin-top: 50px;
     }
+    .placeWrap:nth-child(2) img{
+        max-height: 230px;
+        object-fit: cover;
+        width: 100%;
+    }
 
     /**/
 
