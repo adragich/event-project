@@ -1983,8 +1983,15 @@ transform-origin:50% 50%;
     .placeWrap:nth-child(3) img {
         height: 229px;
         margin-bottom: 25px;
+        width: 100%;
     }
 
+    .placeWrap:nth-child(2) img {
+        height: 229px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    
     .placeWrap:first-child img{
         max-height: 230px;
         object-fit: cover;
