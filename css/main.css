@@ -1094,6 +1094,7 @@ transform-origin:50% 50%;
 }
 .placeWrap:first-child{
     padding: 82px 0 82px 120px;
+    position: relative;
 }
 .placeWrap:first-child:before{
     content: "";
@@ -1103,12 +1104,20 @@ transform-origin:50% 50%;
     right:0;
     top:0;
 }
-.place-info > p{
+.placeWrap:first-child .place-info > p{
     max-width: 684px;
     text-align: left;
 }
-.place-photo{
+.placeWrap:first-child .place-photo{
     text-align: right;
+}
+.placeWrap:first-child .block-content {
+    font-size: 20px;
+    line-height: 33px;
+    padding-top: 20px;
+}
+.placeWrap:first-child .blockTitle{
+    font-size: 26px;
 }
 /**/
 
