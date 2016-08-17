@@ -1693,6 +1693,7 @@ transform-origin:50% 50%;
     .placeWrap:first-child {
         padding-left: 35px;
         padding-right: 0;
+        margin-bottom:0;
     }
     .placeWrap:first-child .place-photo {
         min-width: 304px;
