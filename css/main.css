@@ -1105,6 +1105,20 @@ transform-origin:50% 50%;
     border-left: 3px solid #dedede;
     border-top: 3px solid #dedede;
 }
+
+
+/*partners*/
+.partner{
+    padding-left: 47px;
+}
+.partner .inner{
+    height:124px;
+    max-width: 290px;
+}
+/**/
+
+
+/*place*/
 .place-section{
     padding-top: 50px;
 }

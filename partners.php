@@ -39,28 +39,44 @@
 <section class="scrollableContent relative">
 	<div class="container">
 		<div class="sponsors col l12">
-			<p class="blockTitle">Główni sponsorzy
-			<div class="col xl3 l3 m6 s12 partner">
+			<p class="blockTitle left-align">Główni sponsorzy
+			</p>
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
 				<div class="inner"><img src="img/partners/projections-partners_01.png"
 										alt="Allegro" class="partner-image"></div>
 			</div>
-			<div class="col xl3 l3 m6 s12 partner">
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
 				<div class="inner"><img src="img/partners/projections-partners_02.png"
 										alt="Concordia Designs" class="partner-image"></div>
 			</div>
-			<div class="col xl3 l3 m6 s12 partner">
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
 				<div class="inner"><img src="img/partners/projections-partners_03.png"
 										alt="Redro" class="partner-image"></div>
 			</div>
-			<div class="col xl3 l3 m6 s12 partner">
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
 				<div class="inner"><img src="img/partners/projections-partners_02.png"
 										alt="Concordia Designs" class="partner-image"></div>
 			</div>
-			</p>
 		</div>
-		<div class="sponsors col l12">
+		<div class="sponsors col l12 left-align">
 			<p class="blockTitle">Partnerzy
 			</p>
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
+				<div class="inner"><img src="img/partners/projections-partners_05.png"
+										alt="CSSDesignAwards" class="partner-image"></div>
+			</div>
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
+				<div class="inner"><img src="img/partners/projections-partners_06.png"
+										alt="eduweb" class="partner-image"></div>
+			</div>
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
+				<div class="inner"><img src="img/partners/projections-partners_07.png"
+										alt="Komm." class="partner-image"></div>
+			</div>
+			<div class="col xl3 l3 m6 s12 partner flex flex-center">
+				<div class="inner"><img src="img/partners/projections-partners_08.png"
+										alt="Torpedov" class="partner-image"></div>
+			</div>
 		</div>
 	</div>
 </section>
