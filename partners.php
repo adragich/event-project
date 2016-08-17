@@ -42,49 +42,53 @@
 		<div class="sponsors col l12">
 			<p class="blockTitle left-align">Główni sponsorzy
 			</p>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center">
-					<img src="img/partners/projections-partners_01.png"
-										alt="Allegro" class="partner-image">
+			<div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center">
+						<img src="img/partners/projections-partners_01.png"
+							 alt="Allegro" class="partner-image">
+					</div>
 				</div>
-			</div>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center">
-					<img src="img/partners/projections-partners_02.png"
-										alt="Concordia Designs" class="partner-image">
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center">
+						<img src="img/partners/projections-partners_02.png"
+							 alt="Concordia Designs" class="partner-image">
+					</div>
 				</div>
-			</div>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center">
-					<img src="img/partners/projections-partners_03.png"
-										alt="Redro" class="partner-image">
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center">
+						<img src="img/partners/projections-partners_03.png"
+							 alt="Redro" class="partner-image">
+					</div>
 				</div>
-			</div>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center">
-					<img src="img/partners/projections-partners_02.png"
-										alt="Concordia Designs" class="partner-image">
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center">
+						<img src="img/partners/projections-partners_02.png"
+							 alt="Concordia Designs" class="partner-image">
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="sponsors col l12 left-align">
 			<p class="blockTitle">Partnerzy
 			</p>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
-										alt="CSSDesignAwards" class="partner-image"></div>
-			</div>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
-										alt="eduweb" class="partner-image"></div>
-			</div>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
-										alt="Komm." class="partner-image"></div>
-			</div>
-			<div class="col xl3 l3 m6 s12 partner">
-				<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
-										alt="Torpedov" class="partner-image"></div>
+			<div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
+															 alt="CSSDesignAwards" class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
+															 alt="eduweb" class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
+															 alt="Komm." class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
+															 alt="Torpedov" class="partner-image"></div>
+				</div>
 			</div>
 		</div>
 	</div>

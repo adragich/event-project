@@ -1455,6 +1455,15 @@ transform-origin:50% 50%;
         width: calc(74% - 30px);
         width: -webkit-calc(74% - 30px);
     }
+    .partner {
+        margin-bottom: 64px;
+    }
+    .partner .inner {
+        max-width: 220px;
+    }
+    .partner:nth-child(2n){
+        padding-left: 80px;
+    }
     /**/
   .m12{
     width:100%;
