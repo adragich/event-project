@@ -44,8 +44,8 @@
 					wrap2 = $('.placeWrap:nth-child(3)'),
 					text1 = wrap1.find("[data-index='1']"),
 					text2 = wrap2.find("[data-index='2']");
-console.log(text1);
-				console.log(text2);
+console.log(text1.html());
+				console.log(text2.html());
 				if($(window).width() < 678 && !checker.is('.screwed')){
 					wrap1.append(text2);
 					wrap2.append(text1);
