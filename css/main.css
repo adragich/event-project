@@ -1695,6 +1695,9 @@ transform-origin:50% 50%;
         padding-left: 50px;
         padding-right: 0;
     }
+    .placeWrap:first-child .place-photo {
+        min-width: 304px;
+    }
     /**/
 
 
