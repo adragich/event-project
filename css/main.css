@@ -1097,6 +1097,11 @@ transform-origin:50% 50%;
     position: relative;
     margin-bottom:170px;
 }
+.placeWrap:not(:first-child){
+    padding-top: 80px;
+    padding-left: 130px;
+    text-align: left;
+}
 .placeWrap:first-child:before{
     content: "";
     background: #f6f6f6;
@@ -1106,21 +1111,25 @@ transform-origin:50% 50%;
     top:0;
     position: absolute;
 }
-.placeWrap:first-child .place-info > p{
+.place-info > p{
     text-align: left;
 }
 .placeWrap:first-child .place-photo{
     text-align: right;
 }
-.placeWrap:first-child .block-content {
+.place-info .block-content {
     font-size: 19.5px;
     line-height: 33px;
     padding-top: 20px;
     letter-spacing: 1px;;
 }
-.placeWrap:first-child .blockTitle{
+.place-info .blockTitle{
     font-size: 26px;
 }
+.place-offset{
+    height: 200px;
+}
+
 /**/
 
 
