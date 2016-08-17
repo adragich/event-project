@@ -1604,6 +1604,7 @@ transform-origin:50% 50%;
     /*program*/
     .program-static-section .navigation{
         margin: 50px auto;
+        position: relative;
     }
     .program-static-section{
         height: auto;
@@ -1669,9 +1670,6 @@ transform-origin:50% 50%;
     .program-time {
         padding: 0;
         font-size: 18px;
-    }
-    .program-section{
-        margin-top: -50px;
     }
     .program-wrap .block-content{
         padding-top: 0;
@@ -1923,6 +1921,12 @@ transform-origin:50% 50%;
   }
 }
 @media (max-width: 375px) {
+    /*program*/
+
+    .program-section{
+        margin-top: -100px;
+    }
+    /**/
   .subHeight {
     background: #fff;
   }
