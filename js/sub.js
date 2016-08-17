@@ -44,13 +44,14 @@
 					wrap2 = $('.placeWrap:nth-child(3)'),
 					text1 = wrap1.find("[data-index='1']"),
 					text2 = wrap2.find("[data-index='2']");
-
-				if($(window).width() < 678 && checker.length > 0 && !checker.is('.screwed')){
+console.log(text1);
+				console.log(text2);
+				if($(window).width() < 678 && !checker.is('.screwed')){
 					wrap1.append(text2);
 					wrap2.append(text1);
 					$('.place-section').addClass('screwed');
 				}
-				else if($(window).width() > 678 && checker.length > 0 && checker.is('.screwed')){
+				else if($(window).width() > 677 && checker.is('.screwed')){
 					wrap1.append(text2);
 					wrap2.append(text1);
 					$('.place-section').removeClass('screwed');
