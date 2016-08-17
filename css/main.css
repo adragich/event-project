@@ -1455,6 +1455,8 @@ transform-origin:50% 50%;
         width: calc(74% - 30px);
         width: -webkit-calc(74% - 30px);
     }
+    .partner img{
+        max-width: 160px;}
     .partner {
         margin-bottom: 64px;
     }
@@ -1463,6 +1465,15 @@ transform-origin:50% 50%;
     }
     .partner:nth-child(2n){
         padding-left: 80px;
+    }
+    .sponsors:first-child {
+        margin-bottom: 10px;
+    }
+    .sponsors .blockTitle {
+        padding-bottom: 27px;
+    }
+    .sponsors:last-child {
+        margin-bottom: -250px;
     }
     /**/
   .m12{
