@@ -1118,9 +1118,18 @@ transform-origin:50% 50%;
     border-top:4px solid #dedede;
     border-left:4px solid #dedede;
 }
+.sponsors{
+    margin-bottom: 150px;
+}
 .sponsors .blockTitle{
     padding-left: 47px;
     padding-bottom: 60px;
+    padding-top: 50px;
+}
+.partners-section{
+    background: #fff;
+    padding-top: 10px;
+    z-index: 1;
 }
 /**/
 
