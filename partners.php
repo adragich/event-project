@@ -126,7 +126,7 @@
 <?php
 @include("partials/scripts.html")
 ?>
-<script type="text/javascript" src="js/sub.js"></script>
+<script type="text/javascript" src="js/partners.js"></script>
 <script type="text/javascript" src="js/appear.js"></script>
 </body>
 </html>
