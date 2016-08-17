@@ -50,7 +50,7 @@
 				<img src="img/place/projections-venue_1.jpg" alt="Sala expo w Concordia Design">
 			</div>
 		</div>
-		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
+		<div class="col l6 m6 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
 
 				<img src="img/place/projections-venue_2.jpg" alt="Sale warsztatowe w Concordia Design"
 					 class="animated fadeInUp wow" data-wow-delay="0.25s">
@@ -61,7 +61,7 @@
 						Spacious and easy to arrange – ideal for conferences, banquets, <br>concerts, team-building events, fashion shows, and many other occasions. </p>
 				</div>
 		</div>
-		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
+		<div class="col l6 m6 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
 
 				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.25s">
 					<p class="blockTitle big">228 m²</p>
