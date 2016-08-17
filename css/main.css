@@ -1093,10 +1093,22 @@ transform-origin:50% 50%;
     padding-top: 200px;
 }
 .placeWrap:first-child{
-    padding-left: 120px;
+    padding: 82px 0 82px 120px;
+}
+.placeWrap:first-child:before{
+    content: "";
+    background: #f6f6f6;
+    width: 84%;
+    height:100%;
+    right:0;
+    top:0;
 }
 .place-info > p{
     max-width: 684px;
+    text-align: left;
+}
+.place-photo{
+    text-align: right;
 }
 /**/
 
