@@ -38,7 +38,7 @@
 	<div class="grey-corner-left-top"></div>
 </section>
 <section class="scrollableContent place-section relative"  data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
-	<div class="container">
+	<div class="container" style="margin-bottom:-400px">
 		<div class="col l12 m12 s12 placeWrap flex flex-center fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 			<div class="col l7 s12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
 				<p class="blockTitle">Sala expo w Concordia Design</p>
@@ -50,26 +50,26 @@
 				<img src="img/place/projections-venue_1.jpg" alt="Sala expo w Concordia Design">
 			</div>
 		</div>
-		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
+		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -200, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
 
 				<img src="img/place/projections-venue_2.jpg" alt="Sale warsztatowe w Concordia Design"
-					 class="animated fadeInUp wow" data-wow-delay="0.5s">
+					 class="animated fadeInUp wow" data-wow-delay="0.25s">
 				<div class="place-offset"></div>
-				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
+				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.25s">
 					<p class="blockTitle">Sale warsztatowe w Concordia Design</p>
 					<p class="block-content">
 						Spacious and easy to arrange – ideal for conferences, banquets, <br>concerts, team-building events, fashion shows, and many other occasions. </p>
 				</div>
 		</div>
-		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
+		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -200, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
 
-				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.5s">
+				<div class="l12 place-info animated fadeInUp wow" data-wow-delay="0.25s">
 					<p class="blockTitle big">228 m²</p>
 					<p class="block-content">
 						The interior can be freely divided to create additional space.</p>
 				</div>
 				<div class="place-offset"></div>
-				<img src="img/place/projections-venue_3.jpg" alt="Space" class="animated fadeInUp wow" data-wow-delay="0.5s">
+				<img src="img/place/projections-venue_3.jpg" alt="Space" class="animated fadeInUp wow" data-wow-delay="0.25s">
 		</div>
 	</div>
 </section>
