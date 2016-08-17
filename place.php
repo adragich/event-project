@@ -51,24 +51,22 @@
 			</div>
 		</div>
 		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
-			<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">
+
 				<img src="img/place/projections-venue_2.jpg" alt="Sale warsztatowe w Concordia Design">
-				<div class="l12 speaker-info">
+				<div class="l12 place-info">
 					<p class="blockTitle">Sale warsztatowe w Concordia Design</p>
 					<p class="block-content">
 						Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions. </p>
 				</div>
-			</div>
 		</div>
 		<div class="col xl6 l12 m12 s12 placeWrap" data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
-			<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">
-				<div class="l12 speaker-info">
+
+				<div class="l12 place-info">
 					<p class="blockTitle big">228 m²</p>
 					<p class="block-content">
 						The interior can be freely divided to create additional space.</p>
 				</div>
 				<img src="img/place/projections-venue_3.jpg" alt="Space">
-			</div>
 		</div>
 	</div>
 </section>
