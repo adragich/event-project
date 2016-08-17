@@ -11,7 +11,7 @@
 <!--block for animation-->
 <!--TODO: create unique block for the page-->
 <?php
-@include("partials/preloader-about-us.html")
+@include("partials/preloader-place.html")
 ?>
 <section class="transition white">
 	<div class="container">

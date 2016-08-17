@@ -1046,6 +1046,35 @@ transform-origin:50% 50%;
     font-family: "playfairdisplayregular", sanf-serif;
     font-size: 18px;
 }
+
+
+/*about*/
+#topPartPlace {
+    width: 140px;
+    height: 140px;
+    top: 443px;
+    right: 121px;
+    background: url("../img/figures/medium-part-about.png") 0 0 no-repeat;
+    background-size: cover;
+}
+#middlePartPlace {
+    width: 114px;
+    height: 186px;
+    left: 253px;
+    bottom: -91px;
+    background: url("../img/figures/bottom-part-about.png") 0 0 no-repeat;
+    background-size: cover;
+}
+#bottomPartPlace {
+    bottom: -91px;
+    width: 115px;
+    height: 66px;
+    left: 0;
+    background-color: #ff6279;
+}
+/**/
+
+
 /*program*/
 /*temp*/
 .anim-space{
