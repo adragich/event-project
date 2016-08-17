@@ -27,28 +27,6 @@
 				<p class="note"><?php echo PLACE_NOTE;?>.</p>
 			</div>
 		</div>
-		<div class="main about-us sub info flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
-			<div class="inside text">
-				<div class="about-us-info l12">
-					<p class="blockTitle animated fadeInUp wow" data-wow-delay="1s">Projekcje to pomysł projektantów</p>
-					<p class="block-content animated fadeInUp wow" data-wow-delay="1s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-					<br><br>
-					<p class="blockTitle section-two animated fadeInUp wow" data-wow-delay="1.5s">Dla projektantów</p>
-					<p class="block-content animated fadeInUp wow" data-wow-delay="1.5s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				</div>
-			</div>
-			<div class="animation-space">
-				<!--TODO: ask about that animation space-->
-				ANIMATION???
-			</div>
-		</div>
-		<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
-			<div class="inside orgs">
-				<p class="mainTitle">Organizatorzy projekcji</p>
-				<br>
-				<p class="note">Projektanci organizujący event dla projektantów.</p>
-			</div>
-		</div>
 	</div>
 	<!--button for menu-->
 	<div class="navigation animated fadeInUp wow" data-wow-delay="3s" data-wow-duration="2s" data-scroll="0">
@@ -57,8 +35,9 @@
 	<?php
 	@include("partials/menu-button.html")
 	?>
+	<div class="grey-corner-left-top"></div>
 </section>
-<section class="scrollableContent place relative">
+<section class="scrollableContent place relative"  data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 	<div class="container">
 		<div class="col l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 			<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">

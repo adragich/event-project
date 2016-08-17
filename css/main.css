@@ -1072,6 +1072,15 @@ transform-origin:50% 50%;
     right: 232px;
     background-color: #ff6279;
 }
+.grey-corner-left-top{
+    position: absolute;
+    height: 283px;
+    width:290px;
+    left: 47px;
+    bottom: -113px;
+    border-left: 3px solid #dedede;
+    border-top: 3px solid #dedede;
+}
 /**/
 
 
