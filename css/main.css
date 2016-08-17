@@ -1093,29 +1093,30 @@ transform-origin:50% 50%;
     padding-top: 200px;
 }
 .placeWrap:first-child{
-    padding: 82px 93px 82px 120px;
+    padding: 82px 15px 82px 120px;
     position: relative;
+    margin-bottom:170px;
 }
 .placeWrap:first-child:before{
     content: "";
     background: #f6f6f6;
-    width: 84%;
+    width: 87%;
     height:100%;
     right:0;
     top:0;
     position: absolute;
 }
 .placeWrap:first-child .place-info > p{
-    max-width: 684px;
     text-align: left;
 }
 .placeWrap:first-child .place-photo{
     text-align: right;
 }
 .placeWrap:first-child .block-content {
-    font-size: 20px;
+    font-size: 19.5px;
     line-height: 33px;
     padding-top: 20px;
+    letter-spacing: 1px;;
 }
 .placeWrap:first-child .blockTitle{
     font-size: 26px;
