@@ -50,7 +50,7 @@
 				<tbody>
 				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string">
+				<tr class="content-string no-button">
 					<td class="program-time">10:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Grzegorz Róg</p>
@@ -62,7 +62,7 @@
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string">
+				<tr class="content-string no-button">
 					<td class="program-time">11:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Martyna Wędzicka</p>
@@ -86,7 +86,7 @@
 						<a href="#" class="workshop transition">Apply for workshop</a>
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
+				<tr class="offset-string no-button"></tr>
 				<tr class="content-string">
 					<td class="program-time">14:00</td>
 					<td class="left-align">
