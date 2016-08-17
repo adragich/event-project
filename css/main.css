@@ -1093,7 +1093,7 @@ transform-origin:50% 50%;
     padding-top: 50px;
 }
 .placeWrap:first-child{
-    padding: 82px 15px 82px 120px;
+    padding: 82px 80px 82px 120px;
     position: relative;
     margin-bottom:170px;
 }
@@ -1105,7 +1105,7 @@ transform-origin:50% 50%;
 .placeWrap:first-child:before{
     content: "";
     background: #f6f6f6;
-    width: 87%;
+    width: 84%;
     height:100%;
     right:0;
     top:0;
@@ -1990,8 +1990,9 @@ transform-origin:50% 50%;
         height: 229px;
         margin-bottom: 25px;
         width: 100%;
+        object-fit: cover;
     }
-    
+
     .placeWrap:first-child img{
         max-height: 230px;
         object-fit: cover;
