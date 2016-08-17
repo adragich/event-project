@@ -1913,12 +1913,12 @@ transform-origin:50% 50%;
     /**/
 }
 .placeWrap:first-child {
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
 }
 @media (max-width: 675px){
 
     .placeWrap:first-child {
-        flex-direction: column;
+        flex-direction: row;
     }
     /*place*/
     .main.place {
