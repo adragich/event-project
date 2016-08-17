@@ -29,5 +29,25 @@
 				var dest = $(this).attr("data-scroll");
 				$("body").animate({scrollTop: dest}, 1000);
 			});
+			screwDesigners();
+		});
+
+		$(window).resize(function(){
+
+			if(!$('.place-section').addClass('screwed')){
+				screwDesigners();
+			}
 
 		});
+
+		function screwDesigners(){
+			if($(window).width() < 678 && $('.placeWrap').length > 0){
+				var wrap1 = $('.placeWrap:nth-child(2)'),
+					wrap2 = $('.placeWrap:nth-child(3)'),
+					text1 = wrap1.find(".place-info"),
+					text2 = wrap2.find(".place-info");
+				wrap1.append(text2);
+				wrap2.append(text1);
+				$('.place-section').addClass('screwed');
+			}
+		}
