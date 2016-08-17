@@ -1596,12 +1596,15 @@ transform-origin:50% 50%;
   /*program*/
     .program.main {
         padding-top: 110px;
-        min-height: 280px;
+        min-height: auto;
     }
 }
 @media (max-width: 675px){
 
     /*program*/
+    .navigation{
+        margin: 50px auto;
+    }
     .program-static-section{
         height: auto;
     }
