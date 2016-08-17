@@ -53,6 +53,10 @@
 				else if($(window).width() > 677 && checker.is('.screwed')){
 					wrap1.append(text1);
 					wrap2.prepend(text2);
+					console.log(text1.length);
+					console.log(text2.length);
+					console.log(text1.html());
+					console.log(text1.html());
 					checker.removeClass('screwed');
 				}
 			}
