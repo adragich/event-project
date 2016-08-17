@@ -86,8 +86,8 @@
 						<a href="#" class="workshop transition">Apply for workshop</a>
 					</td>
 				</tr>
-				<tr class="offset-string no-button"></tr>
-				<tr class="content-string">
+				<tr class="offset-string"></tr>
+				<tr class="content-string no-button">
 					<td class="program-time">14:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Hopa Studio</p>
