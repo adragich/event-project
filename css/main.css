@@ -1118,8 +1118,11 @@ transform-origin:50% 50%;
     border-top:4px solid #dedede;
     border-left:4px solid #dedede;
 }
-.sponsors{
+.sponsors:first-child{
     margin-bottom: 150px;
+}
+.sponsors:last-child{
+    margin-bottom: -100px;
 }
 .sponsors .blockTitle{
     padding-left: 47px;
@@ -1130,6 +1133,7 @@ transform-origin:50% 50%;
     background: #fff;
     padding-top: 10px;
     z-index: 1;
+    overflow: visible;
 }
 /**/
 
