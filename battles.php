@@ -150,7 +150,6 @@
 					</div>
 					<div class="form-control pdf"
 						 data-text='+PDF'>
-						<input name="pdf" type="file" class="hidden">
 						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
 					</div>
 					<div class="optional form-control address-form"
