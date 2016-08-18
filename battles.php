@@ -160,12 +160,12 @@
 					</div>
 					<div class="form-control">
 						<div class="choose-team expander" data-block=".teams-list">
-							<p class="current" data-default="Wybierz drużynę, do której chcesz dołączyć">
+							<p class="current">
 								Wybierz drużynę, do której chcesz dołączyć
 							</p>
 							<i class="fa fa-angle-down absolute arrow"></i>
 						</div>
-						<div data-collapse="collapsed" class="teams-list">
+						<div class="teams-list">
 							<p data-value="Kraków">Kraków</p>
 							<p data-value="Warszawa">Warszawa</p>
 							<p data-value="Trójmiasto">Trójmiasto</p>

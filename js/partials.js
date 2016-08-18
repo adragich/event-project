@@ -43,6 +43,14 @@ $(document).on('click', '.expander', function(){
 	}
 });
 
+
+$(document).on('click', '.teams-list p', function(){
+	var team = $(this).text(), label = $(".choose-team .current"),
+		block = $('.teams-list');
+	label.text(team);
+	block.slideUp();
+});
+
 function translateToPoint(x, y, e, d){
 	setTimeout( function()
 	{ e.delay( d ).css( {'top': y, "left": x, "opacity": "1"} )
