@@ -39,17 +39,24 @@ $(".send-application").click(function(){
     var data = new FormData(),
         name = $('[name="name"]').val();
     data.append(name, name);
-    $.ajax({
-        type: 'POST',
-        data: data,
-        url: '../actions/sendmail.php',
 
-    }).done(function(e){
-        console.log(e);
-        console.log('done');
-    }).fail(function(){
-       console.log('fail');
+    $.ajax({
+        type: "POST",
+        url: '../actions/sendmail.php',
+        dataType: 'json',
+        data: data,
+
+        success: function(e) {
+            console.log(e);
+            console.log('done');
+
+        },
+
+        error: function() {
+            console.log('fail');
+        }
     });
+
 });
 
 //
