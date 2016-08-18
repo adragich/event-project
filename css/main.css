@@ -1192,7 +1192,7 @@ input.hidden, select.hidden{
     max-width: 885px;
 }
 .footer-text a{color:#21cae1;text-decoration: none;}
-.apply-form{
+.inside.battle-info.apply-form{
     padding-bottom: 80px;
 }
 .optional input{

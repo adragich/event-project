@@ -166,7 +166,6 @@
 							<i class="fa fa-angle-down absolute arrow"></i>
 						</div>
 						<div class="teams-list">
-							<p>Wybierz drużynę, do której chcesz dołączyć</p>
 							<p data-value="Kraków">Kraków</p>
 							<p data-value="Warszawa">Warszawa</p>
 							<p data-value="Trójmiasto">Trójmiasto</p>
