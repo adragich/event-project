@@ -40,7 +40,7 @@ $(".send-application").click(function(){
         name = $('[name="name"]').val();
     data.append(name, name);
     $.ajax({
-        method: 'POST',
+        type: 'POST',
         data: data,
         url: '../actions/sendmail.php',
 
