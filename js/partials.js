@@ -15,12 +15,12 @@ $(function() {
 	constructMenuLinks();
 	$(".menu").click(function(){
 			$(".sideBar").addClass("appeared");
-			$(".overlay").removeClass("clear").fadeIn();
+			$(".overlay").fadeIn();
 			$("body").addClass("stick-temp");
 	});
 	$(".close").click(function(){
 			$(".sideBar").removeClass("appeared");
-			$(".overlay").addClass("clear").fadeOut();
+			$(".overlay").fadeOut();
 			$("body").removeClass("stick-temp");
 	});
 });

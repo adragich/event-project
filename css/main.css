@@ -229,8 +229,6 @@ img{
     background: #f6f6f6!important
 }
 .clear{
-    z-index: -1;
-    opacity:0;
     display: none;
 }
 .pointer{
