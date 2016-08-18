@@ -2415,6 +2415,21 @@ input.hidden, select.hidden{
     .address-form {
         padding-left: 55px;
     }
+    .teams-list {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .choose-team .arrow {
+        right: 12px;
+        top: 9px;
+    }
+    .pdf-input{
+        height: auto;
+        padding-right: 64px;
+    }
+    .pdf:before{
+        padding: 0 12px;
+    }
     /**/
 
     /*place*/
