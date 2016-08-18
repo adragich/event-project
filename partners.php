@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		<!--button for menu-->
-		<div class="navigation animated fadeInUp wow" data-wow-delay="3s">
+		<div class="navigation partners-nav animated fadeInUp wow" data-wow-delay="3s">
 			<i class="fa fa-angle-down" aria-hidden="true"></i>
 		</div>
 		<?php

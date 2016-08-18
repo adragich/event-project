@@ -7,7 +7,7 @@
 			}
 			else{
 				a = 0.4;
-				b = 0.58;
+				b = 0.7;
 			}
 			var point = getPoint(a, b), nav = $(".navigation"),
 				scroll = $("body").scrollTop() + $(window).height() - 300 + parseInt(nav.attr("data-scroll"));

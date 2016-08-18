@@ -2026,6 +2026,26 @@ transform-origin:50% 50%;
         height: 49px;
         width: 24px;
     }
+    .partners-nav{
+        left: 28px;
+        margin: 120px auto;
+        position: relative;
+    }
+    .sponsors .blockTitle {
+        padding-bottom: 50px;
+        padding-left: 54px;
+        padding-top: 25px;
+    }
+    .partner {
+        margin-bottom: 50px;
+        padding-left: 54px;
+    }
+    .partner:nth-child(2n) {
+        padding-left: 54px;
+    }
+    .partners-section{
+        z-index: 2;
+    }
     /**/
 
     /*place*/
