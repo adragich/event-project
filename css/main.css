@@ -631,6 +631,7 @@ img{
     width: 6.5%;
     top:0;
     min-width: 49px;
+    max-width: 124px;
     background: #ffeb3e;
 }
 .reset-link{
@@ -1013,9 +1014,6 @@ img{
 .assign.battles{
     padding-top: 5%;
 }
-.battle-info{
-    padding: 0 252px;
-}
 .mainTitle.battle-info{
     font-size: 55px;
     line-height: 60px;
@@ -1023,9 +1021,6 @@ img{
 }
 .image-title.battle-info {
     background: url(../img/figures/projections-bitwy.png) 34px 43px no-repeat;
-}
-.inside.battle-info{
-    padding: 0 48px 0 140px;
 }
 .battle-info-wrap .inside.battle-info > p{
     margin-bottom:90px;
@@ -1227,6 +1222,9 @@ input.hidden, select.hidden{
 }
 .teams-list p:hover{
     background: #fff;
+}
+.leaders{
+    padding: 20px 0;
 }
 /**/
 
@@ -1516,6 +1514,12 @@ input.hidden, select.hidden{
 }
 @media (min-width: 1500px){
 
+    .battle-info{
+        padding: 0 252px;
+    }
+    .inside.battle-info{
+        padding: 0 48px 0 140px;
+    }
     .program #middlePart{
         left: 950px;
     }
