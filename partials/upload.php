@@ -27,18 +27,19 @@
 
 
 $uploaddir = '/home/www/event-project.myhomezy.com/web/uploads/';
-$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 
-echo '<pre>';
-if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
-    echo "Файл корректен и был успешно загружен.\n";
-} else {
-    echo "Возможная атака с помощью файловой загрузки!\n";
+if($_FILES["userfile"]["size"] > 1024*3*1024)
+{
+    echo ("Размер файла превышает три мегабайта");
+    exit;
 }
-
-echo 'Некоторая отладочная информация:';
-print_r($_FILES);
-
-print "</pre>";
-
+// Проверяем загружен ли файл
+if(is_uploaded_file($_FILES["userfile"]["tmp_name"]))
+{
+    // Если файл загружен успешно, перемещаем его
+    // из временной директории в конечную
+    move_uploaded_file($_FILES["userfile"]["tmp_name"], $uploaddir.$_FILES["userfile"]["name"]);
+} else {
+    echo("Ошибка загрузки файла");
+}
 ?>
