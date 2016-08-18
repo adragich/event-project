@@ -5,6 +5,8 @@
  * Date: 18/08/16
  * Time: 12:25
  */
+//TODO: change this script
+
 $message = '
 <html>
     <head>
