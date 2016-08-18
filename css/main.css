@@ -1092,7 +1092,7 @@ img{
     margin-top: -20px;
     padding-left: 20px;
 }
-.form-control input:not(.hidden){
+.form-control input:not(.hidden), .pdf-input{
     width: 100%;
     line-height: 65px;
     height: 65px;
@@ -1102,10 +1102,12 @@ img{
     font-family: "PlayfairDisplayRegular", serif;
     border: none;
     letter-spacing: 1px;
+    box-sizing: border-box;
 }
 .form-control{
     margin-bottom: 42px;
     position: relative;
+    max-width: 836px;
 }
 .optional:before{
     content: attr(data-text);
@@ -1116,6 +1118,49 @@ img{
     right: 35px;
     font-size: 14px;
     font-family: "PlayfairDisplayRegular", serif;
+    letter-spacing: 1px;
+}
+input.hidden{
+    display: none;
+}
+.pdf:before{
+    content: attr(data-text);
+    position: absolute;
+    line-height: 65px;
+    height: 65px;
+    top:0;
+    right: 0;
+    font-size: 14px;
+    font-family: "PlayfairDisplaybold2", serif;
+    letter-spacing: 1px;
+    padding: 0 17px;
+    background-color: #ffeb3e;
+}
+.address-form{
+    padding-left: 90px;
+}
+.address-form:after{
+    content: 'bfbfbf';
+    position: absolute;
+    line-height: 65px;
+    height: 65px;
+    top:0;
+    left: 0;
+    font-size: 14px;
+    font-family: "PlayfairDisplaybold2", serif;
+    letter-spacing: 1px;
+    padding: 0 11px 0 35px;
+    width:90px;
+    text-align: right;
+    background-color: #bfbfbf;
+    color: #fff;
+}
+.elent-link.send-application{
+    float: none;
+    display: inline-block;
+    margin-top: 37px;
+    padding: 0 46px;
+    margin-bottom: 50px;
 }
 /**/
 

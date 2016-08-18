@@ -148,14 +148,15 @@
 					<div class="form-control optional" data-text='(optional)'>
 						<input name="phone" type="number" placeholder="Numer telefonu">
 					</div>
-					<div class="form-control">
+					<div class="form-control pdf"
+						 data-text='+PDF'>
 						<input name="pdf" type="file" class="hidden">
 						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
 					</div>
-					<div class="optional form-control"
+					<div class="optional form-control address-form"
 						 data-text='(optional)'>
 						<input name="address"
-							   class="address" type="text" placeholder="Adres online portfolio">
+							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
 					<div class="form-control">
 						<select name="team" id="teamSelect">
@@ -168,13 +169,13 @@
 						</select>
 					</div>
 					<div class="form-control">
-						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
-					</div>
-					<div class="form-control">
 						<p class="application-note">
 							* Dane osobowe i informacje o portfolio wysłane przez chętnych zgłaszających się do wzięcia udziału w bitwach
 							nie będą wykorzystywane przez organizatorów do zadnych inych celów, poza rekrutacją osób do bitew graficznych
 						</p>
+					</div>
+					<div class="form-control left-align">
+						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
 					</div>
 				</form>
 			</div>
