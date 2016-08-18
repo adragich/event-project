@@ -1108,6 +1108,7 @@ img{
     margin-bottom: 42px;
     position: relative;
     max-width: 836px;
+    box-sizing: border-box;
 }
 .optional:before{
     content: attr(data-text);
@@ -1122,6 +1123,9 @@ img{
 }
 input.hidden{
     display: none;
+}
+.pdf{
+    cursor: pointer;
 }
 .pdf:before{
     content: attr(data-text);
@@ -1140,7 +1144,7 @@ input.hidden{
     padding-left: 90px;
 }
 .address-form:after{
-    content: 'bfbfbf';
+    content: 'http://';
     position: absolute;
     line-height: 65px;
     height: 65px;
@@ -1154,14 +1158,28 @@ input.hidden{
     text-align: right;
     background-color: #bfbfbf;
     color: #fff;
+    box-sizing: border-box;
 }
-.elent-link.send-application{
+.event-link.send-application{
     float: none;
     display: inline-block;
     margin-top: 37px;
     padding: 0 46px;
     margin-bottom: 50px;
 }
+.application-note {
+    font-size: 13px;
+    line-height: 24px;
+    font-family: "stolzlregular", sans-serif;
+}
+.footer-text{
+    font-size: 22px;
+    font-family: "stolzlmedium", sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 836px;
+}
+.footer-text a{color:#21cae1;text-decoration: none;}
 /**/
 
 

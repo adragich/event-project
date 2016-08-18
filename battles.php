@@ -171,6 +171,8 @@
 					<div class="form-control">
 						<p class="application-note">
 							* Dane osobowe i informacje o portfolio wysłane przez chętnych zgłaszających się do wzięcia udziału w bitwach
+						</p>
+						<p class="application-note">
 							nie będą wykorzystywane przez organizatorów do zadnych inych celów, poza rekrutacją osób do bitew graficznych
 						</p>
 					</div>
@@ -181,10 +183,10 @@
 			</div>
 		</div>
 	</section>
-	<footer class="battle-footer scrollableContent">
-		<div class="container">
-			<p>Masz pytanie? napisz do nas na: info@projections.pl</p>
-		</div>
+	<footer class="battle-footer scrollableContent grey">
+			<div class="container grey">
+				<p class="footer-text">Masz pytanie? napisz do nas na: <a href="mailto:info@projections.pl">info@projections.pl</a></p>
+			</div>
 	</footer>
 	<div class="overlay clear transition"></div>
 	<?php
