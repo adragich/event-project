@@ -1172,12 +1172,15 @@ input.hidden{
     line-height: 24px;
     font-family: "stolzlregular", sans-serif;
 }
+.battle-footer{
+    padding: 82px 0;
+}
 .footer-text{
     font-size: 22px;
     font-family: "stolzlmedium", sans-serif;
     text-align: left;
     margin: 0 auto;
-    max-width: 836px;
+    max-width: 885px;
 }
 .footer-text a{color:#21cae1;text-decoration: none;}
 /**/

@@ -168,6 +168,9 @@
 							<option value="Katowice">Katowice</option>
 						</select>
 					</div>
+					<div class="form-control left-align">
+						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
+					</div>
 					<div class="form-control">
 						<p class="application-note">
 							* Dane osobowe i informacje o portfolio wysłane przez chętnych zgłaszających się do wzięcia udziału w bitwach
@@ -175,9 +178,6 @@
 						<p class="application-note">
 							nie będą wykorzystywane przez organizatorów do zadnych inych celów, poza rekrutacją osób do bitew graficznych
 						</p>
-					</div>
-					<div class="form-control left-align">
-						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
 					</div>
 				</form>
 			</div>
