@@ -2370,8 +2370,9 @@ input.hidden, select.hidden{
         height: 40px;
     }
     .form-control input:not(.hidden), .pdf-input, .choose-team {
-        padding: 0 12px;
-        font-size: 14px;
+        padding: 10px 12px;
+        font-size: 12px;
+        line-height: 20px;
     }
     .optional:before {
         right: 12px;
@@ -2865,6 +2866,11 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 375px) {
+    /*battles*/
+
+    .form-control input:not(.hidden), .pdf-input, .choose-team {
+        padding: 0 12px;
+    }
     /*program*/
 
     .program-section{
