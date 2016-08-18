@@ -41,9 +41,7 @@ $(".send-application").click(function(){
     data.append(name, name);
 
     $.ajax({
-        type: "GET",
         url: '../actions/sendmail.php',
-        dataType: 'json',
         data: data,
 
         success: function(e) {
