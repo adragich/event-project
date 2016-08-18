@@ -1608,7 +1608,22 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
     /*battles*/
-
+    #firstPartBattles {
+        left: 160px;
+        top: 300px;
+    }
+    #secondPartBattles {
+        left: 500px;
+        top: 279px;
+    }
+    #thirdPartBattles {
+        left: 274px;
+        top: 336px;
+    }
+    #fourthPartBattles {
+        left: 212px;
+        top: 275px;
+    }
     .battle-part{
         width: 200px;
         height: 360px;
