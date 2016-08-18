@@ -193,7 +193,6 @@
 				<p class="footer-text">Masz pytanie? napisz do nas na: <a href="mailto:info@projections.pl">info@projections.pl</a></p>
 			</div>
 	</footer>
-	<div class="overlay clear transition"></div>
 	<?php
 		@include("partials/scripts.html")
 	?>

@@ -97,7 +97,6 @@
 <?php
 @include("partials/sidebar.html")
 ?>
-<div class="overlay clear transition"></div>
 <?php
 @include("partials/scripts.html")
 ?>
