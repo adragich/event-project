@@ -6,13 +6,13 @@
 $(document).on('click', '.expander', function(){
     var button = $(this),
         block = $(button.attr('data-block'));
-    if(button.is('.active')){
-        block.slideUp();
-        button.removeClass('active');
-    }
-    else{
+    if(!button.is('.active')){
         block.slideDown();
         button.addClass('active');
+    }
+    else{
+        block.slideUp();
+        button.removeClass('active');
     }
     button.toggleClass('active');
 });
