@@ -893,11 +893,18 @@ img{
 }
 /*battles*/
 
-.inside.battle-info{
-    padding: 0 48px 0 140px;
+.loadAnimation.battles {
+    width: 100%;
+    left: 0;
+    opacity:1;
+}
+.battle-info{
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
+}
+.inside.battle-info{
+    padding: 0 48px 0 140px;
 }
 .additionalInfo.battles{
     position: absolute;
@@ -961,10 +968,6 @@ img{
     left: 199px;
     top: -100px;
 }
-.loadAnimation.battles{
-    width: 68%;
-    left: 32%;
-    opacity:1;}
 .loadAnimation.battles div{
     opacity:1;
 }
@@ -1523,10 +1526,12 @@ input.hidden, select.hidden{
 /*battles*/
     .battle-info{
         padding: 0 252px;
+        max-width: 100%;
     }
 
-    .inside.battle-info {
-        max-width: 100%;
+    .loadAnimation.battles{
+        width: 68%;
+        left: 32%;
     }
     /**/
     .program #middlePart{
