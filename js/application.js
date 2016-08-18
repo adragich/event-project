@@ -23,8 +23,13 @@ $(document).on('click', '.pdf-input', function(){
 });
 
 $(".pdf-input").uploadFile({
-    url: '#',
-    filename: 'pdf'
+    url:"partials/upload.php",
+    multiple:false,
+    dragDrop:false,
+    maxFileCount:1,
+    filename: 'pdf',
+    acceptFiles:"pdf/*",
+    uploadStr:"Dołącz portfolio w formie PDF"
 });
 
 $(document).on('click', '.teams-list p', function(){
