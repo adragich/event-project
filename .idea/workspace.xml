@@ -68,13 +68,13 @@
       <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="403">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1471515538000" expanded="true" signature="202:381" ph="..." />
-                <marker date="1471515538000" expanded="true" signature="215:284" ph="..." />
-                <marker date="1471515538000" expanded="true" signature="297:371" ph="..." />
+                <marker date="1471515572000" expanded="true" signature="202:381" ph="..." />
+                <marker date="1471515572000" expanded="true" signature="215:284" ph="..." />
+                <marker date="1471515572000" expanded="true" signature="297:371" ph="..." />
               </folding>
             </state>
           </provider>
@@ -315,12 +315,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="35605000" />
+      <workItem from="1471415658051" duration="35640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46382000" />
+    <option name="totallyTimeSpent" value="46417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -650,13 +650,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="403">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1471515538000" expanded="true" signature="202:381" ph="..." />
-            <marker date="1471515538000" expanded="true" signature="215:284" ph="..." />
-            <marker date="1471515538000" expanded="true" signature="297:371" ph="..." />
+            <marker date="1471515572000" expanded="true" signature="202:381" ph="..." />
+            <marker date="1471515572000" expanded="true" signature="215:284" ph="..." />
+            <marker date="1471515572000" expanded="true" signature="297:371" ph="..." />
           </folding>
         </state>
       </provider>

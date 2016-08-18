@@ -27,7 +27,7 @@
 
 
 $uploaddir = '/home/www/event-project.myhomezy.com/web/uploads/';
-
+echo $uploaddir;
 if($_FILES["userfile"]["size"] > 1024*3*1024)
 {
     echo ("Размер файла превышает три мегабайта");
