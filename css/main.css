@@ -2336,10 +2336,6 @@ input.hidden, select.hidden{
     .battle-teams {
         margin-top: 80px;
     }
-    .address-form:after {
-        font-size: 11px;
-        letter-spacing: 0;
-    }
     .battle-info-wrap .inside.battle-info > p {
         margin-bottom: 10px;
     }
@@ -2387,16 +2383,14 @@ input.hidden, select.hidden{
         padding: 20px 40px 20px 60px;
     }
     .address-form:after {
-        font-size: 12px;
+        font-size: 11px;
+        letter-spacing: 0;
         padding: 0;
         width: 55px;
         text-align: center;
     }
     .address-form {
         padding-left: 40px;
-    }
-    .address-input{
-        padding-right: 70px;
     }
     .teams-list {
         line-height: 30px;
@@ -2454,6 +2448,9 @@ input.hidden, select.hidden{
         z-index: 2;
     }
 
+    .address-input{
+        padding-right: 70px;
+    }
     /**/
 
     /*place*/
