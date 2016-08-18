@@ -24,7 +24,7 @@ $(".pdf-uploader").uploadFile({
     maxFileCount:1,
     filename: 'file',
     acceptFiles:"application/pdf",
-    uploadStr:"Dołącz portfolio w formie PDF"
+    uploadStr:""
 });
 
 $(document).on('click', '.teams-list p', function(){
