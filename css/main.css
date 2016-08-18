@@ -2012,6 +2012,22 @@ transform-origin:50% 50%;
 }
 @media (max-width: 675px){
 
+    /*sponsors*/
+    #topPart.partners {
+        border-width: 35px 0 0 40px;
+        top: 68px;
+        left: 4px;
+    }
+    #fourthPart.partners {
+        height: 39px;
+        width: 24px;
+    }
+    #secondPart.partners {
+        height: 49px;
+        width: 24px;
+    }
+    /**/
+
     /*place*/
     .place-section {
         margin-top: 0;

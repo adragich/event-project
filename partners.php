@@ -24,7 +24,7 @@
 		<div class="main sub partners-main flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 			<div class="inside">
 				<p class="mainTitle"><?php echo PARTNERS;?></p>
-				<p class="note"><?php echo PARTNERS_NOTE;?>.</p>
+				<p class="note"><?php echo PARTNERS_NOTE;?></p>
 			</div>
 		</div>
 		<!--button for menu-->
