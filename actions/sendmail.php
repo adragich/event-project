@@ -5,14 +5,13 @@
  * Date: 18/08/16
  * Time: 12:25
  */
-echo $_POST['name'];
 $message = '
 <html>
     <head>
         <title>Application</title>
     </head>
     <body>
-        <p>'.$_POST['name'].'</p>
+        <p>name</p>
     </body>
 </html>';
 
@@ -22,4 +21,4 @@ $headers .= "Bcc: Application@example.com\r\n";
 
 mail($feedback_email, $feedback_subject, $message, $headers);
 
-echo 'done';
+echo $_POST['name'];

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/sendmail.php" afterPath="$PROJECT_DIR$/actions/sendmail.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -77,18 +77,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1471517922000" expanded="true" signature="126:249" ph="..." />
-                <marker date="1471517922000" expanded="true" signature="137:184" ph="..." />
-                <marker date="1471517922000" expanded="true" signature="195:207" ph="..." />
-                <marker date="1471517922000" expanded="true" signature="195:208" ph="..." />
-                <marker date="1471517922000" expanded="true" signature="195:241" ph="..." />
+                <marker date="1471518415000" expanded="true" signature="105:214" ph="..." />
+                <marker date="1471518415000" expanded="true" signature="116:163" ph="..." />
+                <marker date="1471518415000" expanded="true" signature="174:186" ph="..." />
+                <marker date="1471518415000" expanded="true" signature="174:187" ph="..." />
+                <marker date="1471518415000" expanded="true" signature="174:190" ph="..." />
+                <marker date="1471518415000" expanded="true" signature="174:206" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,8 +97,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/partials/config.php" />
         <option value="$PROJECT_DIR$/actions/Mail/mime.php" />
         <option value="$PROJECT_DIR$/battles.php" />
-        <option value="$PROJECT_DIR$/actions/sendmail.php" />
         <option value="$PROJECT_DIR$/js/application.js" />
+        <option value="$PROJECT_DIR$/actions/sendmail.php" />
       </list>
     </option>
   </component>
@@ -317,12 +317,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="37997000" />
+      <workItem from="1471415658051" duration="38093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48774000" />
+    <option name="totallyTimeSpent" value="48870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -656,14 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -674,27 +666,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
+    <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1471517922000" expanded="true" signature="126:249" ph="..." />
-            <marker date="1471517922000" expanded="true" signature="137:184" ph="..." />
-            <marker date="1471517922000" expanded="true" signature="195:207" ph="..." />
-            <marker date="1471517922000" expanded="true" signature="195:208" ph="..." />
-            <marker date="1471517922000" expanded="true" signature="195:241" ph="..." />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
+    <entry file="file://$PROJECT_DIR$/partials/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <marker date="1471518415000" expanded="true" signature="105:214" ph="..." />
+            <marker date="1471518415000" expanded="true" signature="116:163" ph="..." />
+            <marker date="1471518415000" expanded="true" signature="174:186" ph="..." />
+            <marker date="1471518415000" expanded="true" signature="174:187" ph="..." />
+            <marker date="1471518415000" expanded="true" signature="174:190" ph="..." />
+            <marker date="1471518415000" expanded="true" signature="174:206" ph="..." />
           </folding>
         </state>
       </provider>
