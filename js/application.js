@@ -17,7 +17,7 @@ $(document).on('click', '.expander', function(){
     button.toggleClass('active');
 });
 
-$(".pdf-input").uploadFile({
+$(".pdf").uploadFile({
     url:"actions/upload.php",
     multiple:false,
     dragDrop:false,

@@ -1208,6 +1208,8 @@ input.hidden, select.hidden{
 .ajax-file-upload-container {
     height: auto;
     min-height: 0;
+}
+.ajax-file-upload-statusbar{
     padding-top: 15px;
 }
 .expander{
