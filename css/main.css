@@ -1092,12 +1092,30 @@ img{
     margin-top: -20px;
     padding-left: 20px;
 }
-.form-control input{
+.form-control input:not(.hidden){
     width: 100%;
     line-height: 65px;
     height: 65px;
     background-color: #f6f6f6;
     padding: 0 35px;
+    font-size: 18px;
+    font-family: "PlayfairDisplayRegular", serif;
+    border: none;
+    letter-spacing: 1px;
+}
+.form-control{
+    margin-bottom: 42px;
+    position: relative;
+}
+.optional:before{
+    content: attr(data-text);
+    position: absolute;
+    line-height: 65px;
+    height: 65px;
+    top:0;
+    right: 35px;
+    font-size: 14px;
+    font-family: "PlayfairDisplayRegular", serif;
 }
 /**/
 
