@@ -26,10 +26,11 @@
 //mail($to, $subject, $message, $headers);
 
 
-$uploaddir = '/uploads/';
+$uploaddir = '/home/www/event-project.myhomezy.com/web/uploads/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+
 echo '<pre>';
-if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploaddir)) {
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
     echo "Файл корректен и был успешно загружен.\n";
 } else {
     echo "Возможная атака с помощью файловой загрузки!\n";
