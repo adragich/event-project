@@ -172,7 +172,7 @@
 							<p class="current" data-default="Wybierz drużynę, do której chcesz dołączyć">
 								Wybierz drużynę, do której chcesz dołączyć
 							</p>
-							<i class="fa fa-angle-down right"></i>
+							<i class="fa fa-angle-down absolute arrow"></i>
 						</div>
 						<div data-collapse="collapsed" class="teams-list">
 							<p data-value="Kraków">Kraków</p>
