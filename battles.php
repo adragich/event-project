@@ -199,6 +199,7 @@
 		@include("partials/scripts.html")
 	?>		
 	<script type="text/javascript" src="js/sub.js"></script>
-	<script type="text/javascript" src="js/appear.js"></script>	
+	<script type="text/javascript" src="js/appear.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
 </body>
 </html>
