@@ -67,7 +67,7 @@
 	</section>
 	<section class="battle-teams relative grey">
 		<div class="container grey">
-			<div class="battle-info">
+			<div class="battle-info teams-header">
 				<div class="inside battle-info">
 					<p class="mainTitle teams">Zespoły i ich liderzy</p>
 				</div>
@@ -114,7 +114,7 @@
 					</div>
 					<div class="team col l4 m6 s12">
 						<div class="inside">
-							<img src="img/figures/teams/projections-bitwy_15.png" alt="Team logo">
+							<img src="img/figures/teams/projections-bitwy_18.png" alt="Team logo">
 							<p class="regular-title">Poznań</p>
 							<p class="italic">Reprezentowany przez:</p>
 							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
@@ -123,7 +123,7 @@
 					</div>
 					<div class="team col l4 m6 s12">
 						<div class="inside">
-							<img src="img/figures/teams/projections-bitwy_18.png" alt="Team logo">
+							<img src="img/figures/teams/projections-bitwy_15.png" alt="Team logo">
 							<p class="regular-title">Katowice</p>
 							<p class="italic">Reprezentowany przez:</p>
 							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>

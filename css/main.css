@@ -1038,14 +1038,10 @@ transform-origin:50% 50%;
     line-height: 40px;
     font-family: "playfairdisplaybold", serif;
 }
-.inside.battle-info > p{
-  margin-bottom:90px;
-}
+
 .mainTitle.teams{
     font-size: 36px;
     line-height: 80px;
-    top: -40px;
-    position: relative;
 }
 .battle-teams{
   margin-top: 158px;
@@ -1066,12 +1062,21 @@ transform-origin:50% 50%;
   font-family: "stolzlregular", sans-serif;
 }
 .team-member span{
-    font-family: "playfairdisplayregular", sanf-serif;
+    font-family: "playfairdisplayregular", Arial, sanf-serif;
     font-size: 18px;
 }
 .team-sector{
     padding-bottom: 170px;
+    padding-top: 190px;
     border-bottom: 6px solid #fff;
+}
+.teams-header{
+    position: absolute;
+    width: 100%;
+    top: -40px;
+}
+.team img{
+    margin-bottom: 30px;
 }
 /**/
 
