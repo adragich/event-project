@@ -1185,6 +1185,9 @@ input.hidden, select.hidden{
 .battle-footer{
     padding: 82px 0;
 }
+.battle-footer:before{
+    content:"";
+}
 .footer-text{
     font-size: 22px;
     font-family: "stolzlmedium", sans-serif;
@@ -1627,6 +1630,48 @@ input.hidden, select.hidden{
     .battle-part{
         width: 200px;
         height: 360px;
+    }
+    .battle-info-wrap .inside.battle-info > p {
+        margin-bottom: 20px;
+    }
+    .battle-info .block-content {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .subtitle.bold {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .regular-title {
+        font-size: 24px;
+    }
+    .teams .inside {
+        padding-right: 0;
+    }
+    .leaders {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    .team-member {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .team-member span {
+        font-size: 14px;
+    }
+    .team-sector {
+        padding-bottom: 126px;
+        padding-top: 126px;
+    }
+    .mainTitle.battle-info {
+        font-size: 38px;
+        padding: 60px 0 40px 140px;
+    }
+    #application .mainTitle {
+        margin-top: 0;
+    }
+    .battle-footer {
+        padding-left: 70px;
     }
     /*partners*/
     .partners-main .inside {
