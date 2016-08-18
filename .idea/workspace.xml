@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/sendmail.php" afterPath="$PROJECT_DIR$/actions/sendmail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/config.php" afterPath="$PROJECT_DIR$/partials/config.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,13 +80,13 @@
       <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1471517479000" expanded="true" signature="2035:2166" ph="..." />
-                <marker date="1471517479000" expanded="true" signature="2048:2099" ph="..." />
-                <marker date="1471517479000" expanded="true" signature="2112:2156" ph="..." />
+                <marker date="1471517526000" expanded="true" signature="106:223" ph="..." />
+                <marker date="1471517526000" expanded="true" signature="117:164" ph="..." />
+                <marker date="1471517526000" expanded="true" signature="175:215" ph="..." />
               </folding>
             </state>
           </provider>
@@ -317,12 +315,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="37226000" />
+      <workItem from="1471415658051" duration="37271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48003000" />
+    <option name="totallyTimeSpent" value="48048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -686,13 +684,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1471517479000" expanded="true" signature="2035:2166" ph="..." />
-            <marker date="1471517479000" expanded="true" signature="2048:2099" ph="..." />
-            <marker date="1471517479000" expanded="true" signature="2112:2156" ph="..." />
+            <marker date="1471517526000" expanded="true" signature="106:223" ph="..." />
+            <marker date="1471517526000" expanded="true" signature="117:164" ph="..." />
+            <marker date="1471517526000" expanded="true" signature="175:215" ph="..." />
           </folding>
         </state>
       </provider>
