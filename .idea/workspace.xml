@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="1191" column="21" selection-start-line="1191" selection-start-column="21" selection-end-line="1191" selection-end-column="21" />
+            <state relative-caret-position="106">
+              <caret line="2389" column="25" selection-start-line="2389" selection-start-column="25" selection-end-line="2389" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -36,8 +37,8 @@
       <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
+            <state relative-caret-position="265">
+              <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -53,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
@@ -149,9 +150,9 @@
         <option value="$PROJECT_DIR$/actions/Mail/mime.php" />
         <option value="$PROJECT_DIR$/actions/sendmail.php" />
         <option value="$PROJECT_DIR$/partials/preloader-battles.html" />
+        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/application.js" />
       </list>
     </option>
   </component>
@@ -329,12 +330,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="45039000" />
+      <workItem from="1471415658051" duration="45134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55816000" />
+    <option name="totallyTimeSpent" value="55911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -694,22 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="123" column="46" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="1191" column="21" selection-start-line="1191" selection-start-column="21" selection-end-line="1191" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -717,6 +702,22 @@
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="2389" column="25" selection-start-line="2389" selection-start-column="25" selection-end-line="2389" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

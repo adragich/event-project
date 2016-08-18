@@ -1136,7 +1136,7 @@ input.hidden, select.hidden{
 .pdf{
     cursor: pointer;
 }
-.pdf:before{
+.pdf-input:before{
     content: attr(data-text);
     position: absolute;
     line-height: 65px;
@@ -2395,7 +2395,7 @@ input.hidden, select.hidden{
     .form-control {
         margin-bottom: 15px;
     }
-    .form-control input:not(.hidden), .pdf-input, .choose-team, .optional:before, .pdf:before, .address-form:after{
+    .form-control input:not(.hidden), .pdf-input, .choose-team, .optional:before, .pdf-input:before, .address-form:after{
         line-height: 40px;
         height: 40px;
     }
@@ -2440,7 +2440,7 @@ input.hidden, select.hidden{
         height: auto;
         padding-right: 64px;
     }
-    .pdf:before{
+    .pdf-input:before{
         padding: 0 12px;
     }
     .application-note {
