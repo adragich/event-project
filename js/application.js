@@ -18,7 +18,7 @@ $(document).on('click', '.expander', function(){
 });
 
 $(".pdf-input").uploadFile({
-    url:"partials/upload.php",
+    url:"actions/upload.php",
     multiple:false,
     dragDrop:false,
     maxFileCount:1,
@@ -33,6 +33,15 @@ $(document).on('click', '.teams-list p', function(){
     label.text(team);
     block.slideUp();
     button.removeClass('active');
+});
+
+$(".send-application").click(function(){
+    $.ajax('../actions/sendmail.php').done(function(e){
+        console.log(e);
+        console.log('done');
+    }).fail(function(){
+       console.log('fail');
+    });
 });
 
 //
