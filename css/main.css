@@ -2410,7 +2410,7 @@ input.hidden, select.hidden{
     }
     .pdf-input{
         height: auto;
-        padding-right: 64px;
+        padding-right: 64px!important;
     }
     .pdf-uploader{
         padding: 0 12px;
