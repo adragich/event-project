@@ -7,13 +7,13 @@ $(document).on('click', '.expander', function(){
     var button = $(this),
         block = $(button.attr('data-block')),
         icon = button.find('i');
-    if(button.is('.active')){
+    if(!button.is('.active')){
         block.slideUp();
     }
     else{
         block.slideDown();
     }
-    button.toggleClass('active', true);
+    button.toggleClass('active', false);
     icon.toggleClass( "fa-angle-up", false);
 
 });
