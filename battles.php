@@ -73,58 +73,62 @@
 				</div>
 			</div>
 			<div class="teams">
-				<div class="team col l4 m6 s12">
-					<div class="inside">
-						<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
-						<p class="regular-title">Kraków</p>
-						<p class="italic">Reprezentowany przez:</p>
-						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
+				<div class="team-sector">
+					<div class="team col l4 m6 s12">
+						<div class="inside">
+							<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
+							<p class="regular-title">Kraków</p>
+							<p class="italic">Reprezentowany przez:</p>
+							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
+							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+						</div>
+					</div>
+					<div class="team col l4 m6 s12">
+						<div class="inside">
+							<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
+							<p class="regular-title">Warszawa</p>
+							<p class="italic">Reprezentowany przez:</p>
+							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
+							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+						</div>
+					</div>
+					<div class="team col l4 m6 s12">
+						<div class="inside">
+							<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
+							<p class="regular-title">Trójmiasto</p>
+							<p class="italic">Reprezentowany przez:</p>
+							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
+							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+						</div>
 					</div>
 				</div>
-				<div class="team col l4 m6 s12">
-					<div class="inside">
-						<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
-						<p class="regular-title">Warszawa</p>
-						<p class="italic">Reprezentowany przez:</p>
-						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
+				<div class="team-sector">
+					<div class="team col l4 m6 s12">
+						<div class="inside">
+							<img src="img/figures/teams/projections-bitwy_13.png" alt="Team logo">
+							<p class="regular-title">Łódź</p>
+							<p class="italic">Reprezentowany przez:</p>
+							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
+							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+						</div>
 					</div>
-				</div>
-				<div class="team col l4 m6 s12">
-					<div class="inside">
-						<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
-						<p class="regular-title">Trójmiasto</p>
-						<p class="italic">Reprezentowany przez:</p>
-						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
+					<div class="team col l4 m6 s12">
+						<div class="inside">
+							<img src="img/figures/teams/projections-bitwy_15.png" alt="Team logo">
+							<p class="regular-title">Poznań</p>
+							<p class="italic">Reprezentowany przez:</p>
+							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
+							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+						</div>
 					</div>
-				</div>
-				<div class="team col l4 m6 s12">
-					<div class="inside">
-						<img src="img/figures/teams/projections-bitwy_13.png" alt="Team logo">
-						<p class="regular-title">Łódź</p>
-						<p class="italic">Reprezentowany przez:</p>
-						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
-					</div>
-				</div>
-				<div class="team col l4 m6 s12">
-					<div class="inside">
-						<img src="img/figures/teams/projections-bitwy_15.png" alt="Team logo">
-						<p class="regular-title">Poznań</p>
-						<p class="italic">Reprezentowany przez:</p>
-						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
-					</div>
-				</div>
-				<div class="team col l4 m6 s12">
-					<div class="inside">
-						<img src="img/figures/teams/projections-bitwy_18.png" alt="Team logo">
-						<p class="regular-title">Katowice</p>
-						<p class="italic">Reprezentowany przez:</p>
-						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
+					<div class="team col l4 m6 s12">
+						<div class="inside">
+							<img src="img/figures/teams/projections-bitwy_18.png" alt="Team logo">
+							<p class="regular-title">Katowice</p>
+							<p class="italic">Reprezentowany przez:</p>
+							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
+							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+						</div>
 					</div>
 				</div>
 			</div>

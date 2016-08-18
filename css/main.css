@@ -1069,6 +1069,11 @@ transform-origin:50% 50%;
     font-family: "playfairdisplayregular", sanf-serif;
     font-size: 18px;
 }
+.team-sector{
+    padding-bottom: 170px;
+    border-bottom: 6px solid #fff;
+}
+/**/
 
 
 /*about*/
