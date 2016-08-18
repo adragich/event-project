@@ -31,6 +31,17 @@ $( window ).on( "orientationchange", function( event ) {
 	constructMenuLinks();
 } );
 
+$(document).on('click', '.expander', function(){
+	var button = $(this), block = $(button.attr('data-block'));
+	if(!button.is('active')){
+		block.slideDown();
+		button.addClass('active');
+	}
+	else{
+		block.slideUp();
+		button.removeClass('active');
+	}
+});
 
 function translateToPoint(x, y, e, d){
 	setTimeout( function()

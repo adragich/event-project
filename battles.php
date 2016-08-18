@@ -159,16 +159,7 @@
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
 					<div class="form-control">
-						<select name="team" id="teamSelect" class="hidden">
-							<option value="Kraków">Kraków</option>
-							<option value="Warszawa">Warszawa</option>
-							<option value="Trójmiasto">Trójmiasto</option>
-							<option value="Łódź">Łódź</option>
-							<option value="Poznań">Poznań</option>
-							<option value="Katowice">Katowice</option>
-						</select>
-
-						<div class="choose-team">
+						<div class="choose-team expander" data-block=".teams-list">
 							<p class="current" data-default="Wybierz drużynę, do której chcesz dołączyć">
 								Wybierz drużynę, do której chcesz dołączyć
 							</p>
