@@ -1690,7 +1690,7 @@ input.hidden, select.hidden{
         background-size: 100px;
     }
     .event-link.send-application {
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
     .inside.battle-info.apply-form {
         padding-bottom: 30px;
@@ -2294,6 +2294,7 @@ input.hidden, select.hidden{
         font-size: 22px;
         padding: 35px 0 20px 80px;
         background-size: 45px;
+        background-position-y: 24px;
     }
     .battle-part {
         width: 100px;
@@ -2325,6 +2326,13 @@ input.hidden, select.hidden{
     .battle-info .block-content {
         font-size: 16px;
         line-height: 24px;
+    }
+    .footer-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .battle-teams {
+        margin-top: 80px;
     }
     /*sponsors*/
     #topPart.partners {
@@ -2423,12 +2431,18 @@ input.hidden, select.hidden{
         right: 12px;
         top: 9px;
     }
+    .choose-team{
+        height:auto;
+    }
     .pdf-input{
         height: auto;
         padding-right: 64px;
     }
     .pdf:before{
         padding: 0 12px;
+    }
+    .application-note {
+        font-size: 10px;
     }
     /**/
 
