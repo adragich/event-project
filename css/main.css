@@ -2386,7 +2386,7 @@ input.hidden, select.hidden{
         font-size: 11px;
         letter-spacing: 0;
         padding: 0;
-        width: 55px;
+        width: 40px;
         text-align: center;
     }
     .address-form {
@@ -2449,7 +2449,7 @@ input.hidden, select.hidden{
     }
 
     .address-input{
-        padding-right: 70px;
+        padding-right: 70px!important;
     }
     /**/
 
