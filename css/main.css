@@ -1198,6 +1198,11 @@ input.hidden, select.hidden{
 .optional input{
     padding-right: 130px;
 }
+.ajax-file-upload-container {
+    height: auto;
+    min-height: 0;
+    padding-top: 15px;
+}
 .expander{
     cursor: pointer;
 }
