@@ -9,12 +9,12 @@ $(document).on('click', '.expander', function(){
         icon = button.find('i');
     if(button.is('.active')){
         block.slideUp();
-        icon.switchClass( "fa-angle-down", "fa-angle-up", 500, "easeInOut" );
     }
     else{
         block.slideDown();
     }
     button.toggleClass('active', true);
+    icon.toggleClass( "fa-angle-up", false);
 
 });
 
