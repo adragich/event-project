@@ -930,10 +930,12 @@ img{
     height:15vh;
     line-height: 15vh;
 }
-#firstPartBattles{
-    background: #ffbe9e;
+.battle-part{
     width: 414px;
     height: 725px;
+}
+#firstPartBattles{
+    background: #ffbe9e;
     transform: rotate(-45deg);
     transform-origin: 100% 0;
     -webkit-transform: rotate(-45deg);
@@ -943,8 +945,6 @@ img{
 }
 #secondPartBattles{
     background: #21cae1;
-    width: 414px;
-    height: 725px;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
     left:750px;
@@ -952,8 +952,6 @@ img{
 }
 #thirdPartBattles{
     background: #ff6279;
-    width: 414px;
-    height: 725px;
     transform: rotate(135deg);
     transform-origin: 100% 100%;
     left: 330px;
@@ -961,8 +959,6 @@ img{
 }
 #fourthPartBattles{
     background: #ffde17;
-    width: 414px;
-    height: 725px;
     transform: rotate(-135deg);
     transform-origin: 100% 100%;
     left: 199px;
@@ -1059,7 +1055,7 @@ img{
     margin-top: 158px;
 }
 .team{
-    padding-left: 220px;
+    padding-left: 120px;
 }
 .regular-title{
     font-size: 35px;
@@ -1533,6 +1529,9 @@ input.hidden, select.hidden{
         width: 68%;
         left: 32%;
     }
+    .team {
+        padding-left: 220px;
+    }
     /**/
     .program #middlePart{
         left: 950px;
@@ -1608,6 +1607,12 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 1024px) {
+    /*battles*/
+
+    .battle-part{
+        width: 200px;
+        height: 360px;
+    }
     /*partners*/
     .partners-main .inside {
         padding-right: 0;
