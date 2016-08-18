@@ -1082,6 +1082,7 @@ img{
     position: absolute;
     width: 100%;
     top: -40px;
+    box-sizing: border-box;
 }
 .team img{
     margin-bottom: 30px;
@@ -2323,6 +2324,7 @@ input.hidden, select.hidden{
     }
     .inside.battle-info {
         padding: 0 0 0 60px;
+        box-sizing: border-box;
     }
     .subtitle {
         font-size: 18px;
