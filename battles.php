@@ -140,13 +140,13 @@
 				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
 				<form action="#" class="apply-form inside battle-info">
 					<div class="form-control">
-						<input name="name" type="text" placeholder="Imię i Nazwisko" required>
+						<input name="name" type="text" placeholder="Imię i Nazwisko" required value="">
 					</div>
 					<div class="form-control">
-						<input name="email" type="email" placeholder="Adres e-mail" required>
+						<input name="email" type="email" placeholder="Adres e-mail" required value="">
 					</div>
 					<div class="form-control optional" data-text='(optional)'>
-						<input name="phone" type="number" placeholder="Numer telefonu" min="0">
+						<input name="phone" type="number" placeholder="Numer telefonu" min="0" value="">
 					</div>
 					<div class="form-control pdf"
 						 data-text='+PDF'>

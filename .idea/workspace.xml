@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/sendmail.php" afterPath="$PROJECT_DIR$/actions/sendmail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="176" column="87" selection-start-line="176" selection-start-column="71" selection-end-line="176" selection-end-column="87" />
+            <state relative-caret-position="196">
+              <caret line="141" column="46" selection-start-line="141" selection-start-column="46" selection-end-line="141" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -56,8 +58,8 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="427">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -80,13 +82,15 @@
       <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
-                <marker date="1471517526000" expanded="true" signature="106:223" ph="..." />
-                <marker date="1471517526000" expanded="true" signature="117:164" ph="..." />
-                <marker date="1471517526000" expanded="true" signature="175:215" ph="..." />
+                <marker date="1471517922000" expanded="true" signature="126:249" ph="..." />
+                <marker date="1471517922000" expanded="true" signature="137:184" ph="..." />
+                <marker date="1471517922000" expanded="true" signature="195:207" ph="..." />
+                <marker date="1471517922000" expanded="true" signature="195:208" ph="..." />
+                <marker date="1471517922000" expanded="true" signature="195:241" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,12 +135,12 @@
         <option value="$PROJECT_DIR$/js/uploadfile.min.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/uploads/readme.md" />
-        <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/partials/upload.php" />
         <option value="$PROJECT_DIR$/partials/sendmail.php" />
-        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/partials/config.php" />
         <option value="$PROJECT_DIR$/actions/Mail/mime.php" />
+        <option value="$PROJECT_DIR$/battles.php" />
+        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/actions/sendmail.php" />
       </list>
     </option>
@@ -315,12 +319,12 @@
       <option name="presentableId" value="Default" />
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
-      <workItem from="1471415658051" duration="37271000" />
+      <workItem from="1471415658051" duration="37607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48048000" />
+    <option name="totallyTimeSpent" value="48384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -630,34 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="176" column="87" selection-start-line="176" selection-start-column="71" selection-end-line="176" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/Mail/mime.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -674,6 +650,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="141" column="46" selection-start-line="141" selection-start-column="46" selection-end-line="141" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -682,15 +676,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
+    <entry file="file://$PROJECT_DIR$/actions/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1471517526000" expanded="true" signature="106:223" ph="..." />
-            <marker date="1471517526000" expanded="true" signature="117:164" ph="..." />
-            <marker date="1471517526000" expanded="true" signature="175:215" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1471517922000" expanded="true" signature="126:249" ph="..." />
+            <marker date="1471517922000" expanded="true" signature="137:184" ph="..." />
+            <marker date="1471517922000" expanded="true" signature="195:207" ph="..." />
+            <marker date="1471517922000" expanded="true" signature="195:208" ph="..." />
+            <marker date="1471517922000" expanded="true" signature="195:241" ph="..." />
           </folding>
         </state>
       </provider>

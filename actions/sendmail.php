@@ -5,14 +5,14 @@
  * Date: 18/08/16
  * Time: 12:25
  */
-
+echo $_POST['name'];
 $message = '
 <html>
     <head>
         <title>Application</title>
     </head>
     <body>
-        <p>Application!</p>
+        <p>'.$_POST['name'].'</p>
     </body>
 </html>';
 
