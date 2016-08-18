@@ -1198,6 +1198,9 @@ input.hidden, select.hidden{
 .optional input{
     padding-right: 130px;
 }
+.expander{
+    cursor: pointer;
+}
 .teams-list{
     display: none;
     position: absolute;
