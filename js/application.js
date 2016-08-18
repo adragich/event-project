@@ -22,7 +22,7 @@ $(".pdf-input").uploadFile({
     multiple:false,
     dragDrop:false,
     maxFileCount:1,
-    filename: 'pdf',
+    filename: 'userfile',
     acceptFiles:"application/pdf",
     uploadStr:"Dołącz portfolio w formie PDF"
 });
