@@ -33,7 +33,7 @@ $( window ).on( "orientationchange", function( event ) {
 
 $(document).on('click', '.expander', function(){
 	var button = $(this), block = $(button.attr('data-block'));
-	if(button.is('active')){
+	if(button.is('.active')){
 		block.slideUp();
 		button.removeClass('active');
 	}
