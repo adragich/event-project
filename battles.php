@@ -13,12 +13,6 @@
 	<?php
 		@include("partials/preloader-battles.html")
 	?>
-
-	<div class="aside battles left absolute yellow hide side-link no-background">
-		<div class="rotate-90 vertically-text">
-			<a href="projects" class="reset-link"><?php echo PROJECTS_LINK;?></a>
-		</div>
-	</div>
 	<section class="static-content transition">
 		<div class="container">
 
@@ -172,7 +166,7 @@
 						</select>
 					</div>
 					<div class="form-control">
-						<button type="button" class="event-link send-application">Wyślij zgłoszenie</button>
+						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
 					</div>
 					<div class="form-control">
 						<p class="application-note">
