@@ -13,6 +13,12 @@
 	<?php
 		@include("partials/preloader-battles.html")
 	?>
+
+	<div class="aside battles left absolute yellow hide side-link no-background">
+		<div class="rotate-90 vertically-text">
+			<a href="projects" class="reset-link"><?php echo PROJECTS_LINK;?></a>
+		</div>
+	</div>
 	<section class="static-content transition">
 		<div class="container">
 
@@ -42,7 +48,7 @@
 	<section class="battle-info-wrap relative">
 		<div class="container">
 			<div class="battle-info">
-				<p class='mainTitle battle-info'>Bitwy graficzne</p>
+				<p class='mainTitle battle-info image-title'>Bitwy graficzne</p>
 				<div class="inside battle-info">
 					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie
 					Interpretacji graficznej, będącej odpowiedzią na Inspirację.
@@ -137,7 +143,7 @@
 	<section class="battle-application relative">
 		<div class="container">
 			<div id="application">
-				<p class='mainTitle battle-info'>Zgłoś się ! *</p>
+				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
 				<form action="#" class="apply-form">
 					<div class="form-control">
 						<input name="name" type="text" placeholder="Imię i Nazwisko" required>

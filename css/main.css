@@ -294,7 +294,9 @@ transform-origin:50% 50%;
 }
 .aside{
     top: 0;
-    height: 100%;height: 100vh;
+    height: 100%;
+    height: 100vh;
+    max-width: 124px;
     width: 6.5%;
     min-width: 49px; 
     z-index: 10;
@@ -1018,6 +1020,8 @@ transform-origin:50% 50%;
     font-size: 55px;
     line-height: 60px;
     padding: 80px 0 100px 140px;
+}
+.image-title.battle-info {
     background: url(../img/figures/projections-bitwy.png) 34px 43px no-repeat;
 }
 .inside.battle-info{
