@@ -46,9 +46,10 @@ $(document).on('click', '.expander', function(){
 
 $(document).on('click', '.teams-list p', function(){
 	var team = $(this).text(), label = $(".choose-team .current"),
-		block = $('.teams-list');
+		block = $('.teams-list'), button = $('.expander');
 	label.text(team);
 	block.slideUp();
+	button.removeClass('active');
 });
 
 function translateToPoint(x, y, e, d){
