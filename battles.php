@@ -149,8 +149,7 @@
 						<input name="phone" type="number" placeholder="Numer telefonu" min="0" value="">
 					</div>
 					<div class="form-control pdf">
-						<div class="pdf-input"
-							 data-text='+PDF'>Dołącz portfolio w formie PDF</div>
+						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
 						<div class="pdf-uploader"></div>
 					</div>
 					<div class="optional form-control address-form"

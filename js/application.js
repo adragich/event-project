@@ -24,7 +24,7 @@ $(".pdf-uploader").uploadFile({
     maxFileCount:1,
     filename: 'file',
     acceptFiles:"application/pdf",
-    uploadStr:""
+    uploadStr:"+PDF"
 });
 
 $(document).on('click', '.teams-list p', function(){
