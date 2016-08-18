@@ -1672,6 +1672,7 @@ input.hidden, select.hidden{
         margin-top: 0;
     }
     .battle-footer {
+        padding: 40px 0;
         padding-left: 70px;
     }
     .team {
@@ -1685,9 +1686,6 @@ input.hidden, select.hidden{
     }
     .image-title.battle-info {
         background-size: 100px;
-    }
-    .battle-footer {
-        padding: 40px 0;
     }
     .event-link.send-application {
         margin-bottom: 0;
