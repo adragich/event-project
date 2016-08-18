@@ -75,7 +75,7 @@
 			<div class="teams">
 				<div class="team col l4 m6 s12">
 					<div class="inside">
-						<img src="" alt="Team logo">
+						<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
 						<p class="regular-title">Kraków</p>
 						<p class="italic">Reprezentowany przez:</p>
 						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
@@ -84,8 +84,8 @@
 				</div>
 				<div class="team col l4 m6 s12">
 					<div class="inside">
-						<img src="" alt="Team logo">
-						<p class="regular-title">Kraków</p>
+						<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
+						<p class="regular-title">Warszawa</p>
 						<p class="italic">Reprezentowany przez:</p>
 						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
 						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
@@ -93,8 +93,8 @@
 				</div>
 				<div class="team col l4 m6 s12">
 					<div class="inside">
-						<img src="" alt="Team logo">
-						<p class="regular-title">Kraków</p>
+						<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
+						<p class="regular-title">Trójmiasto</p>
 						<p class="italic">Reprezentowany przez:</p>
 						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
 						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
@@ -102,8 +102,8 @@
 				</div>
 				<div class="team col l4 m6 s12">
 					<div class="inside">
-						<img src="" alt="Team logo">
-						<p class="regular-title">Kraków</p>
+						<img src="img/figures/teams/projections-bitwy_13.png" alt="Team logo">
+						<p class="regular-title">Łódź</p>
 						<p class="italic">Reprezentowany przez:</p>
 						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
 						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
@@ -111,8 +111,8 @@
 				</div>
 				<div class="team col l4 m6 s12">
 					<div class="inside">
-						<img src="" alt="Team logo">
-						<p class="regular-title">Kraków</p>
+						<img src="img/figures/teams/projections-bitwy_15.png" alt="Team logo">
+						<p class="regular-title">Poznań</p>
 						<p class="italic">Reprezentowany przez:</p>
 						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
 						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
@@ -120,8 +120,8 @@
 				</div>
 				<div class="team col l4 m6 s12">
 					<div class="inside">
-						<img src="" alt="Team logo">
-						<p class="regular-title">Kraków</p>
+						<img src="img/figures/teams/projections-bitwy_18.png" alt="Team logo">
+						<p class="regular-title">Katowice</p>
 						<p class="italic">Reprezentowany przez:</p>
 						<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
 						<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>	
@@ -132,7 +132,46 @@
 	</section>
 	<section class="battle-application relative">
 		<div class="container">
-			<div id="application">Apply</div>
+			<div id="application">
+				<p class='mainTitle battle-info'>Zgłoś się ! *</p>
+				<form action="#" class="apply-form">
+					<div class="form-control">
+						<input name="name" type="text" placeholder="Imię i Nazwisko" required>
+					</div>
+					<div class="form-control">
+						<input name="email" type="email" placeholder="Adres e-mail" required>
+					</div>
+					<div class="form-control">
+						<input name="phone" type="number" placeholder="Numer telefonu" class="optional">
+					</div>
+					<div class="form-control">
+						<input name="pdf" type="file" class="hidden">
+						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
+					</div>
+					<div class="form-control">
+						<input name="address" class="optional address" type="text" placeholder="Adres online portfolio">
+					</div>
+					<div class="form-control">
+						<select name="team" id="teamSelect">
+							<option value="Kraków">Kraków</option>
+							<option value="Warszawa">Warszawa</option>
+							<option value="Trójmiasto">Trójmiasto</option>
+							<option value="Łódź">Łódź</option>
+							<option value="Poznań">Poznań</option>
+							<option value="Katowice">Katowice</option>
+						</select>
+					</div>
+					<div class="form-control">
+						<button type="button" class="event-link send-application">Wyślij zgłoszenie</button>
+					</div>
+					<div class="form-control">
+						<p class="application-note">
+							* Dane osobowe i informacje o portfolio wysłane przez chętnych zgłaszających się do wzięcia udziału w bitwach
+							nie będą wykorzystywane przez organizatorów do zadnych inych celów, poza rekrutacją osób do bitew graficznych
+						</p>
+					</div>
+				</form>
+			</div>
 		</div>
 	</section>
 	<footer class="battle-footer scrollableContent">
