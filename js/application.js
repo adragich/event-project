@@ -4,15 +4,18 @@
 
 // application
 $(document).on('click', '.expander', function(){
-    var button = $(this), block = $(button.attr('data-block'));
+    var button = $(this),
+        block = $(button.attr('data-block')),
+        icon = button.find('i');
     if(button.is('.active')){
         block.slideUp();
-        button.removeClass('active');
+        icon.switchClass( "fa-angle-down", "fa-angle-up", 500, "easeInOut" );
     }
     else{
         block.slideDown();
-        button.addClass('active');
     }
+    button.toggleClass('active', true);
+
 });
 
 
