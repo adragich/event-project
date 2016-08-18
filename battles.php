@@ -145,17 +145,17 @@
 					<div class="form-control">
 						<input name="email" type="email" placeholder="Adres e-mail" required>
 					</div>
-					<div class="form-control">
-						<input name="phone" type="number" placeholder="Numer telefonu" data-text='(optional)' class="optional">
+					<div class="form-control optional" data-text='(optional)'>
+						<input name="phone" type="number" placeholder="Numer telefonu">
 					</div>
 					<div class="form-control">
 						<input name="pdf" type="file" class="hidden">
 						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
 					</div>
-					<div class="form-control">
+					<div class="optional form-control"
+						 data-text='(optional)'>
 						<input name="address"
-							   data-text='(optional)'
-							   class="optional address" type="text" placeholder="Adres online portfolio">
+							   class="address" type="text" placeholder="Adres online portfolio">
 					</div>
 					<div class="form-control">
 						<select name="team" id="teamSelect">
