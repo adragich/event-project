@@ -1092,7 +1092,7 @@ img{
     margin-top: -20px;
     padding-left: 20px;
 }
-.form-control input:not(.hidden), .pdf-input{
+.form-control input:not(.hidden), .pdf-input, .choose-team{
     width: 100%;
     line-height: 65px;
     height: 65px;
@@ -1104,6 +1104,7 @@ img{
     letter-spacing: 1px;
     box-sizing: border-box;
 }
+
 .form-control{
     margin-bottom: 42px;
     position: relative;
@@ -1121,7 +1122,7 @@ img{
     font-family: "PlayfairDisplayRegular", serif;
     letter-spacing: 1px;
 }
-input.hidden{
+input.hidden, select.hidden{
     display: none;
 }
 .pdf{
@@ -1167,6 +1168,9 @@ input.hidden{
     padding: 0 46px;
     margin-bottom: 50px;
 }
+#application .mainTitle{
+    margin-top: 110px;
+}
 .application-note {
     font-size: 13px;
     line-height: 24px;
@@ -1183,6 +1187,12 @@ input.hidden{
     max-width: 885px;
 }
 .footer-text a{color:#21cae1;text-decoration: none;}
+.apply-form{
+    padding-bottom: 80px;
+}
+.optional input{
+    padding-right: 130px;
+}
 /**/
 
 

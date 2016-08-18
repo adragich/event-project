@@ -146,7 +146,7 @@
 						<input name="email" type="email" placeholder="Adres e-mail" required>
 					</div>
 					<div class="form-control optional" data-text='(optional)'>
-						<input name="phone" type="number" placeholder="Numer telefonu">
+						<input name="phone" type="number" placeholder="Numer telefonu" min="0">
 					</div>
 					<div class="form-control pdf"
 						 data-text='+PDF'>
@@ -159,7 +159,7 @@
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
 					<div class="form-control">
-						<select name="team" id="teamSelect">
+						<select name="team" id="teamSelect" class="hidden">
 							<option value="Kraków">Kraków</option>
 							<option value="Warszawa">Warszawa</option>
 							<option value="Trójmiasto">Trójmiasto</option>
@@ -167,6 +167,21 @@
 							<option value="Poznań">Poznań</option>
 							<option value="Katowice">Katowice</option>
 						</select>
+
+						<div class="choose-team">
+							<p class="current" data-default="Wybierz drużynę, do której chcesz dołączyć">
+								Wybierz drużynę, do której chcesz dołączyć
+							</p>
+							<i class="fa fa-angle-down right"></i>
+						</div>
+						<div data-collapse="collapsed" class="teams-list">
+							<p data-value="Kraków">Kraków</p>
+							<p data-value="Warszawa">Warszawa</p>
+							<p data-value="Trójmiasto">Trójmiasto</p>
+							<p data-value="Łódź">Łódź</p>
+							<p data-value="Poznań">Poznań</p>
+							<p data-value="Katowice">Katowice</p>
+						</div>
 					</div>
 					<div class="form-control left-align">
 						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
