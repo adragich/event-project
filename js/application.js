@@ -14,7 +14,6 @@ $(document).on('click', '.expander', function(){
         block.slideUp();
         button.removeClass('active');
     }
-    button.toggleClass('active');
 });
 
 $(".pdf-uploader").uploadFile({
