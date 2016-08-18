@@ -36,25 +36,17 @@ $(document).on('click', '.teams-list p', function(){
 });
 
 $(".send-application").click(function(){
+
     var data = new FormData(),
         name = $('[name="name"]').val();
     data.append(name, name);
 
-    $.ajax({
-        url: '../actions/sendmail.php',
-        data: data,
-
-        success: function(e) {
-            console.log(e);
-            console.log('done');
-
-        },
-
-        error: function() {
-            console.log('fail');
-        }
+    $.ajax('../actions/sendmail.php').done(function(e){
+        console.log(e);
+        console.log('done');
+    }).fail(function(){
+       console.log('fail');
     });
-
 });
 
 //
