@@ -16,8 +16,8 @@ $(document).on('click', '.expander', function(){
 });
 
 
-$(document).on('click', '.pdf', function(){
-    $("[name='pdf']").click();
+$(document).on('click', '.pdf-input', function(){
+    $("input[name='pdf']").click();
 });
 
 $(document).on('click', '.teams-list p', function(){
