@@ -1069,7 +1069,7 @@ img{
     font-family: "stolzlregular", sans-serif;
 }
 .team-member span{
-    font-family: "playfairdisplayregular", Arial, sanf-serif;
+    font-family: "playfairdisplayregular", serif;
     font-size: 18px;
 }
 .team-sector{
@@ -1084,6 +1084,20 @@ img{
 }
 .team img{
     margin-bottom: 30px;
+}
+.title-note{
+    font-size: 24px;
+    font-family: "stolzlmedium", sans-serif;
+    position: absolute;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+.form-control input{
+    width: 100%;
+    line-height: 65px;
+    height: 65px;
+    background-color: #f6f6f6;
+    padding: 0 35px;
 }
 /**/
 

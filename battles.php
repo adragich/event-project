@@ -136,9 +136,9 @@
 	</section>
 	<section class="battle-application relative">
 		<div class="container">
-			<div id="application">
+			<div id="application" class="battle-info">
 				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
-				<form action="#" class="apply-form">
+				<form action="#" class="apply-form inside battle-info">
 					<div class="form-control">
 						<input name="name" type="text" placeholder="Imię i Nazwisko" required>
 					</div>
