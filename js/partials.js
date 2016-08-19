@@ -20,9 +20,10 @@ $(function() {
 			$(".lang").slideDown();
 			$('.nav li').each(function(index, value){
 				console.log(index, value);
+				var li = $(this);
 				setTimeout(function(){
-					$(this).fadeIn();
-				}, 50 * (index + 1) );
+					li.fadeIn();
+				}, 50 * index );
 			});
 	});
 	$(".close, .overlay").click(function(){
