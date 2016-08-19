@@ -66,12 +66,12 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="79" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1471592448000" expanded="true" signature="505:815" ph="..." />
-                <marker date="1471592448000" expanded="true" signature="516:807" ph="..." />
-                <marker date="1471592448000" expanded="true" signature="614:749" ph="..." />
+                <marker date="1471592551000" expanded="true" signature="487:797" ph="..." />
+                <marker date="1471592551000" expanded="true" signature="498:789" ph="..." />
+                <marker date="1471592551000" expanded="true" signature="596:731" ph="..." />
               </folding>
             </state>
           </provider>
@@ -491,12 +491,12 @@
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
       <workItem from="1471415658051" duration="48607000" />
-      <workItem from="1471587444887" duration="3328000" />
+      <workItem from="1471587444887" duration="3431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62712000" />
+    <option name="totallyTimeSpent" value="62815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -876,12 +876,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="79" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1471592448000" expanded="true" signature="505:815" ph="..." />
-            <marker date="1471592448000" expanded="true" signature="516:807" ph="..." />
-            <marker date="1471592448000" expanded="true" signature="614:749" ph="..." />
+            <marker date="1471592551000" expanded="true" signature="487:797" ph="..." />
+            <marker date="1471592551000" expanded="true" signature="498:789" ph="..." />
+            <marker date="1471592551000" expanded="true" signature="596:731" ph="..." />
           </folding>
         </state>
       </provider>
