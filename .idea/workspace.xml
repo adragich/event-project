@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/swiftmailer.php" afterPath="$PROJECT_DIR$/actions/swiftmailer.php" />
     </list>
     <ignored path="event-project.iws" />
@@ -34,30 +33,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="battles.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="-1472">
               <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <marker date="1471599770000" expanded="true" signature="1177:1755" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1208:1267" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1208:1330" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1208:1361" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1208:1727" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1453:1500" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1453:1509" ph="..." />
-                <marker date="1471599770000" expanded="true" signature="1453:1607" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="923:1567" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="954:1013" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="954:1076" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="954:1107" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="954:1539" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="1329:1369" ph="..." />
+                <marker date="1471599987000" expanded="true" signature="1329:1419" ph="..." />
               </folding>
             </state>
           </provider>
@@ -334,12 +332,12 @@
       <workItem from="1471593988003" duration="1718000" />
       <workItem from="1471595818018" duration="1681000" />
       <workItem from="1471597657728" duration="1898000" />
-      <workItem from="1471599585837" duration="187000" />
+      <workItem from="1471599585837" duration="416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69696000" />
+    <option name="totallyTimeSpent" value="69925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -673,14 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24165">
@@ -699,18 +689,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <marker date="1471599770000" expanded="true" signature="1177:1755" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1208:1267" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1208:1330" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1208:1361" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1208:1727" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1453:1500" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1453:1509" ph="..." />
-            <marker date="1471599770000" expanded="true" signature="1453:1607" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="923:1567" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="954:1013" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="954:1076" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="954:1107" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="954:1539" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="1329:1369" ph="..." />
+            <marker date="1471599987000" expanded="true" signature="1329:1419" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1472">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

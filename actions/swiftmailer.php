@@ -3,25 +3,12 @@
 
 echo $_POST['name'];
 //data
-if(isset($_POST['name']) && !empty($_POST['name'])){
-    $name = $_POST['name'];
-}
-else{
-    $name = "User";
-}
-
-if(isset($_POST['email']) && !empty($_POST['email'])){
-    $email = $_POST['email'];
-}
-else{
-    $email = "user@aa.com";
-}
+$name = $_POST['name'];
+$email = $_POST['email'];
+$portfolio = $_POST['portfolio'];
 
 if(isset($_POST['phone']) && !empty($_POST['phone'])){
     $phone = $_POST['phone'];
-}
-if(isset($_POST['portfolio']) && !empty($_POST['portfolio'])){
-    $portfolio = $_POST['portfolio'];
 }
 if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
     $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
@@ -44,16 +31,18 @@ $mailer = Swift_Mailer::newInstance($transport);
                         <body>
                             <h2>Application!</h2><br><br>
                             ".$name." sent an application.<br>
-                            <p>".$email."</p>
-                            <p>".$email."</p>
+                            <p>Email: ".$email."</p>
+                            <p>Phone: ".$email."</p>
+                            <p>Online portfolio: ".$email."</p>
+                            <p>Team: ".$email."</p>
                             <p>
-                                Watch <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>portfolio</a>
+                                Watch portfolio in annex
                             </p>
                             Best regards,<br>
                             Event-project
                         </body>
                     </html>", 'text/html')
-        ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));;
+        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));;
     if (!$mailer->send($message, $errors))
     {
         echo "Error:";
@@ -61,6 +50,6 @@ $mailer = Swift_Mailer::newInstance($transport);
     }
     else{
         echo 'Message has been sent';
-        header('Location: ' . $_SERVER['HTTP_REFERER']);
+        header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
     }
 ?>
