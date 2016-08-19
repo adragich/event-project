@@ -8,10 +8,10 @@ $email = $_POST['email'];
 $portfolio = $_POST['portfolio'];
 
 if(isset($_POST['phone']) && !empty($_POST['phone'])){
-    $phone = $_POST['phone'];
+    $phone = "<p>Phone: ".$_POST['phone']."</p>";
 }
 else{
-    $phone = 'no phone';
+    $phone = '';
 }
 if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
     $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
@@ -40,8 +40,9 @@ $mailer = Swift_Mailer::newInstance($transport);
                         <body>
                             <h2>Application!</h2><br><br>
                             ".$name." sent an application.<br>
-                            <p>Email: ".$email."</p>
-                            <p>Phone: ".$phone."</p>
+                            <p>Email: ".$email."</p>".
+                            $phone
+        ."
                             <p>Online portfolio: ".$onlinePortfolio."</p>
                             <p>Team: ".$team."</p>
                             <p>

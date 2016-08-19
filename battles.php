@@ -12,9 +12,6 @@
 	<!--TODO: create unique block for the page-->
 	<?php
 		@include("partials/preloader-battles.html");
-		if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
-			echo  $_SESSION['message'];
-		}
 	?>
 	<section class="static-content transition">
 		<div class="container">
@@ -140,6 +137,11 @@
 		<div class="container">
 			<div id="application" class="battle-info">
 				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
+				<?php
+				if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
+					echo  "<div class='alert'>".$_SESSION['message']."</div>";
+				}
+				?>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<div class="form-control">
 						<input name="name" type="text" placeholder="Imię i Nazwisko" required value="">
@@ -161,7 +163,7 @@
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
 					<div class="form-control">
-						<input id="teamName" name="team" class="clear" type="text"/>
+						<input id="team" name="team" class="clear" type="text"/>
 						<div class="choose-team expander" data-block=".teams-list">
 							<p class="current">
 								Wybierz drużynę, do której chcesz dołączyć
