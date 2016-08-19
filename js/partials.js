@@ -17,8 +17,12 @@ $(function() {
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
 			$("body").addClass("stick-temp");
+			$(".lang").slideUp();
+			$('.nav li').fadeIn();
 	});
 	$(".close, .overlay").click(function(){
+			$(".lang").slideDown();
+		$('.nav li').fadeOut();
 			$(".sideBar").removeClass("appeared");
 			$(".overlay").fadeOut();
 			$("body").removeClass("stick-temp");

@@ -364,6 +364,9 @@ img{
     width: 455px;
     max-width: 100%;
 }
+.lang, .nav li{
+    display: none;
+}
 .note{
     letter-spacing: 0.5px;
     font-size: 18px;
