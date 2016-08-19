@@ -1,5 +1,7 @@
 <?php
+echo 'here';
     require_once '/home/www/event-project.myhomezy.com/web/vendor/swiftmailer/swiftmailer/lib/swift_required.php';
+
     $transport = Swift_SmtpTransport::newInstance('smtp.example.org', 25)
         ->setUsername('your username')
         ->setPassword('your password');
