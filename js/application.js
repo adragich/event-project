@@ -64,7 +64,7 @@ $(document).ready(function(){
         mask: "(+99)9{3,4}-99{2,3}-99{2,3}",
         greedy: false
     });
-    $("#phone").on("keyup keydown change", function() {
+    $("#phone").on("keydown change", function() {
         if ($(this).val().replace(/[_\-()]/g,"").length >= 11) {
             $(this).inputmask("(+99)999-999-999");
         }
