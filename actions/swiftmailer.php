@@ -51,8 +51,7 @@ $mailer = Swift_Mailer::newInstance($transport);
                             Best regards,<br>
                             Event-project
                         </body>
-                    </html>", 'text/html')
-            ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));
+                    </html>", 'text/html');
     if (!$mailer->send($message, $errors))
     {
         echo "Error:";
