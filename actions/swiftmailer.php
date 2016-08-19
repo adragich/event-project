@@ -8,19 +8,19 @@ $transport = Swift_MailTransport::newInstance();
 $mailer = Swift_Mailer::newInstance($transport);
 
     $message = Swift_Message::newInstance('Wonderful Subject')
-        ->setFrom(array('john@doe.com' => 'John Doe'))
+        ->setFrom(array('user@doe.com' => 'User'))
         ->setTo(array('anastasiia.dragich@gmail.com' => 'Nastia'));
     $message->setBody("<html>
     <body>
-        <h2>Hi John!</h2><br><br>
-        Johanna (johanna82) sent you a message.<br>
+        <h2>Application!</h2><br><br>
+        User sent an application.<br>
         <p>
-        	Hi John. Amazing picture... <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>login and read the full message</a>
+        	Watch <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>portfolio</a>
         </p>
         Best regards,<br>
-        Photos4Lulz
+        Event-project
     </body>
-</html>");
+</html>", 'text/html');
     if (!$mailer->send($message, $errors))
     {
         echo "Error:";
