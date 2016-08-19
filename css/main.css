@@ -1618,7 +1618,7 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
     /*battles*/
-    .form-control input:not(.hidden), .pdf-input, .choose-team {
+    .form-control input:not(.hidden), .pdf-input, .choose-team, .pdf-uploader, .address-form:after {
         line-height: 55px;
         height: 55px;
     }
