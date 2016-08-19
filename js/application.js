@@ -51,7 +51,7 @@ $(document).on('click', '.apply-trigger', function(e){
     e.preventDefault();
 
     var id = $(this).attr( 'href' ),
-        scroll = $(id).scrollTop();
+        scroll = $(id).offset().top;
     console.log($(id).length, scroll);
     $( "body" ).scrollTop(scroll);
 });
