@@ -17,7 +17,6 @@ if($_FILES["file"]["size"] > 1024*3*1024)
 if(is_uploaded_file($_FILES["file"]["tmp_name"]))
 {
     move_uploaded_file($_FILES["file"]["tmp_name"], $uploaddir.$_FILES["file"]["name"]);
-    return $_FILES["file"]["name"];
 } else {
     echo("Error");
 }
