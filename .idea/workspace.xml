@@ -2,6 +2,351 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/uml/Encoders.graffle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/uml/Mime.graffle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/uml/Transports.graffle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/files/swiftmailer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/files/textfile.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/CHANGES" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/headers.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/help-resources.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/including-the-files.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/installing.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/introduction.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/japanese.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/messages.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/overview.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/plugins.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/doc/sending.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Attachment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/DependencyContainer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/DependencyException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/EmbeddedFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Encoding.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/CommandListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/EventListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/EventObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/SendEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/SendListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/FailoverTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/FileSpool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/FileStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Filterable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/InputByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/IoException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/KeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/MailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/MemorySpool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Attachment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Grammar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/Message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/MimePart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/MimePart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/NullTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/OutputByteStream.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Logger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Plugins/Timer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Preferences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/RfcComplianceException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/SendmailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/SignedMessage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/SmtpTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Spool.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/SpoolTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/StreamFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/SwiftException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/TransportException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift/Validate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/dependency_maps/cache_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/dependency_maps/message_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/dependency_maps/mime_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/dependency_maps/transport_deps.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/mime_types.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/preferences.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/swift_init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/swift_required.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/swift_required_pear.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/lib/swiftmailer_generate_mimes_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/IdenticalBinaryConstraint.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/StreamCollector.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/SwiftMailerSmokeTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/SwiftMailerTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/charsets/iso-8859-1/one.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/charsets/utf-8/one.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/charsets/utf-8/three.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/charsets/utf-8/two.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/dkim/dkim.test.priv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/dkim/dkim.test.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/files/data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/CA.srl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/ca.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/ca.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/create-cert.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/encrypt.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/encrypt.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/encrypt2.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/encrypt2.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/intermediate.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/intermediate.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/sign.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/sign.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/sign2.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/_samples/smime/sign2.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance.conf.php.default" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/AttachmentAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/ByteStream/FileByteStreamAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/CharacterReaderFactory/SimpleCharacterReaderFactoryAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Encoder/Base64EncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Encoder/Rfc2231EncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/EncodingAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/KeyCache/DiskKeyCacheAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/MessageAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/Base64ContentEncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/NativeQpContentEncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/PlainContentEncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/MimePartAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/AbstractStreamBufferAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/BasicSocketAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/ProcessAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SslSocketAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/TlsSocketAcceptanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug111Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug118Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug206Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug274Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug34Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug35Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug38Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug518Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug51Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug534Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug650Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug71Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/Bug76Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/bug/Swift/BugFileByteStreamConsecutiveReadCallsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/fixtures/MimeEntityFixture.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/smoke.conf.php.default" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/smoke/Swift/Smoke/BasicSmokeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/ByteStream/ArrayByteStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/CharacterReader/Utf8ReaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/DependencyContainerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Encoder/QpEncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Encoder/Rfc2231EncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/CommandEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/EventObjectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/ResponseEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/SendEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/TransportChangeEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Events/TransportExceptionEventTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/KeyCache/ArrayKeyCacheTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/KeyCache/SimpleKeyCacheInputStreamTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mailer/ArrayRecipientIteratorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/MailerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/MessageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/AttachmentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/QpContentEncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/EmbeddedFileTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/Base64HeaderEncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/QpHeaderEncoderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/Headers/DateHeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/Headers/IdentificationHeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/Headers/MailboxHeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/Headers/ParameterizedHeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/Headers/PathHeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/Headers/UnstructuredHeaderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/MimePartTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderFactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderSetTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/SimpleMessageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Mime/SimpleMimeEntityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/AntiFloodPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/BandwidthMonitorPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/DecoratorPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/Loggers/ArrayLoggerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/Loggers/EchoLoggerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/PopBeforeSmtpPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/RedirectingPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/ReporterPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Plugins/ThrottlerPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Signers/OpenDKIMSignerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/StreamFilters/ByteArrayReplacementFilterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterFactoryTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/CramMd5AuthenticatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/Esmtp/AuthHandlerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/EsmtpTransport/ExtensionSupportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/EsmtpTransportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/FailoverTransportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/MailTransportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/swiftmailer/tests/unit/Swift/Transport/StreamBufferTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/swiftmailer.php" afterPath="$PROJECT_DIR$/actions/swiftmailer.php" />
     </list>
     <ignored path="event-project.iws" />
@@ -76,12 +421,12 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding>
-                <marker date="1471589278000" expanded="true" signature="554:864" ph="..." />
-                <marker date="1471589278000" expanded="true" signature="565:856" ph="..." />
-                <marker date="1471589278000" expanded="true" signature="663:798" ph="..." />
+                <marker date="1471589364000" expanded="true" signature="489:799" ph="..." />
+                <marker date="1471589364000" expanded="true" signature="500:791" ph="..." />
+                <marker date="1471589364000" expanded="true" signature="598:733" ph="..." />
               </folding>
             </state>
           </provider>
@@ -319,15 +664,15 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/actions" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/actions" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/partials" />
       <recent name="$PROJECT_DIR$/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/actions" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -393,12 +738,12 @@
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
       <workItem from="1471415658051" duration="48607000" />
-      <workItem from="1471587444887" duration="1784000" />
+      <workItem from="1471587444887" duration="1869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61168000" />
+    <option name="totallyTimeSpent" value="61253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -777,12 +1122,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
           <folding>
-            <marker date="1471589278000" expanded="true" signature="554:864" ph="..." />
-            <marker date="1471589278000" expanded="true" signature="565:856" ph="..." />
-            <marker date="1471589278000" expanded="true" signature="663:798" ph="..." />
+            <marker date="1471589364000" expanded="true" signature="489:799" ph="..." />
+            <marker date="1471589364000" expanded="true" signature="500:791" ph="..." />
+            <marker date="1471589364000" expanded="true" signature="598:733" ph="..." />
           </folding>
         </state>
       </provider>
