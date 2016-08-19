@@ -40,9 +40,12 @@ $(".send-application").click(function(){
         name = $('[name="name"]').val();
     data.append('name', name);
 
+    console.log(data);
     $.ajax({
+        method: 'POST',
         url: '../actions/swiftmailer.php',
-        data: data
+        data: data,
+        dataType: 'json'
     }).done(function(e){
         console.log(e);
         console.log('done');
