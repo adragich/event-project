@@ -42,35 +42,5 @@ $(document).on('click', '.teams-list p', function(){
     button.removeClass('active');
 });
 
-// $(".send-application").click(function(){
-//
-//     var name = $( '[name = "name"]' ).val(),
-//         email = $( '[name = "email"]' ).val(),
-//         phone = $( '[name = "phone"]' ).val(),
-//         portfolio = $('#fileName').text(),
-//         onlinePortfolio = $( '[name = "address"]' ).val(),
-//         team = $('.chosen-team').text();
-//
-//     var data = {
-//         'name': name,
-//         'email': email,
-//         'phone': phone,
-//         'portfolio': portfolio,
-//         'online-portfolio': 'http://' + onlinePortfolio,
-//         'team': team
-//     };
-//
-//     $.ajax({
-//         method: 'POST',
-//         url: '../actions/swiftmailer.php',
-//         data: data,
-//         dataType: 'json'
-//     }).done(function(e){
-//         console.log(e);
-//         console.log('done');
-//     });
-//
-//
-// });
-
+$("#phone").inputmask("+99-999-999-999");
 //

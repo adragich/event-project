@@ -150,7 +150,7 @@
 						<input name="email" type="email" placeholder="Adres e-mail" required value="">
 					</div>
 					<div class="form-control optional" data-text='(optional)'>
-						<input name="phone" type="number" placeholder="Numer telefonu" min="0" value="">
+						<input id="phone" name="phone" type="text" placeholder="Numer telefonu" value="">
 					</div>
 					<div class="form-control pdf">
 						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
@@ -206,5 +206,6 @@
 	<script type="text/javascript" src="js/sub.js"></script>
 	<script type="text/javascript" src="js/appear.js"></script>
 	<script type="text/javascript" src="js/application.js"></script>
+	<script type="text/javascript" src="js/inputmask.js"></script>
 </body>
 </html>

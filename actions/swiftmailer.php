@@ -54,8 +54,6 @@ $mailer = Swift_Mailer::newInstance($transport);
         ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
     session_start();
 
-    $_SESSION['previous'] = basename($_SERVER['PHP_SELF']);
-
     if (!$mailer->send($message, $errors))
     {
         $_SESSION['message'] = 'An error has occur. Please try again later.';
