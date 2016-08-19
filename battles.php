@@ -137,7 +137,7 @@
 		<div class="container">
 			<div id="application" class="battle-info">
 				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
-				<form action="/actions/swiftmailer.php" class="apply-form inside battle-info">
+				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<div class="form-control">
 						<input name="name" type="text" placeholder="Imię i Nazwisko" required value="">
 					</div>
@@ -153,11 +153,12 @@
 					</div>
 					<div class="optional form-control address-form"
 						 data-text='(optional)'>
-						<div id="fileName" class="clear"></div>
+						<input id="fileName" name="portfolio" class="clear" type="text"/>
 						<input name="address"
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
 					<div class="form-control">
+						<input id="teamName" name="team" class="clear" type="text"/>
 						<div class="choose-team expander" data-block=".teams-list">
 							<p class="current">
 								Wybierz drużynę, do której chcesz dołączyć

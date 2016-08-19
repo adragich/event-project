@@ -27,7 +27,7 @@ $(".pdf-uploader").uploadFile({
     onSuccess:function(files,data,xhr,pd)
     {
 
-        $('#fileName').text(files[0]);
+        $('#portfolio').val(files[0]);
 
     }
 });
@@ -36,6 +36,7 @@ $(document).on('click', '.teams-list p', function(){
     var team = $(this).text(), label = $(".choose-team .current"),
         block = $('.teams-list'), button = $('.expander');
     label.text(team);
+    $('#team').val(team);
     label.addClass('chosen-team');
     block.slideUp();
     button.removeClass('active');

@@ -1,4 +1,5 @@
 <?php
+session_start();
     include 'swiftmailer/lib/swift_required.php';
 
 echo $_POST['name'];
@@ -20,15 +21,27 @@ else{
 if(isset($_POST['phone']) && !empty($_POST['phone'])){
     $phone = $_POST['phone'];
 }
+else{
+    $phone = '';
+}
 if(isset($_POST['portfolio']) && !empty($_POST['portfolio'])){
     $portfolio = $_POST['portfolio'];
 }
-if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
-    $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
+else{
+    $portfolio = '';
+}
+if(isset($_POST['address']) && !empty($_POST['address'])){
+    $onlinePortfolio = 'Link for online portfolio'.$_POST['addredd'];
+}
+else{
+    $onlinePortfolio = '';
 }
 
 if(isset($_POST['team']) && !empty($_POST['team'])){
     $team = $_POST['team'];
+}
+else{
+    $team = '';
 }
 
 // Create the Transport
@@ -44,6 +57,11 @@ $mailer = Swift_Mailer::newInstance($transport);
                         <body>
                             <h2>Application!</h2><br><br>
                             ".$name." sent an application.<br>
+                            <p>".$email."</p>
+                            <p>".$phone."</p>
+                            <p>".$portfolio."</p>
+                            <p>".$onlinePortfolio."</p>
+                            <p>".$team."</p>
                             <p>
                                 Watch <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>portfolio</a>
                             </p>
@@ -54,10 +72,14 @@ $mailer = Swift_Mailer::newInstance($transport);
         ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));;
     if (!$mailer->send($message, $errors))
     {
+        $_SESSION['message'] = 'fail';
         echo "Error:";
         print_r($errors);
     }
     else{
+        $_SESSION['message'] = 'success';
         echo 'Message has been sent';
     }
+
+header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>
