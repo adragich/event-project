@@ -23,7 +23,7 @@ $(function() {
 				var li = $(this);
 				setTimeout(function(){
 					li.fadeIn();
-				}, 50 * index );
+				}, 250*index );
 			});
 	});
 	$(".close, .overlay").click(function(){
