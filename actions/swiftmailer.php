@@ -1,5 +1,6 @@
 <?php
 
+echo 'here';
 include_once "swiftmailer/lib/swift_required.php";
 
 $subject = 'Hello from Mandrill, PHP!';
