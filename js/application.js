@@ -30,6 +30,20 @@ $(".pdf-uploader").uploadFile({
         $('#portfolio').val(files[0]);
         $('.pdf-input').removeClass('required');
 
+    },
+    deleteCallback: function(data,pd)
+    {
+        for(var i=0;i<data.length;i++)
+        {
+            $.post("..actions/delete.php",{op:"delete",name:data[i]},
+                function(resp, textStatus, jqXHR)
+                {
+                    //Show Message
+                    console.log("File Deleted");
+                });
+        }
+        pd.statusbar.hide(); //You choice to hide/not.
+
     }
 });
 

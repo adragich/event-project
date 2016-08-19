@@ -1138,8 +1138,12 @@ input.hidden, select.hidden{
 .pdf{
     cursor: pointer;
 }
-.pdf-uploader{
-    position: absolute;
+.ajax-file-upload-error{
+    padding: 10px 40px 0;
+    color: #ff6279;
+}
+.ajax-file-upload{
+    position: absolute!important;
     line-height: 65px;
     height: 65px;
     top:0;
@@ -1296,7 +1300,7 @@ input.hidden, select.hidden{
     display: block;
 }
 .required{
-    border: 1px solid red;
+    border: 1px solid #ff6279;
 }
 /*partners*/
 .partner{
@@ -1635,7 +1639,7 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
     /*battles*/
-    .form-control input:not(.hidden), .pdf-input, .choose-team, .pdf-uploader, .address-form:after {
+    .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
         line-height: 55px;
         height: 55px;
     }
@@ -2408,7 +2412,7 @@ input.hidden, select.hidden{
     .form-control {
         margin-bottom: 15px;
     }
-    .form-control input:not(.hidden), .pdf-input, .choose-team, .optional:before, .pdf-uploader, .address-form:after{
+    .form-control input:not(.hidden), .pdf-input, .choose-team, .optional:before, .ajax-file-upload, .address-form:after{
         line-height: 40px;
         height: 40px;
     }
@@ -2455,7 +2459,7 @@ input.hidden, select.hidden{
         height: auto;
         padding-right: 64px!important;
     }
-    .pdf-uploader{
+    .ajax-file-upload{
         padding: 0 12px;
     }
     .application-note {
