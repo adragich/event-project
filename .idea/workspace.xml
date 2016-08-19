@@ -66,12 +66,12 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <marker date="1471592551000" expanded="true" signature="487:797" ph="..." />
-                <marker date="1471592551000" expanded="true" signature="498:789" ph="..." />
-                <marker date="1471592551000" expanded="true" signature="596:731" ph="..." />
+                <marker date="1471593179000" expanded="true" signature="457:767" ph="..." />
+                <marker date="1471593179000" expanded="true" signature="468:759" ph="..." />
+                <marker date="1471593179000" expanded="true" signature="566:701" ph="..." />
               </folding>
             </state>
           </provider>
@@ -177,8 +177,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="23" />
+    <option name="x" value="45" />
+    <option name="y" value="43" />
     <option name="width" value="1398" />
     <option name="height" value="877" />
   </component>
@@ -491,15 +491,15 @@
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
       <workItem from="1471415658051" duration="48607000" />
-      <workItem from="1471587444887" duration="3431000" />
+      <workItem from="1471587444887" duration="4055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62815000" />
+    <option name="totallyTimeSpent" value="63439000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1398" height="877" extended-state="6" />
+    <frame x="45" y="43" width="1398" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25737464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -876,12 +876,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1471592551000" expanded="true" signature="487:797" ph="..." />
-            <marker date="1471592551000" expanded="true" signature="498:789" ph="..." />
-            <marker date="1471592551000" expanded="true" signature="596:731" ph="..." />
+            <marker date="1471593179000" expanded="true" signature="457:767" ph="..." />
+            <marker date="1471593179000" expanded="true" signature="468:759" ph="..." />
+            <marker date="1471593179000" expanded="true" signature="566:701" ph="..." />
           </folding>
         </state>
       </provider>

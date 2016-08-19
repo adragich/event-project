@@ -3,7 +3,7 @@ echo 'here';
     include 'swiftmailer/lib/swift_required.php';
 
 // Create the Transport
-$transport = Swift_SmtpTransport::newInstance('smtp.example.org', 587, 'ssl');
+$transport = Swift_MailTransport::newInstance();
 
 // Create the Mailer using your created Transport
 $mailer = Swift_Mailer::newInstance($transport);
