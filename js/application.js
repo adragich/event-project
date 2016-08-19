@@ -38,23 +38,23 @@ $(".send-application").click(function(){
 
     var data = new FormData(),
         name = $('[name="name"]').val();
-    data.append(name, name);
-
-    // $.ajax({
-    //     url: '../actions/swiftmailer.php',
-    //     data: data
-    // }).done(function(e){
-    //     console.log(e);
-    //     console.log('done');
-    // });
+    data.append('name', name);
 
     $.ajax({
         url: '../actions/swiftmailer.php',
-        data: data,
-        success: function(res){
-            console.log(res);
-            console.log('done');
-    }});
+        data: data
+    }).done(function(e){
+        console.log(e);
+        console.log('done');
+    });
+
+    // $.ajax({
+    //     url: '../actions/swiftmailer.php',
+    //     data: data,
+    //     success: function(res){
+    //         console.log(res);
+    //         console.log('done');
+    // }});
 
 
 });
