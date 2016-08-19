@@ -28,6 +28,7 @@ $(".pdf-uploader").uploadFile({
     {
 
         $('#portfolio').val(files[0]);
+        $('.pdf-input').removeClass('required');
 
     }
 });
@@ -40,9 +41,24 @@ $(document).on('click', '.teams-list p', function(){
     label.addClass('chosen-team');
     block.slideUp();
     button.removeClass('active');
+    $('.choose-team').removeClass('required');
 });
 
 $(document).ready(function(){
     $("#phone").inputmask("+99-999-999-999");
+});
+
+$(".send-application").click(function(e){
+    var portfolio = $("#portfolio"),
+        team = $("#team");
+
+    if(portfolio.val() == ''){
+        e.preventDefault();
+        $('.pdf-input').addClass('required');
+    }
+    else if(team.val() == ''){
+        e.preventDefault();
+        $('.choose-team').addClass('required');
+    }
 });
 //

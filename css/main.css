@@ -1295,7 +1295,9 @@ input.hidden, select.hidden{
     width: 100%;
     display: block;
 }
-
+.required{
+    border: 1px solid red;
+}
 /*partners*/
 .partner{
     padding-left: 47px;
