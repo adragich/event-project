@@ -18,9 +18,10 @@ $(function() {
 			$(".overlay").fadeIn();
 			$("body").addClass("stick-temp");
 			$(".lang").slideDown();
-			$('.nav li').each(function(index){
+			$('.nav li').each(function(index, value){
+				console.log(index);
 				setTimeout(function(){
-					$(this).fadeIn();
+					value.fadeIn();
 				}, 50 * (index + 1) );
 			});
 	});
