@@ -9,12 +9,14 @@ if(isset($_POST['name']) && !empty($_POST['name'])){
 else{
     $name = "User";
 }
+
 if(isset($_POST['email']) && !empty($_POST['email'])){
     $email = $_POST['email'];
 }
 else{
     $email = "user@aa.com";
 }
+
 if(isset($_POST['phone']) && !empty($_POST['phone'])){
     $phone = $_POST['phone'];
 }
@@ -24,6 +26,7 @@ if(isset($_POST['portfolio']) && !empty($_POST['portfolio'])){
 if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
     $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
 }
+
 if(isset($_POST['team']) && !empty($_POST['team'])){
     $team = $_POST['team'];
 }
@@ -41,7 +44,7 @@ $mailer = Swift_Mailer::newInstance($transport);
             ->setBody("<html>
                         <body>
                             <h2>Application!</h2><br><br>
-                            <?php $name ?> sent an application.<br>
+                            ".$name." sent an application.<br>
                             <p>
                                 Watch <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>portfolio</a>
                             </p>
