@@ -46,9 +46,17 @@ $(".send-application").click(function(){
     }).done(function(e){
         console.log(e);
         console.log('done');
-    }).fail(function(){
-       console.log('fail');
     });
+
+    $.ajax({
+        url: '../actions/swiftmailer.php',
+        data: data,
+        success: function(res){
+            console.log(res);
+            console.log('done');
+    }});
+    
+
 });
 
 //
