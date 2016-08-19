@@ -854,9 +854,9 @@ img{
     width: 114px;
     height: 4px;
     position: absolute;
-    top: 50%;
     background: #3e3e3e;
     right: 12%;
+    top: 86%;
 }
 .inside.orgs{
     position: relative;
@@ -1641,6 +1641,10 @@ input.hidden, select.hidden{
     }
     .mainTitle{
         font-size: 72px;
+    }
+
+    .inside.orgs:after {
+        top: 50%;
     }
 }
 @media (max-width: 1024px) {
