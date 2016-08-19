@@ -360,9 +360,8 @@ img{
 }
 .appeared{
     opacity:1;
-    width: 33.333%;
     padding: 50px 40px 0 60px;
-    min-width: 455px;
+    width: 455px;
     max-width: 100%;
 }
 .note{

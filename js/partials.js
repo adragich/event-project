@@ -32,7 +32,7 @@ $(function() {
 		var dest = $(this).attr("data-scroll");
 		$("body").animate({scrollTop: dest}, 1000);
 	});
-	
+
 });
 $(window).resize(function(){
 	constructMenuLinks();
