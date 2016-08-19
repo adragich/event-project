@@ -60,7 +60,7 @@ $(document).on('click', '.teams-list p', function(){
 });
 
 $(document).ready(function(){
-    $("#phone").inputmask("+99-999-999-999");
+    $("#phone").inputmask("999-999-999");
 });
 
 $(".send-application").click(function(e){
