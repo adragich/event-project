@@ -37,11 +37,10 @@ $transport = Swift_MailTransport::newInstance();
 // Create the Mailer using your created Transport
 $mailer = Swift_Mailer::newInstance($transport);
 
-    $message = Swift_Message::newInstance('Wonderful Subject')
+    $message = Swift_Message::newInstance('Application')
         ->setFrom(array($email => $name))
         ->setTo(array('anastasiia.dragich@gmail.com' => 'Admin'));
-    $message->setSubject('Application')
-            ->setBody("<html>
+    $message->setBody("<html>
                         <body>
                             <h2>Application!</h2><br><br>
                             ".$name." sent an application.<br>
