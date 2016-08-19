@@ -38,12 +38,14 @@ $transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
 $mailer = Swift_Mailer::newInstance($transport);
 
     $message = Swift_Message::newInstance('Application')
-        ->setFrom(array($email => $name))
+        ->setFrom(array('user@event-project.myhomezy.com' => $name))
         ->setTo(array('anastasiia.dragich@gmail.com' => 'Admin'));
     $message->setBody("<html>
                         <body>
                             <h2>Application!</h2><br><br>
                             ".$name." sent an application.<br>
+                            <p>".$email."</p>
+                            <p>".$email."</p>
                             <p>
                                 Watch <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>portfolio</a>
                             </p>
