@@ -2309,7 +2309,7 @@ input.hidden, select.hidden{
     .main.battles  .note{
         font-size: 16px;
     }
-    .main.battles {
+    .main.sub.battles {
         padding-top: 127px;
     }
     .mainTitle.battle-info {
