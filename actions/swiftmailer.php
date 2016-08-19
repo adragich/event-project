@@ -27,4 +27,7 @@ $mailer = Swift_Mailer::newInstance($transport);
         echo "Error:";
         print_r($errors);
     }
+    else{
+        echo 'good';
+    }
 ?>
