@@ -52,8 +52,7 @@ $(document).on('click', '.apply-trigger', function(e){
 
     var id = $(this).attr( 'href' ),
         scroll = $(id).offset().top;
-    console.log($(id).length, scroll);
-    $( "body" ).scrollTop(scroll);
+    $( "html, body" ).stop().animate({scrollTop:scroll}, '500', 'swing');
 });
 
 $(document).on('click', '.teams-list p', function(){
