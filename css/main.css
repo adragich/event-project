@@ -498,6 +498,8 @@ img{
     margin-right: -3%;
     opacity:0;
     font-family: 'StolzlMedium', sans-serif;
+    cursor: pointer;
+    outline: none;
 }
 .event-link:after{
     content:"";
