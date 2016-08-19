@@ -49,8 +49,9 @@ $(".pdf-uploader").uploadFile({
 });
 $(document).on('click', '.apply-trigger', function(e){
     e.preventDefault();
-    var scroll = $($(this).attr('href')).scrollTop();
-    $(window).scrollTo(scroll, 0);
+
+    var id = $(this).attr( 'href' );
+    $( "body" ).scrollTop($(id).scrollTop());
 });
 
 $(document).on('click', '.teams-list p', function(){
