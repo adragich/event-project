@@ -40,7 +40,7 @@ $(".send-application").click(function(){
         name = $('[name="name"]').val();
     data.append(name, name);
 
-    $.ajax('../actions/sendmail.php').done(function(e){
+    $.ajax('../actions/swiftmailer.php').done(function(e){
         console.log(e);
         console.log('done');
     }).fail(function(){
