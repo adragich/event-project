@@ -60,7 +60,18 @@ $(document).on('click', '.teams-list p', function(){
 });
 
 $(document).ready(function(){
-    $("#phone").inputmask("999-999-999");
+    $("#phone").inputmask({
+        mask: "(99)9{4,5}-9999}",
+        greedy: false
+    });
+    $("#phone").on("keydown change", function() {
+        if ($(this).val().replace(/[_\-()]/g,"").length >= 10) {
+            $(this).inputmask("(99)99999-9999");
+        }
+        else {
+                $(this).inputmask("(99)9999-9999");
+        }
+    });
 });
 
 $(".send-application").click(function(e){

@@ -1298,6 +1298,13 @@ input.hidden, select.hidden{
     width: 100%;
     display: block;
 }
+.ajax-file-upload-red{
+    position: absolute;
+    right: 0;
+    padding: 12px 12px 0;
+    bottom: 0;
+    color: #ff6279;
+}
 .required{
     border: 1px solid #ff6279;
 }
