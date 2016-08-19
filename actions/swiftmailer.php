@@ -1,5 +1,4 @@
 <?php
-echo 'here';
     include 'swiftmailer/lib/swift_required.php';
 
 // Create the Transport
@@ -28,6 +27,6 @@ $mailer = Swift_Mailer::newInstance($transport);
         print_r($errors);
     }
     else{
-        echo 'good';
+        echo 'Message has been sent';
     }
 ?>

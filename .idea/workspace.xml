@@ -66,44 +66,12 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding>
-                <marker date="1471593348000" expanded="true" signature="458:768" ph="..." />
-                <marker date="1471593348000" expanded="true" signature="469:760" ph="..." />
-                <marker date="1471593348000" expanded="true" signature="567:702" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swift_required.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/swiftmailer/lib/swift_required.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Swift.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/swiftmailer/lib/classes/Swift.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="55" />
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
+                <marker date="1471593515000" expanded="true" signature="445:755" ph="..." />
+                <marker date="1471593515000" expanded="true" signature="456:747" ph="..." />
+                <marker date="1471593515000" expanded="true" signature="554:689" ph="..." />
               </folding>
             </state>
           </provider>
@@ -112,7 +80,7 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="93">
               <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
@@ -491,12 +459,12 @@
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
       <workItem from="1471415658051" duration="48607000" />
-      <workItem from="1471587444887" duration="4225000" />
+      <workItem from="1471587444887" duration="4390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63609000" />
+    <option name="totallyTimeSpent" value="63774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="43" width="1398" height="877" extended-state="0" />
@@ -793,31 +761,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,14 +822,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/actions/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1471593348000" expanded="true" signature="458:768" ph="..." />
-            <marker date="1471593348000" expanded="true" signature="469:760" ph="..." />
-            <marker date="1471593348000" expanded="true" signature="567:702" ph="..." />
+            <marker date="1471593515000" expanded="true" signature="445:755" ph="..." />
+            <marker date="1471593515000" expanded="true" signature="456:747" ph="..." />
+            <marker date="1471593515000" expanded="true" signature="554:689" ph="..." />
           </folding>
         </state>
       </provider>
