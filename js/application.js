@@ -36,9 +36,16 @@ $(document).on('click', '.teams-list p', function(){
 
 $(".send-application").click(function(){
 
-    var name = $( '[name = "name"]' ).val();
+    var name = $( '[name = "name"]' ).val(),
+        email = $( '[name = "email"]' ).val(),
+        phone = $( '[name = "phone"]' ).val();
     var data = {
-        'name': name
+        'name': name,
+        'email': email,
+        'phone': phone,
+        'portfolio': portfolio,
+        'online-portfolio': onlinePortfolio,
+        'team': team
     };
 
     $.ajax({
@@ -50,14 +57,6 @@ $(".send-application").click(function(){
         console.log(e);
         console.log('done');
     });
-
-    // $.ajax({
-    //     url: '../actions/swiftmailer.php',
-    //     data: data,
-    //     success: function(res){
-    //         console.log(res);
-    //         console.log('done');
-    // }});
 
 
 });

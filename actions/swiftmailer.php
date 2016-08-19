@@ -20,7 +20,8 @@ $mailer = Swift_Mailer::newInstance($transport);
         Best regards,<br>
         Event-project
     </body>
-</html>", 'text/html');
+</html>", 'text/html')
+        ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));
     if (!$mailer->send($message, $errors))
     {
         echo "Error:";
