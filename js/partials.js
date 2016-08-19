@@ -19,9 +19,9 @@ $(function() {
 			$("body").addClass("stick-temp");
 			$(".lang").slideDown();
 			$('.nav li').each(function(index, value){
-				console.log(index);
+				console.log(index, value);
 				setTimeout(function(){
-					value.fadeIn();
+					$(this).fadeIn();
 				}, 50 * (index + 1) );
 			});
 	});
