@@ -1,34 +1,28 @@
 <?php
-
 echo 'here';
-include_once "swiftmailer/lib/swift_required.php";
+    include 'swiftmailer/lib/swift_required.php';
 
-$subject = 'Hello from Mandrill, PHP!';
-$from = array('you@yourdomain.com' =>'Your Name');
-$to = array(
-    'anastasiia.dragich@gmail.com'  => 'Recipient1 Name'
-);
-
-$text = "Mandrill speaks plaintext";
-$html = "<em>Mandrill speaks <strong>HTML</strong></em>";
-
-$transport = Swift_SmtpTransport::newInstance('smtp.mandrillapp.com', 587);
-$transport->setUsername('MANDRILL_USERNAME');
-$transport->setPassword('MANDRILL_PASSWORD');
-$swift = Swift_Mailer::newInstance($transport);
-
-$message = new Swift_Message($subject);
-$message->setFrom($from);
-$message->setBody($html, 'text/html');
-$message->setTo($to);
-$message->addPart($text, 'text/plain');
-
-if ($recipients = $swift->send($message, $failures))
-{
-    echo 'Message successfully sent!';
-} else {
-    echo "There was an error:\n";
-    print_r($failures);
-}
-
+    $transport = Swift_SmtpTransport::newInstance('smtp.example.org', 25)
+        ->setUsername('myhomezytest@gmail.com')
+        ->setPassword('0800274f2cef');
+    $mailer = Swift_Mailer::newInstance($transport);
+    $message = Swift_Message::newInstance('Wonderful Subject')
+        ->setFrom(array('john@doe.com' => 'John Doe'))
+        ->setTo(array('anastasia.dragich@gmail.com' => 'Nastia'));
+    $message->setBody('<html>
+    <body>
+        <h2>Hi John!</h2><br><br>
+        Johanna (johanna82) sent you a message.<br>
+        <p>
+        	Hi John. Amazing picture... <a href="http://www.awesome.com/msg/12345/read/">login and read the full message</a>
+        </p>
+        Best regards,<br>
+        Photos4Lulz
+    </body>
+</html>');
+    if (!$mailer->send($message, $errors))
+    {
+        echo "Error:";
+        print_r($errors);
+    }
 ?>

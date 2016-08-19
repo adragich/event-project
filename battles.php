@@ -15,7 +15,6 @@
 	?>
 	<section class="static-content transition">
 		<div class="container">
-			<a href="/actions/swiftmailer.php">SWIFTMAILER</a>
 			<!--header-->
 			<?php
 				@include("partials/top-battles.html")
