@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
-    </list>
+    <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="" />
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -76,8 +74,8 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <marker date="1471588719000" expanded="true" signature="487:797" ph="..." />
                 <marker date="1471588719000" expanded="true" signature="498:789" ph="..." />
@@ -90,8 +88,8 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="298">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -319,12 +317,12 @@
       <updated>1471345527687</updated>
       <workItem from="1471345529097" duration="10777000" />
       <workItem from="1471415658051" duration="48607000" />
-      <workItem from="1471587444887" duration="1314000" />
+      <workItem from="1471587444887" duration="1404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60698000" />
+    <option name="totallyTimeSpent" value="60788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1398" height="877" extended-state="6" />
@@ -512,6 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="0" column="4559" selection-start-line="0" selection-start-column="4548" selection-end-line="0" selection-end-column="4559" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <marker date="1471588719000" expanded="true" signature="487:797" ph="..." />
             <marker date="1471588719000" expanded="true" signature="498:789" ph="..." />
@@ -701,8 +700,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="298">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
