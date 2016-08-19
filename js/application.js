@@ -47,6 +47,11 @@ $(".pdf-uploader").uploadFile({
 
     }
 });
+$(document).on('click', '.apply-trigger', function(e){
+    e.preventDefault();
+    var scroll = $($(this).attr('href')).scrollTop();
+    $(window).scrollTop(scroll);
+});
 
 $(document).on('click', '.teams-list p', function(){
     var team = $(this).text(), label = $(".choose-team .current"),

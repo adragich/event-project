@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/preloader-battles.html" afterPath="$PROJECT_DIR$/partials/preloader-battles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/application.js" afterPath="$PROJECT_DIR$/js/application.js" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preloader-battles.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="preloader-battles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/preloader-battles.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="427">
+              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -122,7 +122,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
-              <folding />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,10 +171,10 @@
         <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/js/inputmask.js" />
         <option value="$PROJECT_DIR$/actions/delete.php" />
-        <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/partials.js" />
         <option value="$PROJECT_DIR$/partials/preloader-battles.html" />
+        <option value="$PROJECT_DIR$/js/application.js" />
       </list>
     </option>
   </component>
@@ -359,12 +361,12 @@
       <workItem from="1471601447681" duration="1938000" />
       <workItem from="1471603412331" duration="2052000" />
       <workItem from="1471610261071" duration="1806000" />
-      <workItem from="1471612094019" duration="608000" />
+      <workItem from="1471612094019" duration="745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77742000" />
+    <option name="totallyTimeSpent" value="77879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -470,6 +472,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="0" column="4559" selection-start-line="0" selection-start-column="4548" selection-end-line="0" selection-end-column="4559" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,16 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -707,7 +700,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="88" selection-start-line="18" selection-start-column="88" selection-end-line="18" selection-end-column="88" />
-          <folding />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -740,6 +735,16 @@
         <state relative-caret-position="270">
           <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
