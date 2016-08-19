@@ -17,11 +17,15 @@ $(function() {
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
 			$("body").addClass("stick-temp");
-			$(".lang").slideUp();
-			$('.nav li').fadeIn();
+			$(".lang").slideDown();
+			$('.nav li').each(function(index){
+				setTimeout(function(){
+					$(this).fadeIn();
+				}, 50 * (index + 1) );
+			});
 	});
 	$(".close, .overlay").click(function(){
-			$(".lang").slideDown();
+		$(".lang").slideUp();
 		$('.nav li').fadeOut();
 			$(".sideBar").removeClass("appeared");
 			$(".overlay").fadeOut();
