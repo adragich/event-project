@@ -42,8 +42,7 @@ $mailer = Swift_Mailer::newInstance($transport);
                             ".$name." sent an application.<br>
                             <p>Email: ".$email."</p>".
                             $phone
-        ."
-                            <p>Online portfolio: ".$onlinePortfolio."</p>
+                            ."<p>Online portfolio: ".$onlinePortfolio."</p>
                             <p>Team: ".$team."</p>
                             <p>
                                 Watch portfolio in annex
@@ -52,14 +51,16 @@ $mailer = Swift_Mailer::newInstance($transport);
                             Event-project
                         </body>
                     </html>", 'text/html')
-        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));;
+        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
+    session_start();
     if (!$mailer->send($message, $errors))
     {
-        echo "Error:";
+        $_SESSION['message'] = 'An error has occur. Please try again later.';
         print_r($errors);
     }
     else{
-        echo 'Message has been sent';
-        header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+        $_SESSION['message'] = 'Message has been sent';
     }
+    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+    session_destroy();
 ?>
