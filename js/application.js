@@ -36,16 +36,11 @@ $(document).on('click', '.teams-list p', function(){
 
 $(".send-application").click(function(){
 
-    var data = new FormData(),
-        name = $( '[name = "name"]' ).val();
-    data.append('name', name);
-    var data2 = {
+    var name = $( '[name = "name"]' ).val();
+    var data = {
         'name': name
     };
 
-console.log(name);
-    console.log(data);
-    console.log(data2);
     $.ajax({
         method: 'POST',
         url: '../actions/swiftmailer.php',
