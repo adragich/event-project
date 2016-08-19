@@ -46,18 +46,18 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+            <state relative-caret-position="628">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <marker date="1471601834000" expanded="true" signature="1027:1666" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1058:1117" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1058:1180" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1058:1211" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1058:1232" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1058:1235" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1058:1638" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1428:1468" ph="..." />
-                <marker date="1471601834000" expanded="true" signature="1428:1518" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1027:1666" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1058:1117" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1058:1180" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1058:1211" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1058:1232" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1058:1235" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1058:1638" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1428:1468" ph="..." />
+                <marker date="1471601884000" expanded="true" signature="1428:1518" ph="..." />
               </folding>
             </state>
           </provider>
@@ -370,12 +370,12 @@
       <workItem from="1471595818018" duration="1681000" />
       <workItem from="1471597657728" duration="1898000" />
       <workItem from="1471599585837" duration="1829000" />
-      <workItem from="1471601447681" duration="388000" />
+      <workItem from="1471601447681" duration="439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71726000" />
+    <option name="totallyTimeSpent" value="71777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -737,18 +737,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+        <state relative-caret-position="628">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <marker date="1471601834000" expanded="true" signature="1027:1666" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1058:1117" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1058:1180" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1058:1211" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1058:1232" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1058:1235" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1058:1638" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1428:1468" ph="..." />
-            <marker date="1471601834000" expanded="true" signature="1428:1518" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1027:1666" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1058:1117" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1058:1180" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1058:1211" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1058:1232" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1058:1235" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1058:1638" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1428:1468" ph="..." />
+            <marker date="1471601884000" expanded="true" signature="1428:1518" ph="..." />
           </folding>
         </state>
       </provider>
