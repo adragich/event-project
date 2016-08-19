@@ -118,9 +118,11 @@
       <file leaf-file-name="inputmask.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/inputmask.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -352,12 +354,12 @@
       <workItem from="1471597657728" duration="1898000" />
       <workItem from="1471599585837" duration="1829000" />
       <workItem from="1471601447681" duration="1938000" />
-      <workItem from="1471603412331" duration="198000" />
+      <workItem from="1471603412331" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73474000" />
+    <option name="totallyTimeSpent" value="73644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -734,9 +736,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/inputmask.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
