@@ -40,13 +40,13 @@ $(".send-application").click(function(){
         name = $('[name="name"]').val();
     data.append(name, name);
 
-    $.ajax({
-        url: '../actions/swiftmailer.php',
-        data: data
-    }).done(function(e){
-        console.log(e);
-        console.log('done');
-    });
+    // $.ajax({
+    //     url: '../actions/swiftmailer.php',
+    //     data: data
+    // }).done(function(e){
+    //     console.log(e);
+    //     console.log('done');
+    // });
 
     $.ajax({
         url: '../actions/swiftmailer.php',
@@ -55,7 +55,7 @@ $(".send-application").click(function(){
             console.log(res);
             console.log('done');
     }});
-    
+
 
 });
 
