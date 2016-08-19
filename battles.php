@@ -137,7 +137,7 @@
 		<div class="container">
 			<div id="application" class="battle-info">
 				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
-				<form action="#" class="apply-form inside battle-info">
+				<form action="/actions/swiftmailer.php" class="apply-form inside battle-info">
 					<div class="form-control">
 						<input name="name" type="text" placeholder="Imię i Nazwisko" required value="">
 					</div>
@@ -174,7 +174,7 @@
 						</div>
 					</div>
 					<div class="form-control left-align">
-						<button type="button" class="event-link yellow send-application">Wyślij zgłoszenie</button>
+						<button type="submit" class="event-link yellow send-application">Wyślij zgłoszenie</button>
 					</div>
 					<div class="form-control">
 						<p class="application-note">
