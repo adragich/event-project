@@ -42,5 +42,7 @@ $(document).on('click', '.teams-list p', function(){
     button.removeClass('active');
 });
 
-$("#phone").inputmask("+99-999-999-999");
+$(document).ready(function(){
+    $("#phone").inputmask("+99-999-999-999");
+});
 //
