@@ -27,7 +27,6 @@ $(".pdf-uploader").uploadFile({
     onSuccess:function(files,data,xhr,pd)
     {
 
-       console.log(files[0]);
         $('#fileName').text(files[0]);
 
     }
@@ -37,6 +36,7 @@ $(document).on('click', '.teams-list p', function(){
     var team = $(this).text(), label = $(".choose-team .current"),
         block = $('.teams-list'), button = $('.expander');
     label.text(team);
+    label.addClass('chosen-team');
     block.slideUp();
     button.removeClass('active');
 });
@@ -45,13 +45,17 @@ $(".send-application").click(function(){
 
     var name = $( '[name = "name"]' ).val(),
         email = $( '[name = "email"]' ).val(),
-        phone = $( '[name = "phone"]' ).val();
+        phone = $( '[name = "phone"]' ).val(),
+        portfolio = $('#fileName').text(),
+        onlinePortfolio = $( '[name = "address"]' ).val(),
+        team = $('.chosen-team').text();
+
     var data = {
         'name': name,
         'email': email,
         'phone': phone,
         'portfolio': portfolio,
-        'online-portfolio': onlinePortfolio,
+        'online-portfolio': 'http://' + onlinePortfolio,
         'team': team
     };
 
