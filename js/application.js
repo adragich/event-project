@@ -61,17 +61,17 @@ $(document).on('click', '.teams-list p', function(){
 
 $(document).ready(function(){
     $("#phone").inputmask({
-        mask: "(99)9{3,4}-99{2,3}-99{2,3}}",
+        mask: "(+99)9{3,4}-99{2,3}-99{2,3}",
         greedy: false
     });
-    // $("#phone").on("keydown change", function() {
-    //     if ($(this).val().replace(/[_\-()]/g,"").length >= 10) {
-    //         $(this).inputmask("(999)99999-9999");
-    //     }
-    //     else {
-    //             $(this).inputmask("(999)9999-9999");
-    //     }
-    // });
+    $("#phone").on("keydown change", function() {
+        if ($(this).val().replace(/[_\-()]/g,"").length >= 10) {
+            $(this).inputmask("(+99)999-999-999");
+        }
+        else {
+                $(this).inputmask("(+99)9999-99-99");
+        }
+    });
 });
 
 $(".send-application").click(function(e){
