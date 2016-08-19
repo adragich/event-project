@@ -27,7 +27,8 @@ $(".pdf-uploader").uploadFile({
     onSuccess:function(files,data,xhr,pd)
     {
 
-       console.log(files, data);
+       console.log(files[0]);
+        $('#fileName').text(files[0]);
 
     }
 });

@@ -153,6 +153,7 @@
 					</div>
 					<div class="optional form-control address-form"
 						 data-text='(optional)'>
+						<div id="fileName" class="hidden"></div>
 						<input name="address"
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
