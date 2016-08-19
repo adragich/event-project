@@ -65,7 +65,7 @@ $(document).ready(function(){
         greedy: false
     });
     $("#phone").on("keydown change", function() {
-        if ($(this).val().replace(/[_\-()]/g,"").length >= 10) {
+        if ($(this).val().replace(/[_\-()]/g,"").length >= 11) {
             $(this).inputmask("(+99)999-999-999");
         }
         else {
