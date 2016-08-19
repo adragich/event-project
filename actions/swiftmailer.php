@@ -59,7 +59,7 @@ $mailer = Swift_Mailer::newInstance($transport);
         print_r($errors);
     }
     else{
-        $_SESSION['message'] = 'Message has been sent';
+        $_SESSION['message'] = 'Your application has been sent!';
     }
     header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 

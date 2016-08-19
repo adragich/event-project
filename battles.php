@@ -139,7 +139,7 @@
 				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
 				<?php
 				if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
-					echo  "<div class='alert'>".$_SESSION['message']."</div>";
+					echo  "<div class='alert message'>".$_SESSION['message']."</div>";
 				}
 				?>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
