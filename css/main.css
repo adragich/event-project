@@ -1297,6 +1297,7 @@ input.hidden, select.hidden{
     box-sizing: border-box;
     width: 100%;
     display: block;
+    max-width: 836px;
 }
 .ajax-file-upload-red{
     position: absolute;
