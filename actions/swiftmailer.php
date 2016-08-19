@@ -39,15 +39,13 @@ $mailer = Swift_Mailer::newInstance($transport);
                         </body>
                     </html>", 'text/html')
         ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));
-session_start();
+
     if (!$mailer->send($message, $errors))
     {
-        $_SESSION['message'] = 'fail';
         echo "Error:";
         print_r($errors);
     }
     else{
-        $_SESSION['message'] = 'success';
         echo 'Message has been sent';
         header('Location: ' . $_SERVER['HTTP_REFERER'] . "#application");
     }
