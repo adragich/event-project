@@ -1398,7 +1398,7 @@ input.hidden, select.hidden{
     margin: 0 auto;
     left: 0;
     top: -50px;
-    z-index: 999;
+    z-index: 999!important;
 }
 .content-string td > .blockTitle, .content-string td > .block-content{
     padding-right: 100px;
