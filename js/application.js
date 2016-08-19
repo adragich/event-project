@@ -24,6 +24,7 @@ $(".pdf-uploader").uploadFile({
     filename: 'file',
     acceptFiles:"application/pdf",
     uploadStr:"+PDF",
+    showDelete: true,
     onSuccess:function(files,data,xhr,pd)
     {
 
