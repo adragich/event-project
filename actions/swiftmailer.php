@@ -32,7 +32,7 @@ if(isset($_POST['team']) && !empty($_POST['team'])){
 }
 
 // Create the Transport
-$transport = Swift_MailTransport::newInstance();
+$transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
 
 // Create the Mailer using your created Transport
 $mailer = Swift_Mailer::newInstance($transport);
