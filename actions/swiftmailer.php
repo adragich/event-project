@@ -1,5 +1,5 @@
 <?php
-    require_once 'vendor/swiftmailer/lib/swift_required.php';
+    include '../vendor/swiftmailer/swiftmailer/lib/swift_required.php';
     $transport = Swift_SmtpTransport::newInstance('smtp.example.org', 25)
         ->setUsername('your username')
         ->setPassword('your password');
