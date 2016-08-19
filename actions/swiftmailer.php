@@ -2,7 +2,7 @@
 echo 'here';
     include 'swiftmailer/lib/swift_required.php';
 
-    $transport = Swift_SmtpTransport::newInstance('smtp.example.org', 25)
+    $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
         ->setUsername('myhomezytest@gmail.com')
         ->setPassword('0800274f2cef');
     $mailer = Swift_Mailer::newInstance($transport);
