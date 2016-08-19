@@ -10,12 +10,21 @@ $portfolio = $_POST['portfolio'];
 if(isset($_POST['phone']) && !empty($_POST['phone'])){
     $phone = $_POST['phone'];
 }
+else{
+    $phone = 'no phone';
+}
 if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
     $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
+}
+else{
+    $onlinePortfolio = '';
 }
 
 if(isset($_POST['team']) && !empty($_POST['team'])){
     $team = $_POST['team'];
+}
+else{
+    $team = '';
 }
 
 // Create the Transport
@@ -32,9 +41,9 @@ $mailer = Swift_Mailer::newInstance($transport);
                             <h2>Application!</h2><br><br>
                             ".$name." sent an application.<br>
                             <p>Email: ".$email."</p>
-                            <p>Phone: ".$email."</p>
-                            <p>Online portfolio: ".$email."</p>
-                            <p>Team: ".$email."</p>
+                            <p>Phone: ".$phone."</p>
+                            <p>Online portfolio: ".$onlinePortfolio."</p>
+                            <p>Team: ".$team."</p>
                             <p>
                                 Watch portfolio in annex
                             </p>
