@@ -23,6 +23,16 @@ $(function() {
 			$(".overlay").fadeOut();
 			$("body").removeClass("stick-temp");
 	});
+
+	var nav = $(".navigation");
+	var scroll = $("body").scrollTop() + $(window).height() - 300 + parseInt(nav.attr("data-scroll"));
+	console.log(scroll);
+	nav.attr("data-scroll", scroll);
+	nav.click(function(){
+		var dest = $(this).attr("data-scroll");
+		$("body").animate({scrollTop: dest}, 1000);
+	});
+	
 });
 $(window).resize(function(){
 	constructMenuLinks();
