@@ -18,7 +18,7 @@ $(function() {
 			$(".overlay").fadeIn();
 			$("body").addClass("stick-temp");
 	});
-	$(".close").click(function(){
+	$(".close, .overlay").click(function(){
 			$(".sideBar").removeClass("appeared");
 			$(".overlay").fadeOut();
 			$("body").removeClass("stick-temp");
