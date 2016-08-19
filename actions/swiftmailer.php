@@ -1,5 +1,4 @@
 <?php
-session_start();
     include 'swiftmailer/lib/swift_required.php';
 
 echo $_POST['name'];
@@ -18,31 +17,7 @@ else{
     $email = "user@aa.com";
 }
 
-if(isset($_POST['phone']) && !empty($_POST['phone'])){
-    $phone = $_POST['phone'];
-}
-else{
-    $phone = '';
-}
-if(isset($_POST['portfolio']) && !empty($_POST['portfolio'])){
-    $portfolio = $_POST['portfolio'];
-}
-else{
-    $portfolio = '';
-}
-if(isset($_POST['address']) && !empty($_POST['address'])){
-    $onlinePortfolio = 'Link for online portfolio'.$_POST['addredd'];
-}
-else{
-    $onlinePortfolio = '';
-}
 
-if(isset($_POST['team']) && !empty($_POST['team'])){
-    $team = $_POST['team'];
-}
-else{
-    $team = '';
-}
 
 // Create the Transport
 $transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
@@ -63,7 +38,8 @@ $mailer = Swift_Mailer::newInstance($transport);
                             Event-project
                         </body>
                     </html>", 'text/html')
-        ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));;
+        ->attach(Swift_Attachment::fromPath('../uploads/pdfurl-guide.pdf'));
+session_start();
     if (!$mailer->send($message, $errors))
     {
         $_SESSION['message'] = 'fail';
