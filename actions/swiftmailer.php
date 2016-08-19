@@ -10,7 +10,7 @@ $mailer = Swift_Mailer::newInstance($transport);
 
     $message = Swift_Message::newInstance('Wonderful Subject')
         ->setFrom(array('john@doe.com' => 'John Doe'))
-        ->setTo(array('anastasia.dragich@gmail.com' => 'Nastia'));
+        ->setTo(array('anastasiia.dragich@gmail.com' => 'Nastia'));
     $message->setBody('<html>
     <body>
         <h2>Hi John!</h2><br><br>
