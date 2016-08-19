@@ -1618,6 +1618,13 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
     /*battles*/
+    .form-control input:not(.hidden), .pdf-input, .choose-team {
+        line-height: 55px;
+        height: 55px;
+    }
+    .form-control {
+        margin-bottom: 30px;
+    }
     #firstPartBattles {
         left: 160px;
         top: 300px;
