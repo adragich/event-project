@@ -17,21 +17,26 @@ $(function() {
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
 			$("body").addClass("stick-temp");
-			$(".lang").slideDown();
+			setTimeout(function() {
+				$(".lang").slideDown();
+			}, 1000);
 			$('.nav li').each(function(index, value){
 				console.log(index, value);
 				var li = $(this);
 				setTimeout(function(){
 					li.fadeIn();
-				}, 250*index );
+				}, 80*index + 1000 );
 			});
 	});
 	$(".close, .overlay").click(function(){
 		$(".lang").slideUp();
 		$('.nav li').fadeOut();
+
+		setTimeout(function() {
 			$(".sideBar").removeClass("appeared");
 			$(".overlay").fadeOut();
 			$("body").removeClass("stick-temp");
+		}, 500);
 	});
 
 	var nav = $(".navigation");
