@@ -79,7 +79,7 @@ $mailer = Swift_Mailer::newInstance($transport);
     else{
         $_SESSION['message'] = 'success';
         echo 'Message has been sent';
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
     }
 
-header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>

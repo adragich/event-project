@@ -12,6 +12,9 @@
 	<!--TODO: create unique block for the page-->
 	<?php
 		@include("partials/preloader-battles.html")
+		if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
+			echo  $_SESSION['message'];
+		}
 	?>
 	<section class="static-content transition">
 		<div class="container">
