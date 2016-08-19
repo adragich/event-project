@@ -56,12 +56,6 @@ $mailer = Swift_Mailer::newInstance($transport);
     $message->setBody("<html>
                         <body>
                             <h2>Application!</h2><br><br>
-                            ".$name." sent an application.<br>
-                            <p>".$email."</p>
-                            <p>".$phone."</p>
-                            <p>".$portfolio."</p>
-                            <p>".$onlinePortfolio."</p>
-                            <p>".$team."</p>
                             <p>
                                 Watch <a href='http://event-project.myhomezy.com/uploads/pdfurl-guide.pdf'>portfolio</a>
                             </p>
