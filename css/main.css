@@ -890,7 +890,9 @@ img{
     text-align: center
 }
 /*battles*/
-
+.apply-trigger{
+    display: block!important;
+}
 .loadAnimation.battles {
     width: 100%;
     left: 0;
@@ -2282,18 +2284,33 @@ input.hidden, select.hidden{
         margin-top: -10px;
         padding-left: 10px;
     }
+    .event-link.apply-trigger{
+        padding: 0;
+        width: 90%;
+        text-align: center;
+        margin-top: 15px;
+    }
     .additionalInfo.battles {
-        top: 150px;
+        top: 120px;
         padding-right: 30px;
     }
     .startDate {
         right: 26px;
+    }
+    .event-left-link .smallNote {
+        margin-top: 5px;
     }
     .date-sign {
         font-size: 22px;
     }
     .date-sign span {
         font-size: 24px;
+    }
+    .main.battles  .note{
+        font-size: 16px;
+    }
+    .main.battles {
+        padding-top: 127px;
     }
     .mainTitle.battle-info {
         font-size: 22px;

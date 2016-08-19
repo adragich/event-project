@@ -21,11 +21,11 @@
 				@include("partials/top-battles.html")
 			?>
 
-			<div class="main sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="main battles sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo BATTLES_2;?></p>
 					<p class="note"><?php echo BATTLES_NOTE;?>.</p>
-					<a href="#application" class="event-link apply yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
+					<a href="#application" class="event-link apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
 				</div>
 			</div>
 			<!--button for menu-->
