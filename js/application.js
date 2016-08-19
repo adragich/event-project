@@ -50,7 +50,7 @@ $(".pdf-uploader").uploadFile({
 $(document).on('click', '.apply-trigger', function(e){
     e.preventDefault();
     var scroll = $($(this).attr('href')).scrollTop();
-    $(window).scrollTop(scroll);
+    $(window).scrollTo(scroll, 0);
 });
 
 $(document).on('click', '.teams-list p', function(){
