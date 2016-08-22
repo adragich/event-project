@@ -1830,8 +1830,9 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
 
-    .main.flex{
-        display: block!important;
+    .main.flex, .main.sub.flex{
+        padding-top: 26vh;
+        position: relative;
     }
     /*battles*/
     .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
