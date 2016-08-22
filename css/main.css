@@ -250,8 +250,10 @@ img{
 .event-left-link.inScroll span{
     left:-999px;
 }
-.event-left-link.inScroll{
+.animScrollLink{
     position: fixed;
+}
+.event-left-link.inScroll{
     left: 84px;
     top: 20px;
     overflow: hidden;
@@ -259,7 +261,6 @@ img{
     margin-left: 0;
 }
 .tickets.inScroll{
-    position: fixed;
     top: 21px;
     right: 61px;
     margin: 0;
