@@ -29,16 +29,35 @@ function setPosition(checkAnim){
     console.log(parseInt(wrap.css("top")));
     //define position of elements
     if(checkAnim == false){
-        // orangeSquare.css({"left": left + 'px'});
-        // blueTriangle.css("top", top + 'px');
-        // yellowTriangle.css("right", right + 'px');
-        // redSquare.css("bottom", bottom + 'px');
-        // wrap.animate({
-        //     opacity: 1
-        // }, 500);
-        // template.animate({
-        //     opacity: 1
-        // }, 1000);
+        orangeSquare.css({"left": left + 'px'});
+        blueTriangle.css("top", top + 'px');
+        yellowTriangle.css("right", right + 'px');
+        redSquare.css("bottom", bottom + 'px');
+        wrap.animate({
+            opacity: 1
+        }, 500);
+        template.animate({
+            opacity: 1
+        }, 1000);
+        $(".static-content").css("opacity", 1);
+        $(".aside.left").addClass(" animated fadeInDown");
+
+        setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/2);
+        setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/2);
+
+        setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration);
+        setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  1.5*duration);
+
+        setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  2*duration);
+
+
+        setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration*2.5);
+        setTimeout('$(".note").addClass(" animated fadeInUp")',  duration*2.7);
+        setTimeout('$(".date").addClass(" animated fadeInUp")',  duration*2.9);
+        setTimeout('$(".city").addClass(" animated fadeInUp")',  duration*3.1);
+        setTimeout('$(".company").addClass(" animated fadeInUp")',  duration*3.3);
+
+        setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*2);
         // checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     }
     else{
