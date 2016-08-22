@@ -144,6 +144,7 @@ img{
     /*-moz-transform-origin:0% 50%; !* Firefox *!*/
     /*-o-transform: rotate(-90deg); !* Opera *!*/
     /*-o-transform-origin:0% 50%; !* Opera *!*/
+    /**/
     transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
@@ -160,8 +161,11 @@ img{
     /*white-space: nowrap;*/
     /*letter-spacing: 0.5px;*/
     /*line-height: 35px;*/
-    /*padding-left: 57px;*/
-    position: absolute;
+    /*padding-left: 57px;*/]
+
+    /**/
+
+display: inline-block;
 /* top: 60%; */
     left: 50%;
 /* margin-right: 0; */
@@ -190,8 +194,7 @@ img{
     /*transform-origin: inherit;*/
     /*-webkit-transform: rotate(-90deg);*/
     /*left: 0;*/
-
-    position: absolute;
+    /**/
     /* display: inline-block; */
     height: 32px;
     width: 32px;
