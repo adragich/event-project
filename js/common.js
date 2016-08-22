@@ -12,7 +12,7 @@ function setPosition(checkAnim){
 		heightTemplate = template.height(),
 		// heightTemplate = template.height(),
 		//size of container
-		widthWrap = $(window).width() * 0.56,
+		widthWrap = $(window).width() * 0.4872,
 		heightWrap = $(window).height(),
 		//offset of template(letter P)
 		offsetBottom = parseInt(blueTriangle.css("border-top-width"), 10),
