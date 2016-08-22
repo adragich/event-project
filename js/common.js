@@ -39,32 +39,25 @@ function setPosition(checkAnim){
     console.log(parseInt(wrap.css("top")));
     //define position of elements
     console.log(template.position());
-    if(checkAnim == false){
-        orangeSquare.css({"left": left + 'px'});
-        blueTriangle.css("top", top + 'px');
-        yellowTriangle.css("right", right + 'px');
-        redSquare.css("bottom", top + 'px');
-        //show template
-        wrap.animate({
-            opacity: 1
-        }, 500);
-        template.animate({
-            opacity: 1
-        }, 1000);
-        //checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
-    }
-    else{
-        orangeSquare.css({"top": top + 'px', "left": left + 'px'});
-        blueTriangle.css({"top": top + 'px', "right": right + 'px'});
-        yellowTriangle.css({"top": top + 'px', "right": right + 'px'});
-        redSquare.css({"left": left + 'px', "bottom": top + 'px'});
-    }
-
-
-    orangeSquare.css({"top": top + 'px', "left": left + 'px', 'opacity': '1'});
-    blueTriangle.css({"top": top + 'px', "right": right + 'px', 'opacity': '1'});
-    yellowTriangle.css({"top": top + 'px', "right": right + 'px', 'opacity': '1'});
-    redSquare.css({"left": left + 'px', "bottom": top + 'px', 'opacity': '1'});
+    // if(checkAnim == false){
+    //     orangeSquare.css({"left": left + 'px'});
+    //     blueTriangle.css("top", top + 'px');
+    //     yellowTriangle.css("right", right + 'px');
+    //     redSquare.css("bottom", top + 'px');
+    //     wrap.animate({
+    //         opacity: 1
+    //     }, 500);
+    //     template.animate({
+    //         opacity: 1
+    //     }, 1000);
+    //     checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
+    // }
+    // else{
+    //     orangeSquare.css({"top": top + 'px', "left": left + 'px'});
+    //     blueTriangle.css({"top": top + 'px', "right": right + 'px'});
+    //     yellowTriangle.css({"top": top + 'px', "right": right + 'px'});
+    //     redSquare.css({"left": left + 'px', "bottom": top + 'px'});
+    // }
 }
 function animateItems(first, second, third, fourth, position, duration, wrap){
     first.delay( duration/2 ).animate({
