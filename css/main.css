@@ -562,6 +562,11 @@ img{
 }
 .loadAnimation > div:not(.imageCenter){
     opacity:0;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
 }
 .imageCenter{
     left:382px;
@@ -577,6 +582,7 @@ img{
     height:188px;
     left:382px;
     background-color: #ffbe9e;
+    top:0;
 }
 #blueTriangle{
     width: 0;
