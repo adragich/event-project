@@ -51,7 +51,7 @@ function setPosition(checkAnim){
         template.animate({
             opacity: 1
         }, 1000);
-        checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
+       // checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     }
     else{
         orangeSquare.css({"top": top + 'px', "left": left + 'px'});
