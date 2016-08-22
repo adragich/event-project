@@ -157,7 +157,8 @@ img{
     line-height: 35px;
     padding-left: 57px;
 }
-.vertically-text .element{
+
+.cross-element{
     position: absolute;
     display: inline-block;
     height: 32px;
@@ -178,7 +179,8 @@ img{
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
 }
-.fill:hover .element{
+
+.fill:hover .cross-element{
 
     transform: rotate(180deg);
     -o-transform: rotate(180deg);
