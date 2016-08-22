@@ -490,7 +490,7 @@ img{
     min-height: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 10;
 }
 .static-content{
     height:100%;
@@ -543,6 +543,24 @@ img{
     font-family: 'StolzlMedium', sans-serif;
     cursor: pointer;
     outline: none;
+}
+.event-link:before{
+    content: '';
+    background: #fff494;
+    position: absolute;
+    right:0;
+    left:100%;
+    top:0;
+    height:100%;
+
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.event-link::before{
+    left:0;
 }
 .event-link:after{
     content:"";
