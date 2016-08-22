@@ -15,16 +15,26 @@ function setPosition(checkAnim){
         heightWrap = wrap.height(),
         //offset of template(letter P)
         offsetBottom = parseInt(blueTriangle.css("border-top-width"), 10),
-        top = (heightWrap - heightTemplate)/2 - 45,
-        left = (widthWrap - widthTemplate)/2,
-        right = widthWrap - left - widthTemplate,
-        bottom = heightWrap - top - heightTemplate,
+
+        // top = (heightWrap - heightTemplate)/2 - 45,
+        // left = (widthWrap - widthTemplate)/2,
+        // right = widthWrap - left - widthTemplate,
+        // bottom = heightWrap - top - heightTemplate,
+
         bottomDefigned = bottom + heightTemplate - offsetBottom,
         topDefigned = top + orangeSquare.height(),
         position = [top, left, right, bottomDefigned];
+
+
     console.log(position);
     template.css({"top": top, "left": left});
     console.log(parseInt($(".loadAnimation").css("top")));
+
+    var top = template.position().top,
+        left = template.position().left,
+        right = template.position().left + orangeSquare.width(),
+        bottom = template.position().top + orangeSquare.height();
+
     //define position of elements
     // if(checkAnim == false){
     //     orangeSquare.css({"left": left});
@@ -41,10 +51,10 @@ function setPosition(checkAnim){
          checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     // }
     // else{
-    //     orangeSquare.css({"top": top, "left": left});
-    //     blueTriangle.css({"top": top, "right": right});
-    //     yellowTriangle.css({"top": top, "right": right});
-    //     redSquare.css({"left": left, "top": topDefigned});
+        orangeSquare.css({"top": top, "left": left});
+        blueTriangle.css({"top": top, "left": right});
+        yellowTriangle.css({"top": top, "left": right});
+        redSquare.css({"top": bottom, "left": left});
     // }
 }
 function animateItems(first, second, third, fourth, position, duration, wrap){
