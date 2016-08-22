@@ -156,6 +156,12 @@ img{
     letter-spacing: 0.5px;
     line-height: 35px;
     padding-left: 57px;
+}
+.vertically-text:before{
+    content:'';
+    position: absolute;
+    height: 32px;
+    width: 32px;
     background: url("../img/vector.png") 0 0 no-repeat;
 }
 .white{
