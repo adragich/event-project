@@ -38,7 +38,7 @@ function setPosition(checkAnim){
         template.animate({
             opacity: 1
         }, 1000);
-    //     checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
+         checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     // }
     // else{
     //     orangeSquare.css({"top": top, "left": left});
@@ -50,24 +50,24 @@ function setPosition(checkAnim){
 function animateItems(first, second, third, fourth, position, duration, wrap){
     first.delay( duration/2 ).animate({
         opacity: 1,
-        top: "+=" + position[0]
+        //top: "+=" + position[0]
     }, duration, function() {
         console.log("Animation complete.");
         third.animate({
             opacity: 1,
-            bottom: "+=" + position[3]
+           // bottom: "+=" + position[3]
         }, duration, function() {
             console.log("Animation complete.");
         });
     });
     second.delay( duration ).animate({
         opacity: 1,
-        right: "+=" + position[2]
+        //right: "+=" + position[2]
     }, duration, function() {
         console.log("Animation complete.");
         fourth.animate({
             opacity: 1,
-            left: "+=" + position[1]
+            //left: "+=" + position[1]
         }, duration, function() {
             var right = 0,
                 strings = $(".additionalInfo p");
