@@ -15,6 +15,7 @@ function setPosition(checkAnim){
         heightWrap = wrap.height(),
         //offset of template(letter P)
         offsetBottom = parseInt(blueTriangle.css("border-top-width"), 10),
+        offsetTop = parseInt(blueTriangle.css("border-left-width"), 10),
 
         //top = (heightWrap - heightTemplate)/2 - 45,
 
@@ -25,7 +26,7 @@ function setPosition(checkAnim){
         right = left,
 
         //right = widthWrap - left - widthTemplate,
-        bottom = top + offsetBottom + yellowTriangle.height(),
+        bottom = top + offsetBottom + offsetTop,
        // bottom = heightWrap - top - heightTemplate,
        // bottomDefigned = bottom + heightTemplate - offsetBottom,
        // topDefigned = top + orangeSquare.height(),
