@@ -244,14 +244,18 @@ img{
 }
 
 .event-left-link span{
-    position: relative;
-    left:0;
+    overflow: hidden;
+    width: 100%;
 }
 .event-left-link.inScroll span{
-    left:-999px;
+   width: 0;
 }
 .animScrollLink{
     position: fixed!Important;
+}
+.event-left-link{
+    margin-top: 0;
+    top: 48px;left: 40px;
 }
 .event-left-link.inScroll{
     left: 84px;
@@ -259,6 +263,12 @@ img{
     overflow: hidden;
     margin-top: 0;
     margin-left: 0;
+}
+
+.tickets.event-link {
+    right: 80px;
+    top: 48px;
+    margin-top:0;
 }
 .tickets.inScroll{
     top: 21px;
