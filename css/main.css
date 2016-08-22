@@ -412,6 +412,12 @@ img{
     display: -ms-flexbox!important;
     display: flex!important;
 }
+.static-content .flex.main{
+    height: 100%;
+    position: absolute;
+    padding-top: 0;
+    top: 0;
+}
 .changeLang{
     line-height: 25px;
     color: #3e3e3e;
