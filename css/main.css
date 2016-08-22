@@ -667,6 +667,7 @@ img{
     max-height:100vh;
     overflow: hidden;
     opacity:0;
+    justify-content: center;
 }
 .loadAnimation.ready:before {
     /*  content: "";
