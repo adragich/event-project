@@ -19,14 +19,21 @@ function setPosition(checkAnim){
 		top = (heightWrap - heightTemplate)/2 - 45,
 		left = (widthWrap - widthTemplate)/2,
 		right = widthWrap - left - widthTemplate,
-		bottom = top + heightTemplate,
+		bottom = heightWrap - top - heightTemplate,
 		bottomDefigned = bottom + heightTemplate - offsetBottom,
 		topDefigned = top + orangeSquare.height(),
+
 
 		position = [top, left, right, bottom];
 		console.log(position);
 		template.css({"top": top, "left": left});
 		console.log(parseInt(wrap.css("top")));
+
+        top = parseInt(template.css('top'));
+        bottom = parseInt(template.css('bottom'));
+        left = parseInt(template.css('left'));
+        right = parseInt(template.css('right'));
+
 	//define position of elements
 	  if(checkAnim == false){
 		orangeSquare.css({"left": left});
