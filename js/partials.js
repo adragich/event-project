@@ -13,6 +13,7 @@ function constructMenuLinks(){
 }
 $(function() {
 	constructMenuLinks();
+    scrollOptions();
 	$(".menu").click(function(){
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
