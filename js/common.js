@@ -51,10 +51,10 @@ function setPosition(checkAnim){
 }
 function animateItems(first, second, third, fourth, position, duration, wrap){
 
-    first.css('top', position[0] + 'px');
-    second.css('right', position[2] + 'px');
-    third.css('bottom', position[3] + 'px');
-    fourth.css('left', position[1] + 'px');
+    first.css({'top': position[0] + 'px'});
+    second.css({'right': position[2] + 'px'});
+    third.css({'bottom': position[3] + 'px'});
+    fourth.css({'left': position[1] + 'px'});
 
     var right = 0,
         			strings = $(".additionalInfo p");
