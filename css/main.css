@@ -180,6 +180,10 @@ img{
 
 }
 
+.hover-logo{
+    top: 0;
+    left: 0;
+}
 .fill:hover .cross-element{
 
     transform: rotate(90deg);
