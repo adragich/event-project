@@ -242,11 +242,18 @@ img{
 .nav a:hover:before{
     left:20px;
 }
+
+.event-left-link span{
+    position: relative;
+    left:0;
+}
+.event-left-link.inScroll span{
+    left:-999px;
+}
 .event-left-link.inScroll{
     position: fixed;
-    left: 133px;
+    left: 84px;
     top: 20px;
-    text-indent: -9999px;
     overflow: hidden;
 }
 .tickets.inScroll{
