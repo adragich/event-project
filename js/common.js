@@ -32,12 +32,12 @@ function setPosition(checkAnim){
     //     yellowTriangle.css("right", right);
     //     redSquare.css("bottom", bottom);
     //     //show template
-    //     wrap.animate({
-    //         opacity: 1
-    //     }, 500);
-    //     template.animate({
-    //         opacity: 1
-    //     }, 1000);
+        wrap.animate({
+            opacity: 1
+        }, 500);
+        template.animate({
+            opacity: 1
+        }, 1000);
     //     checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     // }
     // else{
