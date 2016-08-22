@@ -25,7 +25,7 @@ function setPosition(checkAnim){
         right = left,
 
         //right = widthWrap - left - widthTemplate,
-        bottom = top + redSquare.height(),
+        bottom = top,
        // bottom = heightWrap - top - heightTemplate,
        // bottomDefigned = bottom + heightTemplate - offsetBottom,
        // topDefigned = top + orangeSquare.height(),
@@ -69,7 +69,8 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
         console.log("Animation complete.");
         third.animate({
             opacity: 1,
-            bottom: "+=" + position[3]
+            // bottom: "+=" + position[3]
+            top: "+=" + position[0]
         }, duration, function() {
             console.log("Animation complete.");
         });
