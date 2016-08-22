@@ -51,7 +51,7 @@ function setPosition(checkAnim){
         template.animate({
             opacity: 1
         }, 1000);
-       // checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
+        //checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     }
     else{
         orangeSquare.css({"top": top + 'px', "left": left + 'px'});
@@ -59,6 +59,12 @@ function setPosition(checkAnim){
         yellowTriangle.css({"top": top + 'px', "right": right + 'px'});
         redSquare.css({"left": left + 'px', "bottom": top + 'px'});
     }
+
+
+    orangeSquare.css({"top": top + 'px', "left": left + 'px', 'opacity': '1'});
+    blueTriangle.css({"top": top + 'px', "right": right + 'px', 'opacity': '1'});
+    yellowTriangle.css({"top": top + 'px', "right": right + 'px', 'opacity': '1'});
+    redSquare.css({"left": left + 'px', "bottom": top + 'px', 'opacity': '1'});
 }
 function animateItems(first, second, third, fourth, position, duration, wrap){
     first.delay( duration/2 ).animate({
