@@ -16,8 +16,8 @@ function setPosition(checkAnim){
         //offset of template(letter P)
         offsetBottom = parseInt(blueTriangle.css("border-top-width"), 10),
 
-         top = (heightWrap - heightTemplate)/2 - 45,
-         left = (widthWrap - widthTemplate)/2,
+         topT = (heightWrap - heightTemplate)/2 - 45,
+         leftT = (widthWrap - widthTemplate)/2,
         // right = widthWrap - left - widthTemplate,
         // bottom = heightWrap - top - heightTemplate,
 
@@ -27,7 +27,7 @@ function setPosition(checkAnim){
 
 
     console.log(position);
-    template.css({"top": top, "left": left});
+    template.css({"top": topT, "left": leftT});
     console.log(parseInt($(".loadAnimation").css("top")));
 
     var top = template.position().top,
@@ -36,7 +36,7 @@ function setPosition(checkAnim){
         bottom = template.position().top + orangeSquare.height();
 
     //define position of elements
-    // if(checkAnim == false){
+    if(checkAnim == false){
     //     orangeSquare.css({"left": left});
     //     blueTriangle.css("top", top);
     //     yellowTriangle.css("right", right);
@@ -49,7 +49,7 @@ function setPosition(checkAnim){
             opacity: 1
         }, 1000);
          checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
-    // }
+    }
     // else{
         orangeSquare.css({"top": top, "left": left});
         blueTriangle.css({"top": top, "left": right});
