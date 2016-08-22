@@ -29,18 +29,17 @@ function setPosition(checkAnim){
     console.log(parseInt(wrap.css("top")));
     //define position of elements
     if(checkAnim == false){
-        orangeSquare.css({"left": left + 'px'});
-        blueTriangle.css("top", top + 'px');
-        yellowTriangle.css("right", right + 'px');
-        redSquare.css("bottom", bottom + 'px');
-        //show template
-        wrap.animate({
-            opacity: 1
-        }, 500);
-        template.animate({
-            opacity: 1
-        }, 1000);
-        checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
+        // orangeSquare.css({"left": left + 'px'});
+        // blueTriangle.css("top", top + 'px');
+        // yellowTriangle.css("right", right + 'px');
+        // redSquare.css("bottom", bottom + 'px');
+        // wrap.animate({
+        //     opacity: 1
+        // }, 500);
+        // template.animate({
+        //     opacity: 1
+        // }, 1000);
+        // checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     }
     else{
         orangeSquare.css({"top": top + 'px', "left": left + 'px'});
