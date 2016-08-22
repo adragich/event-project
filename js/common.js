@@ -19,7 +19,7 @@ function setPosition(checkAnim){
 		top = (heightWrap - heightTemplate)/2 - 45,
 		left = (widthWrap - widthTemplate)/2,
 		right = widthWrap - left - widthTemplate,
-		bottom = heightWrap - top - heightTemplate,
+		bottom = top + heightTemplate,
 		bottomDefigned = bottom + heightTemplate - offsetBottom,
 		topDefigned = top + orangeSquare.height(),
 
