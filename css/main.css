@@ -562,11 +562,6 @@ img{
 }
 .loadAnimation > div:not(.imageCenter){
     opacity:0;
-    transition: 2s ease;
-    -o-transition: 2s ease;
-    -webkit-transition: 2s ease;
-    -moz-transition: 2s ease;
-    -ms-transition: 2s ease;
 }
 .imageCenter{
     left:382px;
