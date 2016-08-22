@@ -21,7 +21,6 @@ $(function() {
 				$(".lang").slideDown();
 			}, 1000);
 			$('.nav li').each(function(index, value){
-				console.log(index, value);
 				var li = $(this);
 				setTimeout(function(){
 					li.fadeIn();
