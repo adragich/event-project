@@ -23,7 +23,7 @@ function setPosition(checkAnim){
         bottomDefigned = bottom + heightTemplate - offsetBottom,
         topDefigned = top + orangeSquare.height(),
 
-        position = [top, left, right, bottom];
+        position = [top, left, right, bottomDefigned];
     console.log(position);
     template.css({"top": top, "left": left});
     console.log(parseInt(wrap.css("top")));
