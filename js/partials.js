@@ -103,7 +103,6 @@ function screwDesigners(){
 
 $(window).scroll(function() {
 	scrollOptions();
-	console.log('here');
 });
 
 function scrollOptions(){

@@ -242,6 +242,24 @@ img{
 .nav a:hover:before{
     left:20px;
 }
+.event-left-link.inScroll{
+    position: fixed;
+    left: 133px;
+    top: 20px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.tickets.inScroll{
+    position: fixed;
+    top: 21px;
+    right: 61px;
+    margin: 0;
+    line-height: 49px;
+    padding: 0 72px;
+}
+.event-left-link.inScroll img{
+    width:38px;
+}
 .socials{
     width: 100%;
 }
