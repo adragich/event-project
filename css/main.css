@@ -709,7 +709,7 @@ img{
     right:0;
     top: calc((100% - 253px)/2);
 
-    right: 361px;
+    left: 476px;
     top: 368px;
 }
 #yellowTriangle{
@@ -720,9 +720,9 @@ img{
     border-color: transparent transparent transparent #ffde17;
     right:330px;
     bottom:0;
-    
-    right: 361px;
-    top: 367px;
+
+    left: 476px;
+    top: 368px;
 }
 #yellowTriangle:before{
     content: "";
