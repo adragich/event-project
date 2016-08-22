@@ -2003,6 +2003,7 @@ input.hidden, select.hidden{
     }
     .event-left-link img{
         width: 34px;
+        margin-left: -15px;
     }
     .loadAnimation {
         background: #fff;
