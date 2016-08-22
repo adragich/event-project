@@ -111,16 +111,17 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
 $(function() {
     var checkAnim = false;
     setPosition(checkAnim);
+    console.log($._data(window).events.scroll);
+    $(window).scroll(function() {
+        scrollOptions();
+        console.log('here');
+    });
 });
 
 $( window ).resize(function(){
     setPosition();
 });
 
-$(window).scroll(function() {
-    scrollOptions();
-    console.log('here');
-});
 
 function scrollOptions(){
     if($(window).scrollTop() > 100){
