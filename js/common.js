@@ -7,9 +7,11 @@ function setPosition(checkAnim){
         blueTriangle = $("#blueTriangle"),
         yellowTriangle = $("#yellowTriangle"),
         redSquare = $("#redSquare"),
+
         //sizing of template (letter P)
         widthTemplate = template.width(),
         heightTemplate = template.height(),
+
         //size of container
         widthWrap = wrap.width(),
         heightWrap = wrap.height(),
@@ -105,10 +107,25 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
         });
     });
 }
+
 $(function() {
     var checkAnim = false;
     setPosition(checkAnim);
 });
+
 $(window).resize(function(){
     setPosition();
 });
+
+$(window).scroll(function(){
+    scrollOptions();
+});
+
+function scrollOptions(){
+    if($(window).scrollTop() > 100){
+        $(".animScrollLink").addClass('inScroll');
+    }
+    else{
+        $(".animScrollLink").removeClass('inScroll');
+    }
+}
