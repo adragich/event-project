@@ -679,7 +679,7 @@ img{
       left: 25px;*/
 }
 .loadAnimation > div:not(.imageCenter){
-    opacity:0;
+    /*opacity:0;*/
 }
 .imageCenter{
     /*left:382px;*/

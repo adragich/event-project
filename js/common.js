@@ -15,35 +15,23 @@ function setPosition(checkAnim){
         heightWrap = wrap.height(),
         //offset of template(letter P)
         offsetBottom = parseInt(blueTriangle.css("border-top-width"), 10),
-
-        //top = (heightWrap - heightTemplate)/2 - 45,
-
-        top = template.position().top,
-        left = template.position().left,
-
-        //left = (widthWrap - widthTemplate)/2,
-        right = left,
-
-        //right = widthWrap - left - widthTemplate,
-        bottom = top + heightTemplate - offsetBottom,
-       // bottom = heightWrap - top - heightTemplate,
-       // bottomDefigned = bottom + heightTemplate - offsetBottom,
-       // topDefigned = top + orangeSquare.height(),
-
-        //position = [top, left, right, bottomDefigned];
-        position = [top, left, right, bottom];
+        top = (heightWrap - heightTemplate)/2 - 45,
+        left = (widthWrap - widthTemplate)/2,
+        right = widthWrap - left - widthTemplate,
+        bottom = heightWrap - top - heightTemplate,
+        bottomDefigned = bottom + heightTemplate - offsetBottom,
+        topDefigned = top + orangeSquare.height(),
+        position = [top, left, right, bottomDefigned];
     console.log(position);
-
-    //template.css({"top": top, "left": left});
-
-    console.log(parseInt(wrap.css("top")));
+    template.css({"top": top, "left": left});
+    console.log(parseInt($(".loadAnimation").css("top")));
     //define position of elements
-    console.log(template.position());
     // if(checkAnim == false){
-    //     orangeSquare.css({"left": left + 'px'});
-    //     blueTriangle.css("top", top + 'px');
-    //     yellowTriangle.css("right", right + 'px');
-    //     redSquare.css("bottom", top + 'px');
+    //     orangeSquare.css({"left": left});
+    //     blueTriangle.css("top", top);
+    //     yellowTriangle.css("right", right);
+    //     redSquare.css("bottom", bottom);
+    //     //show template
     //     wrap.animate({
     //         opacity: 1
     //     }, 500);
@@ -53,10 +41,10 @@ function setPosition(checkAnim){
     //     checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
     // }
     // else{
-    //     orangeSquare.css({"top": top + 'px', "left": left + 'px'});
-    //     blueTriangle.css({"top": top + 'px', "right": right + 'px'});
-    //     yellowTriangle.css({"top": top + 'px', "right": right + 'px'});
-    //     redSquare.css({"left": left + 'px', "bottom": top + 'px'});
+    //     orangeSquare.css({"top": top, "left": left});
+    //     blueTriangle.css({"top": top, "right": right});
+    //     yellowTriangle.css({"top": top, "right": right});
+    //     redSquare.css({"left": left, "top": topDefigned});
     // }
 }
 function animateItems(first, second, third, fourth, position, duration, wrap){
