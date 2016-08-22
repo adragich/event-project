@@ -255,6 +255,8 @@ img{
     left: 84px;
     top: 20px;
     overflow: hidden;
+    margin-top: 0;
+    margin-left: 0;
 }
 .tickets.inScroll{
     position: fixed;
