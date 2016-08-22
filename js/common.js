@@ -25,7 +25,7 @@ function setPosition(checkAnim){
         right = left,
 
         //right = widthWrap - left - widthTemplate,
-        bottom = top + offsetBottom,
+        bottom = top + offsetBottom + yellowTriangle.height(),
        // bottom = heightWrap - top - heightTemplate,
        // bottomDefigned = bottom + heightTemplate - offsetBottom,
        // topDefigned = top + orangeSquare.height(),
