@@ -245,15 +245,13 @@ img{
 
 .event-left-link span{
     overflow: hidden;
-    height: 69px;
     opacity: 1;
     position: relative;
     top: 0;
 }
 .event-left-link.inScroll span{
-    height: 0;
     opacity: 0;
-    top: -30px;
+    top: -69px;
 }
 .animScrollLink{
     position: fixed!Important;
