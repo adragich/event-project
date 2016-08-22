@@ -1830,7 +1830,7 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
 
-    .main.flex, .main.sub.flex{
+    .static-content .main.flex{
         padding-top: 26vh;
         position: relative;
     }
