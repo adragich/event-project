@@ -686,8 +686,7 @@ img{
     /*top: -webkit-calc((100% - 253px)/2);*/
     /*top: calc((100% - 253px)/2);*/
     /**/
-    /*height: 253px;*/
-    height: 344px;
+    height: 253px;
     width: 215px;
     opacity:0;
 }
