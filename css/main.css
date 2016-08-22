@@ -681,11 +681,12 @@ img{
     opacity:0;
 }
 .imageCenter{
-    left:382px;
-    top: -webkit-calc((100% - 253px)/2);
-    top: calc((100% - 253px)/2);
+    /*left:382px;*/
+    /*top: -webkit-calc((100% - 253px)/2);*/
+    /*top: calc((100% - 253px)/2);*/
     /**/
-    height: 253px;
+    /*height: 253px;*/
+    height: 344px;
     width: 215px;
     opacity:0;
 }
