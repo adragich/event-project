@@ -43,7 +43,7 @@ function setPosition(checkAnim){
         orangeSquare.css({"left": left + 'px'});
         blueTriangle.css("top", top + 'px');
         yellowTriangle.css("right", right + 'px');
-        redSquare.css("bottom", bottom + 'px');
+        redSquare.css("bottom", top + 'px');
         //show template
         wrap.animate({
             opacity: 1
