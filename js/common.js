@@ -111,23 +111,8 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
 $(function() {
     var checkAnim = false;
     setPosition(checkAnim);
-    console.log($._data(window).events.scroll);
-    $(window).scroll(function() {
-        scrollOptions();
-        console.log('here');
-    });
 });
 
 $( window ).resize(function(){
     setPosition();
 });
-
-
-function scrollOptions(){
-    if($(window).scrollTop() > 100){
-        $(".animScrollLink").addClass('inScroll');
-    }
-    else{
-        $(".animScrollLink").removeClass('inScroll');
-    }
-}

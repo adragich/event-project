@@ -99,3 +99,18 @@ function screwDesigners(){
 		}
 	}
 }
+
+
+$(window).scroll(function() {
+	scrollOptions();
+	console.log('here');
+});
+
+function scrollOptions(){
+	if($(window).scrollTop() > 100){
+		$(".animScrollLink").addClass('inScroll');
+	}
+	else{
+		$(".animScrollLink").removeClass('inScroll');
+	}
+}
