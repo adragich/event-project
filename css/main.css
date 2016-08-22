@@ -436,9 +436,6 @@ img{
     z-index: 10;
     position: fixed;
 }
-.event-left-link img{
-    margin-left: 12px;
-}
 .main{
     width: 100%;
     padding-left: 10%;
@@ -1784,9 +1781,6 @@ input.hidden, select.hidden{
     }
     .vertically-text {
         font-size: 22px;
-    }
-    .event-left-link img {
-        margin-left: 23px;
     }
     .note {
         font-size: 26px;
