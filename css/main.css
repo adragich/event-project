@@ -190,10 +190,11 @@ img{
     position: absolute;
 }
 .nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before, .fill:hover:before{
-    background: #ffeb3e;
     left:0;
 }
-
+.fill:hover:before {
+    background: #fff494;
+}
 .nav a:hover:before{
     left:20px;
 }
