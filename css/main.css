@@ -172,13 +172,16 @@ img{
     -webkit-transition: 0.5s ease;
     -moz-transition: 0.5s ease;
     -ms-transition: 0.5s ease;
+    transform-origin: inherit;
+    -webkit-transform: rotate(-90deg);
+    left: 0;
 }
 
 .fill:hover .cross-element{
 
     transform: rotate(180deg);
     -o-transform: rotate(180deg);
-    -webkit-transform:  translateX(-50%) translateY(-50%) rotate(180deg);
+    -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
 }
 .white{
