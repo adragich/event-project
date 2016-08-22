@@ -184,6 +184,10 @@ img{
 }
 .nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before{
     background: #ffeb3e;
+    left:0;
+}
+
+.nav a:hover:before{
     left:20px;
 }
 .socials{
@@ -196,6 +200,7 @@ img{
     float: right;
     font-size: 18px;
     position: relative;
+    top: 10px;
 }
 .nav a{
     color: #3e3e3e;
@@ -268,6 +273,12 @@ img{
     margin: 0 0 18px;
     width: 100%;
     box-sizing: border-box;
+}
+.close:hover .menu-close{
+    animation-name: sliding;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .menu:hover .stripe{
     animation-name: sliding;
