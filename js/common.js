@@ -30,9 +30,9 @@ function setPosition(checkAnim){
     //define position of elements
     if(checkAnim == false){
         orangeSquare.css({"left": left + 'px'});
-        blueTriangle.css("top", topDefigned + 'px');
+        blueTriangle.css("top", top + 'px');
         yellowTriangle.css("right", right + 'px');
-        redSquare.css("bottom", bottomDefigned + 'px');
+        redSquare.css("bottom", bottom + 'px');
         //show template
         wrap.animate({
             opacity: 1
