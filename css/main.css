@@ -160,6 +160,7 @@ img{
 .vertically-text:before{
     content:'';
     position: absolute;
+    display: inline-block;
     height: 32px;
     width: 32px;
     top:0;
@@ -180,10 +181,10 @@ img{
 }
 .fill:hover .vertically-text:before{
 
-    transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -webkit-transform:  rotate(-90deg);
-    -moz-transform: rotate(-90deg);
+    transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform:  rotate(180deg);
+    -moz-transform: rotate(180deg);
 }
 .white{
     background: #fff
