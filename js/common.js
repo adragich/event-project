@@ -29,10 +29,10 @@ function setPosition(checkAnim){
 		console.log(parseInt(wrap.css("top")));
 	//define position of elements
 	  if(checkAnim == false){
-		orangeSquare.css({"left": left});
-		blueTriangle.css("top", top);
-		yellowTriangle.css("right", right);
-		redSquare.css("bottom", bottom);
+		// orangeSquare.css({"left": left});
+		// blueTriangle.css("top", top);
+		// yellowTriangle.css("right", right);
+		// redSquare.css("bottom", bottom);
 		//show template
 		wrap.animate({ 
 			opacity: 1
