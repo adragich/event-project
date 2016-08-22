@@ -32,6 +32,7 @@ function setPosition(checkAnim){
 
         //position = [top, left, right, bottomDefigned];
         position = [top, left, right, bottom];
+    console.log(yellowTriangle.height());
     console.log(position);
 
     //template.css({"top": top, "left": left});
