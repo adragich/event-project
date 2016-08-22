@@ -25,14 +25,13 @@ function setPosition(checkAnim){
         right = left,
 
         //right = widthWrap - left - widthTemplate,
-        bottom = top + heightTemplate - blueTriangle.height(),
+        bottom = top + heightTemplate - offsetBottom,
        // bottom = heightWrap - top - heightTemplate,
        // bottomDefigned = bottom + heightTemplate - offsetBottom,
        // topDefigned = top + orangeSquare.height(),
 
         //position = [top, left, right, bottomDefigned];
         position = [top, left, right, bottom];
-    console.log(yellowTriangle.height());
     console.log(position);
 
     //template.css({"top": top, "left": left});
