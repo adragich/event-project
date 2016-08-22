@@ -540,6 +540,7 @@ img{
     /*width: 100%;*/
     /* width: 55%;*/
     width: 56%;
+    max-width: 935px;
     left: 22%;
     right: 22%;
     height: 100%;
