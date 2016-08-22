@@ -184,6 +184,13 @@ img{
     top: 0;
     left: 0;
     opacity:0;
+
+
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
 }
 .event-left-link:hover .hover-logo{
     opacity: 1;
@@ -382,7 +389,7 @@ img{
     position: fixed;
 }
 .event-left-link img{
-    margin-left: 10px;
+    margin-left: 12px;
 }
 .main{
     width: 100%;
@@ -748,7 +755,7 @@ img{
 }
 .reset-link{
     text-decoration: none;
-    color:inherit;
+    color: #3e3e3e;
 }
 /*speakers*/
 .speaker{
