@@ -267,6 +267,9 @@ img{
     padding: 0 72px;
 }
 
+.event-left-link img{
+    width: 58px;
+}
 .event-left-link.inScroll img{
     width:38px;
 }
