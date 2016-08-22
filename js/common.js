@@ -113,12 +113,13 @@ $(function() {
     setPosition(checkAnim);
 });
 
-$(window).resize(function(){
+$( window ).resize(function(){
     setPosition();
 });
 
-$(window).scroll(function(){
+$(window).scroll(function() {
     scrollOptions();
+    console.log('here');
 });
 
 function scrollOptions(){
