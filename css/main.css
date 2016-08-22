@@ -251,7 +251,7 @@ img{
     left:-999px;
 }
 .animScrollLink{
-    position: fixed;
+    position: fixed!Important;
 }
 .event-left-link.inScroll{
     left: 84px;
