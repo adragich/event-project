@@ -259,7 +259,8 @@ img{
 .event-left-link.animScrollLink{
     margin-top: 0;
     top: 48px;
-    left: 133px;
+    margin-left: 0;
+    left: 6.5%;
 }
 .event-left-link.inScroll{
     left: 84px;
@@ -282,8 +283,9 @@ img{
     padding: 0 72px;
 }
 
-.event-left-link img{
+.event-left-link.animScrollLink img{
     width: 58px;
+    margin-left: -26px;
 }
 .event-left-link.inScroll img{
     width:38px;
