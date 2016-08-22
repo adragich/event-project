@@ -16,8 +16,8 @@ function setPosition(checkAnim){
         //offset of template(letter P)
         offsetBottom = parseInt(blueTriangle.css("border-top-width"), 10),
 
-        // top = (heightWrap - heightTemplate)/2 - 45,
-        // left = (widthWrap - widthTemplate)/2,
+         top = (heightWrap - heightTemplate)/2 - 45,
+         left = (widthWrap - widthTemplate)/2,
         // right = widthWrap - left - widthTemplate,
         // bottom = heightWrap - top - heightTemplate,
 
