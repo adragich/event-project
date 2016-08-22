@@ -57,7 +57,7 @@ function setPosition(checkAnim){
         orangeSquare.css({"top": top + 'px', "left": left + 'px'});
         blueTriangle.css({"top": top + 'px', "right": right + 'px'});
         yellowTriangle.css({"top": top + 'px', "right": right + 'px'});
-        redSquare.css({"left": left + 'px', "top": topDefigned + 'px'});
+        redSquare.css({"left": left + 'px', "bottom": top + 'px'});
     }
 }
 function animateItems(first, second, third, fourth, position, duration, wrap){
