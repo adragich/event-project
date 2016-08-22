@@ -23,20 +23,16 @@ function setPosition(checkAnim){
 		bottomDefigned = bottom + heightTemplate - offsetBottom,
 		topDefigned = top + orangeSquare.height(),
 
-
 		position = [top, left, right, bottom];
 		console.log(position);
 		template.css({"top": top, "left": left});
 		console.log(parseInt(wrap.css("top")));
-
-
 	//define position of elements
 	  if(checkAnim == false){
-		// orangeSquare.css({"left": left});
-		// blueTriangle.css("top", topDefigned);
-		// yellowTriangle.css("right", right);
-		// redSquare.css("bottom", bottomDefigned);
-
+		orangeSquare.css({"left": left});
+		blueTriangle.css("top", topDefigned);
+		yellowTriangle.css("right", right);
+		redSquare.css("bottom", bottomDefigned);
 		//show template
 		wrap.animate({ 
 			opacity: 1
@@ -44,7 +40,6 @@ function setPosition(checkAnim){
 		template.animate({ 
 			opacity: 1
 	  	}, 1000);
-
 	  	checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
 	  }
 	  else{
@@ -57,31 +52,24 @@ function setPosition(checkAnim){
 function animateItems(first, second, third, fourth, position, duration, wrap){
 	  first.delay( duration/2 ).animate({
 	    opacity: 1,
-	    top: "+=" + position[0],
-          //
-          left: "+=" + position[1]
+	    top: "+=" + position[0]
 	  }, duration, function() {
 	    console.log("Animation complete.");
 			  third.animate({
 			    opacity: 1,
-			    bottom: "+=" + position[3],
-                  //
-                  right: "+=" + position[2]
+			    bottom: "+=" + position[3]
 			  }, duration, function() {
 			      console.log("Animation complete.");
 			  });
 	  });
 	  second.delay( duration ).animate({
 		opacity: 1,
-		  right: "+=" + position[2],
-          //
-          top: "+=" + position[0]
+		  right: "+=" + position[2]
 		}, duration, function() {
 		    console.log("Animation complete.");
 				fourth.animate({
 				 opacity: 1,
-				 left: "+=" + position[1],
-                    bottom: "+=" + position[3]
+				 left: "+=" + position[1]
 			}, duration, function() {
 				var right = 0,
 					strings = $(".additionalInfo p");
