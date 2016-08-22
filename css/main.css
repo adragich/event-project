@@ -173,7 +173,7 @@ img{
 .changeLang{
     position: relative;
 }
-.nav a:before, .changeLang:before, .socials a:before{
+.nav a:before, .changeLang:before, .socials a:before,.filled:before{
     content: '';
     right:0;
     left:100%;
@@ -189,7 +189,7 @@ img{
     z-index: -1;
     position: absolute;
 }
-.nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before{
+.nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before, .filled:hover:before{
     background: #ffeb3e;
     left:0;
 }
