@@ -56,6 +56,29 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
     third.css('bottom', position[3] + 'px');
     fourth.css('left', position[1] + 'px');
 
+    var right = 0,
+        			strings = $(".additionalInfo p");
+        		 wrap.css({"right": right, "left": "45%"}).addClass("ready");
+        		 $(".static-content").css("opacity", 1);
+        		 $(".aside.left").addClass(" animated fadeInDown");
+
+        		 setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/2);
+        		 setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/2);
+
+        		 setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration);
+        		 setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  1.5*duration);
+
+        		 setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  2*duration);
+
+
+        		 setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration*2.5);
+        		 setTimeout('$(".note").addClass(" animated fadeInUp")',  duration*2.7);
+        		 setTimeout('$(".date").addClass(" animated fadeInUp")',  duration*2.9);
+        		 setTimeout('$(".city").addClass(" animated fadeInUp")',  duration*3.1);
+        		 setTimeout('$(".company").addClass(" animated fadeInUp")',  duration*3.3);
+
+        		 setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*2);
+        		 return true;
 	  // first.delay( duration/2 ).animate({
 	  //   opacity: 1,
 	  //   top: "+=" + position[0]
