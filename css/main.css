@@ -162,7 +162,28 @@ img{
     position: absolute;
     height: 32px;
     width: 32px;
+    top:0;
+    left:0;
     background: url("../img/vector.png") 0 0 no-repeat;
+
+
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+}
+.fill:hover .vertically-text:before{
+
+    transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    -moz-transform: rotate(-90deg);
 }
 .white{
     background: #fff
