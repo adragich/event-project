@@ -1740,6 +1740,13 @@ input.hidden, select.hidden{
 .left-align{
     text-align: left;
 }
+
+.additionalInfo{
+    position: absolute;
+    bottom: 155px;
+    right: 0;
+    padding-right: 15%;
+}
 @media (min-width: 1500px){
 /*battles*/
     .battle-info{
@@ -1786,12 +1793,6 @@ input.hidden, select.hidden{
     }
     .additionalInfo p {
         line-height: 36px;
-    }
-    .additionalInfo{
-        position: absolute;
-        bottom: 155px;
-        right: 0;
-        padding-right: 15%;
     }
     .date {
         font-size: 39px;
