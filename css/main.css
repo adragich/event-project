@@ -696,6 +696,9 @@ img{
     left:382px;
     background-color: #ffbe9e;
     top: 0;
+
+    left: 361px;
+    top: 367px;
 }
 #blueTriangle{
     width: 0;
@@ -705,6 +708,9 @@ img{
     border-color: transparent transparent transparent #21cbe1;
     right:0;
     top: calc((100% - 253px)/2);
+
+    right: 361px;
+    top: 368px;
 }
 #yellowTriangle{
     width: 0;
@@ -714,6 +720,9 @@ img{
     border-color: transparent transparent transparent #ffde17;
     right:330px;
     bottom:0;
+    
+    right: 361px;
+    top: 367px;
 }
 #yellowTriangle:before{
     content: "";
@@ -724,12 +733,16 @@ img{
     background-color: #ffde17;
     top: 100%;
     right: 100%;
+
 }
 #redSquare{
     width:115px;
     height:66px;
     left:0px;
     background-color: #ff6279;
+
+    left: 361px;
+    top: 555px;
 }
 .loadAnimation.ready{
     background: none;
