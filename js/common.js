@@ -53,7 +53,7 @@ function animateItems(first, second, third, fourth, position, duration, wrap){
 
     first.css({'top': position[0] + 'px', 'opacity':'1'});
     second.css({'right': position[2] + 'px', 'opacity':'1'});
-    third.css({'bottom': position[3] + 188 + 'px', 'opacity':'1'});
+    third.css({'bottom': position[3] + 210 + 'px', 'opacity':'1'});
     fourth.css({'left': position[1] + 'px', 'opacity':'1'});
 
     var right = 0,
