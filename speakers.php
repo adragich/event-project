@@ -73,7 +73,7 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
-					<a href="" class="learn-more-link yellow"></a>
+					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
