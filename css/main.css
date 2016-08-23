@@ -2164,11 +2164,11 @@ input.hidden, select.hidden{
         right: 105px;
     }
     /*speakers*/
-    .speakers{
+    .main.about-us.speakers{
         top: 20vh;
     }
     .speakers .navigation {
-        bottom: 32%
+        bottom: 32%!important;
     }
     .big-grey-stripe.bigger, .additional-parts {
         width: 78%;
