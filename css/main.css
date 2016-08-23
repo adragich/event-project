@@ -2167,8 +2167,8 @@ input.hidden, select.hidden{
     .main.about-us.speakers{
         top: 20vh;
     }
-    .speakers .navigation {
-        bottom: 32%!important;
+    .speakers + .navigation {
+        bottom: 32%;
     }
     .big-grey-stripe.bigger, .additional-parts {
         width: 78%;
