@@ -1746,10 +1746,14 @@ input.hidden, select.hidden{
     right: 0;
     padding-right: 15%;
 }
-@media (min-width: 1500px){
+
+@media (min-width: 1920px) {
     .event-left-link.animScrollLink {
         left: 124px;
     }
+}
+@media (min-width: 1500px){
+
 /*battles*/
     .battle-info{
         padding: 0 252px;
