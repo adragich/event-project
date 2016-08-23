@@ -3140,6 +3140,22 @@ input.hidden, select.hidden{
     .side-link {
         padding-top: 8%;
     }
+    #firstPartBattles {
+        left: 260px;
+        top: 50px;
+    }
+    #secondPartBattles {
+        left: 416px;
+        top: 26px;
+    }
+    #thirdPartBattles {
+        left: 316px;
+        top: 68px;
+    }
+    #fourthPartBattles {
+        left: 276px;
+        top: 24px;
+    }
 }
 @media (max-width: 375px) {
     .main.sub.battles {
