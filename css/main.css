@@ -596,7 +596,7 @@ img{
     z-index: 10;
 }
 /*homepage elements opacity*/
-.homepage .static-content, .homepage .aside, .homepage .event-left-link {
+.homepage .static-content, .homepage .aside, .homepage .event-left-link, .homepage .event-link{
     opacity: 0;
 }
 /**/
@@ -646,7 +646,6 @@ img{
     text-decoration: none;
     font-size: 18px;
     margin-top: 48px;
-    opacity:0;
     font-family: 'StolzlMedium', sans-serif;
     cursor: pointer;
     outline: none;
