@@ -18,7 +18,7 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="main flex flex-center">
+			<div class="main flex flex-center fillAndCenter">
 				<div class="inside">
 					<p class="mainTitle"><?php echo TITLE;?>,</p>
 					<p class="note"><?php echo NOTE;?>.</p>
