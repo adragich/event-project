@@ -9,11 +9,11 @@ $(function() {
     // setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration/2);
     // setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  0.75*duration);
 
-    setTimeout('$("#topPart").addClass(" animated fadeInDown")',  2.75*duration);
-    setTimeout('$("#middlePart").addClass(" animated fadeIn")',  2.5*duration);
-    setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  3*duration);
+    setTimeout('$("#topPart").addClass(" animated fadeInDown")',  1.75*duration);
+    setTimeout('$("#middlePart").addClass(" animated fadeIn")',  1.5*duration);
+    setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  2*duration);
 
-    setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  2*duration/3);
+    setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  duration);
 
 
     setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration);
