@@ -2392,7 +2392,7 @@ input.hidden, select.hidden{
         width: calc(74% - 30px);
         width: -webkit-calc(74% - 30px);
     }
-    .about-us .note{
+    .main .note{
         line-height: 24px
     }
     .inside.text {
@@ -2540,8 +2540,11 @@ input.hidden, select.hidden{
         margin: 0;
         top: 90px;
     }
-     .flex.main.fillAndCenter:not(.home) {
+     .flex.main.fillAndCenter {
         padding-top: 36vh;
+    }
+    .flex.main.fillAndCenter.home {
+        padding-top: 26vh;
     }
     .side-link {
         padding-top: 36%;
