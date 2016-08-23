@@ -9,7 +9,6 @@
 </head>
 <body>
 	<!--block for animation-->
-	<!--TODO: create unique block for the page-->
 	<?php
 		@include("partials/preloader-inner-pages.html")
 	?>
@@ -21,7 +20,7 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="fillAndCenter main sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="fillAndCenter main sub flex flex-center padding-2x about-us speakers" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo SPEAKERS;?></p>
 					<p class="note"><?php echo SPEAKERS_NOTE;?>.</p>

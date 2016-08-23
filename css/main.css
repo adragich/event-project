@@ -2116,6 +2116,7 @@ input.hidden, select.hidden{
         right: 0;
         bottom: 80px;
         z-index: 3!important;
+        padding-right: 35px;
     }
     .bottom-link {
         padding: 40px 0 40px 39px;
@@ -2163,6 +2164,12 @@ input.hidden, select.hidden{
         right: 105px;
     }
     /*speakers*/
+    .speakers{
+        top: 20vh;
+    }
+    .speakers .navigation {
+        bottom: 32%
+    }
     .big-grey-stripe.bigger, .additional-parts {
         width: 78%;
         width: calc(78% - 30px);
