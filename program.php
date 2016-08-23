@@ -8,6 +8,7 @@
 
 </head>
 <body>
+	<div class="anim-space"><img src="img/space.jpg" alt=""></div>
 	<section class="static-content transition program-static-section">
 		<div class="container">
 
@@ -15,7 +16,6 @@
 			<?php
 				@include("partials/top.html")
 			?>
-			<div class="anim-space"><img src="img/space.jpg" alt=""></div>
 
 			<div class="fillAndCenter main flex flex-center padding-2x program">
 				<div class="inside">
