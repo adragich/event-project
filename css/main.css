@@ -2516,7 +2516,7 @@ input.hidden, select.hidden{
 }
 @media (max-width: 675px){
     /*non transform*/
-    [data-scroll] {
+    [data-parallax] {
         transform: none!important;
         -webkit-transform: none!important;
     }
