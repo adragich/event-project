@@ -3289,6 +3289,8 @@ input.hidden, select.hidden{
     .loadAnimation.ready{
         top: 158px;
         left: 30px!important;
+        height: auto;
+        bottom: 0;
     }
     .imageCenter {
         height: 111px;
