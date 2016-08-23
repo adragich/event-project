@@ -18,7 +18,7 @@ $(function() {
 
 
 	setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration);
-	setTimeout('$(".note").addClass(" animated fadeInUp")',  duration*0.5);
+	setTimeout('$(".note").addClass(" animated fadeInUp")',  duration*1.5);
 	// setTimeout('$(".date").addClass(" animated fadeInUp")',  duration*1.7);
 	// setTimeout('$(".city").addClass(" animated fadeInUp")',  duration*1.9);
 	// setTimeout('$(".company").addClass(" animated fadeInUp")',  duration*2.1);
