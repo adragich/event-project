@@ -1582,16 +1582,9 @@ input.hidden, select.hidden{
 
 /*program*/
 /*temp*/
-.anim-space{
+.anim-space {
     min-height: 548px;
     background: #f6f6f6;
-}
-.program-static-section .navigation{
-    position: relative;
-    margin: 0 auto;
-    left: 0;
-    top: -50px;
-    z-index: 999!important;
 }
 .content-string td > .blockTitle, .content-string td > .block-content{
     padding-right: 100px;
