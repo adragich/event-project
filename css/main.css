@@ -1871,10 +1871,6 @@ input.hidden, select.hidden{
     .speakers + .navigation {
         bottom: 32%;
     }
-    .flex.main.fillAndCenter{
-        padding-top: 26vh;
-        position: relative;
-    }
 }
 @media (max-width: 1024px) {
     .anim-space-relative {
@@ -1882,6 +1878,10 @@ input.hidden, select.hidden{
         left: 33px;
     }
 
+    .flex.main.fillAndCenter{
+        padding-top: 26vh;
+        position: relative;
+    }
     /*battles*/
     .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
         line-height: 55px;
