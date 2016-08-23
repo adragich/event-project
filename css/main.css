@@ -1593,18 +1593,21 @@ input.hidden, select.hidden{
 
 /*program*/
 /*temp*/
-.anim-space img{
+.anim-space img {
     object-position: center;
-    object-fit: contain;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+    height: 100%;
 }
 .anim-space {
-    height: 100%;
+    height: 480px;
     position: fixed;
-    width: 100%;
-    vertical-align: middle;
     display: inline-block;
-    left: 0;
-    top: 0;
+    margin: 0 6.5%;
+    top: 160px;
+    left: 47px;
+    right: 0;
 }
 .content-string td > .blockTitle, .content-string td > .block-content{
     padding-right: 100px;

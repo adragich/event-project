@@ -34,17 +34,17 @@
 			<div class="main about-us sub info flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside text">
 					<div class="about-us-info l12">
-						<p class="blockTitle animated fadeInUp wow" data-wow-delay="1s">
+						<p class="blockTitle animated fadeInUp wow" data-wow-delay="0s">
 							<?php echo ABOUT_US_TITLE_1;?>
 							</p>
-						<p class="block-content animated fadeInUp wow" data-wow-delay="1s">
+						<p class="block-content animated fadeInUp wow" data-wow-delay="0s">
 							<?php echo ABOUT_US_DESC_1;?>
 						</p>
 						<br><br>
-						<p class="blockTitle section-two animated fadeInUp wow" data-wow-delay="1.5s">
+						<p class="blockTitle section-two animated fadeInUp wow" data-wow-delay="0s">
 							<?php echo ABOUT_US_TITLE_2;?>
 							</p>
-						<p class="block-content animated fadeInUp wow" data-wow-delay="1.5s">
+						<p class="block-content animated fadeInUp wow" data-wow-delay="0s">
 							<?php echo ABOUT_US_DESC_2;?>
 							</p>
 					</div>
