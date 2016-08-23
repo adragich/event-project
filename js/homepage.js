@@ -23,10 +23,9 @@ function setPosition(checkAnim){
         // right = widthWrap - left - widthTemplate,
         // bottom = heightWrap - top - heightTemplate,
 
-        bottomDefigned = bottom + heightTemplate - offsetBottom,
+        bottomDefigned = bottom + heightTemplate - offsetBottom;
         // topDefigned = top + orangeSquare.height(),
         // position = [top, left, right, bottomDefigned];
-        ;
 
     template.css({"top": topT, "left": leftT});
 
