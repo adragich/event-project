@@ -13,7 +13,7 @@ $(function() {
     setTimeout('$("#middlePart").addClass(" animated fadeIn")',  0.5*duration);
     setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  0.5*duration);
 
-    setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  duration);
+    setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  0.5*duration);
 
 
     setTimeout('$(".mainTitle").addClass(" animated fadeInUp")',  duration);
