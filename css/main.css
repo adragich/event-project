@@ -1868,6 +1868,10 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 1024px) {
+    .anim-space-relative {
+        height: 470px;
+        left: 33px;
+    }
 
     .flex.main.fillAndCenter{
         padding-top: 26vh;
@@ -2535,6 +2539,10 @@ input.hidden, select.hidden{
 }
 
 @media (max-width: 675px){
+
+    .anim-space-relative {
+        display: none;
+    }
     /*non transform*/
     [data-parallax] {
         transform: none!important;
