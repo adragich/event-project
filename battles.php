@@ -20,7 +20,7 @@
 				@include("partials/top-battles.html")
 			?>
 
-			<div class="main battles sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="main fillAndCenter battles sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo BATTLES_2;?></p>
 					<p class="note"><?php echo BATTLES_NOTE;?>.</p>
