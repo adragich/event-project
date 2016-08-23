@@ -107,7 +107,5 @@ $(function() {
 });
 
 $( window ).resize(function(){
-    window.setTimeout(function() {
-        setPosition();
-    }, 200);
+    setPosition();
 });
