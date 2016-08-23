@@ -13,6 +13,7 @@
 	<?php
 		@include("partials/preloader-about-us.html")
 	?>
+	<div class="anim-space relative"><img src="img/space.jpg" alt=""></div>
 	<section class="transition white static-content">
 		<div class="container">
 
@@ -48,10 +49,6 @@
 							<?php echo ABOUT_US_DESC_2;?>
 							</p>
 					</div>
-				</div>
-				<div class="animation-space">
-					<!--TODO: ask about that animation space-->
-					ANIMATION???
 				</div>
 			</div>
 			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
