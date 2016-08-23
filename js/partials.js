@@ -2,7 +2,7 @@ function constructMenuLinks(){
 	var minHeight = $(window).height(), li;
 	$(".stick .container").css("min-height", minHeight + "px");
 	if($(window).width > 768){
-		li = $(".nav li:not(.bilety)");
+		li = $(".nav li:not(.workshops)");
 	}
 	else{		
 		li = $(".nav li");

@@ -16,6 +16,7 @@
                 define("PARTNERS","Partnerzy");
                 define("ABOUT_US","O nas");
                 define("TICKETS","Bilety");
+                define("WORKSHOPS","Warsztaty");
 
 //			      main page
                 define("PROJECTS","Projekcje");
@@ -96,6 +97,7 @@
                 define("PARTNERS","Partnerzy ???");
                 define("ABOUT_US","O nas ???");
                 define("TICKETS","Bilety ???");
+                define("WORKSHOPS","Workshops ???");
 
 //			      main page
                 define("PROJECTS","Projekcje ???");
@@ -176,6 +178,7 @@
                 define("PARTNERS","Partnerzy");
                 define("ABOUT_US","O nas");
                 define("TICKETS","Bilety");
+                define("WORKSHOPS","Warsztaty");
 
 //			      main page
                 define("PROJECTS","Projekcje");

@@ -308,7 +308,7 @@ img{
 .nav a{
     color: #3e3e3e;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 1.5;
     white-space:nowrap;
     font-family: "stolzlmedium", sans-serif;
@@ -1007,7 +1007,7 @@ img{
 .navigation{
     text-align: center;
     color: #020202;
-    z-index: 999!important;
+    z-index: 10!important;
     position: absolute;
     margin: auto;
     font-size: 24px;
@@ -2519,11 +2519,7 @@ input.hidden, select.hidden{
 .placeWrap:first-child {
     flex-direction: row-reverse;
 }
-@media (min-width: 676px) {
-    .bilety{
-        display:none  ;
-    }
-}
+
 @media (max-width: 675px){
     /*non transform*/
     [data-parallax] {
@@ -3303,7 +3299,7 @@ input.hidden, select.hidden{
         height: 3px;
     }
     .nav a {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 21px;    padding: 0 4px;
     }
     .socials {
