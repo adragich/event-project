@@ -504,7 +504,7 @@ img{
     width: 455px;
     max-width: 100%;
 }
-.lang, .nav li{
+.lang, .nav li, .socials a{
     display: none;
 }
 .note{
@@ -799,9 +799,6 @@ img{
 .stick, .stick-temp{
     overflow: hidden;
     height: 100vh;
-}
-.nav li:last-child{
-    display:none;
 }
 .scrollableContent .container{
     min-height: 0!important;
@@ -2019,9 +2016,6 @@ input.hidden, select.hidden{
     }
     .loadAnimation {
         background: #fff;
-    }
-    .nav li:last-child{
-        display:block;
     }
     .event-left-link {
         margin-left: -4%;
