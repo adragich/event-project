@@ -11,14 +11,14 @@
 	<?php
 		@include("partials/preloader.html")
 	?>
-	<section class="static-content transition home">
+	<section class="static-content transition">
 		<div class="container">
 			<!--header-->
 			<?php
 				@include("partials/top.html")
 			?>
 
-			<div class="main flex flex-center fillAndCenter">
+			<div class="main flex flex-center fillAndCenter home">
 				<div class="inside">
 					<p class="mainTitle"><?php echo TITLE;?>,</p>
 					<p class="note"><?php echo NOTE;?>.</p>
