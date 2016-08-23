@@ -3151,6 +3151,9 @@ input.hidden, select.hidden{
     }
 }
 @media (max-height: 375px){
+    .bottom-link {
+        padding: 10px 0;
+    }
     .main {
         padding-top: 0;
     }
