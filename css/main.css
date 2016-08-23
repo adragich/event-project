@@ -2027,9 +2027,6 @@ input.hidden, select.hidden{
         font-size: 20px;
         line-height: 50px;
     }
-    .event-left-link.animScrollLink {
-        left: 45px;
-    }
     .event-link{
         display:none;
     }
@@ -2519,6 +2516,7 @@ input.hidden, select.hidden{
     }
     .event-left-link.animScrollLink {
         top: 15px;
+        left: 45px;
     }
     /*battles*/
     .title-note {
