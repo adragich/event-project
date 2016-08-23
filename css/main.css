@@ -601,7 +601,7 @@ img{
     min-height: 100vh;
     background: #fff;
 }
-.program-static-section [class*='container']{
+.program-section [class*='container']{
     background: none;
 }
 .fixer-container{
