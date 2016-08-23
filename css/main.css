@@ -265,7 +265,6 @@ img{
 .event-left-link.inScroll{
     left: 84px;
     top: 20px;
-    overflow: hidden;
     margin-top: 0;
     margin-left: 0;
 }

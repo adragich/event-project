@@ -45,6 +45,6 @@
 	<?php
 		@include("partials/scripts.html")
 	?>	
-	<script type="text/javascript" src="js/common.js"></script>	
+	<script type="text/javascript" src="js/homepage.js"></script>
 </body>
 </html>
