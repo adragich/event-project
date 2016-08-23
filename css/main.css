@@ -181,12 +181,6 @@ img{
     /**/
 
 }
-.navigation i{
-    opacity:0;
-}
-.navigation{
-    background: url('../img/projections-arrow.png') center center no-repeat;
-}
 .hover-logo{
     top: 0;
     left: 0;
@@ -1005,7 +999,7 @@ img{
 .navigation{
     text-align: center;
     color: #020202;
-    z-index: 999;
+    z-index: 999!important;
     position: absolute;
     margin: auto;
     font-size: 24px;
@@ -1013,7 +1007,12 @@ img{
     display:block;
     bottom: 35%;
     left: 44%;
-    cursor: pointer
+    cursor: pointer;
+    background: url('../img/projections-arrow.png') center center no-repeat;
+}
+
+.navigation i{
+    opacity:0;
 }
 /*about us*/
 #topPartAbout{
