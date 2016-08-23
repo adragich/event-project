@@ -1884,6 +1884,10 @@ input.hidden, select.hidden{
         padding-top: 26vh;
         position: relative;
     }
+    .flex.main.program {
+        padding-top: 30vh;
+        padding-bottom: 200px;
+    }
     /*battles*/
     .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
         line-height: 55px;
@@ -2454,8 +2458,9 @@ input.hidden, select.hidden{
         padding-right: 0;
     }
     .program #middlePart {
-        top: 65%;
+        top: 55%;
     }
+
     .program-static-section .navigation{
         margin: 100px auto;
         position: relative;
