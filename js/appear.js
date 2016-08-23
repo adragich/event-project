@@ -23,4 +23,4 @@ $(function() {
     setTimeout('$(".company").addClass(" animated fadeInUp")',  duration*2.1);
 
     setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*0.25);
-})
+});
