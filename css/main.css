@@ -3295,6 +3295,9 @@ input.hidden, select.hidden{
     .imageCenter {
         height: 111px;
         width: 95px;
+
+        top: 183px!important;
+        left: 30px!important;
     }
     #orangeSquare {
         width: 50px;
