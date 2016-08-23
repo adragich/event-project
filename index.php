@@ -11,7 +11,7 @@
 	<?php
 		@include("partials/preloader.html")
 	?>
-	<section class="static-content transition">
+	<section class="static-content transition home">
 		<div class="container">
 			<!--header-->
 			<?php

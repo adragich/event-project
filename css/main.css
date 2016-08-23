@@ -2542,7 +2542,7 @@ input.hidden, select.hidden{
         margin: 0;
         top: 90px;
     }
-    .flex.main.fillAndCenter {
+    :not(.home) .flex.main.fillAndCenter {
         padding-top: 36vh;
     }
     .side-link {
