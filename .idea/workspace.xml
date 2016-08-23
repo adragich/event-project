@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-us.php" afterPath="$PROJECT_DIR$/about-us.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
@@ -36,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="235">
-              <caret line="1840" column="11" selection-start-line="1840" selection-start-column="4" selection-end-line="1840" selection-end-column="11" />
+              <caret line="471" column="24" selection-start-line="471" selection-start-column="24" selection-end-line="471" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -359,12 +358,12 @@
       <workItem from="1471877051198" duration="726000" />
       <workItem from="1471933291210" duration="1709000" />
       <workItem from="1471935518906" duration="1671000" />
-      <workItem from="1471937355416" duration="1023000" />
+      <workItem from="1471937355416" duration="1094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107691000" />
+    <option name="totallyTimeSpent" value="107762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -737,7 +736,7 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
-          <caret line="1840" column="11" selection-start-line="1840" selection-start-column="4" selection-end-line="1840" selection-end-column="11" />
+          <caret line="471" column="24" selection-start-line="471" selection-start-column="24" selection-end-line="471" selection-end-column="24" />
           <folding />
         </state>
       </provider>

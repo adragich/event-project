@@ -469,7 +469,7 @@ img{
     display: -ms-flexbox;
     display: flex;
 }
-.flex.main{
+.flex.main.fillAndCenter{
     display: -webkit-box!important;
     display: -webkit-flex!important;
     display: -ms-flexbox!important;
