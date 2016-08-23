@@ -596,7 +596,7 @@ img{
     z-index: 10;
 }
 /*homepage elements opacity*/
- .homepage .aside, .homepage .event-left-link, .homepage .event-link{
+.homepage .event-left-link, .homepage .event-link{
     opacity: 0;
 }
 /**/
