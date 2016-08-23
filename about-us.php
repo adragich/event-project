@@ -13,7 +13,6 @@
 	<?php
 		@include("partials/preloader-about-us.html")
 	?>
-	<div class="anim-space relative"><img src="img/space.jpg" alt=""></div>
 	<section class="transition white static-content">
 		<div class="container">
 
@@ -51,6 +50,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="anim-space-relative"><img src="img/space.jpg" alt=""></div>
 			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside orgs">
 						<p class="mainTitle">
@@ -71,7 +71,7 @@
 				@include("partials/menu-button.html")
 			?>
 		</div>
-	</section>	
+	</section>
 	<section class="scrollableContent about relative">
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
