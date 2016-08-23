@@ -3134,6 +3134,9 @@ input.hidden, select.hidden{
     .navigation{
         bottom: 5px;
     }
+    .additionalInfo.battles {
+        top: 20px;
+    }
 }
 @media (max-width: 375px) {
     .main.sub.battles {
