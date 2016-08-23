@@ -3136,6 +3136,9 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 375px) {
+    .main.sub.battles {
+        padding-top: 235px;
+    }
     /*battles*/
 
     .form-control input:not(.hidden), .pdf-input, .choose-team {
