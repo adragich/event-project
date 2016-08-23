@@ -2030,9 +2030,7 @@ input.hidden, select.hidden{
     .vertically-text{
         background: none
     }
-    .side-link{
-        padding-top: 23%;
-    }
+
     .loadAnimation.ready:before {
         left: 50%;
         left: -webkit-calc(50% - 30px);
