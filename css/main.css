@@ -1593,12 +1593,17 @@ input.hidden, select.hidden{
 
 /*program*/
 /*temp*/
-.anim-space img {
+.anim-space img, .anim-space-relative img{
     object-position: center;
     object-fit: cover;
     width: 100%;
     position: absolute;
     height: 100%;
+}
+.anim-space-relative{
+    height: 787px;
+    position: relative;
+    left: 46px;
 }
 .anim-space {
     height: 480px;
