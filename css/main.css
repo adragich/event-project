@@ -271,9 +271,9 @@ img{
 }
 
 .tickets.event-link {
-    right: 80px;
     top: 48px;
     margin-top:0;
+    right: 60px;
 }
 .tickets.inScroll{
     top: 21px;
@@ -424,6 +424,7 @@ img{
 }
 .right.absolute{
     right: 0;
+    max-width: 124px;
 
 }
 .aside{
@@ -641,7 +642,6 @@ img{
     text-decoration: none;
     font-size: 18px;
     margin-top: 48px;
-    margin-right: -3%;
     opacity:0;
     font-family: 'StolzlMedium', sans-serif;
     cursor: pointer;
