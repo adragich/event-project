@@ -1877,16 +1877,10 @@ input.hidden, select.hidden{
         height: 470px;
         left: 33px;
     }
-    .anim-space {
-        height: 256px;
-    }
+
     .flex.main.fillAndCenter{
         padding-top: 26vh;
         position: relative;
-    }
-    .flex.main.program {
-        padding-top: 30vh;
-        padding-bottom: 200px;
     }
     /*battles*/
     .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
@@ -2042,7 +2036,7 @@ input.hidden, select.hidden{
         background: none
     }
     .side-link{
-        /*padding-top: 23%;*/
+        padding-top: 23%;
     }
     .loadAnimation.ready:before {
         left: 50%;
@@ -2175,12 +2169,8 @@ input.hidden, select.hidden{
         right: 105px;
     }
     /*speakers*/
-    .main.inner-page.fillAndCenter{
+    .main.inner-page.speakers{
         top: 20vh;
-    }
-
-    .main.inner-page.place {
-        top: 10vh;
     }
     .big-grey-stripe.bigger, .additional-parts {
         width: 78%;
@@ -2284,6 +2274,9 @@ input.hidden, select.hidden{
     }
     /*place*/
 
+    .place-body .left.aside {
+        padding-top: 30%;
+    }
     #topPartPlace {
         width: 78px;
         height: 78px;
@@ -2459,9 +2452,8 @@ input.hidden, select.hidden{
         padding-right: 0;
     }
     .program #middlePart {
-        top: 55%;
+        top: 65%;
     }
-
     .program-static-section .navigation{
         margin: 100px auto;
         position: relative;
@@ -2862,7 +2854,7 @@ input.hidden, select.hidden{
     }
 
     .program-static-section .navigation{
-        margin: 180px auto 0;
+        margin: 50px auto;
         left: 20px;
     }
     .program.main{
@@ -3171,15 +3163,14 @@ input.hidden, select.hidden{
     .section-two {
         padding-top: 20px;
     }
-
+}
+@media (max-height: 375px){
     .anim-space {
         height: 158px;
         margin: 0;
         top: 90px;
         right: 0;
     }
-}
-@media (max-height: 375px){
     .bottom-link {
         padding: 10px 0;
     }
