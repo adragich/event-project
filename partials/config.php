@@ -5,7 +5,7 @@
     $feedback_subject = 'Application';
     $feedback_from = 'user@event-project.myhomezy.com';
     $feedback_username = 'Application';
-    $ticketsLinks = 'LINK-???';
+    $ticketsLink = 'LINK-???';
 	//$domain = "http://localhost/event/";
 
 ?>
