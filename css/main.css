@@ -1877,7 +1877,9 @@ input.hidden, select.hidden{
         height: 470px;
         left: 33px;
     }
-
+    .anim-space {
+        height: 256px;
+    }
     .flex.main.fillAndCenter{
         padding-top: 26vh;
         position: relative;
