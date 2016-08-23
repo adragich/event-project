@@ -25,10 +25,9 @@ function setPosition(checkAnim){
 
         bottomDefigned = bottom + heightTemplate - offsetBottom,
         // topDefigned = top + orangeSquare.height(),
-        position = [top, left, right, bottomDefigned];
+        // position = [top, left, right, bottomDefigned];
+        ;
 
-
-    console.log(position);
     template.css({"top": topT, "left": leftT});
 
     var top = template.position().top,
@@ -113,5 +112,5 @@ $(function() {
 });
 
 $( window ).resize(function(){
-    // setPosition();
+    setPosition();
 });
