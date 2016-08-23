@@ -416,7 +416,7 @@ img{
 }
 @keyframes slidingBig {
     0% {transform: translateX(0);}
-    50% {transform: translateX(250px);}
+    50% {transform: translateX(300px);}
     100% {transform: translateX(0);}
 }
 .menu-icon :first-child{
