@@ -1869,6 +1869,9 @@ input.hidden, select.hidden{
     .flex.main.fillAndCenter.program {
         padding-top: 52vh;
     }
+    .program #middlePart {
+        top: 92%;
+    }
 }
 @media (max-width: 1024px) {
     .anim-space-relative {
