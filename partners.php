@@ -40,7 +40,7 @@
 		 data-parallax='{"y" : -300, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 	<div class="container">
 		<div class="sponsors col l12">
-			<p class="blockTitle left-align">Główni sponsorzy
+			<p class="blockTitle left-align"><?php echo MAIN_PARTNERS;?></p>
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 		<div class="sponsors col l12 left-align">
-			<p class="blockTitle">Partnerzy
+			<p class="blockTitle"><?php echo PARTNERS;?>
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">

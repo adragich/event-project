@@ -38,11 +38,15 @@
 			<table class="program-table">
 				<thead>
 					<tr>
-						<th colspan="2" class="program-date"><span>05</span> November 2016 _</th>
+						<th colspan="2" class="program-date"><span>05</span> <?php echo MONTH;?> 2016 _</th>
 						<th>
 							<ul class="program-types flex">
-								<li class="flex"><span class="yellow-light"></span>Prelekcje</li>
-								<li class="flex"><span class="blue-light"></span>Warsztaty</li>
+								<li class="flex"><span class="yellow-light"></span>
+									<?php echo PROGRAM_TYPE_1;?>
+								</li>
+								<li class="flex"><span class="blue-light"></span>
+									<?php echo PROGRAM_TYPE_2;?>
+								</li>
 							</ul>
 						</th>
 					</tr>
@@ -58,7 +62,9 @@
 					</td>
 					<td class="left-align image yellow-gradient">
 						<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
-						<span class="block-content">Projektowanie aplikacji w praktyce</span>
+						<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_1;?>
+						</span>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
@@ -70,7 +76,8 @@
 					</td>
 					<td class="left-align image yellow-gradient">
 						<img src="img/program/program_small_2.jpg" alt="Martyna Wędzicka">
-						<span class="block-content">Inspiracje w projektowaniu marki</span>
+						<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_2;?></span>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
@@ -82,8 +89,9 @@
 					</td>
 					<td class="left-align image blue-light">
 						<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
-						<span class="block-content">Ilustracje abstrakcyjne</span>
-						<a href="#" class="workshop transition">Apply for workshop</a>
+						<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_3;?></span>
+						<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
@@ -95,7 +103,8 @@
 					</td>
 					<td class="left-align image yellow-gradient">
 						<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
-						<span class="block-content">Inspiracja marką</span>
+						<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_4;?></span>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
@@ -108,8 +117,9 @@
 					</td>
 					<td class="left-align image blue-light">
 						<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
-						<span class="block-content">Something new...</span>
-						<a href="#" class="workshop transition">Apply for workshop</a>
+						<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_5;?></span>
+						<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>

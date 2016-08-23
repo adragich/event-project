@@ -34,11 +34,19 @@
 			<div class="main about-us sub info flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside text">
 					<div class="about-us-info l12">
-						<p class="blockTitle animated fadeInUp wow" data-wow-delay="1s">Projekcje to pomysł projektantów</p>
-						<p class="block-content animated fadeInUp wow" data-wow-delay="1s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<p class="blockTitle animated fadeInUp wow" data-wow-delay="1s">
+							<?php echo ABOUT_US_TITLE_1;?>
+							</p>
+						<p class="block-content animated fadeInUp wow" data-wow-delay="1s">
+							<?php echo ABOUT_US_DESC_1;?>
+						</p>
 						<br><br>
-						<p class="blockTitle section-two animated fadeInUp wow" data-wow-delay="1.5s">Dla projektantów</p>
-						<p class="block-content animated fadeInUp wow" data-wow-delay="1.5s">Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<p class="blockTitle section-two animated fadeInUp wow" data-wow-delay="1.5s">
+							<?php echo ABOUT_US_TITLE_2;?>
+							</p>
+						<p class="block-content animated fadeInUp wow" data-wow-delay="1.5s">
+							<?php echo ABOUT_US_DESC_2;?>
+							</p>
 					</div>
 				</div>
 				<div class="animation-space">
@@ -48,9 +56,13 @@
 			</div>
 			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside orgs">
-						<p class="mainTitle">Organizatorzy projekcji</p>
+						<p class="mainTitle">
+							<?php echo ABOUT_US_TITLE_3;?>
+							</p>
 						<br>
-						<p class="note">Projektanci organizujący event dla projektantów.</p>
+						<p class="note">
+							<?php echo ABOUT_US_DESC_3;?>
+							</p>
 					</div>
 				</div>
 			</div>
@@ -75,7 +87,7 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
-					<a href="" class="learn-more-link yellow">Learn more</a>
+					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
@@ -88,7 +100,7 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
-					<a href="" class="learn-more-link yellow">Learn more</a>
+					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
@@ -101,7 +113,7 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
-					<a href="" class="learn-more-link yellow">Learn more</a>
+					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
@@ -114,7 +126,7 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.5s">
-					<a href="" class="learn-more-link yellow">Learn more</a>
+					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 		</div>
