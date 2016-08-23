@@ -9,9 +9,9 @@ $(function() {
     // setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration/2);
     // setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  0.75*duration);
 
-    setTimeout('$("#topPart").addClass(" animated fadeInDown")',  1.75*duration);
-    setTimeout('$("#middlePart").addClass(" animated fadeIn")',  1.5*duration);
-    setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  2*duration);
+    setTimeout('$("#topPart").addClass(" animated fadeInDown")',  0.75*duration);
+    setTimeout('$("#middlePart").addClass(" animated fadeIn")',  0.5*duration);
+    setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  0.5*duration);
 
     setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  duration);
 
@@ -22,5 +22,5 @@ $(function() {
     // setTimeout('$(".city").addClass(" animated fadeInUp")',  duration*1.9);
     // setTimeout('$(".company").addClass(" animated fadeInUp")',  duration*2.1);
 
-    setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*1.25);
+    setTimeout('$(".bottom-link").addClass(" animated fadeInRight")',  duration*0.25);
 })
