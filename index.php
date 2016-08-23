@@ -6,7 +6,7 @@
 	?>
 
 </head>
-<body class="stick">
+<body class="stick homepage">
 	<!--block for animation-->
 	<?php
 		@include("partials/preloader.html")

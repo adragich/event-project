@@ -1,5 +1,5 @@
 $(function() {
-	var duration = 0;
+	var duration = 1000;
 	$(".static-content").css("opacity", 1);
 	$(".aside.left").addClass(" animated fadeInDown");
 	setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/3);
