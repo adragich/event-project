@@ -1590,9 +1590,18 @@ input.hidden, select.hidden{
 
 /*program*/
 /*temp*/
+.anim-space img{
+    object-position: center;
+    object-fit: contain;
+}
 .anim-space {
-    min-height: 548px;
-    background: #f6f6f6;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    left: 0;
+    top: 0;
 }
 .content-string td > .blockTitle, .content-string td > .block-content{
     padding-right: 100px;
@@ -2410,9 +2419,6 @@ input.hidden, select.hidden{
     }
     /*program*/
 
-    .anim-space {
-        min-height: 155px;
-    }
     .program.main {
         padding-top: 110px;
         min-height: 0;
@@ -2431,10 +2437,6 @@ input.hidden, select.hidden{
     .program-static-section.static-content .container{
         height: auto;
         min-height: 0;
-    }
-    .anim-space img{
-        height: 269px;
-        object-fit: cover;
     }
 
     .program-wrap table, .program-wrap thead, .program-wrap tr, .program-wrap tbody {
@@ -2821,9 +2823,7 @@ input.hidden, select.hidden{
     .content-string td > .blockTitle, .content-string td > .block-content{
         padding-right:0;
     }
-    .anim-space img{
-        height: auto;
-    }
+
     .program-static-section .navigation{
         margin: 50px auto;
         left: 20px;
