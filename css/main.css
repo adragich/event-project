@@ -1867,6 +1867,11 @@ input.hidden, select.hidden{
         top: 50%;
     }
 }
+@media (min-width: 678px) {
+    .speakers + .navigation {
+        bottom: 32%;
+    }
+}
 @media (max-width: 1024px) {
     .anim-space-relative {
         height: 470px;
@@ -2166,9 +2171,6 @@ input.hidden, select.hidden{
     /*speakers*/
     .main.about-us.speakers{
         top: 20vh;
-    }
-    .speakers + .navigation {
-        bottom: 32%;
     }
     .big-grey-stripe.bigger, .additional-parts {
         width: 78%;
@@ -3017,6 +3019,9 @@ input.hidden, select.hidden{
         width: 33.333%;
     }
     /*speakers*/
+    .main.about-us.speakers {
+        top: 5vh;
+    }
     #topPart {
         width: 24px;
         height: 45px;
@@ -3083,9 +3088,11 @@ input.hidden, select.hidden{
     .speakerWrap:nth-child(2n) {
         margin-top: 0px;
     }
-    .speakerWrap:last-child {
-        margin-bottom: -170px;
+
+    .speakerWrap:last-child{
+        margin-bottom: 78px;
     }
+    
     .speaker-info {
         padding: 25px 20px 35px;
     }
