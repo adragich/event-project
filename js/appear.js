@@ -1,12 +1,14 @@
 $(function() {
 	var duration = 1000;
-	$(".static-content").css("opacity", 1);
-	$(".aside.left").addClass(" animated fadeInDown");
-	setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/3);
-	setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/3);
 
-	setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration/2);
-	setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  0.75*duration);
+	// $(".static-content").css("opacity", 1);
+	// $(".aside.left").addClass(" animated fadeInDown");
+	//
+	// setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/3);
+	// setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/3);
+    //
+	// setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration/2);
+	// setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  0.75*duration);
 
 	setTimeout('$("#topPart").addClass(" animated fadeInDown")',  2.75*duration);
 	setTimeout('$("#middlePart").addClass(" animated fadeIn")',  2.5*duration);
