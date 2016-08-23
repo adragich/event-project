@@ -3137,6 +3137,9 @@ input.hidden, select.hidden{
     .additionalInfo.battles {
         top: 20px;
     }
+    .side-link {
+        padding-top: 8%;
+    }
 }
 @media (max-width: 375px) {
     .main.sub.battles {
