@@ -33,9 +33,9 @@ $transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
 // Create the Mailer using your created Transport
 $mailer = Swift_Mailer::newInstance($transport);
 
-    $message = Swift_Message::newInstance('Application')
-        ->setFrom(array('user@event-project.myhomezy.com' => $name))
-        ->setTo(array('anastasiia.dragich@gmail.com' => 'Admin'));
+    $message = Swift_Message::newInstance($feedback_subject)
+        ->setFrom(array($feedback_from => $name))
+        ->setTo(array($feedback_email => $feedback_username));
     $message->setBody("<html>
                         <body>
                             <h2>Application!</h2><br><br>
