@@ -601,6 +601,9 @@ img{
     min-height: 100vh;
     background: #fff;
 }
+.program-static-section [class*='container']{
+    background: none;
+}
 .fixer-container{
     min-height: 0;
     left: 0;
@@ -1666,6 +1669,7 @@ input.hidden, select.hidden{
     border-bottom: 4px solid #dedede;
     border-left: 4px solid #dedede;
     height: 200px;
+    background: #fff;
 }
 .program-wrap .image img{
     position: absolute;
