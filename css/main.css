@@ -389,7 +389,7 @@ img{
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
 }
-.menu:hover .stripe, .bottom-link:hover:before{
+.menu:hover .stripe{
     animation-name: sliding;
     animation-duration: 1s;
     animation-iteration-count: infinite;
