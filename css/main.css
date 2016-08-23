@@ -3163,14 +3163,15 @@ input.hidden, select.hidden{
     .section-two {
         padding-top: 20px;
     }
-}
-@media (max-height: 375px){
+
     .anim-space {
         height: 158px;
         margin: 0;
         top: 90px;
         right: 0;
     }
+}
+@media (max-height: 375px){
     .bottom-link {
         padding: 10px 0;
     }
