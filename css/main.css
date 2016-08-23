@@ -1047,12 +1047,7 @@ img{
 .about-us #middlePart{
     top: 60%;
 }
-.main.about-us{
-    /*padding-top: 33vh;*/
-}
-.about-us-body .left.aside{
-    padding-top: 5%;
-}
+
 .inside.orgs:after{
     content:"";
     width: 114px;
@@ -2271,9 +2266,6 @@ input.hidden, select.hidden{
     }
     /*place*/
 
-    .place-body .left.aside {
-        padding-top: 30%;
-    }
     #topPartPlace {
         width: 78px;
         height: 78px;
@@ -2547,6 +2539,9 @@ input.hidden, select.hidden{
 @media (max-width: 675px){
     .flex.main.fillAndCenter {
         padding-top: 36vh;
+    }
+    .side-link {
+        padding-top: 36%;
     }
     .anim-space-relative {
         display: none;
