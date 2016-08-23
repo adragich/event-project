@@ -290,6 +290,7 @@ img{
 }
 .event-left-link.inScroll img{
     width:38px;
+    margin-left: -17px;
 }
 .socials{
     width: 100%;
