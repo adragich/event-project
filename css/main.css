@@ -1747,6 +1747,9 @@ input.hidden, select.hidden{
     padding-right: 15%;
 }
 @media (min-width: 1500px){
+    .event-left-link.animScrollLink {
+        left: 124px;
+    }
 /*battles*/
     .battle-info{
         padding: 0 252px;

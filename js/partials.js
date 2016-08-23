@@ -1,11 +1,11 @@
 function constructMenuLinks(){
-	var minHeight = $(window).height();
+	var minHeight = $(window).height(), li;
 	$(".stick .container").css("min-height", minHeight + "px");
 	if($(window).width > 768){
-		var li = $(".nav li:not(.bilety)");
+		li = $(".nav li:not(.bilety)");
 	}
 	else{		
-		var li = $(".nav li");
+		li = $(".nav li");
 	}
 	var height = ($(window).height() - parseInt($(".sideBar").css("padding-top")) - 2*parseInt($(".nav").css("padding-top")) 
 		- parseInt($(".lang a").css("line-height")) - $(".socials a").height() - parseInt($(".socials").css("bottom"))) / li.length ;
