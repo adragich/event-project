@@ -28,11 +28,12 @@ function setPosition(checkAnim){
         // position = [top, left, right, bottomDefigned];
 
     template.css({"top": topT, "left": leftT});
-
+console.log(topT, leftT);
     var top = template.position().top,
         left = template.position().left,
         right = template.position().left + orangeSquare.width(),
         bottom = template.position().top + orangeSquare.height();
+    console.log(top, left, right, bottom);
 
     //define position of elements
     if(checkAnim == false){
