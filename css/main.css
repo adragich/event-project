@@ -2169,7 +2169,7 @@ input.hidden, select.hidden{
         right: 105px;
     }
     /*speakers*/
-    .main.about-us.speakers{
+    .main.inner-page.speakers{
         top: 20vh;
     }
     .big-grey-stripe.bigger, .additional-parts {
@@ -3165,6 +3165,12 @@ input.hidden, select.hidden{
     }
 }
 @media (max-height: 375px){
+    .anim-space {
+        height: 158px;
+        margin: 0;
+        top: 90px;
+        right: 0;
+    }
     .bottom-link {
         padding: 10px 0;
     }
