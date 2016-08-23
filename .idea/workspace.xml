@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/top-battles.html" afterPath="$PROJECT_DIR$/partials/top-battles.html" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="2521" column="5" selection-start-line="2521" selection-start-column="5" selection-end-line="2521" selection-end-column="5" />
+            <state relative-caret-position="145">
+              <caret line="2518" column="12" selection-start-line="2518" selection-start-column="12" selection-end-line="2518" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -48,36 +46,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
               <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-us.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partners.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -103,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top-battles.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="top-battles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/top-battles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="72" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
+            <state relative-caret-position="240">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -182,8 +150,8 @@
         <option value="$PROJECT_DIR$/place.php" />
         <option value="$PROJECT_DIR$/speakers.php" />
         <option value="$PROJECT_DIR$/about-us.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/partials/top-battles.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -391,12 +359,12 @@
       <workItem from="1471933291210" duration="1709000" />
       <workItem from="1471935518906" duration="1671000" />
       <workItem from="1471937355416" duration="1808000" />
-      <workItem from="1471940174754" duration="664000" />
+      <workItem from="1471940174754" duration="975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109140000" />
+    <option name="totallyTimeSpent" value="109451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -709,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/place.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -749,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="2521" column="5" selection-start-line="2521" selection-start-column="5" selection-end-line="2521" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/top.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -767,8 +719,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/top-battles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="72" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/place.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="2518" column="12" selection-start-line="2518" selection-start-column="12" selection-end-line="2518" selection-end-column="12" />
           <folding />
         </state>
       </provider>

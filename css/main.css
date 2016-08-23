@@ -2516,7 +2516,7 @@ input.hidden, select.hidden{
 }
 @media (max-width: 675px){
     /*non transform*/
-    body * {
+    body div {
         transform: none!important;
         -webkit-transform: none!important;
     }
