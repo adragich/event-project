@@ -243,11 +243,14 @@ img{
     left:20px;
 }
 
-.event-left-link span, .event-left-link .toRight{
+.event-left-link span{
     overflow: hidden;
     opacity: 1;
     position: relative;
     top: 0;
+}
+.event-left-link.inScroll .toRight{
+    display: none;
 }
 .event-left-link.inScroll span{
     opacity: 0;
