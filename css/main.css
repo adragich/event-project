@@ -1878,10 +1878,10 @@ input.hidden, select.hidden{
         left: 33px;
     }
 
-    .flex.main.fillAndCenter{
-        padding-top: 26vh;
-        position: relative;
-    }
+    /*.flex.main.fillAndCenter{*/
+        /*padding-top: 26vh;*/
+        /*position: relative;*/
+    /*}*/
     /*battles*/
     .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
         line-height: 55px;
@@ -2143,7 +2143,7 @@ input.hidden, select.hidden{
     .note {
         font-size: 21px;
         line-height: 44px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
     }
     .appeared {
         width: 100%;
@@ -2169,9 +2169,6 @@ input.hidden, select.hidden{
         right: 105px;
     }
     /*speakers*/
-    .main.inner-page.speakers{
-        top: 20vh;
-    }
     .big-grey-stripe.bigger, .additional-parts {
         width: 78%;
         width: calc(78% - 30px);
