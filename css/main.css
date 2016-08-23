@@ -2503,13 +2503,22 @@ input.hidden, select.hidden{
         top: 28px;
     }
     /**/
+    .event-left-link.animScrollLink {
+        top: 34px;
+    }
 }
 .placeWrap:first-child {
     flex-direction: row-reverse;
 }
 @media (max-width: 675px){
     .event-left-link img {
-        width: auto;
+        width: 34px;
+        margin: 0;
+        left: -12px;
+        position: relative;
+    }
+    .event-left-link.animScrollLink {
+        top: 15px;
     }
     /*battles*/
     .title-note {
