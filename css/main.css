@@ -1862,9 +1862,12 @@ input.hidden, select.hidden{
         top: 50%;
     }
 }
-@media (min-width: 678px) {
+@media (min-width: 678px) and  (max-width: 1024px){
     .speakers + .navigation {
         bottom: 32%;
+    }
+    .flex.main.fillAndCenter.program {
+        padding-top: 52vh;
     }
 }
 @media (max-width: 1024px) {
@@ -1872,7 +1875,11 @@ input.hidden, select.hidden{
         height: 470px;
         left: 33px;
     }
-
+    .anim-space {
+        height: 260px;
+        top: 134px;
+        left: 55px;
+    }
     .flex.main.fillAndCenter{
         padding-top: 36vh;
         position: relative;
