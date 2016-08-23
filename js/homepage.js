@@ -26,7 +26,7 @@ function setPosition(checkAnim){
         bottomDefigned = bottom + heightTemplate - offsetBottom;
         // topDefigned = top + orangeSquare.height(),
         // position = [top, left, right, bottomDefigned];
-
+console.log(heightWrap);
     template.css({"top": topT, "left": leftT});
     var top = template.position().top,
         left = template.position().left,
@@ -60,19 +60,16 @@ function animateItems(first, second, third, fourth, duration, wrap){
         opacity: 1,
         //top: "+=" + position[0]
     }, duration, function() {
-        console.log("Animation complete.");
         third.animate({
             opacity: 1,
            // bottom: "+=" + position[3]
         }, duration, function() {
-            console.log("Animation complete.");
         });
     });
     second.delay( duration ).animate({
         opacity: 1,
         //right: "+=" + position[2]
     }, duration, function() {
-        console.log("Animation complete.");
         fourth.animate({
             opacity: 1,
             //left: "+=" + position[1]
@@ -112,5 +109,5 @@ $(function() {
 $( window ).resize(function(){
     window.setTimeout(function() {
         setPosition();
-    }, 200);
+    }, 300);
 });
