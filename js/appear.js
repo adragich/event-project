@@ -10,9 +10,9 @@ $(function() {
 	// setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration/2);
 	// setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  0.75*duration);
 
-	setTimeout('$("#topPart").addClass(" animated fadeInDown")',  1.75*duration);
-	setTimeout('$("#middlePart").addClass(" animated fadeIn")',  1.5*duration);
-	setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  duration);
+	setTimeout('$("#topPart").addClass(" animated fadeInDown")',  1.25*duration);
+	setTimeout('$("#middlePart").addClass(" animated fadeIn")',  duration);
+	setTimeout('$("#bottomPart").addClass(" animated fadeInUp")',  1.5*duration);
 
 	// setTimeout('$(".aside.right").addClass(" animated fadeInDown")',  2*duration/3);
 
