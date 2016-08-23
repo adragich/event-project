@@ -13,7 +13,7 @@
 	<?php
 		@include("partials/preloader-about-us.html")
 	?>
-	<section class="transition white">
+	<section class="transition white static-content">
 		<div class="container">
 
 			<!--header-->
@@ -27,6 +27,10 @@
 					<p class="note"><?php echo ABOUT_US_NOTE;?>.</p>
 				</div>
 			</div>
+		</div>
+	</section>
+	<section class="transition white">
+		<div class="container">
 			<div class="main about-us sub info flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside text">
 					<div class="about-us-info l12">
