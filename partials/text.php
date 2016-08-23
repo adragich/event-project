@@ -20,8 +20,8 @@
 //			      main page
                 define("PROJECTS","Projekcje");
 
-                define("TITLE","Event dla projektantów");
-                define("NOTE","Przez projektantów");
+                define("TITLE","Konferencja graficzna");
+                define("NOTE","dla miłośników designu");
 
                 define("CITY","Poznań");
                 define("COMPANY","Concordia Design");
