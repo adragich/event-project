@@ -2038,7 +2038,7 @@ input.hidden, select.hidden{
         background: none
     }
     .side-link{
-        padding-top: 23%;
+        /*padding-top: 23%;*/
     }
     .loadAnimation.ready:before {
         left: 50%;
