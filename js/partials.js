@@ -111,7 +111,9 @@ function screwDesigners(){
 
 
 $(window).scroll(function() {
-	scrollOptions();
+    if($(window).width > 675){
+        scrollOptions();
+    }
 });
 
 function scrollOptions(){
