@@ -21,17 +21,25 @@ $(function() {
 			setTimeout(function() {
 				$(".lang").slideDown();
 			}, 1000);
+
 			$('.nav li').each(function(index, value){
 				var li = $(this);
 				setTimeout(function(){
 					li.fadeIn();
 				}, 80*index + 1000 );
 			});
+
+            $('.socials a').each(function(index, value){
+                var a = $(this);
+                setTimeout(function(){
+                    a.fadeIn();
+                }, 100*index + 1000 );
+            });
 	});
 	$(".close, .overlay").click(function(){
 		$(".lang").slideUp();
 		$('.nav li').fadeOut();
-
+        $('.socials a').fadeOut();
 		setTimeout(function() {
 			$(".sideBar").removeClass("appeared");
 			$(".overlay").fadeOut();
