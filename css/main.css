@@ -475,7 +475,7 @@ img{
     display: -ms-flexbox!important;
     display: flex!important;
 }
-.flex.main{
+.flex.main.fillAndCenter{
     height: 100%;
     position: absolute;
     padding-top: 0;
@@ -1028,7 +1028,7 @@ img{
     top: 60%;
 }
 .main.about-us{
-    padding-top: 33vh;
+    /*padding-top: 33vh;*/
 }
 .about-us-body .left.aside{
     padding-top: 5%;
@@ -1838,7 +1838,7 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
 
-    .static-content .main.flex{
+    .flex.main.fillAndCenter{
         padding-top: 26vh;
         position: relative;
     }

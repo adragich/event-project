@@ -21,7 +21,7 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="main about-us sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="main sub flex flex-center padding-2x fillAndCenter" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo ABOUT_US;?></p>
 					<p class="note"><?php echo ABOUT_US_NOTE;?>.</p>
