@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<!--button for menu-->
-			<div class="navigation animated fadeInUp wow" data-wow-delay="3s" data-wow-duration="2s" data-scroll="0">
+			<div class="navigation animated fadeInUp wow" data-wow-delay="1s" data-wow-duration="1s" data-scroll="0">
 				<i class="fa fa-angle-down"  data-parallax='{"y" : -300, "smoothness": 20}' aria-hidden="true"></i>
 			</div>
 			<?php

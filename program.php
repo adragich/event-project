@@ -24,7 +24,7 @@
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
-			<div data-scroll="300" class="navigation animated fadeInUp wow" data-wow-delay="3s">
+			<div data-scroll="300" class="navigation animated fadeInUp wow" data-wow-delay="1s">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<!--button for menu-->
