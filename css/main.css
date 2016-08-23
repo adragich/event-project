@@ -2854,7 +2854,7 @@ input.hidden, select.hidden{
     }
 
     .program-static-section .navigation{
-        margin: 50px auto;
+        margin: 180px auto 0;
         left: 20px;
     }
     .program.main{
