@@ -2537,6 +2537,11 @@ input.hidden, select.hidden{
 }
 
 @media (max-width: 675px){
+    .anim-space {
+        height: 157px;
+        margin: 0;
+        top: 90px;
+    }
     .flex.main.fillAndCenter {
         padding-top: 36vh;
     }
@@ -2782,6 +2787,7 @@ input.hidden, select.hidden{
         width: 24px;
         height: 14px;
         right: 91px;
+        bottom: 140px;
     }
     .placeWrap:not(:first-child) {
         padding-top: 0;
