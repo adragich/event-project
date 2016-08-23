@@ -116,6 +116,8 @@ img{
 .l3{
     width: 25%;
 }
+
+/*helping*/
 .transition{
     transition: 0.75s ease-in-out;
     -moz-transition: 0.75s ease-in-out;
@@ -179,7 +181,12 @@ img{
     /**/
 
 }
-
+.navigation i{
+    opacity:0;
+}
+.navigation{
+    background: url('../img/projections-arrow.png') center center no-repeat;
+}
 .hover-logo{
     top: 0;
     left: 0;
