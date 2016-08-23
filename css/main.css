@@ -1048,7 +1048,7 @@ img{
     padding-right: 10%;
 }
 .main.about-us.info{
-    padding-top: 50vh;
+    padding-top: 0;
     padding-left: 140px;
     padding-right: 50%;
     background: url("../img/projections-about-desk.png") 80% 80% no-repeat;
@@ -2364,9 +2364,6 @@ input.hidden, select.hidden{
     .about-us .note{
         line-height: 24px
     }
-    .about-us-info{
-        padding-top: 520px;
-    }
     .inside.text {
         padding-right: 30%;
         background: url("../img/logo-about-us.png") right 75% no-repeat;
@@ -2518,6 +2515,11 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 675px){
+    /*non transform*/
+    body * {
+        transform: none!important;
+        -webkit-transform: none!important;
+    }
     .event-left-link img {
         width: 34px;
         margin: 0;
@@ -3074,9 +3076,7 @@ input.hidden, select.hidden{
     .orgs{
         padding-top:80px;
     }
-    .about-us-info{
-        padding-top: 80%;
-    }
+
     #topPartAbout{
         width:39px;
         height:39px;
