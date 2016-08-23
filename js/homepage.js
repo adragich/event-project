@@ -47,7 +47,7 @@ function setPosition(checkAnim){
         template.animate({
             opacity: 1
         }, 1000);
-         checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, position, 500, wrap);
+         checkAnim = animateItems(orangeSquare, blueTriangle, yellowTriangle, redSquare, 500, wrap);
     }
     // else{
         orangeSquare.css({"top": top, "left": left});
@@ -56,7 +56,7 @@ function setPosition(checkAnim){
         redSquare.css({"top": bottom, "left": left});
     // }
 }
-function animateItems(first, second, third, fourth, position, duration, wrap){
+function animateItems(first, second, third, fourth, duration, wrap){
     first.delay( duration/2 ).animate({
         opacity: 1,
         //top: "+=" + position[0]
