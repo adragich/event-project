@@ -24,13 +24,12 @@ function setPosition(checkAnim){
         // bottom = heightWrap - top - heightTemplate,
 
         bottomDefigned = bottom + heightTemplate - offsetBottom,
-        topDefigned = top + orangeSquare.height(),
+        // topDefigned = top + orangeSquare.height(),
         position = [top, left, right, bottomDefigned];
 
 
     console.log(position);
     template.css({"top": topT, "left": leftT});
-    console.log(parseInt($(".loadAnimation").css("top")));
 
     var top = template.position().top,
         left = template.position().left,
@@ -114,5 +113,5 @@ $(function() {
 });
 
 $( window ).resize(function(){
-    setPosition();
+    // setPosition();
 });

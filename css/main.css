@@ -3246,6 +3246,9 @@ input.hidden, select.hidden{
     }
     .note {
         font-size: 19px;
+        /**/
+        line-height: 26px;
+        padding-top: 10px;
     }
     .additionalInfo {
         bottom: 110px;
