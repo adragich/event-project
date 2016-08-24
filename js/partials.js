@@ -117,6 +117,7 @@ $(window).scroll(function() {
 });
 
 function scrollOptions(){
+    console.log('here');
 	if($(window).scrollTop() > 100){
 		$(".animScrollLink").addClass('inScroll');
 	}
