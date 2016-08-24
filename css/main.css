@@ -1200,7 +1200,10 @@ img{
     letter-spacing: 1px;
     margin-bottom: 14px;=
 }
-.date-sign span{
+.date-sign span:not(.date){
+    line-height: 28px;
+}
+.date-sign .date{
     font-size: 23px;
     color:#3e3e3e;
     background: #ffde17;
