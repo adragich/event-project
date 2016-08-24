@@ -28,6 +28,9 @@
 				</div>
 			</div>
 			<!--button for menu-->
+			<?php
+			@include("partials/menu-button.html")
+			?>
 			<div class="navigation battles" data-scroll="300" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<i class="fa fa-angle-down" aria-hidden="true" ></i>
 			</div>
