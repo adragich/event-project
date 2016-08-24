@@ -1281,7 +1281,7 @@ img{
 }
 
 .mainTitle.teams{
-    font-size: 36px;
+    font-size: 55px;
     line-height: 80px;
 }
 .battle-teams{
@@ -1299,8 +1299,8 @@ img{
 }
 
 .team-sector{
-    padding-bottom: 170px;
-    padding-top: 190px;
+    padding-bottom: 100px;
+    padding-top: 160px;
 }
 .team-sector:first-child {
     border-bottom: 2px solid #fff;
@@ -1815,7 +1815,10 @@ input.hidden, select.hidden{
         left: 32%;
     }
     .team {
-        padding-left: 220px;
+        padding-left: 163px;
+    }
+    .team-sector {
+        padding-right: 150px;
     }
     /**/
     .program #middlePart{

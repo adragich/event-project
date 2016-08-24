@@ -121,19 +121,15 @@
 					<div class="team col l4 m4 s12">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
-							<p class="regular-title">Warszawa</p>
-							<p class="italic leaders">Reprezentowany przez:</p>
-							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+							<p class="blockTitle">Piotr Płoch</p>
+							<p class="block-content">Graphic Designer / Ollestudio</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
-							<p class="regular-title">Trójmiasto</p>
-							<p class="italic leaders">Reprezentowany przez:</p>
-							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+							<p class="blockTitle">Krzysztof Łabno</p>
+							<p class="block-content">Senior Graphic Designer / Creogram</p>
 						</div>
 					</div>
 				</div>
@@ -141,28 +137,22 @@
 					<div class="team col l4 m4 s12">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
-							<p class="regular-title">Łódź</p>
-							<p class="italic leaders">Reprezentowany przez:</p>
-							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+							<p class="blockTitle">Kamil Sarnowski</p>
+							<p class="block-content">Creative Director at Ground Game</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_14.png" alt="Team logo">
-							<p class="regular-title">Poznań</p>
-							<p class="italic leaders">Reprezentowany przez:</p>
-							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+							<p class="blockTitle">Adrian Knopik</p>
+							<p class="block-content">Co-Owner / Fuse Collective</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_16.png" alt="Team logo">
-							<p class="regular-title">Katowice</p>
-							<p class="italic leaders">Reprezentowany przez:</p>
-							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+							<p class="blockTitle">Jacek Janiczak</p>
+							<p class="block-content">Freelance Graphic Designer</p>
 						</div>
 					</div>
 				</div>
