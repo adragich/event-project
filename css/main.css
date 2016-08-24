@@ -1266,6 +1266,10 @@ img{
     font-size: 24px;
     line-height: 40px;
 }
+.bold{
+    font-family: "playfairdisplaybold", serif;
+    font-weight: 600;
+}
 .subtitle.bold{
     font-size: 30px;
     line-height: 40px;

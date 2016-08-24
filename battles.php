@@ -87,13 +87,15 @@
 
 	<section class="scrollableContent">
 		<div class="container">
-			<div class="battle-info download-template">
-				<div class="inside battle-info left-align">
-					<p class="tiny">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
+			<div class="battle-info">
+				<div class="inside battle-info left-align download-template">
+					<p class="tiny no-margin">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
 					</p>
-					<a href="#" class="event-link apply-trigger yellow toLeft" download>
-						Pobierz szablon i rozpocznij projekt
-					</a>
+					<p>
+						<a href="#" class="event-link apply-trigger yellow toLeft" download>
+							Pobierz szablon i rozpocznij projekt
+						</a>
+					</p>
 				</div>
 			</div>
 		</div>
