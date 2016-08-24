@@ -2018,8 +2018,30 @@ input.hidden, select.hidden{
         position: relative;
     }
     /*battles*/
+    .battle-figure{
+        display: none;
+    }
+    .inside.battle-info.apply-form {
+        padding-left: 55px;
+    }
+    .battle-teams .container{
+        height: auto;
+        min-height: 0;
+    }
+    .teams-header {
+        margin-left: 0;
+    }
     .event-link.display{
         padding: 0 15px;
+    }
+    .team-sector {
+        padding-top: 60px!important;
+        padding-bottom: 60px!important;
+        padding-right: 0;
+    }
+    .inside.battle-info > p:first-child {
+        margin-bottom: 0;
+        font-size: 36px;
     }
     .startDate {
         right: 50px;
@@ -2076,7 +2098,7 @@ input.hidden, select.hidden{
     }
     .mainTitle.battle-info {
         font-size: 38px;
-        padding: 20px 0 40px 140px;
+        padding: 20px 0 80px 140px;
     }
     #application .mainTitle {
         margin-top: 0;
