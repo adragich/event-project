@@ -2735,12 +2735,36 @@ input.hidden, select.hidden{
         left: 45px;
     }
     /*battles*/
-
-    .event-link.apply-trigger{
+    .date-sign.shift {
+        margin-right: 0;
+    }
+    .dateGrey {
+        padding: 0;
+        margin-bottom: 3px;
+        display: inline-block;
+    }
+    .inside.battle-info > p:first-child {
+        font-size: 20px;
+    }
+    .startDate {
+        right: 0;
+        top: 70px;
+    }
+    .event-link.display, .event-link.apply-trigger{
         width: 90%;
         text-align: center;
         margin-top: 15px;
-        padding: 0;
+        line-height: 30px;
+        box-sizing: border-box;
+    }
+    .download-template {
+        padding-bottom: 140px;
+        padding-left: 55px;
+        box-sizing: border-box;
+        line-height: 24px;
+        width: 100%;
+        background-position: center bottom;
+        background-size: 150px;
     }
     .additionalInfo.battles {
         top: 120px;
@@ -2751,10 +2775,14 @@ input.hidden, select.hidden{
         margin-top: 5px;
     }
     .date-sign {
-        font-size: 22px;
+        font-size: 18px;
+        margin-bottom: 5px;
     }
     .date-sign span {
-        font-size: 24px;
+        font-size: 16px;
+    }
+    .date-sign .date, .dateGrey {
+        font-size: 20px;
     }
     .main.battles  .note{
         font-size: 16px;
