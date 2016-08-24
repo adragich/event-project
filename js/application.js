@@ -16,36 +16,39 @@ $(document).on('click', '.expander', function(){
     }
 });
 
-$(".file-uploader").uploadFile({
-    url:"actions/upload.php",
-    multiple:false,
-    dragDrop:false,
-    maxFileCount:1,
-    filename: 'file',
-    // acceptFiles:"application/pdf",
-    uploadStr:"+",
-    showDelete: true,
-    onSuccess:function(files,data,xhr,pd)
-    {
-        var input = $(this).attr('data-input-id');
-        $(input).val(files[0]);
-        $(this).removeClass('required');
-
-    },
-    deleteCallback: function(data,pd)
-    {
-        for(var i=0; i<data.length; i++)
+$(".file-uploader").each(function(){
+    var button = $(this);
+    button.uploadFile({
+        url:"actions/upload.php",
+        multiple:false,
+        dragDrop:false,
+        maxFileCount:1,
+        filename: 'file',
+        // acceptFiles:"application/pdf",
+        uploadStr:"+",
+        showDelete: true,
+        onSuccess:function(files,data,xhr,pd)
         {
-            $.post("actions/delete.php",{op:"delete",name:data[i]},
-                function(resp, textStatus, jqXHR)
-                {
-                    //Show Message
-                    console.log("File Deleted");
-                });
-        }
-        pd.statusbar.hide();
+            var input = button.attr('data-input-id');
+            $(input).val(files[0]);
+            button.removeClass('required');
 
-    }
+        },
+        deleteCallback: function(data,pd)
+        {
+            for(var i=0; i<data.length; i++)
+            {
+                $.post("actions/delete.php",{op:"delete",name:data[i]},
+                    function(resp, textStatus, jqXHR)
+                    {
+                        //Show Message
+                        console.log("File Deleted");
+                    });
+            }
+            pd.statusbar.hide();
+
+        }
+    });
 });
 $(document).on('click', '.apply-trigger', function(e){
     e.preventDefault();
