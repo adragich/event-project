@@ -1288,11 +1288,11 @@ img{
 .assign.battles{
     padding-top: 5%;
 }
-.mainTitle.battle-info{
+.mainTitle.small{
     font-size: 55px;
-    line-height: 60px;
 }
-.padded-battle-info{
+.mainTitle.battle-info{
+    line-height: 60px;
     padding: 35px 0 100px 140px;
 }
 .image-title.battle-info {

@@ -39,7 +39,7 @@
 	<section class="battle-info-wrap relative">
 		<div class="container">
 			<div class="battle-info">
-				<p class='mainTitle battle-info padded-battle-info image-title'>Bitwy graficzne</p>
+				<p class='mainTitle battle-info small padded-battle-info image-title'>Bitwy graficzne</p>
 				<div class="inside battle-info">
 					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie własnej
 						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
@@ -202,7 +202,7 @@
 		<div class="container">
 			<div id="application" class="battle-info">
 				<div id="blueTriangle" class="absolute battle-figure"></div>
-				<p class='mainTitle padded-battle-info'>Zgłoś swoją pracę !</p>
+				<p class='mainTitle battle-info'>Zgłoś swoją pracę !</p>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<?php
 					if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
