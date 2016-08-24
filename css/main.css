@@ -1366,7 +1366,7 @@ img{
 }
 .form-control.tiny{
     margin-bottom: 0;
-    padding-top: 40px;
+    line-height: 65px;
 }
 .form-control{
     margin-bottom: 41px;
