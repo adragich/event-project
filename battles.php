@@ -34,11 +34,6 @@
 			<div class="navigation battles" data-scroll="300" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<i class="fa fa-angle-down" aria-hidden="true" ></i>
 			</div>
-			<div class="additionalInfo battles right-align">
-				<p class="bold date hide">5-11-2016</p>
-				<p class="city hide"><?php echo CITY;?></p>
-				<p class="company hide"><?php echo COMPANY;?></p>
-			</div>
 		</div>
 	</section>	
 	<section class="battle-info-wrap relative">

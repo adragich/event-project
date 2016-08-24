@@ -1191,32 +1191,32 @@ img{
     line-height: 42px;
     padding-top: 12px;
 }
-.date-sign{
-    font-size: 26px;
-    color:#3e3e3e;
-    letter-spacing: 2px;
+.date-sign.shift {
+    margin-right: -70px;
+}
+.date-sign {
+    font-size: 15px;
+    color: #3e3e3e;
+    letter-spacing: 1px;
+    margin-bottom: 14px;=
 }
 .date-sign span{
-    font-size: 30px;
+    font-size: 23px;
     color:#3e3e3e;
     background: #ffde17;
     padding: 0 5px;
     font-family: "stolzlmedium", sans-serif;
 }
-.startDate{
-    right: 160px;
-    padding-bottom: 60px;
-    /* width: 259px; */
-    height: 30px;
-    top: 50%;
+
+.startDate {
+    position: relative;
+    float: right;
+    text-align: right;
+    right: -11px;
+    z-index: 11!important;
+    top: 47px;
 }
-.startDate .rotate-90{
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 0;
-    -ms-transform-origin: 100% 0;
-    -moz-transform-origin: 100% 0;
-    -o-transform-origin: 100% 0;
-}
+
 .assign.battles .vertically-text{
     background: none;
 }
@@ -2595,9 +2595,7 @@ input.hidden, select.hidden{
         top: 120px;
         padding-right: 30px;
     }
-    .startDate {
-        right: 26px;
-    }
+
     .event-left-link .smallNote {
         margin-top: 5px;
     }
