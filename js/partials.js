@@ -111,13 +111,12 @@ function screwDesigners(){
 
 
 $(window).scroll(function() {
-    if($(window).width > 675){
+    if($(window).width() > 675){
         scrollOptions();
     }
 });
 
 function scrollOptions(){
-    console.log('here');
 	if($(window).scrollTop() > 100){
 		$(".animScrollLink").addClass('inScroll');
 	}
