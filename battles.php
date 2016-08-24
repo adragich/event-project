@@ -41,23 +41,32 @@
 			<div class="battle-info">
 				<p class='mainTitle battle-info image-title'>Bitwy graficzne</p>
 				<div class="inside battle-info">
-					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie
-					Interpretacji graficznej, będącej odpowiedzią na Inspirację.
+					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie własnej
+						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
+						szablonu. Chodzi przede wszystkim o pomysł i kreatywność, ale jakość realizacji
+						też będzie miała znaczenie.
 					</p>
-					<p class="block-content">Bitwy mają na celu integrację poprzez wspólne projektowanie. Wspólne
-					projektowanie przekłada się natomiast na prezentację swoich umiejętności
-					szerszemu gronu jak i wymianę doświadczeń. </p>
-					<p class="subtitle bold no-margin">Do zespołów zostały zaproszone</p>
-					<p class="block-content">uznane studia graficzne, które wytypują swoich reprezentantów. Będą oni pełnić
-					rolę opiekunów/liderów swoich zespołów. Tutaj natomiast prowadzimy
-					otwartą rekrutację dostępną dla młodych projektantów chcących wziąć udział
-					w bitwach. Formuła pracy nad briefem będzie zależała od liderów danej grupy.
-					Praca może przebiegać online lub podczas zorganizowanych spotkań.
-					Przykładowy zespół może się składać z 2 pro designerów, 3 zawodowych
-					designerów, 4 początkujących designerów/studentów.
+<!--					<p class="block-content">Bitwy mają na celu integrację poprzez wspólne projektowanie. Wspólne-->
+<!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
+<!--					szerszemu gronu jak i wymianę doświadczeń. </p>-->
+					<p class="subtitle bold no-margin">Jak przebiegać będzie bitwa ?</p>
+
+					<p class="block-content">
+						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
+						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.
 					</p>
-					<p class="subtitle bold">Finalne kreacje zostaną przedstawione podczas
-					wernisażu w dniu konferencji.</p>
+					<p class="block-content">
+						Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
+						Konferencji. Wtedy odbędzie się też rozdanie nagród.
+
+					</p>
+					<p class="block-content">
+						Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
+						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
+						internetowej bitwy.projections.pl
+					</p>
+<!--					<p class="subtitle bold">Finalne kreacje zostaną przedstawione podczas-->
+<!--					wernisażu w dniu konferencji.</p>-->
 				</div>
 			</div>
 		</div>

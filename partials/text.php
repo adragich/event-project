@@ -79,7 +79,7 @@
 //                battles ???
                 define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski.");
                 define("BATTLES_2","Gotowi do bitwy?");
-                define("APPLY_TO_BATTLE","Dołącz do bitwy !");
+                define("APPLY_TO_BATTLE","Pobierz szablon i rozpocznij projekt");
                 define("PROJECTS_LINK","Czym są projekcje ?");
 
 			break;
