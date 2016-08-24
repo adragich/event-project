@@ -1284,6 +1284,8 @@ img{
 .mainTitle.battle-info{
     font-size: 55px;
     line-height: 60px;
+}
+.padded-battle-info{
     padding: 35px 0 100px 140px;
 }
 .image-title.battle-info {
