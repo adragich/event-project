@@ -227,6 +227,7 @@
 						<div class="file-input">Dodaj inspirację Twojego projektu</div>
 						<div class="file-uploader" data-input-id="#inspiration"></div>
 						<input id="inspiration" name="inspiration" class="clear" type="text"/>
+						<span class="absolute bold star right">*</span>
 					</div>
 					<div class="form-control">
 						<input name="link_inspiration" type="text"
