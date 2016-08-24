@@ -29,7 +29,10 @@ $(".file-uploader").each(function(){
         showDelete: true,
         onSuccess:function(files,data,xhr,pd)
         {
+            console.log(files[0]);
             var input = button.attr('data-input-id');
+            console.log(input);
+            console.log(input.length);
             $(input).val(files[0]);
             button.removeClass('required');
 

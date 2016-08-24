@@ -1545,6 +1545,7 @@ input.hidden, select.hidden{
 }
 .ajax-file-upload-statusbar{
     padding-top: 15px;
+    max-width: 100%;
 }
 .expander{
     cursor: pointer;
@@ -3128,10 +3129,17 @@ input.hidden, select.hidden{
     }
     .form-control.tiny {
         display: block!important;
+        margin-bottom: 20px;
     }
     .form-control.tiny > * {
         font-size: 12px;
         line-height: 18px;
+    }
+    .ajax-file-upload-filename{
+        font-size: 12px;
+        word-break: break-word;
+        padding-right: 60px;
+        box-sizing: border-box;
     }
     .program-wrap .block-content{
         padding-top: 0;
