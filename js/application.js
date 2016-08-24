@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 
     label.click( function(){
-
+console.log(check.val());
         if( check.val() == 0 ){
             sendButton.addClass('half-visible');
             label.addClass('required');
