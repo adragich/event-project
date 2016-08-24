@@ -162,7 +162,7 @@
 
 
 	<section class="battle-teams relative members">
-		<div class="container pink">
+		<div class="container light-yellow">
 			<div class="battle-info teams-header">
 				<div id="yellowTriangle" class="absolute battle-figure"></div>
 				<div class="inside battle-info">

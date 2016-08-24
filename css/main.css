@@ -361,7 +361,7 @@ img{
 .grey{
     background: #f6f6f6!important
 }
-.pink{
+.light-yellow{
     background: #fffcdf!important
 }
 .clear{
@@ -852,7 +852,7 @@ img{
     overflow: hidden;
     height: 100vh;
 }
-.scrollableContent .container{
+.scrollableContent .container, .members .container{
     min-height: 0!important;
     height: auto;
 }
