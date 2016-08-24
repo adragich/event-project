@@ -75,9 +75,13 @@
 
 	<section class="battle-info-wrap relative">
 		<div class="container">
-			<p class="subtitle bold no-margin">Prace można nadsyłać od
-				<span class="dateGrey">15-09-2016</span> do <span class="dateGrey">15-10-2016</span>
-			</p>
+			<div class="battle-info">
+				<div class="inside battle-info">
+					<p class="subtitle bold no-margin">Prace można nadsyłać od
+						<span class="dateGrey">15-09-2016</span> do <span class="dateGrey">15-10-2016</span>
+					</p>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="battle-teams relative grey">

@@ -1219,6 +1219,7 @@ img{
 }
 .dateGrey{
     background: #f6f6f6;
+    font-size: 30px;
 }
 .startDate {
     position: relative;
