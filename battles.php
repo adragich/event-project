@@ -39,7 +39,7 @@
 	<section class="battle-info-wrap relative">
 		<div class="container">
 			<div class="battle-info">
-				<p class='mainTitle battle-info small padded-battle-info image-title'>Bitwy graficzne</p>
+				<p class='mainTitle battle-info small image-title'>Bitwy graficzne</p>
 				<div class="inside battle-info">
 					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie własnej
 						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej

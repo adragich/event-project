@@ -1296,7 +1296,8 @@ img{
     padding: 35px 0 100px 140px;
 }
 .image-title.battle-info {
-    background: url(../img/figures/projections-bitwy.png) 34px 43px no-repeat;
+    background: url(../img/figures/projections-bitwy.png) 34px 0 no-repeat;
+    padding: 46px 0 140px 140px;
 }
 .battle-info-wrap .inside.battle-info > p{
     margin-bottom:50px;
@@ -2662,6 +2663,9 @@ input.hidden, select.hidden{
     flex-direction: row-reverse;
 }
 
+.event-link.apply-trigger{
+    padding: 0 35px;
+}
 @media (max-width: 675px){
     .anim-space {
         height: 157px;
@@ -2698,10 +2702,10 @@ input.hidden, select.hidden{
     /*battles*/
 
     .event-link.apply-trigger{
-        padding: 0;
         width: 90%;
         text-align: center;
         margin-top: 15px;
+        padding: 0;
     }
     .additionalInfo.battles {
         top: 120px;
