@@ -1150,28 +1150,28 @@ img{
     transform-origin: 100% 0;
     -webkit-transform: rotate(-45deg);
     -webkit-transform-origin: 100% 0;
-    left: 110px;
+    left: 90px;
     top: 50px;
 }
 #secondPartBattles{
     background: #21cae1;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
-    left:750px;
+    left:730px;
     top: -36px;
 }
 #thirdPartBattles{
     background: #ff6279;
     transform: rotate(135deg);
     transform-origin: 100% 100%;
-    left: 330px;
+    left: 310px;
     top: 131px;
 }
 #fourthPartBattles{
     background: #ffde17;
     transform: rotate(-135deg);
     transform-origin: 100% 100%;
-    left: 199px;
+    left: 179px;
     top: 0px;
 }
 .loadAnimation.battles div{
