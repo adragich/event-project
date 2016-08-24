@@ -24,7 +24,7 @@
 				<div class="inside">
 					<p class="mainTitle"><?php echo BATTLES_2;?></p>
 					<p class="note"><?php echo BATTLES_NOTE;?></p>
-					<a href="#application" class="event-link display apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
+					<a href="#downloadTemplate" class="event-link display apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
 				</div>
 			</div>
 			<!--button for menu-->
@@ -73,7 +73,7 @@
 		</div>
 	</section>
 
-	<section class="scrollableContent time-limits">
+	<section class="scrollableContent time-limits" id="downloadTemplate">
 		<div class="container">
 			<div class="battle-info">
 				<div class="inside battle-info left-align">
