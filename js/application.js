@@ -79,8 +79,7 @@ $(document).ready(function(){
 
 
     label.click( function(){
-console.log(check.val());
-        if( check.val() == 0 ){
+        if( check.is(":checked") ){
             sendButton.addClass('half-visible');
             label.addClass('required');
         }
@@ -93,7 +92,7 @@ console.log(check.val());
 
     sendButton.click(function(e){
 
-        if( check.val() == 0 ){
+        if( check.is(":checked") ){
             e.preventDefault();
             label.addClass('required');
         }
