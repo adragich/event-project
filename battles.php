@@ -73,7 +73,7 @@
 		</div>
 	</section>
 
-	<section class="battle-info-wrap relative">
+	<section class="scrollableContent">
 		<div class="container">
 			<div class="battle-info">
 				<div class="inside battle-info">
