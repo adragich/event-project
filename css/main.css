@@ -1242,7 +1242,10 @@ img{
     background: url(../img/figures/projections-bitwy.png) 34px 43px no-repeat;
 }
 .battle-info-wrap .inside.battle-info > p{
-    margin-bottom:90px;
+    margin-bottom:50px;
+}
+.inside.battle-info > p:first-child{
+    margin-bottom: 115px;
 }
 .subtitle{
     font-size: 36px;

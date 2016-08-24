@@ -49,6 +49,7 @@
 <!--					<p class="block-content">Bitwy mają na celu integrację poprzez wspólne projektowanie. Wspólne-->
 <!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
 <!--					szerszemu gronu jak i wymianę doświadczeń. </p>-->
+					<p class="offset-top"></p>
 					<p class="subtitle bold no-margin">Jak przebiegać będzie bitwa ?</p>
 
 					<p class="block-content">
