@@ -1171,8 +1171,8 @@ img{
     background: #ffde17;
     transform: rotate(-135deg);
     transform-origin: 100% 100%;
-    left: 155px;
-    top: 0px;
+    left: 105px;
+    top: -50px;
 }
 .loadAnimation.battles div{
     opacity:1;
