@@ -1,7 +1,6 @@
 <?php
     include 'swiftmailer/lib/swift_required.php';
 
-echo $_POST['name'];
 //data
 $name = $_POST['name'];
 $email = $_POST['email'];
