@@ -268,14 +268,6 @@
 					<div class="form-control left-align">
 						<button type="submit" class="event-link yellow send-application">Wyślij swój projekt</button>
 					</div>
-					<div class="form-control">
-						<p class="application-note">
-							* Dane osobowe i informacje o portfolio wysłane przez chętnych zgłaszających się do wzięcia udziału w bitwach
-						</p>
-						<p class="application-note">
-							nie będą wykorzystywane przez organizatorów do zadnych inych celów, poza rekrutacją osób do bitew graficznych
-						</p>
-					</div>
 				</form>
 			</div>
 		</div>

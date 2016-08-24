@@ -1488,16 +1488,12 @@ input.hidden, select.hidden{
 .event-link.send-application{
     float: none;
     display: inline-block;
-    margin-top: 37px;
+    margin-top: 80px;
     padding: 0 46px;
     margin-bottom: 50px;
 }
 
-.application-note {
-    font-size: 13px;
-    line-height: 24px;
-    font-family: "stolzlregular", sans-serif;
-}
+
 .battle-footer{
     padding: 82px 0;
 }
@@ -1512,9 +1508,15 @@ input.hidden, select.hidden{
     margin: 0 auto;
     max-width: 885px;
 }
-.footer-text a{color:#21cae1;text-decoration: none;}
+.footer-text a:active {
+    color: #21cae1;
+}
+.footer-text a{
+    color: #bfbfbf;
+    text-decoration: none;
+}
 .inside.battle-info.apply-form{
-    padding-bottom: 80px;
+    padding-bottom: 70px;
     padding-left: 140px;
 }
 .optional input{
@@ -2826,9 +2828,7 @@ input.hidden, select.hidden{
     .ajax-file-upload{
         padding: 0 12px;
     }
-    .application-note {
-        font-size: 10px;
-    }
+
     /*sponsors*/
     #topPart.partners {
         border-width: 35px 0 0 40px;
