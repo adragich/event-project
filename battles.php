@@ -54,10 +54,13 @@
 					<p class="block-content">
 						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
 						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.
-						<br>
+					</p>
+					<p class="block-content">
 						Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
 						Konferencji. Wtedy odbędzie się też rozdanie nagród.
-						<br>
+
+					</p>
+					<p class="block-content">
 						Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
 						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
 						internetowej bitwy.projections.pl
