@@ -1363,6 +1363,7 @@ img{
     padding-left: 38px;
     line-height: 25px;
     position: relative;
+    cursor: pointer;
 }
 [type="checkbox"].clear + label:before{
     content:'';
@@ -1374,19 +1375,31 @@ img{
     position: absolute;
 }
 [type="checkbox"].clear:checked + label:after{
-    content:'';
-    width:5px;
-    height:10px;
-    background: #000;
-    left:0;
-    top:0;
-    border-left:1px solid #fefce1;
-    border-bottom:1px solid #fefce1;
+    opacity:1;
+    height: 10px;
+}
+[type="checkbox"].clear + label:after{
+    content: '';
+    opacity:0;
+    overflow: hidden;
+    width: 5px;
+    height: 0;
+    left: 10px;
+    top: 5px;
+    border-right: 2px solid #fefce1;
+    border-bottom: 2px solid #fefce1;
     position: absolute;
     transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+
+
+    transition: 0.75s ease-in-out;
+    -moz-transition: 0.75s ease-in-out;
+    -ms-transition: 0.75s ease-in-out;
+    -webkit-transition: 0.75s ease-in-out;
+    -o-transition: 0.75s ease-in-out;
 }
 .form-control.tiny > *{
     flex-shrink: 0;
