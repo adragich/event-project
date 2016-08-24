@@ -1120,6 +1120,8 @@ img{
 }
 .subHeight.battles{
     background: #f6f6f6;
+    height:100%;
+    height:100vh;
 }
 .battles .big-grey-stripe.bigger{
     width: 100%;
@@ -1143,29 +1145,29 @@ img{
     transform-origin: 100% 0;
     -webkit-transform: rotate(-45deg);
     -webkit-transform-origin: 100% 0;
-    left: 110px;
-    top: -50px;
+    left: 50px;
+    top: 50px;
 }
 #secondPartBattles{
     background: #21cae1;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
-    left:750px;
-    top: -136px;
+    left:690px;
+    top: -36px;
 }
 #thirdPartBattles{
     background: #ff6279;
     transform: rotate(135deg);
     transform-origin: 100% 100%;
-    left: 330px;
-    top: 31px;
+    left: 270px;
+    top: 81px;
 }
 #fourthPartBattles{
     background: #ffde17;
     transform: rotate(-135deg);
     transform-origin: 100% 100%;
-    left: 199px;
-    top: -100px;
+    left: 139px;
+    top: 0px;
 }
 .loadAnimation.battles div{
     opacity:1;
