@@ -512,6 +512,12 @@ img{
     -ms-flex-align: center;
     align-items: center;
 }
+.flex-end{
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
 .hidden{
     opacity:0;
     width:0;
@@ -1354,8 +1360,16 @@ img{
     box-sizing: border-box;
 }
 
+.form-control.tiny > *{
+    flex-shrink: 0;
+    max-width: 100%;
+}
+.form-control.tiny{
+    margin-bottom: 0;
+    padding-top: 40px;
+}
 .form-control{
-    margin-bottom: 42px;
+    margin-bottom: 41px;
     position: relative;
     max-width: 836px;
     box-sizing: border-box;

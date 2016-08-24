@@ -201,6 +201,7 @@
 	<section class="battle-application relative">
 		<div class="container">
 			<div id="application" class="battle-info">
+				<div id="blueTriangle" class="absolute application-figure"></div>
 				<p class='mainTitle battle-info'>Zgłoś swoją pracę !</p>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<?php
@@ -253,11 +254,11 @@
 <!--							<p data-value="Katowice">Katowice</p>-->
 <!--						</div>-->
 <!--					</div>-->
-					<div class="form-control tiny">
+					<div class="form-control tiny flex flex-end">
 						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
 						<input type="checkbox" class="hide" value="0" name="accepted" id="accepted" />
 					</div>
-					<div class="form-control tiny">
+					<div class="form-control tiny flex flex-end">
 						<p class="send-note">Akceptowalne formaty prac:
 							<span class="bold">PDF, Adobe Illustrator lub JPG CMYK, 300 DPI.</span>
 						</p>
