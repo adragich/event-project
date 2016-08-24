@@ -88,7 +88,7 @@
 	<section class="scrollableContent">
 		<div class="container">
 			<div class="battle-info">
-				<div class="inside battle-info left-align download-template">
+				<div class="left-align download-template">
 					<p class="tiny no-margin">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
 					</p>
 					<p>
