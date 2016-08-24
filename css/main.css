@@ -487,11 +487,16 @@ img{
     display: -ms-flexbox!important;
     display: flex!important;
 }
+
 .flex.main.fillAndCenter{
     height: 100%;
     position: absolute;
     padding-top: 0;
     top: 0;
+}
+
+.flex.main.fillAndCenter.battles{
+    padding-top:100px;
 }
 .changeLang{
     line-height: 25px;
