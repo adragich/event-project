@@ -43,7 +43,7 @@
 					Bitwy graficzne
 				</p>
 				<div class="inside battle-info">
-					<p class="subtitle animated wow fadeInDown" data-wow-delay="0.1s">Głównym zadaniem Bitew będzie stworzenie własnej
+					<p class="subtitle animated wow fadeInUp" data-wow-delay="0.1s">Głównym zadaniem Bitew będzie stworzenie własnej
 						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
 						szablonu. Chodzi przede wszystkim o pomysł i kreatywność, <br>
 						ale jakość realizacji też będzie miała znaczenie.
@@ -52,18 +52,18 @@
 <!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
 <!--					szerszemu gronu jak i wymianę doświadczeń. </p>-->
 					<p class="offset-top"></p>
-					<p class="subtitle bold no-margin animated wow fadeInDown" data-wow-delay="0.2s">Jak przebiegać będzie bitwa ?</p>
+					<p class="subtitle bold no-margin animated wow fadeInUp" data-wow-delay="0.2s">Jak przebiegać będzie bitwa ?</p>
 
-					<p class="block-content animated wow fadeInDown" data-wow-delay="0.3s">
+					<p class="block-content animated wow fadeInUp" data-wow-delay="0.3s">
 						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
 						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.
 					</p>
-					<p class="block-content animated wow fadeInDown" data-wow-delay="0.4s">
+					<p class="block-content animated wow fadeInUp" data-wow-delay="0.4s">
 						Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
 						Konferencji. Wtedy odbędzie się też rozdanie nagród.
 
 					</p>
-					<p class="block-content animated wow fadeInDown" data-wow-delay="0.5s">
+					<p class="block-content animated wow fadeInUp" data-wow-delay="0.5s">
 						Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
 						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
 						internetowej bitwy.projections.pl
