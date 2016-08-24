@@ -1368,17 +1368,25 @@ img{
     content:'';
     width:25px;
     height:25px;
-    background: #ddd;
+    background: #bfbfbf;
     left:0;
     top:0;
+    position: absolute;
 }
 [type="checkbox"].clear:checked + label:after{
     content:'';
-    width:25px;
-    height:25px;
+    width:5px;
+    height:10px;
     background: #000;
     left:0;
     top:0;
+    border-left:1px solid #fefce1;
+    border-bottom:1px solid #fefce1;
+    position: absolute;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 .form-control.tiny > *{
     flex-shrink: 0;

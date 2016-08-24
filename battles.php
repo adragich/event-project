@@ -255,7 +255,7 @@
 <!--						</div>-->
 <!--					</div>-->
 					<div class="form-control tiny flex flex-end">
-						<input type="checkbox" class="hide" value="0" name="accepted" id="accepted" />
+						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
 						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
 
 					</div>
