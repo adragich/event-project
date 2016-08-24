@@ -1,6 +1,7 @@
 <?php
     include 'swiftmailer/lib/swift_required.php';
 
+echo $_POST['name'];
 //data
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -19,19 +20,13 @@ else{
     $onlinePortfolio = '';
 }
 
-if(isset($_POST['link_inspiration']) && !empty($_POST['link_inspiration'])){
-    $link_inspiration = $_POST['link_inspiration'];
+if(isset($_POST['team']) && !empty($_POST['team'])){
+    $team = $_POST['team'];
 }
 else{
-    $link_inspiration = '';
+    $team = '';
 }
 
-if(isset($_POST['inspiration']) && !empty($_POST['inspiration'])){
-    $inspiration = $_POST['inspiration'];
-}
-else{
-    $inspiration = '';
-}
 // Create the Transport
 $transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
 
@@ -48,7 +43,7 @@ $mailer = Swift_Mailer::newInstance($transport);
                             <p>Email: ".$email."</p>".
                             $phone
                             ."<p>Online portfolio: ".$onlinePortfolio."</p>
-                            <p>Inspiration link: ".$link_inspiration."</p>
+                            <p>Team: ".$team."</p>
                             <p>
                                 Watch portfolio in annex
                             </p>
@@ -56,7 +51,6 @@ $mailer = Swift_Mailer::newInstance($transport);
                             Event-project
                         </body>
                     </html>", 'text/html')
-//        ->attach(Swift_Attachment::fromPath('../uploads/'.$inspiration))
         ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
     session_start();
 
