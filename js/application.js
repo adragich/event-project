@@ -29,10 +29,7 @@ $(".file-uploader").each(function(){
         showDelete: true,
         onSuccess:function(files,data,xhr,pd)
         {
-            console.log(files[0]);
             var input = button.attr('data-input-id');
-            console.log(input);
-            console.log($(input).length);
             $(input).val(files[0]);
             button.removeClass('required');
 
@@ -73,31 +70,54 @@ $(document).on('click', '.apply-trigger', function(e){
 // });
 
 $(document).ready(function(){
-    $("#phone").inputmask({
+    var sendButton = $(".send-application"),
+        portfolio = $("#portfolio"),
+        team = $("#team"),
+        check = $('[name="accepted"]'),
+        label = check.closest('label'), phone = $("#phone");
+
+
+    check.on('change', function(){
+
+        if( check.val() == 0 ){
+            sendButton.addClass('half-visible');
+            label.addClass('required');
+        }
+        else{
+            sendButton.removeClass('half-visible');
+            label.removeClass('required');
+        }
+
+    });
+
+    sendButton.click(function(e){
+
+        if( check.val() == 0 ){
+            e.preventDefault();
+            label.addClass('required');
+        }
+        else if(portfolio.val() == ''){
+            e.preventDefault();
+            $('.file-input').addClass('required');
+        }
+        else if(team.val() == ''){
+            e.preventDefault();
+            $('.choose-team').addClass('required');
+        }
+    });
+
+    phone.inputmask({
         mask: "(+99)9{3,4}-99{2,3}-99{2,3}",
         greedy: false
     });
-    $("#phone").on("keydown change", function() {
+    phone.on("keydown change", function() {
         if ($(this).val().replace(/[_\-()]/g,"").length >= 11) {
             $(this).inputmask("(+99)999-999-999");
         }
         else {
-                $(this).inputmask("(+99)9999-99-99");
+            $(this).inputmask("(+99)9999-99-99");
         }
     });
 });
 
-$(".send-application").click(function(e){
-    var portfolio = $("#portfolio"),
-        team = $("#team");
-
-    if(portfolio.val() == ''){
-        e.preventDefault();
-        $('.file-input').addClass('required');
-    }
-    else if(team.val() == ''){
-        e.preventDefault();
-        $('.choose-team').addClass('required');
-    }
-});
 //

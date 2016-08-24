@@ -267,7 +267,9 @@
 						</p>
 					</div>
 					<div class="form-control left-align">
-						<button type="submit" class="event-link display yellow send-application">Wyślij swój projekt</button>
+						<button type="submit" class="event-link display yellow send-application half-visible">
+							Wyślij swój projekt
+						</button>
 					</div>
 				</form>
 			</div>
