@@ -1117,6 +1117,7 @@ img{
     text-align: center
 }
 /*battles*/
+
 .time-limits{
     padding: 33px 0 54px;
 }
@@ -1360,7 +1361,6 @@ img{
     box-sizing: border-box;
 }
 [type="checkbox"].clear + label{
-    padding-left: 38px;
     line-height: 25px;
     position: relative;
     cursor: pointer;
@@ -1403,6 +1403,7 @@ img{
 .form-control.tiny > *{
     flex-shrink: 0;
     max-width: 100%;
+    padding-left: 38px;
 }
 .form-control.tiny{
     margin-bottom: 0;

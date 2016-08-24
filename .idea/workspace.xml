@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
@@ -31,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="1378" column="25" selection-start-line="1378" selection-start-column="25" selection-end-line="1378" selection-end-column="25" />
+            <state relative-caret-position="149">
+              <caret line="1119" column="0" selection-start-line="1119" selection-start-column="0" selection-end-line="1119" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="battles.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
-              <caret line="255" column="33" selection-start-line="255" selection-start-column="33" selection-end-line="255" selection-end-column="33" />
+              <caret line="262" column="50" selection-start-line="262" selection-start-column="50" selection-end-line="262" selection-end-column="50" />
               <folding>
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -116,8 +117,8 @@
         <option value="$PROJECT_DIR$/partials/top-battles.html" />
         <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/js/application.js" />
-        <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/battles.php" />
       </list>
     </option>
   </component>
@@ -332,12 +333,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="22229000" />
+      <workItem from="1471955447206" duration="22443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141283000" />
+    <option name="totallyTimeSpent" value="141497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -712,22 +713,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1119" column="0" selection-start-line="1119" selection-start-column="0" selection-end-line="1119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/battles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="255" column="33" selection-start-line="255" selection-start-column="33" selection-end-line="255" selection-end-column="33" />
+          <caret line="262" column="50" selection-start-line="262" selection-start-column="50" selection-end-line="262" selection-end-column="50" />
           <folding>
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="1378" column="25" selection-start-line="1378" selection-start-column="25" selection-end-line="1378" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>

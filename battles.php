@@ -260,6 +260,7 @@
 
 					</div>
 					<div class="form-control tiny flex flex-end">
+						<span class="absolute bold">*</span>
 						<p class="send-note">Akceptowalne formaty prac:
 							<span class="bold">PDF, Adobe Illustrator lub JPG CMYK, 300 DPI.</span>
 						</p>
