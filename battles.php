@@ -43,8 +43,8 @@
 				<div class="inside battle-info">
 					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie własnej
 						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
-						szablonu. Chodzi przede wszystkim o pomysł i kreatywność, ale jakość realizacji
-						też będzie miała znaczenie.
+						szablonu. Chodzi przede wszystkim o pomysł i kreatywność, <br>
+						ale jakość realizacji też będzie miała znaczenie.
 					</p>
 <!--					<p class="block-content">Bitwy mają na celu integrację poprzez wspólne projektowanie. Wspólne-->
 <!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
@@ -54,13 +54,10 @@
 					<p class="block-content">
 						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
 						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.
-					</p>
-					<p class="block-content">
+						<br>
 						Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
 						Konferencji. Wtedy odbędzie się też rozdanie nagród.
-
-					</p>
-					<p class="block-content">
+						<br>
 						Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
 						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
 						internetowej bitwy.projections.pl
