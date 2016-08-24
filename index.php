@@ -15,7 +15,7 @@
 		<div class="container">
 			<!--header-->
 			<?php
-				@include("partials/top.html")
+				@include("partials/top.html");
 			?>
 
 			<div class="main flex flex-center fillAndCenter home">

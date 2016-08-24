@@ -17,8 +17,7 @@
 		<div class="container">
 			<!--header-->
 			<?php
-//				@include("partials/top-battles.html")
-				@include("partials/top.html")
+				@include("partials/top-battles.html");
 			?>
 
 			<div class="main fillAndCenter battles sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
