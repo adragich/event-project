@@ -2757,15 +2757,24 @@ input.hidden, select.hidden{
         margin-top: 15px;
         line-height: 30px;
         box-sizing: border-box;
+        font-size: 14px;
+    }
+    #application .mainTitle {
+        padding-bottom: 0;
+        padding-left: 55px;
+        padding-top: 0;
+    }
+    .team-sector {
+        padding-top: 30px!important;
+        padding-bottom: 30px!important;
     }
     .download-template {
-        padding-bottom: 140px;
+        padding-bottom: 10px;
         padding-left: 55px;
         box-sizing: border-box;
         line-height: 24px;
         width: 100%;
-        background-position: center bottom;
-        background-size: 150px;
+        background:none;
     }
     .additionalInfo.battles {
         top: 120px;
@@ -2877,12 +2886,13 @@ input.hidden, select.hidden{
     }
     .event-link.send-application {
         margin-top: 20px;
-        padding: 0;
+        padding: 10px 0;
         width: 100%;
     }
     .battle-footer {
         padding: 20px 40px 20px 60px;
     }
+
     .address-form:after {
         font-size: 11px;
         letter-spacing: 0;
@@ -2908,9 +2918,7 @@ input.hidden, select.hidden{
         height: auto;
         padding-right: 64px!important;
     }
-    .ajax-file-upload{
-        padding: 0 12px;
-    }
+
 
     /*sponsors*/
     #topPart.partners {
@@ -3104,6 +3112,26 @@ input.hidden, select.hidden{
     .program-time {
         padding: 0;
         font-size: 18px;
+    }
+    .star {
+        left: 7px;
+        font-size: 25px !important;
+        bottom: inherit;
+        top: 4px;
+    }
+    .star.right {
+        left: -19px;
+        top: 17px;
+    }
+    [type="checkbox"].clear + label {
+        display: inline-block;
+    }
+    .form-control.tiny {
+        display: block!important;
+    }
+    .form-control.tiny > * {
+        font-size: 12px;
+        line-height: 18px;
     }
     .program-wrap .block-content{
         padding-top: 0;
