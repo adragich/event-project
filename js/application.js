@@ -79,12 +79,10 @@ $(document).ready(function(){
 
 
     label.click( function(){
-        if( check.is(":checked") ){
-            sendButton.addClass('half-visible');
+        if( !check.is(":checked") ){
             label.addClass('required');
         }
         else{
-            sendButton.removeClass('half-visible');
             label.removeClass('required');
         }
 
@@ -92,7 +90,7 @@ $(document).ready(function(){
 
     sendButton.click(function(e){
 
-        if( check.is(":checked") ){
+        if( !check.is(":checked") ){
             e.preventDefault();
             label.addClass('required');
         }
