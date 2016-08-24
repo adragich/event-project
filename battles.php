@@ -219,38 +219,51 @@
 					</div>
 					<div class="form-control file">
 						<div class="file-input">Dołącz portfolio w formie PDF</div>
-						<div class="file-uploader" data-input="#portfolio"></div>
+						<div class="file-uploader" data-input-id="#portfolio"></div>
 						<input id="portfolio" name="portfolio" class="clear" type="text"/>
 					</div>
 					<div class="form-control file">
 						<div class="file-input">Dodaj inspirację Twojego projektu</div>
-						<div class="file-uploader" data-input="#inspiration"></div>
+						<div class="file-uploader" data-input-id="#inspiration"></div>
 						<input id="inspiration" name="inspiration" class="clear" type="text"/>
+					</div>
+					<div class="form-control">
+						<input name="link_inspiration" type="text"
+							   placeholder="Autor / źródło inspiracji dodanej w polu wyżej" value="">
 					</div>
 					<div class="optional form-control address-form"
 						 data-text='(optional)'>
 						<input name="address"
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
-					<div class="form-control">
-						<input id="team" name="team" class="clear" type="text"/>
-						<div class="choose-team expander" data-block=".teams-list">
-							<p class="current">
-								Wybierz drużynę, do której chcesz dołączyć
-							</p>
-							<i class="fa fa-angle-down absolute arrow"></i>
-						</div>
-						<div class="teams-list">
-							<p data-value="Kraków">Kraków</p>
-							<p data-value="Warszawa">Warszawa</p>
-							<p data-value="Trójmiasto">Trójmiasto</p>
-							<p data-value="Łódź">Łódź</p>
-							<p data-value="Poznań">Poznań</p>
-							<p data-value="Katowice">Katowice</p>
-						</div>
+<!--					<div class="form-control">-->
+<!--						<input id="team" name="team" class="clear" type="text"/>-->
+<!--						<div class="choose-team expander" data-block=".teams-list">-->
+<!--							<p class="current">-->
+<!--								Wybierz drużynę, do której chcesz dołączyć-->
+<!--							</p>-->
+<!--							<i class="fa fa-angle-down absolute arrow"></i>-->
+<!--						</div>-->
+<!--						<div class="teams-list">-->
+<!--							<p data-value="Kraków">Kraków</p>-->
+<!--							<p data-value="Warszawa">Warszawa</p>-->
+<!--							<p data-value="Trójmiasto">Trójmiasto</p>-->
+<!--							<p data-value="Łódź">Łódź</p>-->
+<!--							<p data-value="Poznań">Poznań</p>-->
+<!--							<p data-value="Katowice">Katowice</p>-->
+<!--						</div>-->
+<!--					</div>-->
+					<div class="form-control tiny">
+						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
+						<input type="checkbox" class="hide" value="0" name="accepted" id="accepted" />
+					</div>
+					<div class="form-control tiny">
+						<p class="send-note">Akceptowalne formaty prac:
+							<span class="bold">PDF, Adobe Illustrator lub JPG CMYK, 300 DPI.</span>
+						</p>
 					</div>
 					<div class="form-control left-align">
-						<button type="submit" class="event-link yellow send-application">Wyślij zgłoszenie</button>
+						<button type="submit" class="event-link yellow send-application">Wyślij swój projekt</button>
 					</div>
 					<div class="form-control">
 						<p class="application-note">

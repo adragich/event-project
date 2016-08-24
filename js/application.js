@@ -27,7 +27,7 @@ $(".file-uploader").uploadFile({
     showDelete: true,
     onSuccess:function(files,data,xhr,pd)
     {
-        var input = $(this).attr('data-input');
+        var input = $(this).attr('data-input-id');
         $(input).val(files[0]);
         $(this).removeClass('required');
 
@@ -55,16 +55,16 @@ $(document).on('click', '.apply-trigger', function(e){
     $( "html, body" ).stop().animate({scrollTop:scroll}, '500', 'swing');
 });
 
-$(document).on('click', '.teams-list p', function(){
-    var team = $(this).text(), label = $(".choose-team .current"),
-        block = $('.teams-list'), button = $('.expander');
-    label.text(team);
-    $('#team').val(team);
-    label.addClass('chosen-team');
-    block.slideUp();
-    button.removeClass('active');
-    $('.choose-team').removeClass('required');
-});
+// $(document).on('click', '.teams-list p', function(){
+//     var team = $(this).text(), label = $(".choose-team .current"),
+//         block = $('.teams-list'), button = $('.expander');
+//     label.text(team);
+//     $('#team').val(team);
+//     label.addClass('chosen-team');
+//     block.slideUp();
+//     button.removeClass('active');
+//     $('.choose-team').removeClass('required');
+// });
 
 $(document).ready(function(){
     $("#phone").inputmask({
