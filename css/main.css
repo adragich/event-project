@@ -1150,7 +1150,7 @@ img{
     width: 100%;
     float: left;
 }
-.apply-trigger{
+.display{
     display: block!important;
 }
 .loadAnimation.battles {
@@ -1350,6 +1350,7 @@ img{
 .team-sector{
     padding-bottom: 100px;
     padding-top: 127px;
+    padding-right: 100px;
 }
 .team-sector:first-child{
     padding-top: 160px;
@@ -2017,6 +2018,10 @@ input.hidden, select.hidden{
         position: relative;
     }
     /*battles*/
+    .startDate {
+        right: 50px;
+        top: 110px;
+    }
     .form-control input:not(.hidden), .file-input, .choose-team, .ajax-file-upload, .address-form:after {
         line-height: 55px;
         height: 55px;
@@ -2068,7 +2073,7 @@ input.hidden, select.hidden{
     }
     .mainTitle.battle-info {
         font-size: 38px;
-        padding: 60px 0 40px 140px;
+        padding: 20px 0 40px 140px;
     }
     #application .mainTitle {
         margin-top: 0;

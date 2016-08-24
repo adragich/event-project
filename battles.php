@@ -24,7 +24,7 @@
 				<div class="inside">
 					<p class="mainTitle"><?php echo BATTLES_2;?></p>
 					<p class="note"><?php echo BATTLES_NOTE;?></p>
-					<a href="#application" class="event-link apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
+					<a href="#application" class="event-link display apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
 				</div>
 			</div>
 			<!--button for menu-->
@@ -92,7 +92,7 @@
 					<p class="tiny no-margin">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
 					</p>
 					<p>
-						<a href="#" class="event-link yellow toLeft" download>
+						<a href="#" class="event-link display yellow toLeft" download>
 							Pobierz szablon i rozpocznij projekt
 						</a>
 					</p>
@@ -267,7 +267,7 @@
 						</p>
 					</div>
 					<div class="form-control left-align">
-						<button type="submit" class="event-link yellow send-application">Wyślij swój projekt</button>
+						<button type="submit" class="event-link display yellow send-application">Wyślij swój projekt</button>
 					</div>
 				</form>
 			</div>
