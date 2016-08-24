@@ -1341,7 +1341,7 @@ img{
     margin-bottom: 30px;
 }
 
-.form-control input:not(.hidden), .pdf-input, .choose-team{
+.form-control input:not(.hidden), .file-input, .choose-team{
     width: 100%;
     line-height: 65px;
     height: 65px;
@@ -1379,7 +1379,7 @@ input.hidden, select.hidden{
     top: 23px;
     font-size: 23px;
 }
-.pdf{
+.file{
     cursor: pointer;
 }
 .ajax-file-upload-error{
@@ -1390,14 +1390,16 @@ input.hidden, select.hidden{
     position: absolute!important;
     line-height: 65px;
     height: 65px;
-    top:0;
+    top: 0;
     right: 0;
-    font-size: 14px;
     font-family: "PlayfairDisplaybold2", serif;
     letter-spacing: 1px;
-    padding: 0 17px;
+    padding: 0;
     background-color: #ffeb3e;
-    cursor:pointer;
+    cursor: pointer;
+    font-size: 36px;
+    width: 70px;
+    text-align: center;
 }
 .address-form{
     padding-left: 90px;
@@ -1449,6 +1451,7 @@ input.hidden, select.hidden{
 .footer-text a{color:#21cae1;text-decoration: none;}
 .inside.battle-info.apply-form{
     padding-bottom: 80px;
+    padding-left: 140px;
 }
 .optional input{
     padding-right: 130px;
@@ -1932,7 +1935,7 @@ input.hidden, select.hidden{
         position: relative;
     }
     /*battles*/
-    .form-control input:not(.hidden), .pdf-input, .choose-team, .ajax-file-upload, .address-form:after {
+    .form-control input:not(.hidden), .file-input, .choose-team, .ajax-file-upload, .address-form:after {
         line-height: 55px;
         height: 55px;
     }
@@ -2709,11 +2712,11 @@ input.hidden, select.hidden{
     .form-control {
         margin-bottom: 15px;
     }
-    .form-control input:not(.hidden), .pdf-input, .choose-team, .optional:before, .ajax-file-upload, .address-form:after{
+    .form-control input:not(.hidden), .file-input, .choose-team, .optional:before, .ajax-file-upload, .address-form:after{
         line-height: 40px;
         height: 40px;
     }
-    .form-control input:not(.hidden), .pdf-input, .choose-team {
+    .form-control input:not(.hidden), .file-input, .choose-team {
         padding: 10px 12px;
         font-size: 12px;
         line-height: 20px;
@@ -2752,7 +2755,7 @@ input.hidden, select.hidden{
     .choose-team{
         height:auto;
     }
-    .pdf-input{
+    .file-input{
         height: auto;
         padding-right: 64px!important;
     }
@@ -3249,7 +3252,7 @@ input.hidden, select.hidden{
     }
     /*battles*/
 
-    .form-control input:not(.hidden), .pdf-input, .choose-team {
+    .form-control input:not(.hidden), .file-input, .choose-team {
         padding: 0 12px;
     }
     /*program*/

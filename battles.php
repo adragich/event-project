@@ -217,13 +217,18 @@
 					<div class="form-control optional" data-text='(optional)'>
 						<input id="phone" name="phone" type="text" placeholder="Numer telefonu" value="">
 					</div>
-					<div class="form-control pdf">
-						<div class="pdf-input">Dołącz portfolio w formie PDF</div>
-						<div class="pdf-uploader"></div>
+					<div class="form-control file">
+						<div class="file-input">Dołącz portfolio w formie PDF</div>
+						<div class="file-uploader" data-input="#portfolio"></div>
+						<input id="portfolio" name="portfolio" class="clear" type="text"/>
+					</div>
+					<div class="form-control file">
+						<div class="file-input">Dodaj inspirację Twojego projektu</div>
+						<div class="file-uploader" data-input="#inspiration"></div>
+						<input id="inspiration" name="inspiration" class="clear" type="text"/>
 					</div>
 					<div class="optional form-control address-form"
 						 data-text='(optional)'>
-						<input id="portfolio" name="portfolio" class="clear" type="text"/>
 						<input name="address"
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
