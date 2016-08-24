@@ -255,8 +255,9 @@
 <!--						</div>-->
 <!--					</div>-->
 					<div class="form-control tiny flex flex-end">
-						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
 						<input type="checkbox" class="hide" value="0" name="accepted" id="accepted" />
+						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
+
 					</div>
 					<div class="form-control tiny flex flex-end">
 						<p class="send-note">Akceptowalne formaty prac:

@@ -1359,14 +1359,34 @@ img{
     letter-spacing: 1px;
     box-sizing: border-box;
 }
-
+[type="checkbox"].clear + label{
+    padding-left: 38px;
+    line-height: 25px;
+    position: relative;
+}
+[type="checkbox"].clear + label:before{
+    content:'';
+    width:25px;
+    height:25px;
+    background: #ddd;
+    left:0;
+    top:0;
+}
+[type="checkbox"].clear:checked + label:after{
+    content:'';
+    width:25px;
+    height:25px;
+    background: #000;
+    left:0;
+    top:0;
+}
 .form-control.tiny > *{
     flex-shrink: 0;
     max-width: 100%;
 }
 .form-control.tiny{
     margin-bottom: 0;
-    line-height: 65px;
+    height: 65px;
 }
 .form-control{
     margin-bottom: 41px;
