@@ -73,10 +73,10 @@
 		</div>
 	</section>
 
-	<section class="scrollableContent">
+	<section class="scrollableContent time-limits">
 		<div class="container">
 			<div class="battle-info">
-				<div class="inside battle-info">
+				<div class="inside battle-info left-align">
 					<p class="subtitle bold no-margin">Prace można nadsyłać od
 						<span class="dateGrey">15-09-2016</span> do <span class="dateGrey">15-10-2016</span>
 					</p>
@@ -84,6 +84,21 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="scrollableContent">
+		<div class="container">
+			<div class="battle-info download-template">
+				<div class="inside battle-info left-align">
+					<p class="tiny">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
+					</p>
+					<a href="#" class="event-link apply-trigger yellow toLeft" download>
+						Pobierz szablon i rozpocznij projekt
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="battle-teams relative grey">
 		<div class="container grey">
 			<div class="battle-info teams-header">

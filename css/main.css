@@ -1098,6 +1098,12 @@ img{
     text-align: center
 }
 /*battles*/
+.time-limits{
+    padding: 33px 0 54px;
+}
+.download-template{
+    background: url("../img/projections-bitwy-task.png") right center no-repeat;
+}
 .apply-trigger{
     display: block!important;
 }
