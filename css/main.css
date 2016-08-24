@@ -1300,6 +1300,9 @@ img{
 
 .team-sector{
     padding-bottom: 100px;
+    padding-top: 127px;
+}
+.team-sector:first-child{
     padding-top: 160px;
 }
 .team-sector:first-child {
