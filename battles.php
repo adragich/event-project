@@ -201,7 +201,7 @@
 	<section class="battle-application relative">
 		<div class="container">
 			<div id="application" class="battle-info">
-				<div id="blueTriangle" class="absolute application-figure"></div>
+				<div id="blueTriangle" class="absolute battle-figure"></div>
 				<p class='mainTitle padded-battle-info'>Zgłoś swoją pracę !</p>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<?php

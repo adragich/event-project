@@ -825,6 +825,13 @@ img{
     left: 55px;
     border-width: 77px 0 0 86px;
 }
+#blueTriangle.battle-figure{
+
+    border-width: 118px 0 0 130px;
+    right: 15%;
+    left: inherit;
+    top: 0;
+}
 #yellowTriangle.battle-figure:before {
     width: 86px;
     height: 86px;
