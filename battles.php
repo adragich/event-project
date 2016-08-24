@@ -92,7 +92,7 @@
 					<p class="tiny no-margin">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
 					</p>
 					<p>
-						<a href="#" class="event-link display yellow toLeft" download>
+						<a href="<?php echo $templatePath; ?>" class="event-link display yellow toLeft" download>
 							Pobierz szablon i rozpocznij projekt
 						</a>
 					</p>
