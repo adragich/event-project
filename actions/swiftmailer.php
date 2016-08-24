@@ -1,11 +1,12 @@
 <?php
     include 'swiftmailer/lib/swift_required.php';
 
-echo $_POST['name'];
 //data
 $name = $_POST['name'];
 $email = $_POST['email'];
 $portfolio = $_POST['portfolio'];
+
+echo $_POST['portfolio'];
 
 if(isset($_POST['phone']) && !empty($_POST['phone'])){
     $phone = "<p>Phone: ".$_POST['phone']."</p>";
