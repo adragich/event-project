@@ -1901,6 +1901,13 @@ input.hidden, select.hidden{
     padding-right: 15%;
 }
 
+.placeWrap:first-child {
+    flex-direction: row-reverse;
+}
+
+.event-link.apply-trigger{
+    padding: 0 35px;
+}
 @media (min-width: 1920px) {
     .event-left-link.animScrollLink {
         left: 124px;
@@ -2694,13 +2701,7 @@ input.hidden, select.hidden{
         top: 34px;
     }
 }
-.placeWrap:first-child {
-    flex-direction: row-reverse;
-}
 
-.event-link.apply-trigger{
-    padding: 0 35px;
-}
 @media (max-width: 675px){
     .anim-space {
         height: 157px;
