@@ -219,7 +219,7 @@
 						<input id="phone" name="phone" type="text" placeholder="Numer telefonu" value="">
 					</div>
 					<div class="form-control file">
-						<div class="file-input">Dołącz portfolio w formie PDF</div>
+						<div class="file-input pdf">Dołącz portfolio w formie PDF</div>
 						<div class="file-uploader" data-input-id="#portfolio"></div>
 						<input id="portfolio" name="portfolio" class="clear" type="text"/>
 						<span class="absolute bold star right">*</span>

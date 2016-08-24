@@ -93,7 +93,7 @@ $(document).ready(function(){
 
         if(portfolio.val() == ''){
             e.preventDefault();
-            $('.file-input').addClass('required');
+            $('.file-input.pdf').addClass('required');
         }
         else if(team.val() == ''){
             e.preventDefault();

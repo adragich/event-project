@@ -20,13 +20,19 @@ else{
     $onlinePortfolio = '';
 }
 
-if(isset($_POST['team']) && !empty($_POST['team'])){
-    $team = $_POST['team'];
+if(isset($_POST['link_inspiration']) && !empty($_POST['link_inspiration'])){
+    $link_inspiration = $_POST['link_inspiration'];
 }
 else{
-    $team = '';
+    $link_inspiration = '';
 }
 
+if(isset($_POST['inspiration']) && !empty($_POST['inspiration'])){
+    $inspiration = $_POST['inspiration'];
+}
+else{
+    $inspiration = '';
+}
 // Create the Transport
 $transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
 
@@ -43,7 +49,7 @@ $mailer = Swift_Mailer::newInstance($transport);
                             <p>Email: ".$email."</p>".
                             $phone
                             ."<p>Online portfolio: ".$onlinePortfolio."</p>
-                            <p>Team: ".$team."</p>
+                            <p>Inspiration link: ".$link_inspiration."</p>
                             <p>
                                 Watch portfolio in annex
                             </p>
@@ -51,7 +57,8 @@ $mailer = Swift_Mailer::newInstance($transport);
                             Event-project
                         </body>
                     </html>", 'text/html')
-        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
+        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio))
+        ->attach(Swift_Attachment::fromPath('../uploads/'.$inspiration));
     session_start();
 
     if (!$mailer->send($message, $errors))
