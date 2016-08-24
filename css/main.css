@@ -1376,6 +1376,7 @@ img{
 }
 [type="checkbox"].clear:checked + label:after{
     height: 10px;
+    border-color:#fefce1;
 }
 [type="checkbox"].clear + label:after{
     content: '';
@@ -1383,9 +1384,9 @@ img{
     width: 5px;
     height: 0;
     left: 10px;
+    border-right: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
     top: 5px;
-    border-right: 2px solid #fefce1;
-    border-bottom: 2px solid #fefce1;
     position: absolute;
     transform: rotate(45deg);
     -moz-transform: rotate(45deg);
