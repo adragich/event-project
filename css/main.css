@@ -811,6 +811,15 @@ img{
     right: 100%;
 
 }
+#yellowTriangle.battle-figure{
+    top: -20px;
+    left: 55px;
+    border-width: 77px 0 0 86px;
+}
+#yellowTriangle.battle-figure:before {
+    width: 86px;
+    height: 86px;
+}
 #redSquare{
     width:115px;
     height:66px;
@@ -1085,6 +1094,7 @@ img{
 .block-content{
     font-size: 18px;
     padding-top: 10px;
+    line-height: 24px;
 }
 .section-two{
     padding-top:140px;
@@ -1310,6 +1320,12 @@ img{
 }
 .team-sector:first-child{
     padding-top: 160px;
+}
+.members .team-sector:first-child {
+    padding-top: 200px;
+}
+.members .team-sector {
+    padding-bottom: 127px;
 }
 .team-sector:first-child:not(:last-child) {
     border-bottom: 2px solid #fff;

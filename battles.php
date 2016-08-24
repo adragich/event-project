@@ -161,10 +161,10 @@
 	</section>
 
 
-	<section class="battle-teams relative">
+	<section class="battle-teams relative members">
 		<div class="container pink">
-			<div id="yellowTriangle" class="absolute"></div>
 			<div class="battle-info teams-header">
+				<div id="yellowTriangle" class="absolute battle-figure"></div>
 				<div class="inside battle-info">
 					<p class="mainTitle teams">Jury 2016</p>
 				</div>
