@@ -92,7 +92,7 @@
 					<p class="tiny no-margin">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
 					</p>
 					<p>
-						<a href="#" class="event-link apply-trigger yellow toLeft" download>
+						<a href="#" class="event-link yellow toLeft" download>
 							Pobierz szablon i rozpocznij projekt
 						</a>
 					</p>
@@ -105,7 +105,7 @@
 		<div class="container grey">
 			<div class="battle-info teams-header">
 				<div class="inside battle-info">
-					<p class="mainTitle teams">Zespoły i ich liderzy</p>
+					<p class="mainTitle teams">Oni potwierdzili udział</p>
 				</div>
 			</div>
 			<div class="teams">
@@ -113,10 +113,9 @@
 					<div class="team col l4 m4 s12">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
-							<p class="regular-title">Kraków</p>
-							<p class="italic leaders">Reprezentowany przez:</p>
-							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
-							<p class="team-member">Krzysztof Łabno  <span>(Creogram)</span></p>
+
+							<p class="blockTitle">Konrad Kirpluk</p>
+							<p class="block-content">Illustrator</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12">
@@ -141,7 +140,7 @@
 				<div class="team-sector">
 					<div class="team col l4 m4 s12">
 						<div class="inside">
-							<img src="img/figures/teams/projections-bitwy_13.png" alt="Team logo">
+							<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
 							<p class="regular-title">Łódź</p>
 							<p class="italic leaders">Reprezentowany przez:</p>
 							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
@@ -150,7 +149,7 @@
 					</div>
 					<div class="team col l4 m4 s12">
 						<div class="inside">
-							<img src="img/figures/teams/projections-bitwy_18.png" alt="Team logo">
+							<img src="img/figures/teams/projections-bitwy_14.png" alt="Team logo">
 							<p class="regular-title">Poznań</p>
 							<p class="italic leaders">Reprezentowany przez:</p>
 							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
@@ -159,7 +158,7 @@
 					</div>
 					<div class="team col l4 m4 s12">
 						<div class="inside">
-							<img src="img/figures/teams/projections-bitwy_15.png" alt="Team logo">
+							<img src="img/figures/teams/projections-bitwy_16.png" alt="Team logo">
 							<p class="regular-title">Katowice</p>
 							<p class="italic leaders">Reprezentowany przez:</p>
 							<p class="team-member">Piotr Płoch  <span>(Olle Studio)</span></p>
