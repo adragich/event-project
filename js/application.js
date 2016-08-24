@@ -74,10 +74,11 @@ $(document).ready(function(){
         portfolio = $("#portfolio"),
         team = $("#team"),
         check = $('[name="accepted"]'),
-        label = check.closest('label'), phone = $("#phone");
+        label = $('[for="accepted"]'),
+        phone = $("#phone");
 
 
-    check.on('change', function(){
+    label.click( function(){
 
         if( check.val() == 0 ){
             sendButton.addClass('half-visible');
