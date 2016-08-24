@@ -1102,7 +1102,10 @@ img{
     padding: 33px 0 54px;
 }
 .download-template{
-    background: url("../img/projections-bitwy-task.png") right center no-repeat;
+    background: url("../img/projections-bitwy-task.png") right 35px no-repeat;
+    padding-bottom: 300px;
+    width: 100%;
+    float: left;
 }
 .apply-trigger{
     display: block!important;
