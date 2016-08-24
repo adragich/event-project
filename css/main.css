@@ -947,10 +947,12 @@ img{
 #secondPart.partners{
     height: 129px;
     width: 66px;
+    background: url("../img/figures/second-part-partners.png") 0 0 no-repeat;
 }
 #fourthPart.partners{
     height: 105px;
     width: 64px;
+    background: url("../img/figures/first-part-partners.png") 0 0 no-repeat;
 }
 #topPart{
     width:86px;
