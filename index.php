@@ -40,10 +40,8 @@
 	</section>	
 	<!--menu-->
 	<?php
-		@include("partials/sidebar.html")
-	?>
-	<?php
-		@include("partials/scripts.html")
+		@include("partials/sidebar.html");
+		@include("partials/scripts.html");
 	?>	
 	<script type="text/javascript" src="js/homepage.js"></script>
 </body>

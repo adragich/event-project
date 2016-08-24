@@ -23,7 +23,7 @@
 			<div class="main fillAndCenter battles sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo BATTLES_2;?></p>
-					<p class="note"><?php echo BATTLES_NOTE;?>.</p>
+					<p class="note"><?php echo BATTLES_NOTE;?></p>
 					<a href="#application" class="event-link apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
 				</div>
 			</div>
@@ -200,7 +200,8 @@
 			</div>
 	</footer>
 	<?php
-		@include("partials/scripts.html")
+		@include("partials/sidebar.html");
+		@include("partials/scripts.html");
 	?>
 	<script type="text/javascript" src="js/uploadfile.min.js"></script>
 	<script type="text/javascript" src="js/inputmask.js"></script>
