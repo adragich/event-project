@@ -39,9 +39,11 @@
 	<section class="battle-info-wrap relative">
 		<div class="container">
 			<div class="battle-info">
-				<p class='mainTitle battle-info small image-title'>Bitwy graficzne</p>
+				<p class="mainTitle battle-info small image-title animated wow fadeInDown" data-wow-delay="0s">
+					Bitwy graficzne
+				</p>
 				<div class="inside battle-info">
-					<p class="subtitle">Głównym zadaniem Bitew będzie stworzenie własnej
+					<p class="subtitle animated wow fadeInDown" data-wow-delay="0.1s">Głównym zadaniem Bitew będzie stworzenie własnej
 						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
 						szablonu. Chodzi przede wszystkim o pomysł i kreatywność, <br>
 						ale jakość realizacji też będzie miała znaczenie.
@@ -50,18 +52,18 @@
 <!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
 <!--					szerszemu gronu jak i wymianę doświadczeń. </p>-->
 					<p class="offset-top"></p>
-					<p class="subtitle bold no-margin">Jak przebiegać będzie bitwa ?</p>
+					<p class="subtitle bold no-margin animated wow fadeInDown" data-wow-delay="0.2s">Jak przebiegać będzie bitwa ?</p>
 
-					<p class="block-content">
+					<p class="block-content animated wow fadeInDown" data-wow-delay="0.3s">
 						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
 						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.
 					</p>
-					<p class="block-content">
+					<p class="block-content animated wow fadeInDown" data-wow-delay="0.4s">
 						Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
 						Konferencji. Wtedy odbędzie się też rozdanie nagród.
 
 					</p>
-					<p class="block-content">
+					<p class="block-content animated wow fadeInDown" data-wow-delay="0.5s">
 						Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
 						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
 						internetowej bitwy.projections.pl
@@ -110,7 +112,7 @@
 			</div>
 			<div class="teams">
 				<div class="team-sector">
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
 
@@ -118,14 +120,14 @@
 							<p class="block-content">Illustrator</p>
 						</div>
 					</div>
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
 							<p class="blockTitle">Piotr Płoch</p>
 							<p class="block-content">Graphic Designer / Ollestudio</p>
 						</div>
 					</div>
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
 							<p class="blockTitle">Krzysztof Łabno</p>
@@ -134,21 +136,21 @@
 					</div>
 				</div>
 				<div class="team-sector">
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
 							<p class="blockTitle">Kamil Sarnowski</p>
 							<p class="block-content">Creative Director at Ground Game</p>
 						</div>
 					</div>
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_14.png" alt="Team logo">
 							<p class="blockTitle">Adrian Knopik</p>
 							<p class="block-content">Co-Owner / Fuse Collective</p>
 						</div>
 					</div>
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
 							<img src="img/figures/teams/projections-bitwy_16.png" alt="Team logo">
 							<p class="blockTitle">Jacek Janiczak</p>
@@ -171,7 +173,7 @@
 			</div>
 			<div class="teams">
 				<div class="team-sector">
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
 							<img src="img/members/projections-bitwy-member-1.png" alt="Team logo">
 
@@ -179,14 +181,14 @@
 							<p class="block-content">Associate Creative Director w 180heartbeats + JUNG v. MATT</p>
 						</div>
 					</div>
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
 							<img src="img/members/projections-bitwy-member-2.png" alt="Team logo">
 							<p class="blockTitle">Oskar Podolski</p>
 							<p class="block-content">Owner / OESU</p>
 						</div>
 					</div>
-					<div class="team col l4 m4 s12">
+					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
 							<img src="img/members/projections-bitwy-member-3.png" alt="Team logo">
 							<p class="blockTitle">Łukasz Słotwiński</p>
