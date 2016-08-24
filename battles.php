@@ -159,6 +159,44 @@
 			</div>
 		</div>
 	</section>
+
+
+	<section class="battle-teams relative pink">
+		<div class="container grey">
+			<div class="battle-info teams-header">
+				<div class="inside battle-info">
+					<p class="mainTitle teams">Jury 2016</p>
+				</div>
+			</div>
+			<div class="teams">
+				<div class="team-sector">
+					<div class="team col l4 m4 s12">
+						<div class="inside">
+							<img src="img/members/projections-bitwy-member-1.png" alt="Team logo">
+
+							<p class="blockTitle">Bartek Walczuk</p>
+							<p class="block-content">Associate Creative Director w 180heartbeats + JUNG v. MATT</p>
+						</div>
+					</div>
+					<div class="team col l4 m4 s12">
+						<div class="inside">
+							<img src="img/members/projections-bitwy-member-2.png" alt="Team logo">
+							<p class="blockTitle">Oskar Podolski</p>
+							<p class="block-content">Owner / OESU</p>
+						</div>
+					</div>
+					<div class="team col l4 m4 s12">
+						<div class="inside">
+							<img src="img/members/projections-bitwy-member-3.png" alt="Team logo">
+							<p class="blockTitle">Łukasz Słotwiński</p>
+							<p class="block-content">Creative Director nc+</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="battle-application relative">
 		<div class="container">
 			<div id="application" class="battle-info">
