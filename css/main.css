@@ -1393,6 +1393,10 @@ img{
     line-height: 25px;
     position: relative;
     cursor: pointer;
+    border: none;
+}
+label.required:before{
+    border: 0px solid #ff6279
 }
 [type="checkbox"].clear + label:before{
     content:'';
