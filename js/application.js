@@ -77,17 +77,6 @@ $(document).ready(function(){
         label = $('[for="accepted"]'),
         phone = $("#phone");
 
-
-    label.click( function(){
-        if( !check.is(":checked") ){
-            label.addClass('required');
-        }
-        else{
-            label.removeClass('required');
-        }
-
-    });
-
     sendButton.click(function(e){
 
 
