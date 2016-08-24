@@ -358,6 +358,9 @@ img{
 .grey{
     background: #f6f6f6!important
 }
+.pink{
+    background: #fffcdf!important
+}
 .clear{
     display: none;
 }
@@ -1101,12 +1104,22 @@ img{
 .time-limits{
     padding: 33px 0 54px;
 }
-.download-template{
+.download-template:before{
+    content: '';
     background: url("../img/projections-bitwy-task.png") right 35px no-repeat;
-    padding-bottom: 300px;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.download-template{
+    padding-bottom: 50px;
+    /*padding-bottom: 300px;*/
     padding-left: 35px;
     width: 100%;
     float: left;
+    position: relative;
 }
 .apply-trigger{
     display: block!important;
@@ -1285,7 +1298,8 @@ img{
     line-height: 80px;
 }
 .battle-teams{
-    margin-top: 30px;
+    margin-top: 250px;
+    /*margin-top: 30px;*/
 }
 .team{
     padding-left: 120px;
@@ -1305,7 +1319,7 @@ img{
 .team-sector:first-child{
     padding-top: 160px;
 }
-.team-sector:first-child {
+.team-sector:first-child:not(:last-child) {
     border-bottom: 2px solid #fff;
 }
 .teams-header{

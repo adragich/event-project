@@ -161,8 +161,8 @@
 	</section>
 
 
-	<section class="battle-teams relative pink">
-		<div class="container grey">
+	<section class="battle-teams relative">
+		<div class="container pink">
 			<div class="battle-info teams-header">
 				<div class="inside battle-info">
 					<p class="mainTitle teams">Jury 2016</p>
