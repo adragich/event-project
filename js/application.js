@@ -32,7 +32,7 @@ $(".file-uploader").each(function(){
             console.log(files[0]);
             var input = button.attr('data-input-id');
             console.log(input);
-            console.log(input.length);
+            console.log($(input).length);
             $(input).val(files[0]);
             button.removeClass('required');
 
