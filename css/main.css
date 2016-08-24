@@ -1262,7 +1262,7 @@ img{
 .mainTitle.battle-info{
     font-size: 55px;
     line-height: 60px;
-    padding: 80px 0 100px 140px;
+    padding: 35px 0 100px 140px;
 }
 .image-title.battle-info {
     background: url(../img/figures/projections-bitwy.png) 34px 43px no-repeat;
@@ -1302,6 +1302,7 @@ img{
 }
 .battle-teams + .battle-teams{
     margin-top: 250px;
+    margin-bottom: 120px;
 }
 .team{
     padding-left: 120px;
@@ -1339,13 +1340,7 @@ img{
 .team img{
     margin-bottom: 30px;
 }
-.title-note{
-    font-size: 24px;
-    font-family: "stolzlmedium", sans-serif;
-    position: absolute;
-    margin-top: -20px;
-    padding-left: 20px;
-}
+
 .form-control input:not(.hidden), .pdf-input, .choose-team{
     width: 100%;
     line-height: 65px;
@@ -1431,9 +1426,7 @@ input.hidden, select.hidden{
     padding: 0 46px;
     margin-bottom: 50px;
 }
-#application .mainTitle{
-    margin-top: 110px;
-}
+
 .application-note {
     font-size: 13px;
     line-height: 24px;
@@ -2619,11 +2612,7 @@ input.hidden, select.hidden{
         left: 45px;
     }
     /*battles*/
-    .title-note {
-        font-size: 16px;
-        margin-top: -10px;
-        padding-left: 10px;
-    }
+
     .event-link.apply-trigger{
         padding: 0;
         width: 90%;

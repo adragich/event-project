@@ -201,7 +201,7 @@
 	<section class="battle-application relative">
 		<div class="container">
 			<div id="application" class="battle-info">
-				<p class='mainTitle battle-info'>Zgłoś się ! <span class="title-note">*</span></p>
+				<p class='mainTitle battle-info'>Zgłoś swoją pracę !</p>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<?php
 					if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
