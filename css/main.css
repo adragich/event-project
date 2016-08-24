@@ -1112,7 +1112,7 @@ img{
     margin-right: auto;
 }
 .inside.battle-info{
-    padding: 0 0 0 35px;
+    padding: 0 0 29px 35px;
 }
 .additionalInfo.battles{
     position: absolute;
@@ -1210,14 +1210,16 @@ img{
 .date-sign span:not(.date){
     line-height: 28px;
 }
-.date-sign .date{
+.date-sign .date, .dateGrey{
     font-size: 23px;
     color:#3e3e3e;
     background: #ffde17;
     padding: 0 5px;
     font-family: "stolzlmedium", sans-serif;
 }
-
+.dateGrey{
+    background: #f6f6f6;
+}
 .startDate {
     position: relative;
     float: right;

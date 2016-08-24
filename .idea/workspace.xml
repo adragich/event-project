@@ -35,8 +35,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="1247" column="25" selection-start-line="1247" selection-start-column="25" selection-end-line="1247" selection-end-column="25" />
+            <state relative-caret-position="149">
+              <caret line="1213" column="20" selection-start-line="1213" selection-start-column="20" selection-end-line="1213" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -402,12 +402,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="13700000" />
+      <workItem from="1471955447206" duration="14276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132754000" />
+    <option name="totallyTimeSpent" value="133330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -698,14 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/game.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="154" column="139" selection-start-line="154" selection-start-column="132" selection-end-line="154" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/scripts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,18 +772,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/game.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="139" selection-start-line="154" selection-start-column="132" selection-end-line="154" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/battles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="1247" column="25" selection-start-line="1247" selection-start-column="25" selection-end-line="1247" selection-end-column="25" />
+        <state relative-caret-position="149">
+          <caret line="1213" column="20" selection-start-line="1213" selection-start-column="20" selection-end-line="1213" selection-end-column="20" />
           <folding />
         </state>
       </provider>
