@@ -2018,7 +2018,7 @@ input.hidden, select.hidden{
         position: relative;
     }
     /*battles*/
-    .event-link.apply-trigger, .event-link[download]{
+    .event-link.display{
         padding: 0 15px;
     }
     .startDate {
