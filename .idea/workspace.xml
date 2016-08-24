@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/swiftmailer.php" afterPath="$PROJECT_DIR$/actions/swiftmailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="1396" column="1" selection-start-line="1396" selection-start-column="1" selection-end-line="1396" selection-end-column="1" />
+            <state relative-caret-position="539">
+              <caret line="422" column="1" selection-start-line="422" selection-start-column="1" selection-end-line="422" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -73,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="360">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <marker date="1472047552000" expanded="true" signature="1014:1653" ph="..." />
                 <marker date="1472047552000" expanded="true" signature="1045:1625" ph="..." />
@@ -147,10 +147,10 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/partials/top-battles.html" />
         <option value="$PROJECT_DIR$/partials/text.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/actions/swiftmailer.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -379,12 +379,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="29330000" />
+      <workItem from="1471955447206" duration="30062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148384000" />
+    <option name="totallyTimeSpent" value="149116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -616,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -735,14 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="1396" column="1" selection-start-line="1396" selection-start-column="1" selection-end-line="1396" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/battles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -769,15 +753,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/partials/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="360">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding>
             <marker date="1472047552000" expanded="true" signature="1014:1653" ph="..." />
             <marker date="1472047552000" expanded="true" signature="1045:1625" ph="..." />
             <marker date="1472047552000" expanded="true" signature="1415:1505" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="422" column="1" selection-start-line="422" selection-start-column="1" selection-end-line="422" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -393,10 +393,8 @@ img{
     animation-timing-function: ease-in-out;
 }
 .bottom-link:hover:before {
-    animation-name: slidingBig;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
+    width: 80%;
+    max-width: 100%;
 }
 .menu:hover .stripe{
     animation-name: sliding;
@@ -421,11 +419,6 @@ img{
 @keyframes sliding {
     0% {transform: translateX(0);}
     50% {transform: translateX(-15%);}
-    100% {transform: translateX(0);}
-}
-@keyframes slidingBig {
-    0% {transform: translateX(0);}
-    50% {transform: translateX(300px);}
     100% {transform: translateX(0);}
 }
 .menu-icon :first-child{
