@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		<!--button for menu-->
-		<div data-offset="-300"
+		<div data-offset="-250"
 			 data-id="#partnersInfoSection" class="navigation partners-nav animated fadeInUp wow" data-wow-delay="1s">
 			<i class="fa fa-angle-down" aria-hidden="true"></i>
 		</div>
