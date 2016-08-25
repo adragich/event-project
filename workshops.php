@@ -86,11 +86,10 @@
 	</section>
 	<div class="workshop-popup" id="content1">
 
-		<div class="close" data-close="#content1">
-			<span class="menu-close"></span>
-		</div>
-
 		<div class="workshop-popup-header grey">
+			<div class="close" data-close="#content1">
+				<span class="menu-close"></span>
+			</div>
 			<div class="workshop-popup-inner">
 				<figure class="pic">
 					<img src="" alt="">
