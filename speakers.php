@@ -20,14 +20,14 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="fillAndCenter main sub flex flex-center padding-2x inner-page speakers" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="fillAndCenter main sub flex flex-center padding-2x s speakers" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo SPEAKERS;?></p>
 					<p class="note"><?php echo SPEAKERS_NOTE;?>.</p>
 				</div>
 			</div>
 			<!--button for menu-->
-			<div data-scroll="300" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+			<div data-offset="0" data-id="#contentSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<?php
@@ -35,7 +35,7 @@
 			?>
 		</div>
 	</section>	
-	<section class="scrollableContent relative">
+	<section class="scrollableContent relative" id="contentSection">
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.5s">

@@ -66,15 +66,19 @@
 				</div>
 			</div>
 			<!--button for menu-->
-			<div class="navigation animated fadeInUp wow" data-wow-delay="1s" data-wow-duration="1s" data-scroll="0">
-				<i class="fa fa-angle-down"  data-parallax='{"y" : -300, "smoothness": 20}' aria-hidden="true"></i>
+			<div class="navigation animated fadeInUp wow"
+				 data-wow-delay="1s"
+				 data-wow-duration="1s"
+				 data-id="#contentSection"
+				 data-offset="50">
+				<i class="fa fa-angle-down" data-parallax='{"y" : -300, "smoothness": 20}' aria-hidden="true"></i>
 			</div>
 			<?php
 				@include("partials/menu-button.html")
 			?>
 		</div>
 	</section>
-	<section class="scrollableContent about relative">
+	<section class="scrollableContent about relative" id="contentSection">
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">

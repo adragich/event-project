@@ -53,9 +53,8 @@ $(".file-uploader").each(function(){
 $(document).on('click', '.apply-trigger', function(e){
     e.preventDefault();
 
-    var id = $(this).attr( 'href' ),
-        scroll = $(id).offset().top;
-    $( "html, body" ).stop().animate({scrollTop:scroll}, '500', 'swing');
+    var id = $(this).attr( 'href' );
+    scrollToElement(id, 0);
 });
 
 // $(document).on('click', '.teams-list p', function(){
@@ -87,13 +86,19 @@ $(document).ready(function(){
 
     sendButton.click(function(e){
 
+        var id;
+
         if(portfolio.val() == ''){
             e.preventDefault();
+            id = '#pdfInputWrap';
             $('.file-input.pdf').addClass('required');
+            scrollToElement(id, 0);
         }
         else if( !check.is(":checked") ){
             e.preventDefault();
+            id = '#acceptedWrap';
             label.addClass('required');
+            scrollToElement(id, 0);
         }
 
     });

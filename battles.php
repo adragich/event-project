@@ -219,7 +219,7 @@
 					<div class="form-control optional" data-text='(optional)'>
 						<input id="phone" name="phone" type="text" placeholder="Numer telefonu" value="">
 					</div>
-					<div class="form-control file">
+					<div class="form-control file" id="pdfInputWrap">
 						<div class="file-input pdf">Dołącz portfolio w formie PDF</div>
 						<div class="file-uploader" data-input-id="#portfolio"></div>
 						<input id="portfolio" name="portfolio" class="clear" type="text"/>
@@ -241,7 +241,7 @@
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
 
-					<div class="form-control tiny flex flex-end">
+					<div class="form-control tiny flex flex-end" id="acceptedWrap">
 						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
 						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
 
