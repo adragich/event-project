@@ -29,7 +29,7 @@
 
 
 //                speakers
-                define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
+                define("SPEAKERS_NOTE","Opowiedzą o inspiracji.");
 
 //                schedule
                 define("PROGRAM_TITLE","Program");
@@ -46,6 +46,8 @@
                 define("PROGRAM_DESCRIPTION_4","Inspiracja marką");
                 define("PROGRAM_DESCRIPTION_5","Something new...");
 
+//                workshops
+                define("WORKSHOPS_NOTE","projektowe");
 //                venue
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
                 define("PLACE_TITLE_1","Concordia Design");
