@@ -1980,6 +1980,10 @@ input.hidden, select.hidden{
     .event-left-link.animScrollLink {
         left: 124px;
     }
+    /*404 error*/
+    .error-inner{
+        padding-right: 200px;
+    }
 }
 @media (min-width: 1500px){
 /*404 error*/
@@ -1989,9 +1993,6 @@ input.hidden, select.hidden{
     }
     .error-content .event-link{
         margin-top: 90px;
-    }
-    .error-inner{
-        padding-right: 200px;
     }
     .error-number span{
         font-size: 200px;
