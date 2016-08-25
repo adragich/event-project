@@ -928,6 +928,31 @@ img{
     top: 454px;
     right: 276px;
 }
+.workshop-section .blockTitle{
+    font-size: 26px;
+    line-height: 36px;
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.workshop-section .block-content {
+    font-size: 19.5px;
+    padding-top: 30px;
+    line-height: 36px;
+    max-width: 735px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.workshop-modal-section{
+    margin-top: 130px;
+}
+.workshop-block:hover{
+    border-color: #e8e8e8;
+}
+.workshop-block{
+    padding: 55px;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+}
 /**/
 
 
