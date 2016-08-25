@@ -875,6 +875,11 @@ img{
 }
 
 /*workshops*/
+.halfCircle{
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 90px 90px 0 0;
+}
 #firstPartWorkshops{
     width:154px;
     height:134px;
@@ -886,13 +891,11 @@ img{
     background: #ff6178;
 }
 #thirdPartWorkshops{
-    border-radius: 100%;
     width:120px;
     height:60px;
     background: #21c9e0;
 }
 #fourthPartWorkshops{
-    border-radius: 100%;
     width:120px;
     height:60px;
     background: #ffde17;
