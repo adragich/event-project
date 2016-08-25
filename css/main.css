@@ -906,9 +906,9 @@ img{
     background: #21c9e0;
 }
 #fourthPartWorkshops{
-    border-radius: 0 0 90px 90px;
-    -moz-border-radius: 0 0 90px 90px;
-    -webkit-border-radius: 0 0 90px 90px;
+    border-radius: 0 90px 90px 0;
+    -moz-border-radius: 0 90px 90px 0;
+    -webkit-border-radius: 0 90px 90px 0;
     width:60px;
     height:120px;
     background: #ffde17;
