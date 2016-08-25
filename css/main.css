@@ -908,6 +908,8 @@ img{
 
     background: #fff;
     z-index: 9999;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .workshop-popup-inner{
     max-width: 1170px;
@@ -916,16 +918,15 @@ img{
     height: 100%;
     position: relative;
 }
-.workshop-popup-header{
+.workshop-popup-header {
     padding-top: 60px;
 }
-.workshop-popup-header, .workshop-popup-body{
-    height: 30%;
-    height: 30vh;
+.workshop-popup-body{
+    padding-top: 80px;
 }
-.workshop-popup-footer{
-    height: 40%;
-    height: 40vh;
+
+.owner.absolute{
+    right: 0;
 }
 .workshop-section{
     z-index: 1;
@@ -1006,10 +1007,10 @@ img{
     width: 100%;
     object-fit: cover;
 }
-.workshop-inner .owner span {
+.owner span {
     font-family: "playfairdisplayregular", serif;
 }
-.workshop-inner .owner{
+.owner{
     font-size: 18px;
     font-family: "stolzlmedium", sans-serif;
     line-height: 80px;
