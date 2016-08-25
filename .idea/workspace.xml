@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workshops.php" afterPath="$PROJECT_DIR$/workshops.php" />
     </list>
     <ignored path="event-project.iws" />
@@ -41,71 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshops.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+            <state relative-caret-position="312">
+              <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preloader-workshops.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/preloader-workshops.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preloader-about-us.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/preloader-about-us.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partners.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-771">
-              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/top.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top-battles.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/top-battles.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
+            <state relative-caret-position="189">
+              <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -164,12 +115,12 @@
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/partials/top-battles.html" />
         <option value="$PROJECT_DIR$/partials/top.html" />
-        <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/speakers.php" />
         <option value="$PROJECT_DIR$/partials/preloader-battles.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/partials/preloader-workshops.html" />
         <option value="$PROJECT_DIR$/workshops.php" />
+        <option value="$PROJECT_DIR$/partials/text.php" />
       </list>
     </option>
   </component>
@@ -407,12 +358,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="52294000" />
+      <workItem from="1471955447206" duration="53039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171348000" />
+    <option name="totallyTimeSpent" value="172093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="0" />
@@ -731,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -803,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="912" column="1" selection-start-line="912" selection-start-column="1" selection-end-line="912" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/preloader-workshops.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -819,10 +754,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="912" column="1" selection-start-line="912" selection-start-column="1" selection-end-line="912" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workshops.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+        <state relative-caret-position="312">
+          <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="70" column="76" selection-start-line="70" selection-start-column="76" selection-end-line="70" selection-end-column="76" />
           <folding />
         </state>
       </provider>

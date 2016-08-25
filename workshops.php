@@ -47,17 +47,31 @@
 	</section>
 	<section class="scrollableContent relative workshop-modal-section">
 		<div class="container">
-			<div class="col s12 l4 m4 workshop-block">
+			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0s">
 				<div class="workshop-inner">
-					<p class="blockTitle">Modo 3D</p>
-					<p class="block-content">Podstawy projektowania 3D.</p>
-					<img src="" alt="">
-					<p class="owner">Wojtek Magierski <span class="italic">/ magierski.pl</span></p>
-					<p class="block-content">Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r.
-						Na co dzień mieszka i pracuje w Krakowie. Jego ilustracje publikowane są w magazynach
-						graficznych na całym świecie. W dosyć krótkiej karierze zawodowej osiągnął m.in.
-						dwa znaczące sukcesy - jego projekty zostały zamieszczone na okładkach magazynów Advanced
-						Photoshop w Wielkiej Brytanii oraz Computer Arts w Polsce.</p>
+					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_1;?></p>
+					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
+					<img src="img/workshops/projections-workshops_1.png" alt="<?php echo WORKSHOPS_TITLE_1;?>">
+					<p class="owner"><?php echo WORKSHOPS_PERSON_1;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_1;?></span></p>
+					<p class="block-content"><?php echo WORKSHOPS_CONTENT_1;?></p>
+				</div>
+			</div>
+			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.2s">
+				<div class="workshop-inner">
+					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_2;?></p>
+					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_2;?></p>
+					<img src="img/workshops/projections-workshops_2.png" alt="<?php echo WORKSHOPS_TITLE_2;?>">
+					<p class="owner"><?php echo WORKSHOPS_PERSON_2;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_2;?></span></p>
+					<p class="block-content"><?php echo WORKSHOPS_CONTENT_2;?></p>
+				</div>
+			</div>
+			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.4s">
+				<div class="workshop-inner">
+					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_3;?></p>
+					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
+					<img src="img/workshops/projections-workshops_3.png" alt="<?php echo WORKSHOPS_TITLE_3;?>">
+					<p class="owner"><?php echo WORKSHOPS_PERSON_3;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
+					<p class="block-content"><?php echo WORKSHOPS_CONTENT_3;?></p>
 				</div>
 			</div>
 		</div>

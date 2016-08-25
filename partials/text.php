@@ -48,6 +48,35 @@
 
 //                workshops
                 define("WORKSHOPS_NOTE","projektowe");
+                define("WORKSHOPS_TITLE_1","Modo 3D");
+                define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
+                define("WORKSHOPS_PERSON_1","Wojtek Magierski");
+                define("WORKSHOPS_WEBSITE_1","magierski.pl");
+                define("WORKSHOPS_CONTENT_1","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r.
+						Na co dzień mieszka i pracuje w Krakowie. Jego ilustracje publikowane są w magazynach
+						graficznych na całym świecie. W dosyć krótkiej karierze zawodowej osiągnął m.in.
+						dwa znaczące sukcesy - jego projekty zostały zamieszczone na okładkach magazynów Advanced
+						Photoshop w Wielkiej Brytanii oraz Computer Arts w Polsce.");
+
+                define("WORKSHOPS_TITLE_2","Set Design");
+                define("WORKSHOPS_SUBTITLE_2","Złoty styropian, czyli Set Design w fotografii projektów.");
+                define("WORKSHOPS_PERSON_2","Andrzej Jakuszko");
+                define("WORKSHOPS_WEBSITE_2","mutostudio.pl");
+                define("WORKSHOPS_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
+                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.
+                        W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,a 
+                        zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.");
+
+                define("WORKSHOPS_TITLE_3","Temat warsztatu");
+                define("WORKSHOPS_SUBTITLE_3","Nazwa dokładna warsztatu.");
+                define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
+                define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
+                define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
+                        tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
+                        w Polsce, jak i za granicą. Bez względu na to, czy idea kreacji marki jest Ci bliska, 
+                        czy dopiero zaczynasz przygodę z tą tematyką – na pewno znajdziesz tam sporo wartościowych 
+                        treści.");
+
 //                venue
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
                 define("PLACE_TITLE_1","Concordia Design");
