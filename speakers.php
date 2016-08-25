@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<!--button for menu-->
-			<div data-offset="0" data-id="#contentSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+			<div data-offset="50" data-id="#contentSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<?php
