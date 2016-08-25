@@ -112,8 +112,9 @@ function screwDesigners(){
 }
 
 function scrollToElement(id, offset){
-	var scroll = $(id).offset().top;
-	$( "html, body" ).stop().animate({scrollTop: scroll + offset}, '500', 'swing');
+	var scroll = $(id).offset().top  + offset;
+	console.log(scroll);
+	$( "html, body" ).stop().animate({scrollTop: scroll}, '500', 'swing');
 }
 
 $(window).scroll(function() {
