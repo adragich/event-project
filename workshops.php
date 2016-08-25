@@ -10,7 +10,7 @@
 <body>
 	<!--block for animation-->
 	<?php
-		@include("partials/preloader-inner-pages.html");
+		@include("partials/preloader-workshops.html");
 	?>
 	<section class="static-content transition">
 		<div class="container">
