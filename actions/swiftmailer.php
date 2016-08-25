@@ -63,10 +63,12 @@ $feedback_username = 'Application';
     if (!$mailer->send($message, $errors))
     {
         $_SESSION['message'] = 'An error has occur. Please try again later.';
+        echo 'An error has occur. Please try again later.';
         print_r($errors);
     }
     else{
         $_SESSION['message'] = 'Your application has been sent!';
+        echo 'Your application has been sent!';
     }
-    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+//    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>
