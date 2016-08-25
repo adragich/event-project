@@ -67,5 +67,7 @@
         $_SESSION['message'] = 'Your application has been sent!';
         echo 'Your application has been sent!';
     }
+
+    return 'done';
 //    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>
