@@ -47,7 +47,7 @@
 	</section>
 	<section class="scrollableContent relative workshop-modal-section">
 		<div class="container">
-			<div class="col s12 l4 m4 workshop">
+			<div class="col s12 l4 m4 workshop-block">
 				<div class="workshop-inner">
 					<p class="blockTitle">Modo 3D</p>
 					<p class="block-content">Podstawy projektowania 3D.</p>
