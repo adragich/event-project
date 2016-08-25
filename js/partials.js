@@ -113,6 +113,8 @@ function screwDesigners(){
 
 function scrollToElement(id, offset){
 	var scroll = parseInt($(id).offset().top)  + parseInt(offset);
+	console.log($(id).offset().top);
+	console.log(offset);
 	console.log(scroll);
 	$( "html, body" ).stop().animate({scrollTop: scroll}, '500', 'swing');
 }
