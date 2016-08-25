@@ -112,7 +112,7 @@ function screwDesigners(){
 }
 
 function scrollToElement(id, offset){
-	var scroll = $(id).offset().top;
+	var scroll = $(id).offset().top - 30;
 
 	if($(window).width() > 675){
 		scroll = scroll + parseInt(offset);
