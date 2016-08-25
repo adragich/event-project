@@ -1922,15 +1922,35 @@ input.hidden, select.hidden{
 }
 
 /*404 error*/
+.yellow-color{
+    color: #ffeb3e;
+}
+.blue-color{
+    color: #21cae1;
+}
+.pink-color{
+    color: #ffbe9e;
+}
 .error.flex{
     justify-content: center;
     align-items: center;
 }
 .error-inner{
+    width: 75%;
     max-width: 1170px;
     box-sizing: border-box;
 }
-
+.error-inner > div {
+    flex: 1 50%;
+}
+.error-number span{
+    font-family: "stolzlmedium", sans-serif;
+    font-size: 150px;
+}
+.error-number{
+    justify-content: center;
+    align-items: flex-start;
+}
 @media (min-width: 1920px) {
     .event-left-link.animScrollLink {
         left: 124px;
@@ -1940,6 +1960,9 @@ input.hidden, select.hidden{
 /*404 error*/
     .error-inner{
         padding-right: 200px;
+    }
+    .error-number span{
+        font-size: 200px;
     }
 /*battles*/
     .battle-info{

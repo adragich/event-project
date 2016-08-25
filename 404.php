@@ -12,18 +12,18 @@
 <section class="static-content transition white">
     <div class="stripe-error-page grey absolute"></div>
     <div class="container flex error">
-        <div class="error-inner">
-            <div class="error-number">
-                <span>4</span>
-                <span>0</span>
-                <span>4</span>
+        <div class="error-inner flex">
+            <div class="error-number flex">
+                <span class="yellow-color">4</span>
+                <span class="blue-color">0</span>
+                <span class="pink-color">4</span>
             </div>
             <div class="error-content">
                 <p class="blockTitle">Brak Projekcji ?</p>
                 <p class="block-content">Coś poszło nie tak - ta strona nie istnieje.
                     Możesz wrócić do strony głównej.</p>
                 <p>
-                    <a href="/" class="event-link yellow">Strona główna</a>
+                    <a href="/" class="event-link yellow display">Strona główna</a>
                 </p>
             </div>
         </div>
