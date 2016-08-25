@@ -35,7 +35,7 @@
 			?>
 		</div>
 		<div class="fixer-container absolute">
-			<a href="#" class="bottom-link"><?php echo SPEAKERS;?></a>
+			<a href="#" class="bottom-link"><span class="hoverStripe relative"><?php echo SPEAKERS;?></span></a>
 		</div>
 	</section>	
 	<!--menu-->
