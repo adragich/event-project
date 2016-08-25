@@ -63,11 +63,11 @@
                         </body>
                     </html>", 'text/html');
 
-    if(file_exists('../uploads/'.$portfolio)){
+    if( $portfolio != '' && file_exists('../uploads/'.$portfolio)){
         $message->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
     }
 
-    if(file_exists('../uploads/'.$inspiration)) {
+    if($inspiration != '' && file_exists('../uploads/'.$inspiration)) {
         $message->attach(Swift_Attachment::fromPath('../uploads/' . $inspiration));
     }
     session_start();
