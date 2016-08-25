@@ -690,7 +690,10 @@ img{
     cursor: pointer;
     outline: none;
 }
-.event-link:before{
+.learn-more-link{
+    position: relative;
+}
+.event-link:before, .learn-more-link:before{
     content: '';
     background: #fff494;
     position: absolute;
@@ -705,7 +708,7 @@ img{
     -webkit-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
 }
-.event-link:hover:before{
+.event-link:hover:before, .learn-more-link:hover:before{
     left:0;
 }
 .event-link:after{
