@@ -918,8 +918,12 @@ img{
     height: 100%;
     position: relative;
 }
-.workshop-popup-header {
+.workshop-popup-header{
     padding-top: 60px;
+}
+.workshop-popup-header{
+    height: 30%;
+    height: 30vh;
 }
 .workshop-popup-body{
     padding-top: 80px;
