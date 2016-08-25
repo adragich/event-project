@@ -395,13 +395,7 @@ img{
     width: 100%;
     box-sizing: border-box;
 }
-.close:hover .menu-close{
-    animation-name: sliding;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-.bottom-link:hover:before {
+.close:hover .menu-close, .bottom-link:hover:before, .learn-more-link:hover:after{
     animation-name: sliding;
     animation-duration: 1s;
     animation-iteration-count: infinite;
