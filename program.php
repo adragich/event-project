@@ -24,7 +24,7 @@
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
-			<div data-scroll="300" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+			<div data-offset="0" data-id="#programSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<!--button for menu-->
@@ -33,7 +33,7 @@
 			?>
 		</div>
 	</section>
-	<section class="scrollableContent relative program-section">
+	<section class="scrollableContent relative program-section" id="programSection">
 		<div class="container program-wrap">
 			<table class="program-table">
 				<thead>

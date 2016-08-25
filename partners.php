@@ -28,7 +28,8 @@
 			</div>
 		</div>
 		<!--button for menu-->
-		<div data-scroll="200" class="navigation partners-nav animated fadeInUp wow" data-wow-delay="1s">
+		<div data-offset="-200"
+			 data-id="#partnersInfoSection" class="navigation partners-nav animated fadeInUp wow" data-wow-delay="1s">
 			<i class="fa fa-angle-down" aria-hidden="true"></i>
 		</div>
 		<?php
@@ -37,7 +38,8 @@
 	</div>
 </section>
 <section class="scrollableContent relative partners-section"
-		 data-parallax='{"y" : -300, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
+		 data-parallax='{"y" : -300, "from-scroll": 0, "distance": 0, "smoothness": 10}'
+		 id="partnersInfoSection">
 	<div class="container">
 		<div class="sponsors col l12">
 			<p class="blockTitle left-align"><?php echo MAIN_PARTNERS;?></p>

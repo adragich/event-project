@@ -29,7 +29,8 @@
 		</div>
 	</div>
 	<!--button for menu-->
-	<div class="navigation animated fadeInUp wow" data-wow-delay="1s" data-wow-duration="1s" data-scroll="0">
+	<div class="navigation animated fadeInUp wow" data-wow-delay="1s" data-wow-duration="1s" data-offset="-50"
+		 data-id="#placeInfoSection">
 		<i class="fa fa-angle-down"  data-parallax='{"y" : -300, "smoothness": 20}' aria-hidden="true"></i>
 	</div>
 	<?php
@@ -38,7 +39,8 @@
 	<div class="grey-corner-left-top"></div>
 </section>
 <section class="scrollableContent place-section relative"
-		 data-parallax='{"y" : -50, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
+		 data-parallax='{"y" : -50, "from-scroll": 200, "distance": 1400, "smoothness": 10}'
+		 id="placeInfoSection">
 	<div class="container">
 		<div class="col l12 m12 s12 placeWrap flex flex-center fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 

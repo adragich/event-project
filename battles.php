@@ -30,12 +30,13 @@
 			<?php
 			@include("partials/menu-button.html")
 			?>
-			<div class="navigation battles" data-scroll="300" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="navigation battles" data-offset="0"
+				 data-id="#battleInfoSection" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<i class="fa fa-angle-down" aria-hidden="true" ></i>
 			</div>
 		</div>
 	</section>	
-	<section class="battle-info-wrap relative">
+	<section class="battle-info-wrap relative" id="battleInfoSection">
 		<div class="container">
 			<div class="battle-info">
 				<p class="mainTitle battle-info small image-title animated wow fadeInDown" data-wow-delay="0s">
