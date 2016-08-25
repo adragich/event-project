@@ -890,10 +890,11 @@ img{
 .workshop-popup img{
     object-fit: cover;
     object-position: center;
-}
-.workshop-popup > div *{
+
     max-height: 100%;
+    position: absolute;
 }
+
 .workshop-popup > div{
     width: 100%;
     box-sizing: border-box;
