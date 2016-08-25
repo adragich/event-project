@@ -884,21 +884,25 @@ img{
     width:154px;
     height:134px;
     background: #ffbf9e;
+    z-index: 4;
 }
 #secondPartWorkshops{
     width:62px;
     height:111px;
     background: #ff6178;
+    z-index: 3;
 }
 #thirdPartWorkshops{
     width:120px;
     height:60px;
     background: #21c9e0;
+    z-index: 2;
 }
 #fourthPartWorkshops{
     width:120px;
     height:60px;
     background: #ffde17;
+    z-index: 1;
 }
 /**/
 
