@@ -945,10 +945,16 @@ img{
 .workshop-modal-section{
     margin-top: 130px;
 }
-.workshop-block:hover{
+.workshop-inner{
+    box-sizing: border-box;
+}
+.workshop-inner:not(:first-child) {
+    padding-left: 20px;
+}
+.workshop-inner:hover{
     border-color: #e8e8e8;
 }
-.workshop-block{
+.workshop-inner{
     padding: 55px;
     box-sizing: border-box;
     border: 3px solid transparent;
