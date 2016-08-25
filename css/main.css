@@ -132,7 +132,7 @@ img{
     padding:0!important;
 }
 .white{
-    background: white;
+    background: white!important;
 }
 .rotate-90{
     transform: rotate(-90deg);

@@ -9,7 +9,7 @@
 </head>
 <body class="stick">
 
-<section class="static-content transition">
+<section class="static-content transition white">
     <div class="stripe-error-page grey absolute"></div>
     <div class="container">
         <div class="error-inner">
