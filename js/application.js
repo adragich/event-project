@@ -120,7 +120,7 @@ $(document).ready(function(){
                     method: 'POST',
                     url: '../actions/swiftmailer.php',
                     data: data,
-                    dataType: 'json'
+                    dataType: 'text'
                 }).done(function(e){
                     console.log(e);
                     console.log('done');
