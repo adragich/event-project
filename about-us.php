@@ -71,7 +71,7 @@
 				 data-wow-delay="1s"
 				 data-wow-duration="1s"
 				 data-id="#aboutUsSection"
-				 data-offset="-150">
+				 data-offset="-250">
 				<i class="fa fa-angle-down" data-parallax='{"y" : -300, "smoothness": 20}' aria-hidden="true"></i>
 			</div>
 			<?php
