@@ -935,6 +935,7 @@ img{
     line-height: 36px;
     max-width: 1070px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 .blockSub {
     font-size: 23px;

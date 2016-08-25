@@ -27,7 +27,7 @@
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
-			<div data-offset="-150" data-id="#workshopSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+			<div data-offset="-200" data-id="#workshopSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<!--button for menu-->
