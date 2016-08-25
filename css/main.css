@@ -905,21 +905,22 @@ img{
     border-radius: 90px 90px 0 0;
     -moz-border-radius: 90px 90px 0 0;
     -webkit-border-radius: 90px 90px 0 0;
-    width: 125px;
+    width: 130px;
     height: 65px;
     background: #21c9e0;
-    top: 297px;
-    right: 677px;
+    top: 291px;
+    right: 648px;
 }
-#fourthPartWorkshops{
+#fourthPartWorkshops {
     border-radius: 0 90px 90px 0;
     -moz-border-radius: 0 90px 90px 0;
     -webkit-border-radius: 0 90px 90px 0;
     width: 65px;
-    height: 125px;
+    height: 130px;
     background: #ffde17;
-    top: 323px;
-    right: 646px;
+    top: 296px;
+    right: 640px;
+}
 /**/
 
 
