@@ -1920,13 +1920,23 @@ input.hidden, select.hidden{
 .event-link.apply-trigger{
     padding: 0 35px;
 }
+
+/*404 error*/
+.error-inner{
+    max-width: 1170px;
+    box-sizing: border-box;
+}
+
 @media (min-width: 1920px) {
     .event-left-link.animScrollLink {
         left: 124px;
     }
 }
 @media (min-width: 1500px){
-
+/*404 error*/
+    .error-inner{
+        padding-right: 200px;
+    }
 /*battles*/
     .battle-info{
         padding: 0 200px 0 250px;
