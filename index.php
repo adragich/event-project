@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title><?php echo TITLE;?></title>
 	<?php
 		@include("partials/head.php")
 	?>
