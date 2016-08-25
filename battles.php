@@ -225,6 +225,7 @@
 						<input id="portfolio" name="portfolio" class="clear" type="text"/>
 						<span class="absolute bold star right">*</span>
 					</div>
+
 					<div class="form-control file">
 						<div class="file-input">Dodaj inspirację Twojego projektu</div>
 						<div class="file-uploader" data-input-id="#inspiration"></div>
@@ -239,23 +240,7 @@
 						<input name="address"
 							   class="address-input" type="text" placeholder="Adres online portfolio">
 					</div>
-<!--					<div class="form-control">-->
-<!--						<input id="team" name="team" class="clear" type="text"/>-->
-<!--						<div class="choose-team expander" data-block=".teams-list">-->
-<!--							<p class="current">-->
-<!--								Wybierz drużynę, do której chcesz dołączyć-->
-<!--							</p>-->
-<!--							<i class="fa fa-angle-down absolute arrow"></i>-->
-<!--						</div>-->
-<!--						<div class="teams-list">-->
-<!--							<p data-value="Kraków">Kraków</p>-->
-<!--							<p data-value="Warszawa">Warszawa</p>-->
-<!--							<p data-value="Trójmiasto">Trójmiasto</p>-->
-<!--							<p data-value="Łódź">Łódź</p>-->
-<!--							<p data-value="Poznań">Poznań</p>-->
-<!--							<p data-value="Katowice">Katowice</p>-->
-<!--						</div>-->
-<!--					</div>-->
+
 					<div class="form-control tiny flex flex-end">
 						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
 						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>

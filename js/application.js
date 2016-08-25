@@ -96,38 +96,6 @@ $(document).ready(function(){
             e.preventDefault();
             label.addClass('required');
         }
-        else{
-
-                e.preventDefault();
-
-                var name = $( '[name = "name"]' ).val(),
-                    email = $( '[name = "email"]' ).val(),
-                    phone = $( '[name = "phone"]' ).val(),
-                    portfolio = $('#fileName').text(),
-                    onlinePortfolio = $( '[name = "address"]' ).val(),
-                    team = $('.chosen-team').text();
-
-                var data = {
-                    'name': name,
-                    'email': email,
-                    'phone': phone,
-                    'portfolio': portfolio,
-                    'online-portfolio': 'http://' + onlinePortfolio,
-                    'team': team
-                };
-
-                $.ajax({
-                    method: 'POST',
-                    url: '../actions/swiftmailer.php',
-                    data: data,
-                    dataType: 'text'
-                }).done(function(e){
-                    console.log(e);
-                    console.log('done');
-                }).fail(function(){
-                    console.log('fail');
-                });
-            }
 
     });
 

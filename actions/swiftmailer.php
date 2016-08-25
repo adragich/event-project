@@ -1,36 +1,42 @@
 <?php
-    include '../partials/config.php';
     include 'swiftmailer/lib/swift_required.php';
+    include '../partials/config.php';
 
     //data
-//    $name = $_POST['name'];
-    $name = 'USER';
+    $name = $_POST['name'];
 
-//    $email = $_POST['email'];
-//    $portfolio = $_POST['portfolio'];
-//
-//    if(isset($_POST['phone']) && !empty($_POST['phone'])){
-//        $phone = "<p>Phone: ".$_POST['phone']."</p>";
-//    }
-//    else{
-//        $phone = '';
-//    }
-//    if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
-//        $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
-//    }
-//    else{
-//        $onlinePortfolio = '';
-//    }
-//
-//    if(isset($_POST['team']) && !empty($_POST['team'])){
-//        $team = $_POST['team'];
-//    }
-//    else{
-//        $team = '';
-//    }
-//<h2>Application!</h2><br><br>
-//".$name." sent an application.<br>
-// <p>Email: ".$email."</p>".$phone."<p>Online portfolio: ".$onlinePortfolio."</p><p>Team: ".$team."</p>
+    $email = $_POST['email'];
+
+    if(isset($_POST['phone']) && !empty($_POST['phone'])){
+        $phone = "<p>Phone: ".$_POST['phone']."</p>";
+    }
+    else{
+        $phone = '';
+    }
+
+    $portfolio = $_POST['portfolio'];
+
+    if(isset($_POST['inspiration']) && !empty($_POST['inspiration'])){
+        $inspiration = $_POST['inspiration'];
+    }
+    else{
+        $inspiration = '';
+    }
+
+    if(isset($_POST['link_inspiration']) && !empty($_POST['link_inspiration'])){
+        $linkInspiration = 'Link for inspiration'.$_POST['link_inspiration'];
+    }
+    else{
+        $linkInspiration = '';
+    }
+
+    if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
+        $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
+    }
+    else{
+        $onlinePortfolio = '';
+    }
+
 
     // Create the Transport
     $transport = Swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
@@ -39,35 +45,34 @@
     $mailer = Swift_Mailer::newInstance($transport);
 
     $message = Swift_Message::newInstance($feedback_subject)
-        ->setFrom(array($feedback_from => $name))
+        ->setFrom(array($feedback_from => $feedback_from_name))
         ->setTo(array($feedback_email => $feedback_username));
     $message->setBody("<html>
                         <body>
-                            
-                           
-                            
-                            
+                            <h2>Application!</h2><br><br>
+                            ".$name." sent an application.<br>
+                            <p>Email: ".$email."</p>".
+                            $phone
+                            ."<p>".$onlinePortfolio."</p>
+                            <p>".$linkInspiration."</p>
                             <p>
                                 Watch portfolio in annex
                             </p>
                             Best regards,<br>
                             Event-project
                         </body>
-                    </html>", 'text/html');
-//        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
-    //session_start();
+                    </html>", 'text/html')
+        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio))
+        ->attach(Swift_Attachment::fromPath('../uploads/'.$inspiration));
+    session_start();
 
     if (!$mailer->send($message, $errors))
     {
-        //$_SESSION['message'] = 'An error has occur. Please try again later.';
-        echo 'An error has occur. Please try again later.';
+        $_SESSION['message'] = 'An error has occur. Please try again later.';
         print_r($errors);
     }
     else{
-        //$_SESSION['message'] = 'Your application has been sent!';
-        echo 'Your application has been sent!';
+        $_SESSION['message'] = 'Your application has been sent!';
     }
-
-    return 'done';
-//    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>
