@@ -104,6 +104,11 @@
 						<a href="EXTERNAL_LINK_FOR_TICKETS"
 						   class="event-link yellow transition toLeft display">Bilety</a>
 					</p>
+					<p class="owner">Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna biletu
+						wraz  z warsztatem.<br>
+						<span>Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem kto
+						pierwszy ten lepszy :)</span>
+					</p>
 			</div>
 		</div>
 
