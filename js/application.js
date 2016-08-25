@@ -124,6 +124,8 @@ $(document).ready(function(){
                 }).done(function(e){
                     console.log(e);
                     console.log('done');
+                }).fail(function(){
+                    console.log('fail');
                 });
             }
 
