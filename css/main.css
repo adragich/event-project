@@ -692,6 +692,7 @@ img{
 }
 .learn-more-link{
     position: relative;
+    z-index: 1;
 }
 .event-link:before, .learn-more-link:before{
     content: '';
