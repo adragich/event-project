@@ -82,5 +82,5 @@
     }
 
     echo $_SESSION['message'];
-    //header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>
