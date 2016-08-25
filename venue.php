@@ -69,7 +69,8 @@
 		<div class="col xl6 l6 m6 s12 placeWrap" data-parallax='{"y" : -100, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
 
 				<div class="l12 place-info animated fadeInUp wow" data-index='2' data-wow-delay="0.25s">
-					<p class="blockTitle big"><?php echo PLACE_TITLE_3;?></p>
+					<p class="blockTitle"><?php echo PLACE_TITLE_3;?></p>
+<!--					add class 'big' to blockTitle to increase font-size-->
 					<p class="block-content">
 						<?php echo PLACE_DESCRIPTION_3;?>
 					</p>
