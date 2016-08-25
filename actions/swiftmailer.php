@@ -2,7 +2,8 @@
     include 'swiftmailer/lib/swift_required.php';
 
     //data
-    $name = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'User';
+//    $name = $_POST['name'];
+    $name = 'USER';
 
 //    $email = $_POST['email'];
 //    $portfolio = $_POST['portfolio'];
@@ -26,6 +27,8 @@
 //    else{
 //        $team = '';
 //    }
+//<h2>Application!</h2><br><br>
+//".$name." sent an application.<br>
 // <p>Email: ".$email."</p>".$phone."<p>Online portfolio: ".$onlinePortfolio."</p><p>Team: ".$team."</p>
 
     // Create the Transport
@@ -39,8 +42,6 @@
         ->setTo(array($feedback_email => $feedback_username));
     $message->setBody("<html>
                         <body>
-                            <h2>Application!</h2><br><br>
-                            ".$name." sent an application.<br>
                             
                            
                             
