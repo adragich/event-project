@@ -256,7 +256,7 @@ img{
     left:20px;
 }
 
-.event-left-link span{
+.event-left-link > span{
     overflow: hidden;
     opacity: 1;
     position: relative;
@@ -666,7 +666,7 @@ img{
 .static-content .container *:not( .aside ){
     z-index: 2
 }
-.event-left-link span{
+.event-left-link > span{
     color: #3e3e3e;
     font-size: 28px;
     font-family: "stolzlmedium", sans-serif;
@@ -1253,7 +1253,7 @@ img{
     margin-top: 25px;
     color: #3e3e3e;
 }
-.battles.event-left-link span{
+.battles.event-left-link > span{
     line-height: 42px;
     padding-top: 12px;
 }
@@ -2335,7 +2335,7 @@ input.hidden, select.hidden{
     .main {
         padding-left: 45px;
     }
-    .event-left-link span {
+    .event-left-link > span {
         padding-left: 20px;
         font-size: 20px;
         line-height: 50px;
@@ -3580,7 +3580,7 @@ input.hidden, select.hidden{
     [class*='grey-stripe'] {
         display: none;
     }
-    .event-left-link span{
+    .event-left-link > span{
         display: none;
     }
     .static-content {
