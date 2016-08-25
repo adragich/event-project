@@ -928,6 +928,9 @@ img{
     height: 30%;
     height: 30vh;
 }
+.workshop-popup-body p{
+    clear: both;
+}
 .workshop-popup-body{
     padding-top: 80px;
     padding-bottom: 70px;
@@ -1019,6 +1022,11 @@ img{
     width: 100%;
     object-fit: cover;
 }
+
+.workshop-popup .block-content {
+    max-width: 100%;
+}
+
 .owner span {
     font-family: "playfairdisplayregular", serif;
 }
