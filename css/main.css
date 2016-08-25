@@ -908,8 +908,7 @@ img{
     width: 130px;
     height: 65px;
     background: #21c9e0;
-    top: 291px;
-    right: 648px;
+
 }
 #fourthPartWorkshops {
     border-radius: 0 90px 90px 0;
@@ -918,8 +917,16 @@ img{
     width: 65px;
     height: 130px;
     background: #ffde17;
-    top: 296px;
-    right: 640px;
+
+}
+
+.overlapThirdFigure{
+    top: 0;
+    right: 0;
+}
+.overlapFourthFigure{
+    top: 0;
+    right: 0;
 }
 /**/
 

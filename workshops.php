@@ -48,7 +48,7 @@
 	<section class="scrollableContent relative workshop-modal-section">
 		<div class="container">
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0s">
-				<div class="workshop-inner">
+				<div class="workshop-inner left-align">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_1;?></p>
 					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<img src="img/workshops/projections-workshops_1.png" alt="<?php echo WORKSHOPS_TITLE_1;?>">
@@ -57,7 +57,7 @@
 				</div>
 			</div>
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.2s">
-				<div class="workshop-inner">
+				<div class="workshop-inner left-align">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_2;?></p>
 					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_2;?></p>
 					<img src="img/workshops/projections-workshops_2.png" alt="<?php echo WORKSHOPS_TITLE_2;?>">
@@ -66,10 +66,10 @@
 				</div>
 			</div>
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.4s">
-				<div class="workshop-inner">
+				<div class="workshop-inner left-align">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_3;?></p>
 					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
-					<img src="img/workshops/projections-workshops_3.png" alt="<?php echo WORKSHOPS_TITLE_3;?>">
+					<img src="img/workshops/projections-workshops_3.jpg" alt="<?php echo WORKSHOPS_TITLE_3;?>">
 					<p class="owner"><?php echo WORKSHOPS_PERSON_3;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
 					<p class="block-content"><?php echo WORKSHOPS_CONTENT_3;?></p>
 				</div>
