@@ -61,9 +61,9 @@
                             Best regards,<br>
                             Event-project
                         </body>
-                    </html>", 'text/html')
-        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio))
-        ->attach(Swift_Attachment::fromPath('../uploads/'.$inspiration));
+                    </html>", 'text/html');
+//        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio))
+//        ->attach(Swift_Attachment::fromPath('../uploads/'.$inspiration));
     session_start();
 
     if (!$mailer->send($message, $errors))
