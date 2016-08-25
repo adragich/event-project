@@ -148,6 +148,17 @@ img{
 
 
 }
+
+.rotate-45{
+    transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    /**/
+
+
+}
 .vertically-text{
     position: absolute;
     top: 60%;
@@ -884,25 +895,21 @@ img{
     width:154px;
     height:134px;
     background: #ffbf9e;
-    z-index: 4;
 }
 #secondPartWorkshops{
     width:62px;
     height:111px;
     background: #ff6178;
-    z-index: 3;
 }
 #thirdPartWorkshops{
     width:120px;
     height:60px;
     background: #21c9e0;
-    z-index: 2;
 }
 #fourthPartWorkshops{
     width:120px;
     height:60px;
     background: #ffde17;
-    z-index: 1;
 }
 /**/
 
