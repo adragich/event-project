@@ -50,7 +50,7 @@
 			 data-parallax='{"y" : -150, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 		<div class="container">
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0s">
-				<div class="workshop-inner left-align transition" data-open="#content1">
+				<div class="workshop-inner left-align transition modal-trigger" data-open="#content1">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_1;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<div class="filter relative">
@@ -61,7 +61,7 @@
 				</div>
 			</div>
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.2s">
-				<div class="workshop-inner left-align transition" data-open="#content2">
+				<div class="workshop-inner left-align transition modal-trigger" data-open="#content2">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_2;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_2;?></p>
 					<div class="filter relative">
@@ -72,7 +72,7 @@
 				</div>
 			</div>
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.4s">
-				<div class="workshop-inner left-align transition" data-open="#content3">
+				<div class="workshop-inner left-align transition modal-trigger" data-open="#content3">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_3;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
 					<div class="filter relative">
@@ -84,7 +84,6 @@
 			</div>
 		</div>
 	</section>
-	<div class="pop-up-overlay clear"></div>
 	<div class="workshop-popup" id="content1">
 
 		<div class="close" data-close="#content1">
@@ -127,5 +126,6 @@
 	@include("partials/scripts.html")
 	?>
 	<script type="text/javascript" src="js/appear.js"></script>
+	<script type="text/javascript" src="js/workshops.js"></script>
 </body>
 </html>

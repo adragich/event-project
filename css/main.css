@@ -369,7 +369,7 @@ img{
     right: 35px;
     bottom: 60px;
 }
-.overlay, .pop-up-overlay{
+.overlay{
     z-index: 998;
     left: 0;
     top: 0;
@@ -887,7 +887,7 @@ img{
 
 /*workshops*/
 .workshop-popup > div{
-    width: 100;
+    width: 100%;
 }
 .workshop-popup{
     display: none;
