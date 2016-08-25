@@ -1965,6 +1965,7 @@ input.hidden, select.hidden{
     font-size: 19.5px;
     letter-spacing: 1px;
     padding-top: 39px;
+    line-height: 28px;
 }
 .error-content .blockTitle {
     font-size: 26px;
@@ -1989,7 +1990,7 @@ input.hidden, select.hidden{
 /*404 error*/
 
     .error-content .block-content {
-        padding-top: 69px;
+        padding-top: 64px;
     }
     .error-content .event-link{
         margin-top: 90px;
