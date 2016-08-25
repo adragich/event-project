@@ -15,7 +15,7 @@
         <div class="error-inner flex">
             <div class="error-number flex">
                 <span class="yellow-color wow animated fadeInDownBig" data-wow-delay="0s">4</span>
-                <span class="blue-color wow animated fadeInDownBig" data-wow-delay="0.2s">0</span>
+                <span class="blue-color wow animated fadeInUpBig" data-wow-delay="0.2s">0</span>
                 <span class="pink-color wow animated fadeInDownBig" data-wow-delay="0.4s">4</span>
             </div>
             <div class="error-content">
@@ -25,7 +25,7 @@
                    data-wow-delay="1s">Coś poszło nie tak - ta strona nie istnieje.<br>
                     Możesz wrócić do strony głównej.</p>
                 <p>
-                    <a href="/" class="event-link yellow display toLeft wow animated fadeInLeft"
+                    <a href="/" class="event-link yellow display toLeft wow animated fadeInRight"
                        data-wow-delay="1.2s">Strona główna</a>
                 </p>
             </div>
