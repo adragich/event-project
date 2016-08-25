@@ -87,12 +87,11 @@ $(document).ready(function(){
 
     sendButton.click(function(e){
 
-        // if(portfolio.val() == ''){
-        //     e.preventDefault();
-        //     $('.file-input.pdf').addClass('required');
-        // }
-        // else
-            if( !check.is(":checked") ){
+        if(portfolio.val() == ''){
+            e.preventDefault();
+            $('.file-input.pdf').addClass('required');
+        }
+        else if( !check.is(":checked") ){
             e.preventDefault();
             label.addClass('required');
         }
