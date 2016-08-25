@@ -25,7 +25,7 @@
                    data-wow-delay="1s">Coś poszło nie tak - ta strona nie istnieje.<br>
                     Możesz wrócić do strony głównej.</p>
                 <p>
-                    <a href="/" class="event-link yellow wow animated fadeInRight"
+                    <a href="/?lang=<?php echo $_SESSION['lang'];?>" class="event-link yellow wow animated fadeInRight"
                        data-wow-delay="1.2s">Strona główna</a>
                 </p>
             </div>

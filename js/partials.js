@@ -14,6 +14,11 @@ function constructMenuLinks(){
 $(function() {
 	constructMenuLinks();
     scrollOptions();
+
+	$('a[href="#"]').click(function(e){
+		e.preventDefault();
+	});
+
 	$(".menu").click(function(){
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
