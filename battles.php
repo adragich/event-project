@@ -9,7 +9,6 @@
 </head>
 <body>
 	<!--block for animation-->
-	<!--TODO: create unique block for the page-->
 	<?php
 		@include("partials/preloader-battles.html");
 	?>
