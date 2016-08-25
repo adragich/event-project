@@ -4,6 +4,10 @@
     //data
 //    $name = $_POST['name'];
     $name = 'USER';
+$feedback_email = 'anastasiia.dragich@gmail.com';
+$feedback_subject = 'Application';
+$feedback_from = 'user@event-project.myhomezy.com';
+$feedback_username = 'Application';
 
 //    $email = $_POST['email'];
 //    $portfolio = $_POST['portfolio'];
