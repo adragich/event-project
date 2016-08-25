@@ -77,6 +77,23 @@ $(document).ready(function(){
         label = $('[for="accepted"]'),
         phone = $("#phone");
 
+
+    // label.click( function(){
+    //
+    //     if( check.is(":checked") ){
+    //         label.removeClass('required');
+    //     }
+    //
+    // });
+
+    check.change( function(){
+
+        if( check.val() == true ){
+            label.removeClass('required');
+        }
+
+    });
+
     sendButton.click(function(e){
 
 
