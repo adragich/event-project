@@ -3351,6 +3351,9 @@ input.hidden, select.hidden{
         background: url("../img/figures/top-part-about.png") 0 0 no-repeat;
         background-size: cover;
     }
+    .main.about-us.info {
+        padding-left: 55px;
+    }
     #topPartAbout{
         width:39px;
         height:39px;
@@ -3370,8 +3373,8 @@ input.hidden, select.hidden{
         left:72px;
     }
     .about.scrollableContent {
-        padding-top: 100px;
-        margin-top: -240px;
+        padding-top: 0;
+        margin-top: 0;
     }
     .speakerWrap:nth-child(2n) .speaker-info {
         text-align: left;
@@ -3381,7 +3384,7 @@ input.hidden, select.hidden{
         background: none;
     }
     .inside.orgs {
-        padding-top: 100px;
+        padding-top: 0;
     }
     .inside.orgs:after{
         display: none
