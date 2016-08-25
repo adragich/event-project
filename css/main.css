@@ -889,6 +889,7 @@ img{
 /*workshops*/
 .workshop-popup > div{
     width: 100%;
+    box-sizing: border-box;
 }
 .workshop-popup{
     display: none;
@@ -904,6 +905,9 @@ img{
     max-width: 1170px;
     margin: 0 auto;
     width: 100%;
+}
+.workshop-popup-header{
+    padding-top: 60px;
 }
 .workshop-popup-header, .workshop-popup-body{
     height: 30%;

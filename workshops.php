@@ -92,7 +92,7 @@
 			</div>
 			<div class="workshop-popup-inner">
 				<figure class="pic">
-					<img src="" alt="">
+					<img src="img/workshops/projections-workshops-popup_1.jpg" alt="<?php echo WORKSHOPS_TITLE_1;?>">
 				</figure>
 			</div>
 		</div>
