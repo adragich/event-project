@@ -88,7 +88,7 @@ $(document).ready(function(){
 
     check.change( function(){
 
-        if( check.val() == true ){
+        if( check.is(":checked") ){
             label.removeClass('required');
         }
 
