@@ -14,9 +14,9 @@
     <div class="container flex error">
         <div class="error-inner flex">
             <div class="error-number flex">
-                <span class="yellow-color wow animated fadeInDownUp" data-wow-delay="0s">4</span>
+                <span class="yellow-color wow animated fadeInUpBig" data-wow-delay="0s">4</span>
                 <span class="blue-color wow animated fadeInDownBig" data-wow-delay="0.2s">0</span>
-                <span class="pink-color wow animated fadeInDownUp" data-wow-delay="0.4s">4</span>
+                <span class="pink-color wow animated fadeInUpBig" data-wow-delay="0.4s">4</span>
             </div>
             <div class="error-content">
                 <p class="blockTitle wow animated fadeInRight"
