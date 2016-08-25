@@ -224,6 +224,9 @@ img{
 .changeLang{
     position: relative;
 }
+.hoverStripe{
+    display: inline-block;
+}
 .nav a:before, .changeLang:before, .socials a:before,.fill:before, .hoverStripe:before{
     content: '';
     right:0;
