@@ -9,7 +9,7 @@
 <body class="stick homepage">
 	<!--block for animation-->
 	<?php
-		@include("partials/preloader.html")
+		@include("partials/preloader.html");
 	?>
 	<section class="static-content transition">
 		<div class="container">

@@ -2,7 +2,7 @@
     include 'swiftmailer/lib/swift_required.php';
 
     //data
-    $name = $_POST['name'];
+    $name = isset($_POST['name']) && !empty($_POST['name']) ? $_POST['name'] : 'User';
 
 //    $email = $_POST['email'];
 //    $portfolio = $_POST['portfolio'];
