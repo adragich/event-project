@@ -55,16 +55,16 @@
                         </body>
                     </html>", 'text/html');
 //        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
-    session_start();
+    //session_start();
 
     if (!$mailer->send($message, $errors))
     {
-        $_SESSION['message'] = 'An error has occur. Please try again later.';
+        //$_SESSION['message'] = 'An error has occur. Please try again later.';
         echo 'An error has occur. Please try again later.';
         print_r($errors);
     }
     else{
-        $_SESSION['message'] = 'Your application has been sent!';
+        //$_SESSION['message'] = 'Your application has been sent!';
         echo 'Your application has been sent!';
     }
 

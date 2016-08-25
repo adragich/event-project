@@ -114,12 +114,12 @@
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            <state relative-caret-position="990">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               <folding>
-                <marker date="1472111383000" expanded="true" signature="1370:1786" ph="..." />
-                <marker date="1472111383000" expanded="true" signature="1401:1758" ph="..." />
-                <marker date="1472111383000" expanded="true" signature="1548:1638" ph="..." />
+                <marker date="1472111503000" expanded="true" signature="1370:1786" ph="..." />
+                <marker date="1472111503000" expanded="true" signature="1401:1758" ph="..." />
+                <marker date="1472111503000" expanded="true" signature="1548:1638" ph="..." />
               </folding>
             </state>
           </provider>
@@ -430,12 +430,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="34705000" />
+      <workItem from="1471955447206" duration="34833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153759000" />
+    <option name="totallyTimeSpent" value="153887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="6" />
@@ -827,12 +827,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        <state relative-caret-position="990">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
           <folding>
-            <marker date="1472111383000" expanded="true" signature="1370:1786" ph="..." />
-            <marker date="1472111383000" expanded="true" signature="1401:1758" ph="..." />
-            <marker date="1472111383000" expanded="true" signature="1548:1638" ph="..." />
+            <marker date="1472111503000" expanded="true" signature="1370:1786" ph="..." />
+            <marker date="1472111503000" expanded="true" signature="1401:1758" ph="..." />
+            <marker date="1472111503000" expanded="true" signature="1548:1638" ph="..." />
           </folding>
         </state>
       </provider>
