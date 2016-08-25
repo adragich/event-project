@@ -31,7 +31,7 @@
 //                speakers
                 define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
 
-//                program
+//                schedule
                 define("PROGRAM_TITLE","Program");
                 define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
                 define("PROGRAM_TITLE_2","Jesteśmy tutaj");
@@ -46,20 +46,27 @@
                 define("PROGRAM_DESCRIPTION_4","Inspiracja marką");
                 define("PROGRAM_DESCRIPTION_5","Something new...");
 
-//                place
+//                venue
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
-                define("PLACE_TITLE_1","Sala expo w Concordia Design");
-                define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions.");
-                define("PLACE_TITLE_2","Sale warsztatowe w Concordia Design");
-                define("PLACE_DESCRIPTION_2","Spacious and easy to arrange – ideal for conferences, banquets,concerts, team-building events, fashion shows, and many other occasions.");
-                define("PLACE_TITLE_3","228 m²");
-                define("PLACE_DESCRIPTION_3","The interior can be freely divided to create additional space.");
+                define("PLACE_TITLE_1","Concordia Design");
+                define("PLACE_DESCRIPTION_1","
+                         Partnerem Projekcji jest centrum designu Concordia Design,
+                        gdzie odbędą się Projekcje dnia 5 listopada 2016 roku.");
+
+                define("PLACE_TITLE_2","Sala wykładowa i sale warsztatowe");
+                define("PLACE_DESCRIPTION_2","Do dyspozycji prelegentów i gości będzie Sala Lumina oraz sale warsztatowe
+                                tzw. Creative Rooms gdzie odbędą się zajęcia z projektantami graficznymi
+                                prowadzącymi warsztaty podczas Konferencji.");
+
+                define("PLACE_TITLE_3","Tutaj zaczerpniesz inspiracji");
+                define("PLACE_DESCRIPTION_3"," Konferencja oraz warsztaty odbędą się w poznańskim centrum
+                    designu Concordia Design mieszczącym się przy ul. Zwierzynieckiej 3.");
 
 //                partners
                 define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
                 define("MAIN_PARTNERS","Główni sponsorzy");
 
-//                about us
+//                about
                 define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
                 define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów");
                 define("ABOUT_US_DESC_1","
@@ -112,7 +119,7 @@
 //                speakers
                 define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty. ???");
 
-//                program
+//                schedule
                 define("PROGRAM_TITLE","Program ???");
                 define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej. ???");
                 define("PROGRAM_TITLE_2","Jesteśmy tutaj ???");
@@ -127,7 +134,7 @@
                 define("PROGRAM_DESCRIPTION_4","Inspiracja marką ???");
                 define("PROGRAM_DESCRIPTION_5","Something new... ???");
 
-//                place
+//                venue
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland ???");
                 define("PLACE_TITLE_1","Sala expo w Concordia Design ???");
                 define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions. ???");
@@ -140,7 +147,7 @@
                 define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne. ???");
                 define("MAIN_PARTNERS","Główni sponsorzy ???");
 
-//                about us
+//                about
                 define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje ???");
                 define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów ???");
                 define("ABOUT_US_DESC_1","
@@ -193,7 +200,7 @@
 //                speakers
                 define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
 
-//                program
+//                schedule
                 define("PROGRAM_TITLE","Program");
                 define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
                 define("PROGRAM_TITLE_2","Jesteśmy tutaj");
@@ -208,7 +215,7 @@
                 define("PROGRAM_DESCRIPTION_4","Inspiracja marką");
                 define("PROGRAM_DESCRIPTION_5","Something new...");
 
-//                place
+//               venue
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
                 define("PLACE_TITLE_1","Sala expo w Concordia Design");
                 define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions.");
@@ -221,7 +228,7 @@
                 define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
                 define("MAIN_PARTNERS","Główni sponsorzy");
 
-//                about us
+//                about
                 define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
                 define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów");
                 define("ABOUT_US_DESC_1","
