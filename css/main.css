@@ -947,8 +947,6 @@ img{
 }
 .workshop-inner{
     box-sizing: border-box;
-}
-.workshop-inner:not(:first-child) {
     padding-left: 20px;
 }
 .workshop-inner:hover{
