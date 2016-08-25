@@ -27,7 +27,7 @@
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
-			<div data-offset="-300" data-id="#workshopSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+			<div data-offset="-50" data-id="#workshopSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
 				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<!--button for menu-->
@@ -37,7 +37,7 @@
 		</div>
 	</section>
 	<section class="scrollableContent relative workshop-section" id="workshopSection"
-			 data-parallax='{"y" : -300, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
+			 data-parallax='{"y" : -100, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 		<div class="container">
 			<p class="blockTitle">Na wybrane warsztaty możesz zapisać się kupując bilet na konferencję !
 				Warsztaty nie są dodatkowo płatne, lecz ilość miejsc jest ograniczona.</p>
@@ -47,7 +47,7 @@
 		</div>
 	</section>
 	<section class="scrollableContent relative workshop-modal-section"
-			 data-parallax='{"y" : -300, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
+			 data-parallax='{"y" : -100, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 		<div class="container">
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0s">
 				<div class="workshop-inner left-align transition">
