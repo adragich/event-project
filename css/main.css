@@ -1951,6 +1951,9 @@ input.hidden, select.hidden{
     justify-content: center;
     align-items: flex-start;
 }
+.error-content{
+    text-align: left;
+}
 .error-content .event-link{
     padding: 0 58px;
     margin-top: 60px;
@@ -2088,6 +2091,19 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 1024px) {
+    /*error 404*/
+    .error-inner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .error-content{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+    /**/
     .anim-space-relative {
         height: 470px;
         left: 33px;
