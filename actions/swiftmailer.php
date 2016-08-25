@@ -62,8 +62,14 @@
                             Event-project
                         </body>
                     </html>", 'text/html');
-//        ->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio))
-//        ->attach(Swift_Attachment::fromPath('../uploads/'.$inspiration));
+
+    if(file_exists('../uploads/'.$portfolio)){
+        $message->attach(Swift_Attachment::fromPath('../uploads/'.$portfolio));
+    }
+
+    if(file_exists('../uploads/'.$inspiration)) {
+        $message->attach(Swift_Attachment::fromPath('../uploads/' . $inspiration));
+    }
     session_start();
 
     if (!$mailer->send($message, $errors))
@@ -74,5 +80,7 @@
     else{
         $_SESSION['message'] = 'Your application has been sent!';
     }
+
+    echo $_SESSION['message'];
     //header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>
