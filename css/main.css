@@ -886,11 +886,7 @@ img{
 }
 
 /*workshops*/
-.halfCircle{
-    border-radius: 90px 90px 0 0;
-    -moz-border-radius: 90px 90px 0 0;
-    -webkit-border-radius: 90px 90px 0 0;
-}
+
 #firstPartWorkshops{
     width:154px;
     height:134px;
@@ -902,13 +898,19 @@ img{
     background: #ff6178;
 }
 #thirdPartWorkshops{
+    border-radius: 90px 90px 0 0;
+    -moz-border-radius: 90px 90px 0 0;
+    -webkit-border-radius: 90px 90px 0 0;
     width:120px;
     height:60px;
     background: #21c9e0;
 }
 #fourthPartWorkshops{
-    width:120px;
-    height:60px;
+    border-radius: 0 0 90px 90px;
+    -moz-border-radius: 0 0 90px 90px;
+    -webkit-border-radius: 0 0 90px 90px;
+    width:60px;
+    height:120px;
     background: #ffde17;
 }
 /**/
