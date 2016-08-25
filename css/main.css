@@ -893,11 +893,13 @@ img{
     height: 100%;
     width: 100%;
     position: absolute;
+    left: 0;
 }
 
 .workshop-popup > div{
     width: 100%;
     box-sizing: border-box;
+    text-align: center;
 }
 .workshop-popup{
     display: none;
@@ -913,10 +915,11 @@ img{
 }
 .workshop-popup-inner{
     max-width: 1170px;
-    margin: 0 auto;
     width: 100%;
     height: 100%;
     position: relative;
+    text-align: left;
+    display: inline-block;
 }
 .workshop-popup-header{
     padding-top: 60px;

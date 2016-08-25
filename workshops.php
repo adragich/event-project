@@ -97,7 +97,7 @@
 
 		<div class="workshop-popup-body white">
 			<div class="workshop-popup-inner">
-					<p class="absolute owner"><?php echo WORKSHOPS_ROLE;?> <?php echo WORKSHOPS_PERSON_3;?> <span>/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
+					<p class="absolute owner"><span><?php echo WORKSHOPS_ROLE;?></span> <?php echo WORKSHOPS_PERSON_3;?> <span>/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_1;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<p>
