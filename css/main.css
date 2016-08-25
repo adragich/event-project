@@ -3532,6 +3532,21 @@ input.hidden, select.hidden{
         left: 276px;
         top: 24px;
     }
+    /*error 404*/
+    .error-number span {
+        font-size: 100px;
+    }
+    .error-content {
+        padding-top: 10px;
+    }
+    .error-content .block-content {
+        padding-top: 0;
+    }
+    .error-content .event-link {
+        margin-top: 10px;
+        height: 40px;
+        line-height: 40px;
+    }
 }
 @media (max-width: 375px) {
     .main.sub.battles {
