@@ -25,12 +25,6 @@
 				translateToPoint(x - part2.width(), y - part2.height()/2, part2, 250);
 			});
 
-			console.log(scroll);
-			nav.attr("data-scroll", scroll);
-			nav.click(function(){
-				var dest = $(this).attr("data-scroll");
-				$("body").animate({scrollTop: dest}, 1000);
-			});
 			screwDesigners();
 		});
 
