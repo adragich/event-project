@@ -1953,13 +1953,22 @@ input.hidden, select.hidden{
 }
 .error-content .event-link{
     padding: 0 58px;
+    margin-top: 60px;
 }
 .error-content .block-content {
     font-size: 19.5px;
     letter-spacing: 1px;
+    padding-top: 39px;
 }
 .error-content .blockTitle {
     font-size: 26px;
+}
+.stripe-error-page{
+    height: 100%;
+    width: 34%;
+    max-width: 614px;
+    top: 0;
+    left: 0;
 }
 @media (min-width: 1920px) {
     .event-left-link.animScrollLink {
@@ -1968,12 +1977,21 @@ input.hidden, select.hidden{
 }
 @media (min-width: 1500px){
 /*404 error*/
+
+    .error-content .block-content {
+        padding-top: 69px;
+    }
+    .error-content .event-link{
+        margin-top: 90px;
+    }
     .error-inner{
         padding-right: 200px;
     }
     .error-number span{
         font-size: 200px;
+        line-height: 148px;
     }
+
 /*battles*/
     .battle-info{
         padding: 0 200px 0 250px;

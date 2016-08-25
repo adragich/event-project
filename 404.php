@@ -20,7 +20,7 @@
             </div>
             <div class="error-content">
                 <p class="blockTitle">Brak Projekcji ?</p>
-                <p class="block-content">Coś poszło nie tak - ta strona nie istnieje.
+                <p class="block-content">Coś poszło nie tak - ta strona nie istnieje.<br>
                     Możesz wrócić do strony głównej.</p>
                 <p>
                     <a href="/" class="event-link yellow display toLeft">Strona główna</a>
