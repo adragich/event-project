@@ -23,7 +23,7 @@
                 <p class="block-content">Coś poszło nie tak - ta strona nie istnieje.
                     Możesz wrócić do strony głównej.</p>
                 <p>
-                    <a href="/" class="event-link yellow display">Strona główna</a>
+                    <a href="/" class="event-link yellow display toLeft">Strona główna</a>
                 </p>
             </div>
         </div>

@@ -1951,6 +1951,16 @@ input.hidden, select.hidden{
     justify-content: center;
     align-items: flex-start;
 }
+.error-content .event-link{
+    padding: 0 58px;
+}
+.error-content .block-content {
+    font-size: 19.5px;
+    letter-spacing: 1px;
+}
+.error-content .blockTitle {
+    font-size: 26px;
+}
 @media (min-width: 1920px) {
     .event-left-link.animScrollLink {
         left: 124px;
