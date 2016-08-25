@@ -918,7 +918,7 @@ img{
     letter-spacing: 0.5px;
     font-family: "playfairdisplaybold";
 }
-.learn-more-link:before {
+.learn-more-link:after {
     content: "";
     height: 3px;
     width: 49px;
@@ -2519,7 +2519,7 @@ input.hidden, select.hidden{
     .speaker-info {
         padding: 25px 54px;
     }
-    .speakerWrap:nth-child(2n) .learn-more-link:before {
+    .speakerWrap:nth-child(2n) .learn-more-link:after {
         right: -40px;
         left:140px;
     }
@@ -3437,7 +3437,7 @@ input.hidden, select.hidden{
         right: 0;
         left: 0;
     }
-    .speakerWrap:nth-child(2n) .learn-more-link:before {
+    .speakerWrap:nth-child(2n) .learn-more-link:after {
         left: -40px;
     }
     .stick-bottom{text-align: right}
