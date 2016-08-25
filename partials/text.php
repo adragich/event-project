@@ -48,6 +48,8 @@
 
 //                workshops
                 define("WORKSHOPS_NOTE","projektowe");
+                define("WORKSHOPS_ROLE","Prowadzący:   Wojtek Magierski / magierski.pl");
+
                 define("WORKSHOPS_TITLE_1","Modo 3D");
                 define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
                 define("WORKSHOPS_PERSON_1","Wojtek Magierski");
