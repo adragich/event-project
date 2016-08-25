@@ -898,8 +898,8 @@ img{
     width:62px;
     height:111px;
     background: #ff6178;
-    top: 404px;
-    right: 245px;
+    top: 403px;
+    right: 241px;
 }
 #thirdPartWorkshops{
     border-radius: 90px 90px 0 0;
@@ -908,6 +908,9 @@ img{
     width:120px;
     height:60px;
     background: #21c9e0;
+
+    top: 305px;
+    right: 669px;
 }
 #fourthPartWorkshops{
     border-radius: 0 90px 90px 0;
@@ -916,6 +919,8 @@ img{
     width:60px;
     height:120px;
     background: #ffde17;
+    top: 326px;
+    right: 648px;
 }
 /**/
 
