@@ -934,7 +934,12 @@ img{
     max-width: 1070px;
     margin: 0 auto;
 }
-.workshop-section .block-content {
+.blockSub {
+    font-size: 23px;
+    line-height: 36px;
+    height: 84px;
+}
+[class*='workshop'] .block-content {
     font-size: 19.5px;
     padding-top: 30px;
     line-height: 36px;
@@ -951,6 +956,19 @@ img{
 }
 .workshop-inner:hover{
     border-color: #e8e8e8;
+}
+.workshop-inner img{
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.workshop-inner .owner span {
+    font-family: "playfairdisplayregular", serif;
+}
+.workshop-inner .owner{
+    font-size: 18px;
+    font-family: "stolzlmedium", sans-serif;
+    line-height: 80px;
 }
 .workshop-inner{
     padding: 55px;

@@ -40,7 +40,7 @@
 		<div class="container">
 			<p class="blockTitle">Na wybrane warsztaty możesz zapisać się kupując bilet na konferencję !
 				Warsztaty nie są dodatkowo płatne, lecz ilość miejsc jest ograniczona.</p>
-			<p class="block-content">Poniżej znajduje się lista warsztatów, które odbędą się podczas konferencji. 
+			<p class="block-content ">Poniżej znajduje się lista warsztatów, które odbędą się podczas konferencji. 
 				Kliknij i dowiedz się więcej o każdym z nich.
 			</p>
 		</div>
@@ -50,27 +50,27 @@
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0s">
 				<div class="workshop-inner left-align transition">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_1;?></p>
-					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
+					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<img src="img/workshops/projections-workshops_1.png" alt="<?php echo WORKSHOPS_TITLE_1;?>">
-					<p class="owner"><?php echo WORKSHOPS_PERSON_1;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_1;?></span></p>
+					<p class="owner"><?php echo WORKSHOPS_PERSON_1;?> <span>/ <?php echo WORKSHOPS_WEBSITE_1;?></span></p>
 					<p class="block-content"><?php echo WORKSHOPS_CONTENT_1;?></p>
 				</div>
 			</div>
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.2s">
 				<div class="workshop-inner left-align transition">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_2;?></p>
-					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_2;?></p>
+					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_2;?></p>
 					<img src="img/workshops/projections-workshops_2.png" alt="<?php echo WORKSHOPS_TITLE_2;?>">
-					<p class="owner"><?php echo WORKSHOPS_PERSON_2;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_2;?></span></p>
+					<p class="owner"><?php echo WORKSHOPS_PERSON_2;?> <span>/ <?php echo WORKSHOPS_WEBSITE_2;?></span></p>
 					<p class="block-content"><?php echo WORKSHOPS_CONTENT_2;?></p>
 				</div>
 			</div>
 			<div class="col s12 l4 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.4s">
 				<div class="workshop-inner left-align transition">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_3;?></p>
-					<p class="block-content"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
+					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
 					<img src="img/workshops/projections-workshops_3.jpg" alt="<?php echo WORKSHOPS_TITLE_3;?>">
-					<p class="owner"><?php echo WORKSHOPS_PERSON_3;?> <span class="italic">/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
+					<p class="owner"><?php echo WORKSHOPS_PERSON_3;?> <span>/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
 					<p class="block-content"><?php echo WORKSHOPS_CONTENT_3;?></p>
 				</div>
 			</div>
