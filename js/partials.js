@@ -44,7 +44,8 @@ $(function() {
 
 	$(".close, .overlay").click(function(){
 		var checker = $(this).attr('data-close');
-		if( checker != '' ){
+
+		if( checker != '' && checker){
 			$(checker).fadeOut();
 		}
 		else{
@@ -54,9 +55,12 @@ $(function() {
 			setTimeout(function() {
 				$(".sideBar").removeClass("appeared");
 				$(".overlay").fadeOut();
-				$("body").removeClass("stick-temp");
 			}, 500);
 		}
+
+		setTimeout(function() {
+			$("body").removeClass("stick-temp");
+		}, 500);
 
 	});
 
