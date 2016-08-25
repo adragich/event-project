@@ -1,5 +1,3 @@
-/*developed by Anastasiia Dragich*/
-/*TODO: chech iphone landscape/portrait*/
 @font-face {
     font-family: 'PlayfairDisplayRegular';
     src: url('../fonts/PlayfairDisplayRegular.eot');
@@ -875,6 +873,35 @@ img{
     text-decoration: none;
     color: #3e3e3e;
 }
+
+/*workshops*/
+#firstPartWorkshops{
+    width:154px;
+    height:134px;
+    background: #ffbf9e;
+}
+#secondPartWorkshops{
+    width:62px;
+    height:111px;
+    background: #ff6178;
+}
+#thirdPartWorkshops{
+    border-radius: 100%;
+    width:120px;
+    height:60px;
+    background: #21c9e0;
+}
+#fourthPartWorkshops{
+    border-radius: 100%;
+    width:120px;
+    height:60px;
+    background: #ffde17;
+}
+/**/
+
+
+
+
 /*speakers*/
 .speaker{
     padding-left: 46px;
