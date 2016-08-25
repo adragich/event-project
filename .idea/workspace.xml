@@ -32,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="893" column="4" selection-start-line="893" selection-start-column="4" selection-end-line="893" selection-end-column="4" />
+            <state relative-caret-position="89">
+              <caret line="901" column="16" selection-start-line="901" selection-start-column="16" selection-end-line="901" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/workshops.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="93" column="113" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
+            <state relative-caret-position="192">
+              <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -173,8 +173,8 @@
         <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/js/workshops.js" />
         <option value="$PROJECT_DIR$/js/partials.js" />
-        <option value="$PROJECT_DIR$/workshops.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/workshops.php" />
       </list>
     </option>
   </component>
@@ -412,12 +412,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="59050000" />
+      <workItem from="1471955447206" duration="59235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178104000" />
+    <option name="totallyTimeSpent" value="178289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="0" />
@@ -814,18 +814,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workshops.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="93" column="113" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
+        <state relative-caret-position="89">
+          <caret line="901" column="16" selection-start-line="901" selection-start-column="16" selection-end-line="901" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/workshops.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="893" column="4" selection-start-line="893" selection-start-column="4" selection-end-line="893" selection-end-column="4" />
+        <state relative-caret-position="192">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
           <folding />
         </state>
       </provider>

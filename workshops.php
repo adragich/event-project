@@ -102,7 +102,7 @@
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<p>
 						<a href="EXTERNAL_LINK_FOR_TICKETS"
-						   class="tickets event-link yellow transition toLeft display">Bilety</a>
+						   class="event-link yellow transition toLeft display">Bilety</a>
 					</p>
 			</div>
 		</div>
