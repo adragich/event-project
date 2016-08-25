@@ -997,6 +997,15 @@ img{
     color:#3e3e3e;
     font-family: "stolzlmedium", sans-serif;
     opacity: 0;
+    -ms-flex: none;
+    /* flex: none; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 .filter:before{
     content: "";
