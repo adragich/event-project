@@ -1922,6 +1922,10 @@ input.hidden, select.hidden{
 }
 
 /*404 error*/
+.error.flex{
+    justify-content: center;
+    align-items: center;
+}
 .error-inner{
     max-width: 1170px;
     box-sizing: border-box;

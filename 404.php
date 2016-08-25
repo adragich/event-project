@@ -11,7 +11,7 @@
 
 <section class="static-content transition white">
     <div class="stripe-error-page grey absolute"></div>
-    <div class="container flex flex-center">
+    <div class="container flex error">
         <div class="error-inner">
             <div class="error-number">
                 <span>4</span>
