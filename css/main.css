@@ -351,6 +351,7 @@ img{
 }
 .close{
     width: 10%;
+    max-width: 35px;
     float: right;
     cursor: pointer;
 }
