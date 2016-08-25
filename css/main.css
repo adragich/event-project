@@ -1957,6 +1957,9 @@ input.hidden, select.hidden{
 .error-content .event-link{
     padding: 0 58px;
     margin-top: 60px;
+
+    float: none;
+    display: inline-block;
 }
 .error-content .block-content {
     font-size: 19.5px;
@@ -2102,7 +2105,13 @@ input.hidden, select.hidden{
         padding-top: 20px;
     }
 
+    .error-content .event-link {
+        margin-top: 40px;
+    }
 
+    .error-content .block-content {
+        padding-top: 10px;
+    }
     /**/
     .anim-space-relative {
         height: 470px;
