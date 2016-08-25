@@ -1132,7 +1132,7 @@ img{
 }
 .star.right {
     right: -30px;
-    top: 48%;
+    top: 30px;
     left: inherit;
     bottom: inherit;
 }
@@ -1537,7 +1537,7 @@ input.hidden, select.hidden{
     padding-left: 140px;
 }
 .optional input{
-    padding-right: 130px;
+    padding-right: 120px!important;
 }
 .ajax-file-upload-container {
     height: auto;

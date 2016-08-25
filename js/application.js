@@ -72,19 +72,10 @@ $(document).on('click', '.apply-trigger', function(e){
 $(document).ready(function(){
     var sendButton = $(".send-application"),
         portfolio = $("#portfolio"),
-        team = $("#team"),
         check = $('[name="accepted"]'),
         label = $('[for="accepted"]'),
         phone = $("#phone");
 
-
-    // label.click( function(){
-    //
-    //     if( check.is(":checked") ){
-    //         label.removeClass('required');
-    //     }
-    //
-    // });
 
     check.change( function(){
 
@@ -96,19 +87,15 @@ $(document).ready(function(){
 
     sendButton.click(function(e){
 
-
         if(portfolio.val() == ''){
             e.preventDefault();
             $('.file-input.pdf').addClass('required');
-        }
-        else if(team.val() == ''){
-            e.preventDefault();
-            $('.choose-team').addClass('required');
         }
         else if( !check.is(":checked") ){
             e.preventDefault();
             label.addClass('required');
         }
+
     });
 
     phone.inputmask({
