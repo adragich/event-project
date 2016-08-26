@@ -993,7 +993,6 @@ img{
     width: 65px;
     height: 130px;
     background: #ffde17;
-
 }
 
 .overlapThirdFigure {
@@ -1004,6 +1003,7 @@ img{
     top: 454px;
     right: 276px;
 }
+
 .workshop-section .blockTitle{
     font-size: 26px;
     line-height: 36px;
@@ -2255,6 +2255,7 @@ input.hidden, select.hidden{
     .workshop-inner {
         padding: 55px;
     }
+
     /**/
 /*404 error*/
 
@@ -2379,6 +2380,24 @@ input.hidden, select.hidden{
     }
     .workshop-block:not(:last-child){
         margin-bottom: 30px;
+    }
+
+    #firstPartWorkshops{
+        top: 230px;
+        right: 203px;
+    }
+    #secondPartWorkshops{
+        top: 253px;
+        right: 141px;
+    }
+
+    .overlapThirdFigure {
+        top: 336px;
+        right: 195px;
+    }
+    .overlapFourthFigure{
+        top: 304px;
+        right: 176px;
     }
     /**/
     /*error 404*/
