@@ -22,9 +22,9 @@
         define("SPEAKER_LINK_8","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
         define("SPEAKER_LINK_9","http://lesstudio.pl");
         define("SPEAKER_LINK_10","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
-        define("SPEAKER_LINK_11","https://www.behance.net/magierski/");
-        define("SPEAKER_LINK_12","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
-        define("SPEAKER_LINK_13","https:http://allegro.pl");
+        define("SPEAKER_LINK_11","https:http://allegro.pl");
+        define("SPEAKER_LINK_12","https://www.behance.net/magierski/");
+        define("SPEAKER_LINK_13","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
         define("SPEAKER_LINK_14","https://www.linkedin.com/in/bartekkotowicz");
 
 //        partners
@@ -220,17 +220,17 @@
                 define("SPEAKER_DESC_10","Właściciel w negation / Gdańsk");
                 define("SPEAKER_WEBSITE_10","negationstudio.com");
 
-                define("SPEAKER_NAME_11","Wojciech Magierski");
-                define("SPEAKER_DESC_11","Digital Artist / Art Director / Kraków");
-                define("SPEAKER_WEBSITE_11","magierski.pl");
+                define("SPEAKER_NAME_11","Allegro");
+                define("SPEAKER_DESC_11","Allegro");
+                define("SPEAKER_WEBSITE_11","www.allegro.pl");
 
-                define("SPEAKER_NAME_12","Andrzej Jakuszko");
-                define("SPEAKER_DESC_12","Set Designer/ Poznań");
-                define("SPEAKER_WEBSITE_12","mutostudio.com");
+                define("SPEAKER_NAME_12","Wojciech Magierski");
+                define("SPEAKER_DESC_12","Digital Artist / Art Director / Kraków");
+                define("SPEAKER_WEBSITE_12","magierski.pl");
 
-                define("SPEAKER_NAME_13","Allegro");
-                define("SPEAKER_DESC_13","Allegro");
-                define("SPEAKER_WEBSITE_13","www.allegro.pl");
+                define("SPEAKER_NAME_13","Andrzej Jakuszko");
+                define("SPEAKER_DESC_13","Set Designer/ Poznań");
+                define("SPEAKER_WEBSITE_13","mutostudio.com");
 
                 define("SPEAKER_NAME_14","Bartek Kotowicz");
                 define("SPEAKER_DESC_14","Właściciel brandingowy.pl / Gdańsk");

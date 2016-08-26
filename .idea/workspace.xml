@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speakers.php" afterPath="$PROJECT_DIR$/speakers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/speakers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+            <state relative-caret-position="151">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <marker date="1472215254000" expanded="true" signature="1302:1709" ph="..." />
                 <marker date="1472215254000" expanded="true" signature="1362:1417" ph="..." />
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="232" column="59" selection-start-line="232" selection-start-column="59" selection-end-line="232" selection-end-column="59" />
+            <state relative-caret-position="205">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <element signature="e#3641#8229#0#PHP" expanded="false" />
               </folding>
@@ -173,8 +173,8 @@
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/partners.php" />
-        <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/speakers.php" />
+        <option value="$PROJECT_DIR$/partials/text.php" />
       </list>
     </option>
   </component>
@@ -404,12 +404,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="82082000" />
+      <workItem from="1471955447206" duration="82187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201136000" />
+    <option name="totallyTimeSpent" value="201241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1310" height="877" extended-state="0" />
@@ -814,26 +814,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="232" column="59" selection-start-line="232" selection-start-column="59" selection-end-line="232" selection-end-column="59" />
-          <folding>
-            <element signature="e#3641#8229#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
+        <state relative-caret-position="151">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <marker date="1472215254000" expanded="true" signature="1302:1709" ph="..." />
             <marker date="1472215254000" expanded="true" signature="1362:1417" ph="..." />
             <marker date="1472215254000" expanded="true" signature="1454:1697" ph="..." />
             <marker date="1472215254000" expanded="true" signature="1794:1948" ph="..." />
             <marker date="1472215254000" expanded="true" signature="1883:1936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="e#3641#8229#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
