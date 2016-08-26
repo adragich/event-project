@@ -1906,6 +1906,7 @@ input.hidden, select.hidden{
 /*partners*/
 .partner{
     padding-left: 47px;
+    margin-bottom: 105px;
 }
 .partner .inner:hover{
     border-color: #3e3e3e;
@@ -1920,7 +1921,7 @@ input.hidden, select.hidden{
     border-left:4px solid #dedede;
 }
 .sponsors:not(last-child){
-    margin-bottom: 150px;
+    margin-bottom: 45px;
 }
 .sponsors:last-child{
     margin-bottom: -150px;
