@@ -3137,6 +3137,13 @@ input.hidden, select.hidden{
 }
 
 @media (max-width: 675px){
+
+    .aside.right {
+        width: 78px;
+        height: 76px;
+        padding: 12px 10px;
+        box-sizing: border-box;
+    }
     /*workshops*/
     .owner.absolute {
         padding-top: 0;
@@ -4005,12 +4012,6 @@ input.hidden, select.hidden{
     .event-left-link{
         margin-left:0;
         margin-top: 15px;
-    }
-    .aside.right {
-        width: 78px;
-        height: 76px;
-        padding: 12px 10px;
-        box-sizing: border-box;
     }
     .stripe {
         background: #3e3e3e;
