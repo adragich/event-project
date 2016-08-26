@@ -3505,7 +3505,7 @@ input.hidden, select.hidden{
         padding-right:0;
     }
 
-    .program-static-section .navigation{
+    .program-static-section .navigation, .workshop-static-section .navigation{
         margin: 50px auto;
         left: 20px;
     }
