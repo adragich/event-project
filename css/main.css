@@ -380,6 +380,10 @@ img{
     position: absolute;
     min-width: 100px;
 }
+
+.modal .menu-close {
+    margin: 0 44px 0 0;
+}
 .socials{
     position: absolute;
     right: 35px;
@@ -2293,9 +2297,6 @@ a.border:hover{
     }
     .workshop-popup-header{
         height: 480px;
-    }
-    .modal .menu-close {
-        margin: 0 44px 0 0;
     }
     .blockTitle.modal {
         font-size: 53px;
