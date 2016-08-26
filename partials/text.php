@@ -24,7 +24,8 @@
         define("SPEAKER_LINK_10","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
         define("SPEAKER_LINK_11","https://www.behance.net/magierski/");
         define("SPEAKER_LINK_12","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
-        define("SPEAKER_LINK_13","https://www.linkedin.com/in/bartekkotowicz");
+        define("SPEAKER_LINK_13","https:http://allegro.pl");
+        define("SPEAKER_LINK_14","https://www.linkedin.com/in/bartekkotowicz");
 
 //        partners
         define("PARTNER_LINK_1","http://allegro.pl");
