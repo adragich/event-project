@@ -21,7 +21,8 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="main sub flex flex-center padding-2x fillAndCenter" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="main sub flex flex-center padding-2x fillAndCenter"
+				 data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo ABOUT_US;?></p>
 					<p class="note"><?php echo ABOUT_US_NOTE;?>.</p>
@@ -79,7 +80,8 @@
 			?>
 		</div>
 	</section>
-	<section class="scrollableContent about relative">
+	<section class="scrollableContent about relative"
+			 data-parallax='{"y" : -200, "smoothness": 20}'>
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
 				 data-parallax='{"y" : -200, "distance": 1400, "smoothness": 10}'>
