@@ -2446,7 +2446,7 @@ a.border:hover{
 }
 @media (max-width: 1024px) {
     /*workshops*/
-    .modal .close {
+    .modal.close {
         padding-top: 30px;
         top: 0;
         position: absolute;
