@@ -3138,6 +3138,40 @@ input.hidden, select.hidden{
 
 @media (max-width: 675px){
     /*workshops*/
+    .owner.absolute {
+        padding-top: 0;
+        max-width: 100%;
+        text-align: left;
+        position: static;
+        margin-bottom: 15px;
+    }
+    .workshop-popup-footer {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .event-link.modal {
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    [class*='workshop'] .block-content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .owner {
+        font-size: 16px;
+    }
+    .workshop-popup-body .blockTitle, .workshop-popup-body .block-content {
+        max-width: 100%;
+    }
+    .workshop-popup-header {
+        padding-top: 50px;
+    }
+    .workshop-popup-body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     #firstPartWorkshops {
         top: 100px;
         right: 71px;
