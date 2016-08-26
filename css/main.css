@@ -1955,6 +1955,14 @@ a.border:hover{
 
 
 /*place*/
+.placeLogo{
+    position: absolute;
+    height: 49px;
+    width: 169px;
+    z-index: 1;
+    left: 18%;
+    top: 20%;
+}
 .place-section{
     padding-top: 50px;
 }
