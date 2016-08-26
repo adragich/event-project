@@ -41,7 +41,7 @@
 			<?php for($i = 1; $i <= 14; $i++){?>
 
 				<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
-					 data-parallax='{"y" : -200, "distance": 1400, "smoothness": 10}'>
+					 data-parallax='{"y" : -<?php $val = $i % 2 == 0 ? '200' : '250'; echo $val; ?>, "distance": 1400, "smoothness": 10}'>
 					<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.2s">
 						<img src="img/speakers/speaker_<?php echo $i;?>.jpg"
 							 alt="<?php echo constant(SPEAKER_NAME_.$i);?>">
