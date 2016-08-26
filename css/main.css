@@ -1968,7 +1968,7 @@ a.border:hover{
     padding-left: 110px;
     text-align: left;
 }
-.placeWrap:first-child:before{
+.placeWrap:first-child:after{
     content: "";
     background: #f6f6f6;
     width: 84%;
@@ -1977,12 +1977,11 @@ a.border:hover{
     top:0;
     position: absolute;
 }
-.placeWrap:first-child:after{
+.placeWrap:first-child:before{
     content: url('../img/partners/projections-partners_3.png');
-    width: 84%;
-    height:100%;
-    right:0;
-    top:0;
+    width: 16%;
+    margin-right: -67px;
+    top:146px;
     position: absolute;
 }
 .place-info > p{
