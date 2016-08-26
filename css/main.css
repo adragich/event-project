@@ -1978,16 +1978,6 @@ a.border:hover{
     position: absolute;
 }
 
-.placeWrap:first-child:after {
-    content: url('../img/partners/projections-partners_3.png');
-    width: 16%;
-    left: 0;
-    padding-left: 67px;
-    top: 40px;
-    position: absolute;
-    z-index: 1;
-    text-align: right;
-}
 .place-info > p{
     text-align: left;
 }
