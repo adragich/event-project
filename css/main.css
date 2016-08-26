@@ -2676,7 +2676,7 @@ input.hidden, select.hidden{
         height: 41px;
     }
     .aside.right{
-        background: none;
+        background: none!important;
         width: 120px;
         height: 128px;
         /* position: absolute; */
