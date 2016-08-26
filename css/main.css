@@ -1983,7 +1983,7 @@ a.border:hover{
     width: 16%;
     left: 0;
     padding-left: 67px;
-    top: 20%;
+    top: 40px;
     position: absolute;
     z-index: 1;
     text-align: right;
@@ -2921,6 +2921,9 @@ a.border:hover{
     }
     /*place*/
 
+    .placeWrap:first-child:before {
+        top: 20%;
+    }
     .grey-corner-left-top {
         left: 176px;
     }
@@ -2952,7 +2955,7 @@ a.border:hover{
         height: 90%;
         height: 90vh;
     }
-    .placeWrap:first-child:before {
+    .placeWrap:first-child:after {
         width: 74%;
         width: calc(74% - 30px);
         width: -webkit-calc(74% - 30px);
