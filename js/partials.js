@@ -18,8 +18,8 @@ function getPathFromUrl(url) {
 $(function() {
 	constructMenuLinks();
     scrollOptions();
-
-	window.location = getPathFromUrl(window.location);
+console.log(window.location.href);
+	window.location.href = getPathFromUrl(window.location.href);
 
 
 	$('a[href="#"]').click(function(e){
