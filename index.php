@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo META_TITLE;?></title>
 	<?php
 		@include("partials/head.php")
 	?>
+	<title><?php echo META_TITLE;?></title>
 
 </head>
 <body class="stick homepage">
