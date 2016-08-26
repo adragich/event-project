@@ -22,7 +22,7 @@
 			?>
 
 			<div class="main sub flex flex-center padding-2x fillAndCenter"
-				 data-parallax='{"y" : -300, "smoothness": 20}'>
+				 data-parallax='{"y" : -200, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo ABOUT_US;?></p>
 					<p class="note"><?php echo ABOUT_US_NOTE;?>.</p>
@@ -81,10 +81,10 @@
 		</div>
 	</section>
 	<section class="scrollableContent about relative"
-			 data-parallax='{"y" : -200, "smoothness": 20}'>
+			 data-parallax='{"y" : -100, "smoothness": 20}'>
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
-				 data-parallax='{"y" : -200, "distance": 1400, "smoothness": 10}'>
+				 data-parallax='{"y" : -100, "distance": 1400, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
 					<div class="light-grey flex flex-center about-image">
 						<img src="img/about/<?php echo ABOUT_IMAGE_1;?>" alt="<?php echo ABOUT_TITLE_1;?>">
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap"
-				 data-parallax='{"y" : -250, "distance": 1600, "smoothness": 40}'>
+				 data-parallax='{"y" : -150, "distance": 1600, "smoothness": 40}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
 					<div class="light-grey flex flex-center about-image">
 						<img src="img/about/<?php echo ABOUT_IMAGE_2;?>" alt="<?php echo ABOUT_TITLE_2;?>">
@@ -118,7 +118,7 @@
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap"
-				 data-parallax='{"y" : -300, "distance": 1400, "smoothness": 20}'>
+				 data-parallax='{"y" : -100, "distance": 1400, "smoothness": 20}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
 					<div class="light-grey flex flex-center about-image">
 						<img src="img/about/<?php echo ABOUT_IMAGE_3;?>" alt="<?php echo ABOUT_TITLE_3;?>">
@@ -135,7 +135,7 @@
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap"
-				 data-parallax='{"y" : -250, "distance": 1600, "smoothness": 10}'>
+				 data-parallax='{"y" : -150, "distance": 1600, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
 					<div class="light-grey flex flex-center about-image">
 						<img src="img/about/<?php echo ABOUT_IMAGE_4;?>" alt="<?php echo ABOUT_TITLE_4;?>">
