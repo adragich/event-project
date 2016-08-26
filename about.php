@@ -83,7 +83,9 @@
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/about/<?php echo ABOUT_IMAGE_1;?>" alt="<?php echo ABOUT_TITLE_1;?>">
+					<div class="grey flex flex-center about-image">
+						<img src="img/about/<?php echo ABOUT_IMAGE_1;?>" alt="<?php echo ABOUT_TITLE_1;?>">
+					</div>
 					<div class="l12 speaker-info">
 						<p class="blockTitle"><?php echo ABOUT_TITLE_1;?></p>
 						<p class="block-content"><?php echo ABOUT_SUBTITLE_1;?> _</p>
@@ -98,7 +100,9 @@
 			<div class="col xl6 l12 m12 s12 speakerWrap"
 				 data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/about/<?php echo ABOUT_IMAGE_2;?>" alt="<?php echo ABOUT_TITLE_2;?>">
+					<div class="grey flex flex-center about-image">
+						<img src="img/about/<?php echo ABOUT_IMAGE_2;?>" alt="<?php echo ABOUT_TITLE_2;?>">
+					</div>
 					<div class="l12 speaker-info">
 						<p class="blockTitle"><?php echo ABOUT_TITLE_2;?></p>
 						<p class="block-content"><?php echo ABOUT_SUBTITLE_2;?> _</p>
@@ -113,7 +117,9 @@
 			<div class="col xl6 l12 m12 s12 speakerWrap"
 				 data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/about/<?php echo ABOUT_IMAGE_3;?>" alt="<?php echo ABOUT_TITLE_3;?>">
+					<div class="grey flex flex-center about-image">
+						<img src="img/about/<?php echo ABOUT_IMAGE_3;?>" alt="<?php echo ABOUT_TITLE_3;?>">
+					</div>
 					<div class="l12 speaker-info">
 						<p class="blockTitle"><?php echo ABOUT_TITLE_3;?></p>
 						<p class="block-content"><?php echo ABOUT_SUBTITLE_3;?> _</p>
@@ -128,7 +134,9 @@
 			<div class="col xl6 l12 m12 s12 speakerWrap"
 				 data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/about/<?php echo ABOUT_IMAGE_4;?>" alt="<?php echo ABOUT_TITLE_4;?>">
+					<div class="grey flex flex-center about-image">
+						<img src="img/about/<?php echo ABOUT_IMAGE_4;?>" alt="<?php echo ABOUT_TITLE_4;?>">
+					</div>
 					<div class="l12 speaker-info">
 						<p class="blockTitle"><?php echo ABOUT_TITLE_4;?></p>
 						<p class="block-content"><?php echo ABOUT_SUBTITLE_4;?> _</p>
