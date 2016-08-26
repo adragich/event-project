@@ -887,6 +887,13 @@ img{
 }
 
 /*workshops*/
+
+.modal.close{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
 .workshop-popup img{
     object-fit: cover;
     object-position: center;
@@ -2223,6 +2230,9 @@ input.hidden, select.hidden{
 @media (min-width: 1500px){
     /*workshops*/
 
+    .modal.close{
+        position: static;
+    }
     .workshop-section .blockTitle, .workshop-section .block-content{
         padding-left: 0;
     }
