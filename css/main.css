@@ -1046,10 +1046,11 @@ img{
 .owner span {
     font-family: "playfairdisplayregular", serif;
 }
-.owner{
+.owner {
     font-size: 18px;
     font-family: "stolzlmedium", sans-serif;
-    line-height: 80px;
+    line-height: 26px;
+    padding-top: 15px;
 }
 .workshop-inner{
     padding: 25px;
@@ -2217,6 +2218,11 @@ input.hidden, select.hidden{
 }
 @media (min-width: 1500px){
     /*workshops*/
+
+    .owner{
+        line-height: 80px;
+        padding-top: 0;
+    }
     .workshop-inner .blockTitle {
         font-size: 28px;
     }
