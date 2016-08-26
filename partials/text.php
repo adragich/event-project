@@ -27,6 +27,7 @@
         define("SPEAKER_LINK_13","https://www.linkedin.com/in/bartekkotowicz");
 
 //        partners
+        define("PARTNER_LINK_1","http://allegro.pl");
 
 //        about
         define("ABOUT_LINK_1","https://www.behance.net/kommunikat");
@@ -292,7 +293,9 @@
 
 //                partners
                 define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
-                define("MAIN_PARTNERS","Główni sponsorzy");
+                define("SPONSORS","Sponsorzy");
+                define("MEDIA","Patroni medialni");
+                define("ORGS","Organizatorzy");
 
 //                about
                 define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");

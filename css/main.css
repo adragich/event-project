@@ -1907,6 +1907,9 @@ input.hidden, select.hidden{
 .partner{
     padding-left: 47px;
 }
+.partner .inner:hover{
+    border-color: #3e3e3e;
+}
 .partner .inner{
     height:124px;
     max-width: 290px;
@@ -1914,7 +1917,7 @@ input.hidden, select.hidden{
     border-top:4px solid #dedede;
     border-left:4px solid #dedede;
 }
-.sponsors:first-child{
+.sponsors:not(last-child){
     margin-bottom: 150px;
 }
 .sponsors:last-child{
@@ -2622,7 +2625,7 @@ input.hidden, select.hidden{
     .partner:nth-child(2n){
         padding-left: 80px;
     }
-    .sponsors:first-child {
+    .sponsors:not(last-child) {
         margin-bottom: 10px;
     }
     .sponsors .blockTitle {

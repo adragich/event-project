@@ -41,18 +41,20 @@
 		 data-parallax='{"y" : -300, "from-scroll": 0, "distance": 0, "smoothness": 10}'
 		 id="partnersInfoSection">
 	<div class="container">
-		<div class="sponsors col l12">
+		<div class="sponsors col l12 left-align">
 			<p class="blockTitle left-align"><?php echo SPONSORS;?>
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center">
-						<img src="img/partners/projections-partners_01.png"
-							 alt="Allegro" class="partner-image">
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_1; ?>" class=" flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_01.png"
+								 alt="Allegro" class="partner-image">
+						</a>
 					</div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center">
+					<div class="inner flex flex-center transition">
 						<img src="img/partners/projections-partners_03.png"
 							 alt="Redro" class="partner-image">
 					</div>
@@ -64,19 +66,19 @@
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_05.png"
 															 alt="CSSDesignAwards" class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_06.png"
 															 alt="eduweb" class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_07.png"
 															 alt="Komm." class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_08.png"
 															 alt="Torpedov" class="partner-image"></div>
 				</div>
 			</div>
@@ -86,19 +88,19 @@
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_05.png"
 															 alt="CSSDesignAwards" class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_06.png"
 															 alt="eduweb" class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_07.png"
 															 alt="Komm." class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_08.png"
 															 alt="Torpedov" class="partner-image"></div>
 				</div>
 			</div>
@@ -108,19 +110,19 @@
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_05.png"
 															 alt="CSSDesignAwards" class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_06.png"
 															 alt="eduweb" class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_07.png"
 															 alt="Komm." class="partner-image"></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
+					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_08.png"
 															 alt="Torpedov" class="partner-image"></div>
 				</div>
 			</div>
