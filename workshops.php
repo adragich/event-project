@@ -102,14 +102,12 @@
 					<p class="blockSub modal"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<p>
 						<a href="<?php echo $ticketsLink; ?>"
-						   class="event-link yellow transition modal">Bilety</a>
+						   class="event-link yellow transition modal"><?php echo TICKETS; ?></a>
 					</p>
-					<p class="owner modal">Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna biletu
-						wraz  z warsztatem.
+					<p class="owner modal"><?php echo TICKETS_NOTE_1; ?>
 					</p>
 					<p class="owner modal">
-						<span>Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem kto
-						pierwszy ten lepszy :)</span>
+						<span><?php echo TICKETS_NOTE_2; ?></span>
 					</p>
 			</div>
 		</div>
@@ -118,6 +116,81 @@
 			<div class="workshop-popup-inner">
 					<p class="blockTitle small"><?php echo WORKSHOPS_TOPIC;?></p>
 					<p class="block-content"><?php echo WORKSHOPS_MODAL_CONTENT_1;?></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="workshop-popup" id="content2">
+
+		<div class="workshop-popup-header grey">
+			<div class="close modal" data-close="#content1">
+				<span class="menu-close"></span>
+			</div>
+			<div class="workshop-popup-inner">
+				<img src="img/workshops/projections-workshops-popup_1.jpg" alt="<?php echo WORKSHOPS_TITLE_2;?>">
+			</div>
+		</div>
+
+		<div class="workshop-popup-body white">
+			<div class="workshop-popup-inner">
+				<p class="absolute owner"><span><?php echo WORKSHOPS_ROLE;?></span> <?php echo WORKSHOPS_PERSON_2;?> <span>/ <?php echo WORKSHOPS_WEBSITE_2;?></span></p>
+				<p class="blockTitle modal"><?php echo WORKSHOPS_TITLE_2; ?></p>
+				<p class="blockSub modal"><?php echo WORKSHOPS_SUBTITLE_2; ?></p>
+				<p>
+					<a href="<?php echo $ticketsLink; ?>"
+					   class="event-link yellow transition modal"><?php echo TICKETS; ?></a>
+				</p>
+				<p class="owner modal"><?php echo TICKETS_NOTE_1; ?>
+				</p>
+				<p class="owner modal">
+						<span><?php echo TICKETS_NOTE_2; ?></span>
+				</p>
+			</div>
+		</div>
+
+		<div class="workshop-popup-footer grey">
+			<div class="workshop-popup-inner">
+				<p class="blockTitle small"><?php echo WORKSHOPS_TOPIC;?></p>
+				<p class="block-content"><?php echo WORKSHOPS_MODAL_CONTENT_2;?></p>
+			</div>
+		</div>
+
+	</div>
+	<div class="workshop-popup" id="content3">
+
+		<div class="workshop-popup-header grey">
+			<div class="close modal" data-close="#content1">
+				<span class="menu-close"></span>
+			</div>
+			<div class="workshop-popup-inner">
+				<img src="img/workshops/projections-workshops-popup_1.jpg" alt="<?php echo WORKSHOPS_TITLE_3;?>">
+			</div>
+		</div>
+
+		<div class="workshop-popup-body white">
+			<div class="workshop-popup-inner">
+				<p class="absolute owner">
+					<span><?php echo WORKSHOPS_ROLE;?> </span>
+							<?php echo WORKSHOPS_PERSON_3;?><span> / <?php echo WORKSHOPS_WEBSITE_3;?></span>
+				</p>
+				<p class="blockTitle modal"><?php echo WORKSHOPS_TITLE_3;?></p>
+				<p class="blockSub modal"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
+				<p>
+					<a href="<?php echo $ticketsLink; ?>"
+					   class="event-link yellow transition modal"><?php echo TICKETS; ?></a>
+				</p>
+				<p class="owner modal"><?php echo TICKETS_NOTE_1; ?>
+				</p>
+				<p class="owner modal">
+					<span><?php echo TICKETS_NOTE_2; ?></span>
+				</p>
+			</div>
+		</div>
+
+		<div class="workshop-popup-footer grey">
+			<div class="workshop-popup-inner">
+				<p class="blockTitle small"><?php echo WORKSHOPS_TOPIC;?></p>
+				<p class="block-content"><?php echo WORKSHOPS_MODAL_CONTENT_3;?></p>
 			</div>
 		</div>
 

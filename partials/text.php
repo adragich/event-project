@@ -47,6 +47,11 @@
                 define("PROGRAM_DESCRIPTION_5","Something new...");
 
 //                workshops
+                define("TICKETS_NOTE_1","Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna 
+                        biletu wraz  z warsztatem.");
+                define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
+                        kto pierwszy ten lepszy :)");
+
                 define("WORKSHOPS_NOTE","projektowe");
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
@@ -79,12 +84,21 @@
                         tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.
                         W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,a 
                         zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.");
+                define("WORKSHOPS_MODAL_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
+                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.
+                        W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,a 
+                        zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.");
 
                 define("WORKSHOPS_TITLE_3","Temat warsztatu");
                 define("WORKSHOPS_SUBTITLE_3","Nazwa dokładna warsztatu.");
                 define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
                 define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
                 define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
+                        tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
+                        w Polsce, jak i za granicą. Bez względu na to, czy idea kreacji marki jest Ci bliska, 
+                        czy dopiero zaczynasz przygodę z tą tematyką – na pewno znajdziesz tam sporo wartościowych 
+                        treści.");
+                define("WORKSHOPS_MODAL_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
                         tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
                         w Polsce, jak i za granicą. Bez względu na to, czy idea kreacji marki jest Ci bliska, 
                         czy dopiero zaczynasz przygodę z tą tematyką – na pewno znajdziesz tam sporo wartościowych 
