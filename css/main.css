@@ -2288,7 +2288,7 @@ a.border:hover{
 .modal.close {
     padding-top: 30px;
     top: 0;
-    position: absolute;
+    position: fixed;
 }
 @media (min-width: 1500px){
     /*place*/

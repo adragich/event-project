@@ -50,7 +50,11 @@
 						<div class="l12 speaker-info">
 							<p class="blockTitle"><?php echo constant(SPEAKER_NAME_.$i);?></p>
 							<p class="block-content"><?php echo constant(SPEAKER_DESC_.$i);?> _</p>
-							<p class="block-note"><?php echo constant(SPEAKER_WEBSITE_.$i);?></p>
+							<p class="block-note">
+								<a href="<?php echo constant(SPEAKER_WEBSITE_.$i);?>">
+									<?php echo constant(SPEAKER_WEBSITE_.$i);?>
+								</a>
+							</p>
 						</div>
 					</div>
 					<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.2s">
