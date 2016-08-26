@@ -3543,7 +3543,9 @@ a.border:hover{
     /*place*/
     .placeLogo {
         top: 20px;
-        padding-left: 10px;
+        padding-left: 0;
+        left: 30px;
+        width: 169px;
     }
     .place-section {
         margin-top: 0;
