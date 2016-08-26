@@ -97,7 +97,7 @@
 
 		<div class="workshop-popup-body white">
 			<div class="workshop-popup-inner">
-					<p class="absolute owner"><span><?php echo WORKSHOPS_ROLE;?></span> <?php echo WORKSHOPS_PERSON_3;?> <span>/ <?php echo WORKSHOPS_WEBSITE_3;?></span></p>
+					<p class="absolute owner"><span><?php echo WORKSHOPS_ROLE;?></span> <?php echo WORKSHOPS_PERSON_1;?> <span>/ <?php echo WORKSHOPS_WEBSITE_1;?></span></p>
 					<p class="blockTitle modal"><?php echo WORKSHOPS_TITLE_1;?></p>
 					<p class="blockSub modal"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
 					<p>
@@ -116,8 +116,8 @@
 
 		<div class="workshop-popup-footer grey">
 			<div class="workshop-popup-inner">
-					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_3;?></p>
-					<p class="block-content"><?php echo WORKSHOPS_CONTENT_3;?></p>
+					<p class="blockTitle small"><?php echo WORKSHOPS_TOPIC;?></p>
+					<p class="block-content"><?php echo WORKSHOPS_MODAL_CONTENT_1;?></p>
 			</div>
 		</div>
 

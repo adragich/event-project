@@ -935,7 +935,9 @@ img{
     line-height: 80px;padding-bottom: 0;
 }
 
-
+.blockTitle.small {
+    font-size: 25px;
+}
 /**/
 
 .event-link.modal{

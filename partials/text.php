@@ -49,6 +49,7 @@
 //                workshops
                 define("WORKSHOPS_NOTE","projektowe");
                 define("WORKSHOPS_ROLE","Prowadzący:");
+                define("WORKSHOPS_TOPIC","Opis warsztatu:");
 
                 define("WORKSHOPS_TITLE_1","Modo 3D");
                 define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
@@ -59,6 +60,16 @@
 						graficznych na całym świecie. W dosyć krótkiej karierze zawodowej osiągnął m.in.
 						dwa znaczące sukcesy - jego projekty zostały zamieszczone na okładkach magazynów Advanced
 						Photoshop w Wielkiej Brytanii oraz Computer Arts w Polsce.");
+                define("WORKSHOPS_MODAL_CONTENT_1","ZBrush Workshop oraz MODO, to pozycje obowiązkowa dla każdego, kto 
+                        chce dowiedzieć się jak wykorzystać te fantastyczne narzędzia w zapierających dech w piersiach 
+                        projektach. Podczas warsztatów uczestnicy dowiedzą się jak są tworzone światowej klasy 
+                        ilustracje. Wejdziesz w niesamowity świat możliwości Modo oraz Zbrush’a z Wojtkiem Magierskim. 
+                        Połączysz magię postprodukcji w Photoshop i wolności tworzenia obiektów 3D aby uzyskać 
+                        powalające efekty i przewyższyć oczekiwania klientów, przy okazji odkrywając sekrety światowej 
+                        klasy ilustratora.<br><br>
+                        Wojtek Magierski na podstawie swoich prac przedstawi m.in. niesamowite możliwości rzeźbienia w 
+                        Zbrush’u. Począwszy od stworzenia trójwymiarowej siatki postaci przez wycinanie i kolorowanie 
+                        aż po postprodukcję.");
 
                 define("WORKSHOPS_TITLE_2","Set Design");
                 define("WORKSHOPS_SUBTITLE_2","Złoty styropian, czyli Set Design w fotografii projektów.");
