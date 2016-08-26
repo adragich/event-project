@@ -46,7 +46,8 @@
 			</p>
 			<div>
 				<?php for($i = 1; $i < 3; $i++){?>
-					<div class="col xl3 l3 m6 s12 partner">
+					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
+						 data-wow-delay="<?php echo 0.1*$i;?>s">
 						<div class="inner transition">
 							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
@@ -62,7 +63,8 @@
 			</p>
 			<div>
 				<?php for($i = 3; $i < 13; $i++){?>
-					<div class="col xl3 l3 m6 s12 partner">
+					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
+						 data-wow-delay="<?php echo 0.1*($i-2);?>s">
 						<div class="inner transition">
 							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
@@ -78,7 +80,8 @@
 			</p>
 			<div>
 				<?php for($i = 13; $i < 21; $i++){?>
-					<div class="col xl3 l3 m6 s12 partner">
+					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
+						 data-wow-delay="<?php echo 0.1*($i-12);?>s">
 						<div class="inner transition">
 							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
@@ -94,7 +97,8 @@
 			</p>
 			<div>
 				<?php for($i = 21; $i < 25; $i++){?>
-					<div class="col xl3 l3 m6 s12 partner">
+					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
+						 data-wow-delay="<?php echo 0.1*($i-20);?>s">
 						<div class="inner transition">
 							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"

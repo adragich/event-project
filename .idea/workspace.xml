@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.php" afterPath="$PROJECT_DIR$/partners.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
@@ -75,15 +75,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partners.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partners.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="99" column="89" selection-start-line="99" selection-start-column="89" selection-end-line="99" selection-end-column="89" />
+            <state relative-caret-position="271">
+              <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
               <folding>
-                <marker date="1472213144000" expanded="true" signature="1826:1827" ph="..." />
-                <marker date="1472213144000" expanded="true" signature="2365:2372" ph="..." />
-                <marker date="1472213144000" expanded="true" signature="2904:2911" ph="..." />
+                <marker date="1472213549000" expanded="true" signature="1896:1897" ph="..." />
+                <marker date="1472213549000" expanded="true" signature="2509:2516" ph="..." />
+                <marker date="1472213549000" expanded="true" signature="3123:3130" ph="..." />
               </folding>
             </state>
           </provider>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/actions/swiftmailer.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/about.php" />
-        <option value="$PROJECT_DIR$/partners.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/partners.php" />
       </list>
     </option>
   </component>
@@ -484,12 +484,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="80233000" />
+      <workItem from="1471955447206" duration="80386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199287000" />
+    <option name="totallyTimeSpent" value="199440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1346" height="877" extended-state="0" />
@@ -870,6 +870,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="318" column="14" selection-start-line="318" selection-start-column="14" selection-end-line="318" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="1923" column="24" selection-start-line="1923" selection-start-column="24" selection-end-line="1923" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -877,14 +893,6 @@
           <folding>
             <element signature="e#3449#8037#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="318" column="14" selection-start-line="318" selection-start-column="14" selection-end-line="318" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,21 +906,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partners.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="99" column="89" selection-start-line="99" selection-start-column="89" selection-end-line="99" selection-end-column="89" />
+        <state relative-caret-position="271">
+          <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
           <folding>
-            <marker date="1472213144000" expanded="true" signature="1826:1827" ph="..." />
-            <marker date="1472213144000" expanded="true" signature="2365:2372" ph="..." />
-            <marker date="1472213144000" expanded="true" signature="2904:2911" ph="..." />
+            <marker date="1472213549000" expanded="true" signature="1896:1897" ph="..." />
+            <marker date="1472213549000" expanded="true" signature="2509:2516" ph="..." />
+            <marker date="1472213549000" expanded="true" signature="3123:3130" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="1923" column="24" selection-start-line="1923" selection-start-column="24" selection-end-line="1923" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
