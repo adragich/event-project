@@ -2373,6 +2373,13 @@ input.hidden, select.hidden{
     .workshop-modal-section {
         padding-top: 60px;
     }
+    .blockSub {
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .workshop-block:not(:last-child){
+        margin-bottom: 30px;
+    }
     /**/
     /*error 404*/
     .error-inner {
@@ -2992,9 +2999,9 @@ input.hidden, select.hidden{
         padding-right: 0;
     }
     .program #middlePart {
-        top: 65%;
+        top: 90%;
     }
-    .program-static-section .navigation{
+    .program-static-section .navigation, .workshop-static-section .navigation{
         margin: 100px auto;
         position: relative;
         left: 0;

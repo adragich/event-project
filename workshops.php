@@ -12,7 +12,7 @@
 	<?php
 		@include("partials/preloader-workshops.html");
 	?>
-	<section class="static-content transition">
+	<section class="static-content transition workshop-static-section">
 		<div class="container">
 
 			<!--header-->
