@@ -2268,6 +2268,9 @@ input.hidden, select.hidden{
     .xl6{
         width:50%;
     }
+    .xl4{
+        width:33.333%;
+    }
     #middlePart{
         left:252px;
     }
