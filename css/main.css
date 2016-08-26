@@ -1027,6 +1027,9 @@ img{
     box-sizing: border-box;
     padding-left: 20px;
 }
+.workshop-inner .blockTitle {
+    font-size: 24px;
+}
 .workshop-inner:hover{
     border-color: #e8e8e8;
 }
@@ -2214,7 +2217,9 @@ input.hidden, select.hidden{
 }
 @media (min-width: 1500px){
     /*workshops*/
-
+    .workshop-inner .blockTitle {
+        font-size: 28px;
+    }
     .blockSub {
         font-size: 23px;
         line-height: 30px;
