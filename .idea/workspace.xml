@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.php" afterPath="$PROJECT_DIR$/partners.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="1914" column="1" selection-start-line="1914" selection-start-column="1" selection-end-line="1914" selection-end-column="1" />
+            <state relative-caret-position="175">
+              <caret line="1905" column="12" selection-start-line="1905" selection-start-column="12" selection-end-line="1905" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -75,16 +75,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partners.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partners.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="841">
-              <caret line="109" column="113" selection-start-line="109" selection-start-column="113" selection-end-line="109" selection-end-column="113" />
-              <folding>
-                <marker date="1472214108000" expanded="true" signature="1903:1904" ph="..." />
-                <marker date="1472214108000" expanded="true" signature="2808:2815" ph="..." />
-                <marker date="1472214108000" expanded="true" signature="3429:3436" ph="..." />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,8 +157,8 @@
         <option value="$PROJECT_DIR$/actions/swiftmailer.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
-        <option value="$PROJECT_DIR$/partners.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/partners.php" />
       </list>
     </option>
   </component>
@@ -350,12 +346,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="80962000" />
+      <workItem from="1471955447206" duration="81108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200016000" />
+    <option name="totallyTimeSpent" value="200162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1310" height="877" extended-state="0" />
@@ -744,6 +740,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1905" column="12" selection-start-line="1905" selection-start-column="12" selection-end-line="1905" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -764,20 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partners.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="109" column="113" selection-start-line="109" selection-start-column="113" selection-end-line="109" selection-end-column="113" />
-          <folding>
-            <marker date="1472214108000" expanded="true" signature="1903:1904" ph="..." />
-            <marker date="1472214108000" expanded="true" signature="2808:2815" ph="..." />
-            <marker date="1472214108000" expanded="true" signature="3429:3436" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="1914" column="1" selection-start-line="1914" selection-start-column="1" selection-end-line="1914" selection-end-column="1" />
+        <state relative-caret-position="361">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
           <folding />
         </state>
       </provider>
