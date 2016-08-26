@@ -227,9 +227,14 @@
                 define("SPEAKER_NAME_12","Andrzej Jakuszko");
                 define("SPEAKER_DESC_12","Set Designer/ Poznań");
                 define("SPEAKER_WEBSITE_12","mutostudio.com");
-                define("SPEAKER_NAME_13","Bartek Kotowicz");
-                define("SPEAKER_DESC_13","Właściciel brandingowy.pl / Gdańsk");
-                define("SPEAKER_WEBSITE_13","brandingowy.pl");
+
+                define("SPEAKER_NAME_13","Allegro");
+                define("SPEAKER_DESC_13","Allegro");
+                define("SPEAKER_WEBSITE_13","www.allegro.pl");
+
+                define("SPEAKER_NAME_14","Bartek Kotowicz");
+                define("SPEAKER_DESC_14","Właściciel brandingowy.pl / Gdańsk");
+                define("SPEAKER_WEBSITE_14","brandingowy.pl");
 
 //                schedule
                 define("PROGRAM_TITLE","Program");
