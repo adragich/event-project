@@ -1361,8 +1361,7 @@ img{
     padding-top: 0;
     padding-left: 140px;
     padding-right: 33%;
-    background: url("../img/projections-about-desk.png") 80% 80% no-repeat;
-    background-size: 21%;
+    background: url("../img/projections-about-desk.png") 90% center no-repeat;
 }
 .about-us-info .block-content{
     line-height: 36px
