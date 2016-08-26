@@ -890,12 +890,15 @@ img{
 }
 
 /*workshops*/
-
 .modal.close{
-    position: absolute;
-    right: 30px;
-    top: 10px;
+    height: 80px;
+/* width: 80px; */
+    text-align: center;
+    padding-top: 50px;
+    top: -50px;
+    right: 0;
     z-index: 1;
+    position: relative;
 }
 .workshop-popup img{
     object-fit: cover;
@@ -2268,9 +2271,6 @@ a.border:hover{
 
     .owner.absolute{
         right: 0;
-    }
-    .modal.close{
-        position: static;
     }
     .workshop-section .blockTitle, .workshop-section .block-content{
         padding-left: 0;
