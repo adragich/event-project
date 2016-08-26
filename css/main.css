@@ -3140,6 +3140,22 @@ input.hidden, select.hidden{
         top: 170px;
         right: 47px;
     }
+    .workshop-section .blockTitle {
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    .workshop-section .block-content {
+        padding-left: 50px;
+    }
+    .workshop-block {
+        margin-bottom: 0;
+    }
+    .workshop-inner {
+        padding-right: 0;
+    }
+    .workshop-modal-section{
+        margin-bottom: 50px;
+    }
     /**/
     .anim-space {
         height: 157px;
