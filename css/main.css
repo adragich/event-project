@@ -2244,6 +2244,8 @@ input.hidden, select.hidden{
 }
 .modal-trigger{
     cursor: pointer;
+}
+.modal-trigger:hover{
     color: #525252;
 }
 @media (min-width: 1500px){
