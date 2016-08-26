@@ -91,7 +91,8 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
+					<a href="<?php echo ABOUT_LINK_1;?>" class="learn-more-link yellow"
+						target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
@@ -104,7 +105,8 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
+					<a href="<?php echo ABOUT_LINK_2;?>" class="learn-more-link yellow"
+					   target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
@@ -117,7 +119,8 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
+					<a href="<?php echo ABOUT_LINK_3;?>" class="learn-more-link yellow"
+					   target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
@@ -130,7 +133,8 @@
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="" class="learn-more-link yellow"><?php echo LEARN_MORE;?></a>
+					<a href="<?php echo ABOUT_LINK_4;?>" class="learn-more-link yellow"
+					   target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
 		</div>

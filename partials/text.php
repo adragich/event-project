@@ -1,10 +1,124 @@
 <?php
 	function defineStrings() {
+
+//    links
+//        battles
+        define("BATTLES_LINK_1","https://www.behance.net/kirpluk");
+        define("BATTLES_LINK_2","https://www.behance.net/ploch");
+        define("BATTLES_LINK_3","https://www.behance.net/crislabno");
+        define("BATTLES_LINK_4","https://www.behance.net/sarnowski");
+        define("BATTLES_LINK_5","https://www.behance.net/fusecollective");
+        define("BATTLES_LINK_6","https://www.behance.net/janiczak");
+
+
+//        speakers
+        define("SPEAKER_LINK_1","https://an.linkedin.com/in/krishermansson");
+        define("SPEAKER_LINK_2","https://nl.linkedin.com/in/marcusabrown");
+        define("SPEAKER_LINK_3","https://pl.linkedin.com/in/arek-romański-448a575a");
+        define("SPEAKER_LINK_4","https://pl.linkedin.com/in/lukasz-knasiecki-56803a8");
+        define("SPEAKER_LINK_5","https://pl.linkedin.com/in/piotr-holub-24bb9221");
+        define("SPEAKER_LINK_6","http://www.hopastudio.com");
+        define("SPEAKER_LINK_7","https://pl.linkedin.com/in/grzegorzrog");
+        define("SPEAKER_LINK_8","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
+        define("SPEAKER_LINK_9","http://lesstudio.pl");
+        define("SPEAKER_LINK_10","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
+        define("SPEAKER_LINK_11","https://www.behance.net/magierski/");
+        define("SPEAKER_LINK_12","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
+        define("SPEAKER_LINK_13","https://www.linkedin.com/in/bartekkotowicz");
+
+//        partners
+
+//        about
+        define("ABOUT_LINK_1","https://www.behance.net/kommunikat");
+        define("ABOUT_LINK_2","https://pl.linkedin.com/in/piotr-swierkowski-24728499");
+        define("ABOUT_LINK_3","https://pl.linkedin.com/in/ewelinadmk");
+        define("ABOUT_LINK_4","https://www.behance.net/fromsquare");
+        
 		switch($_SESSION['lang']) {
-			case "pl":
+			case "en":
+//			      common
+                define("LEARN_MORE","Learn more ???");
+                define("BATTLES","Bitwy graficzne ???");
+
+//                menu
+                define("LANGUAGE","Polish language ???");
+                define("HOMEPAGE","Strona główna ???");
+                define("SPEAKERS","Prelegenci ???");
+                define("PROGRAM","Program ???");
+                define("PLACE","Miejsce ???");
+                define("PARTNERS","Partnerzy ???");
+                define("ABOUT_US","O nas ???");
+                define("TICKETS","Bilety ???");
+                define("WORKSHOPS","Workshops ???");
+
+//			      main page
+                define("PROJECTS","Projekcje ???");
+
+                define("TITLE","Event dla projektantów ???");
+                define("NOTE","Przez projektantów ???");
+
+                define("CITY","Poznań ???");
+                define("COMPANY","Concordia Design ???");
+
+
+//                speakers
+                define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty. ???");
+
+//                schedule
+                define("PROGRAM_TITLE","Program ???");
+                define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej. ???");
+                define("PROGRAM_TITLE_2","Jesteśmy tutaj ???");
+                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland ???");
+                define("MONTH","November ???");
+                define("PROGRAM_TYPE_1","Prelekcje ???");
+                define("PROGRAM_TYPE_2","Warsztaty ???");
+                define("APPLY_WORKSHOP","Apply for workshop ???");
+                define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce ???");
+                define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki ???");
+                define("PROGRAM_DESCRIPTION_3","Ilustracje abstrakcyjne ???");
+                define("PROGRAM_DESCRIPTION_4","Inspiracja marką ???");
+                define("PROGRAM_DESCRIPTION_5","Something new... ???");
+
+//                venue
+                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland ???");
+                define("PLACE_TITLE_1","Sala expo w Concordia Design ???");
+                define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions. ???");
+                define("PLACE_TITLE_2","Sale warsztatowe w Concordia Design ???");
+                define("PLACE_DESCRIPTION_2","Spacious and easy to arrange – ideal for conferences, banquets,concerts, team-building events, fashion shows, and many other occasions. ???");
+                define("PLACE_TITLE_3","228 m² ???");
+                define("PLACE_DESCRIPTION_3","The interior can be freely divided to create additional space. ???");
+
+//                partners
+                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne. ???");
+                define("MAIN_PARTNERS","Główni sponsorzy ???");
+
+//                about
+                define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje ???");
+                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów ???");
+                define("ABOUT_US_DESC_1","
+							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
+							events. It was popularised in the 1960s with the release of Letraset sheets containing 
+							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
+							PageMaker including versions of Lorem Ipsum. ???");
+                define("ABOUT_US_TITLE_2","Dla projektantów ???");
+                define("ABOUT_US_DESC_2","
+							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
+							events. It was popularised in the 1960s with the release of Letraset sheets containing 
+							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
+							PageMaker including versions of Lorem Ipsum. ???");
+                define("ABOUT_US_TITLE_3","Organizatorzy projekcji ???");
+                define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów. ???");
+
+//                battles ???
+                define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski. ???");
+                define("BATTLES_2","Gotowi do bitwy? ???");
+                define("APPLY_TO_BATTLE","Dołącz do bitwy ! ???");
+                define("PROJECTS_LINK","Wróć do strony głównej ???");
+			break;
+			default:
 
 //			      common
-                define("LEARN_MORE","Learn more");
+                define("LEARN_MORE","Więcej");
                 define("BATTLES","Bitwy graficzne");
 
 //                menu
@@ -34,67 +148,53 @@
                 define("SPEAKER_NAME_1","Kriss Hermansson");
                 define("SPEAKER_DESC_1","Creative Director at Resn");
                 define("SPEAKER_WEBSITE_1","resn.co.nz");
-                define("SPEAKER_LINK_1","https://an.linkedin.com/in/krishermansson");
 
                 define("SPEAKER_NAME_2","Marcus Brown");
                 define("SPEAKER_DESC_2","Senior Art Director w Resn / Amsterdam");
                 define("SPEAKER_WEBSITE_2","resn.co.nz");
-                define("SPEAKER_LINK_2","https://nl.linkedin.com/in/marcusabrown");
 
                 define("SPEAKER_NAME_3","Arek Romański");
                 define("SPEAKER_DESC_3","Co-founder/Art Director w Huncwot / Warszawa");
                 define("SPEAKER_WEBSITE_3","huncwot.com");
-                define("SPEAKER_LINK_3","https://pl.linkedin.com/in/arek-romański-448a575a");
 
                 define("SPEAKER_NAME_4","Łukasz Knasiecki");
                 define("SPEAKER_DESC_4","Partner w Huncwot / Warszawa");
                 define("SPEAKER_WEBSITE_4","huncwot.com");
-                define("SPEAKER_LINK_4","https://pl.linkedin.com/in/lukasz-knasiecki-56803a8");
 
                 define("SPEAKER_NAME_5","Piotr Hołub");
                 define("SPEAKER_DESC_5","Partner w Hopa Studio / Warszawa");
                 define("SPEAKER_WEBSITE_5","hopastudio.com");
-                define("SPEAKER_LINK_5","https://pl.linkedin.com/in/piotr-holub-24bb9221");
 
                 define("SPEAKER_NAME_6","Marcin Paściak");
                 define("SPEAKER_DESC_6","Partner w Hopa Studio / Warszawa");
                 define("SPEAKER_WEBSITE_6","hopastudio.com");
-                define("SPEAKER_LINK_6","http://www.hopastudio.com");
 
                 define("SPEAKER_NAME_7","Grzegorz Róg");
                 define("SPEAKER_DESC_7","Właściciel w eduweb.pl / Warszawa");
                 define("SPEAKER_WEBSITE_7","eduweb.pl");
-                define("SPEAKER_LINK_7","https://pl.linkedin.com/in/grzegorzrog");
 
                 define("SPEAKER_NAME_8","Martyna Wędzicka");
                 define("SPEAKER_DESC_8","Partner w less. / Gdańsk");
                 define("SPEAKER_WEBSITE_8","lesstudio.pl");
-                define("SPEAKER_LINK_8","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
 
                 define("SPEAKER_NAME_9","Gosia Perkowska");
                 define("SPEAKER_DESC_9","Partner w less. / Gdańsk");
                 define("SPEAKER_WEBSITE_9","lesstudio.pl");
-                define("SPEAKER_LINK_9","http://lesstudio.pl");
 
                 define("SPEAKER_NAME_10","Patryk Hardziej");
                 define("SPEAKER_DESC_10","Właściciel w negation / Gdańsk");
                 define("SPEAKER_WEBSITE_10","negationstudio.com");
-                define("SPEAKER_LINK_10","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
 
                 define("SPEAKER_NAME_11","Wojciech Magierski");
                 define("SPEAKER_DESC_11","Digital Artist / Art Director / Kraków");
                 define("SPEAKER_WEBSITE_11","magierski.pl");
-                define("SPEAKER_LINK_11","https://www.behance.net/magierski/");
 
                 define("SPEAKER_NAME_12","Andrzej Jakuszko");
                 define("SPEAKER_DESC_12","Set Designer/ Poznań");
                 define("SPEAKER_WEBSITE_12","mutostudio.com");
-                define("SPEAKER_LINK_12","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
-
                 define("SPEAKER_NAME_13","Bartek Kotowicz");
                 define("SPEAKER_DESC_13","Właściciel brandingowy.pl / Gdańsk");
                 define("SPEAKER_WEBSITE_13","brandingowy.pl");
-                define("SPEAKER_LINK_13","https://www.linkedin.com/in/bartekkotowicz");
 
 //                schedule
                 define("PROGRAM_TITLE","Program");
@@ -206,6 +306,7 @@
                 define("ABOUT_US_TITLE_3","Organizatorzy projekcji");
                 define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów.");
 
+
 //                battles ???
                 define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski.");
                 define("BATTLES_2","Gotowi do bitwy?");
@@ -213,167 +314,7 @@
                 define("PROJECTS_LINK","Wróć do strony głównej");
 
 			break;
-			case "en":
-//			      common
-                define("LEARN_MORE","Learn more ???");
-                define("BATTLES","Bitwy graficzne ???");
-
-//                menu
-                define("LANGUAGE","Polish language ???");
-                define("HOMEPAGE","Strona główna ???");
-                define("SPEAKERS","Prelegenci ???");
-                define("PROGRAM","Program ???");
-                define("PLACE","Miejsce ???");
-                define("PARTNERS","Partnerzy ???");
-                define("ABOUT_US","O nas ???");
-                define("TICKETS","Bilety ???");
-                define("WORKSHOPS","Workshops ???");
-
-//			      main page
-                define("PROJECTS","Projekcje ???");
-
-                define("TITLE","Event dla projektantów ???");
-                define("NOTE","Przez projektantów ???");
-
-                define("CITY","Poznań ???");
-                define("COMPANY","Concordia Design ???");
-
-
-//                speakers
-                define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty. ???");
-
-//                schedule
-                define("PROGRAM_TITLE","Program ???");
-                define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej. ???");
-                define("PROGRAM_TITLE_2","Jesteśmy tutaj ???");
-                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland ???");
-                define("MONTH","November ???");
-                define("PROGRAM_TYPE_1","Prelekcje ???");
-                define("PROGRAM_TYPE_2","Warsztaty ???");
-                define("APPLY_WORKSHOP","Apply for workshop ???");
-                define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce ???");
-                define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki ???");
-                define("PROGRAM_DESCRIPTION_3","Ilustracje abstrakcyjne ???");
-                define("PROGRAM_DESCRIPTION_4","Inspiracja marką ???");
-                define("PROGRAM_DESCRIPTION_5","Something new... ???");
-
-//                venue
-                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland ???");
-                define("PLACE_TITLE_1","Sala expo w Concordia Design ???");
-                define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions. ???");
-                define("PLACE_TITLE_2","Sale warsztatowe w Concordia Design ???");
-                define("PLACE_DESCRIPTION_2","Spacious and easy to arrange – ideal for conferences, banquets,concerts, team-building events, fashion shows, and many other occasions. ???");
-                define("PLACE_TITLE_3","228 m² ???");
-                define("PLACE_DESCRIPTION_3","The interior can be freely divided to create additional space. ???");
-
-//                partners
-                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne. ???");
-                define("MAIN_PARTNERS","Główni sponsorzy ???");
-
-//                about
-                define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje ???");
-                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów ???");
-                define("ABOUT_US_DESC_1","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum. ???");
-                define("ABOUT_US_TITLE_2","Dla projektantów ???");
-                define("ABOUT_US_DESC_2","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum. ???");
-                define("ABOUT_US_TITLE_3","Organizatorzy projekcji ???");
-                define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów. ???");
-
-//                battles ???
-                define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski. ???");
-                define("BATTLES_2","Gotowi do bitwy? ???");
-                define("APPLY_TO_BATTLE","Dołącz do bitwy ! ???");
-                define("PROJECTS_LINK","Wróć do strony głównej ???");
-			break;
-			default:
-
-//			      common
-                define("LEARN_MORE","Learn more");
-                define("BATTLES","Bitwy graficzne");
-
-//                menu
-                define("LANGUAGE","English language");
-                define("HOMEPAGE","Strona główna");
-                define("SPEAKERS","Prelegenci");
-                define("PROGRAM","Program");
-                define("PLACE","Miejsce");
-                define("PARTNERS","Partnerzy");
-                define("ABOUT_US","O nas");
-                define("TICKETS","Bilety");
-                define("WORKSHOPS","Warsztaty");
-
-//			      main page
-                define("PROJECTS","Projekcje");
-
-                define("TITLE","Konferencja graficzna");
-                define("NOTE","dla miłośników designu");
-
-                define("CITY","Poznań");
-                define("COMPANY","Concordia Design");
-
-
-//                speakers
-                define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty.");
-
-//                schedule
-                define("PROGRAM_TITLE","Program");
-                define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
-                define("PROGRAM_TITLE_2","Jesteśmy tutaj");
-                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland");
-                define("MONTH","November");
-                define("PROGRAM_TYPE_1","Prelekcje");
-                define("PROGRAM_TYPE_2","Warsztaty");
-                define("APPLY_WORKSHOP","Apply for workshop");
-                define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce");
-                define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki");
-                define("PROGRAM_DESCRIPTION_3","Ilustracje abstrakcyjne");
-                define("PROGRAM_DESCRIPTION_4","Inspiracja marką");
-                define("PROGRAM_DESCRIPTION_5","Something new...");
-
-//               venue
-                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
-                define("PLACE_TITLE_1","Sala expo w Concordia Design");
-                define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions.");
-                define("PLACE_TITLE_2","Sale warsztatowe w Concordia Design");
-                define("PLACE_DESCRIPTION_2","Spacious and easy to arrange – ideal for conferences, banquets,concerts, team-building events, fashion shows, and many other occasions.");
-                define("PLACE_TITLE_3","228 m²");
-                define("PLACE_DESCRIPTION_3","The interior can be freely divided to create additional space.");
-
-//                partners
-                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
-                define("MAIN_PARTNERS","Główni sponsorzy");
-
-//                about
-                define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
-                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów");
-                define("ABOUT_US_DESC_1","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum.");
-                define("ABOUT_US_TITLE_2","Dla projektantów");
-                define("ABOUT_US_DESC_2","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum.");
-                define("ABOUT_US_TITLE_3","Organizatorzy projekcji");
-                define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów.");
-
-//                battles ???
-                define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski.");
-                define("BATTLES_2","Gotowi do bitwy?");
-                define("APPLY_TO_BATTLE","Dołącz do bitwy !");
-                define("PROJECTS_LINK","Wróć do strony głównej");
-			break;
 		}
+
 	}
 ?>
