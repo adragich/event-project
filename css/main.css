@@ -958,6 +958,10 @@ img{
 }
 .workshop-section{
     z-index: 1;
+     padding-top: 30px;
+}
+.workshop-section .block-content{
+    padding-left: 30px;
 }
 #firstPartWorkshops{
     width:154px;
@@ -1005,7 +1009,7 @@ img{
     line-height: 36px;
     max-width: 1070px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-left: 30px;
 }
 .blockSub {
     font-size: 18px;
@@ -2219,6 +2223,9 @@ input.hidden, select.hidden{
 @media (min-width: 1500px){
     /*workshops*/
 
+    .workshop-section .blockTitle, .workshop-section .block-content{
+        padding-left: 0;
+    }
     .owner{
         line-height: 80px;
         padding-top: 0;
@@ -2362,6 +2369,11 @@ input.hidden, select.hidden{
     }
 }
 @media (max-width: 1024px) {
+    /*workshops*/
+    .workshop-modal-section {
+        padding-top: 60px;
+    }
+    /**/
     /*error 404*/
     .error-inner {
         width: 100%;
