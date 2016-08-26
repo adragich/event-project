@@ -1912,7 +1912,7 @@ input.hidden, select.hidden{
     border-top:4px solid #dedede;
     border-left:4px solid #dedede;
 }
-.border:hover{
+a.border:hover{
     border-color: #3e3e3e;
 }
 .partner .inner a{
