@@ -123,7 +123,7 @@
 	<div class="workshop-popup" id="content2">
 
 		<div class="workshop-popup-header grey">
-			<div class="close modal" data-close="#content1">
+			<div class="close modal" data-close="#content2">
 				<span class="menu-close"></span>
 			</div>
 			<div class="workshop-popup-inner">
@@ -159,7 +159,7 @@
 	<div class="workshop-popup" id="content3">
 
 		<div class="workshop-popup-header grey">
-			<div class="close modal" data-close="#content1">
+			<div class="close modal" data-close="#content3">
 				<span class="menu-close"></span>
 			</div>
 			<div class="workshop-popup-inner">
