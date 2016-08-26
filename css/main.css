@@ -1976,13 +1976,17 @@ a.border:hover{
     right:0;
     top:0;
     position: absolute;
+    z-index: -1;
 }
-.placeWrap:first-child:before{
+.placeWrap:first-child:before {
     content: url('../img/partners/projections-partners_3.png');
     width: 16%;
-    margin-right: -67px;
-    top:146px;
+    left: 0;
+    padding-left: 67px;
+    top: 146px;
     position: absolute;
+    z-index: 1;
+    text-align: right;
 }
 .place-info > p{
     text-align: left;
