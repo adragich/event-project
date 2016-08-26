@@ -129,7 +129,7 @@
                 define("BATTLES","Bitwy graficzne ???");
 
 //                menu
-                define("LANGUAGE","English language ???");
+                define("LANGUAGE","Polish language ???");
                 define("HOMEPAGE","Strona główna ???");
                 define("SPEAKERS","Prelegenci ???");
                 define("PROGRAM","Program ???");

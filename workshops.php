@@ -87,7 +87,7 @@
 	<div class="workshop-popup" id="content1">
 
 		<div class="workshop-popup-header grey">
-			<div class="close" data-close="#content1">
+			<div class="close modal" data-close="#content1">
 				<span class="menu-close"></span>
 			</div>
 			<div class="workshop-popup-inner">
@@ -104,10 +104,10 @@
 						<a href="<?php echo $ticketsLink; ?>"
 						   class="event-link yellow transition modal">Bilety</a>
 					</p>
-					<p class="owner">Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna biletu
+					<p class="owner modal">Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna biletu
 						wraz  z warsztatem.
 					</p>
-					<p class="owner">
+					<p class="owner modal">
 						<span>Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem kto
 						pierwszy ten lepszy :)</span>
 					</p>
