@@ -923,22 +923,6 @@ img{
     padding-top: 60px;
 }
 
-/*modal 1520'*/
-.workshop-popup-header{
-    height: 480px;
-}
-.modal .menu-close {
-    margin: 0 44px 0 0;
-}
-.blockTitle.modal {
-    font-size: 53px;
-    line-height: 80px;padding-bottom: 0;
-}
-
-.blockTitle.small {
-    font-size: 25px;
-}
-/**/
 
 .event-link.modal{
     float: none;
@@ -1024,8 +1008,8 @@ img{
     padding-top: 30px;
 }
 .blockSub {
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 26px;
     height: 84px;
 }
 [class*='workshop'] .block-content {
@@ -1065,7 +1049,7 @@ img{
     line-height: 80px;
 }
 .workshop-inner{
-    padding: 55px;
+    padding: 25px;
     box-sizing: border-box;
     border: 3px solid transparent;
     cursor: pointer;
@@ -2229,6 +2213,31 @@ input.hidden, select.hidden{
     }
 }
 @media (min-width: 1500px){
+    /*workshops*/
+
+    .blockSub {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .workshop-popup-header{
+        height: 480px;
+    }
+    .modal .menu-close {
+        margin: 0 44px 0 0;
+    }
+    .blockTitle.modal {
+        font-size: 53px;
+        line-height: 80px;padding-bottom: 0;
+    }
+
+    .blockTitle.small {
+        font-size: 25px;
+    }
+
+    .workshop-inner {
+        padding: 55px;
+    }
+    /**/
 /*404 error*/
 
     .error-content .block-content {
@@ -2329,6 +2338,7 @@ input.hidden, select.hidden{
         top: 50%;
     }
 }
+
 @media (min-width: 678px) and  (max-width: 1024px){
     .speakers + .navigation {
         bottom: 32%;

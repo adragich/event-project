@@ -49,7 +49,7 @@
 	<section class="scrollableContent relative workshop-modal-section"
 			 data-parallax='{"y" : -150, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 		<div class="container">
-			<div class="col s12 xl4 l6 m4 workshop-block wow animated fadeInUp" data-wow-delay="0s">
+			<div class="col s12 l4 m6 workshop-block wow animated fadeInUp" data-wow-delay="0s">
 				<div class="workshop-inner left-align transition modal-trigger" data-open="#content1">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_1;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_1;?></p>
@@ -60,7 +60,7 @@
 					<p class="block-content"><?php echo WORKSHOPS_CONTENT_1;?></p>
 				</div>
 			</div>
-			<div class="col s12 xl4 l6 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.2s">
+			<div class="col s12 l4 m6 workshop-block wow animated fadeInUp" data-wow-delay="0.2s">
 				<div class="workshop-inner left-align transition modal-trigger" data-open="#content2">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_2;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_2;?></p>
@@ -71,7 +71,7 @@
 					<p class="block-content"><?php echo WORKSHOPS_CONTENT_2;?></p>
 				</div>
 			</div>
-			<div class="col s12 xl4 l6 m4 workshop-block wow animated fadeInUp" data-wow-delay="0.4s">
+			<div class="col s12 l4 m6 workshop-block wow animated fadeInUp" data-wow-delay="0.4s">
 				<div class="workshop-inner left-align transition modal-trigger" data-open="#content3">
 					<p class="blockTitle"><?php echo WORKSHOPS_TITLE_3;?></p>
 					<p class="blockSub"><?php echo WORKSHOPS_SUBTITLE_3;?></p>
