@@ -19,6 +19,11 @@ $(function() {
 	constructMenuLinks();
     scrollOptions();
 
+	$(".modal-trigger").click(function(){
+		var modal = $(this).attr("data-open");
+		$(modal).slideDown();
+		$("body").addClass("stick-temp");
+	});
 	// var url = getPathFromUrl(window.location.href);
 	// window.history.replaceState("", "", url);
 

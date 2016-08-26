@@ -298,7 +298,9 @@
 
 					<div class="form-control tiny flex flex-end" id="acceptedWrap">
 						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
-						<label for="accepted">Oświadczam, że zapoznałem się z Regulaminem “Bitwy Graficznej” i akceptuję jego treść.</label>
+						<label for="accepted">Oświadczam, że zapoznałem się z
+							<span class="bold modal-trigger" data-open="#content1">Regulaminem “Bitwy Graficznej”</span>
+							i akceptuję jego treść.</label>
 
 					</div>
 					<div class="form-control tiny flex flex-end">

@@ -2242,6 +2242,10 @@ input.hidden, select.hidden{
         padding-right: 200px;
     }
 }
+.modal-trigger{
+    cursor: pointer;
+    color: #525252;
+}
 @media (min-width: 1500px){
     /*workshops*/
     .workshop-popup-inner {
