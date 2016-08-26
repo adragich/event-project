@@ -1,9 +1,7 @@
 $(function(){
 	$(".modal-trigger").click(function(){
 		var modal = $(this).attr("data-open");
-		$(modal).fadeIn();
+		$(modal).slideUp();
 		$("body").addClass("stick-temp");
 	});
-
-
 });
