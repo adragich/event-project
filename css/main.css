@@ -1978,8 +1978,7 @@ a.border:hover{
     position: absolute;
 }
 .placeWrap:first-child:after{
-    content: url('');
-    background: #f6f6f6;
+    content: url('../img/partners/projections-partners_3.png');
     width: 84%;
     height:100%;
     right:0;
