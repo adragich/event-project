@@ -890,15 +890,18 @@ img{
 }
 
 /*workshops*/
+.modal .menu-close {
+    width: 35px;
+}
 .modal.close{
     height: 80px;
-/* width: 80px; */
     text-align: center;
     padding-top: 50px;
     top: -50px;
     right: 0;
     z-index: 1;
     position: relative;
+    max-width: 100%;
 }
 .workshop-popup img{
     object-fit: cover;
