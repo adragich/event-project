@@ -1958,10 +1958,12 @@ a.border:hover{
 .placeLogo{
     position: absolute;
     height: 49px;
-    width: 169px;
+    width: 16%;
     z-index: 1;
-    left: 18%;
+    left: 0;
     top: 20%;
+    padding-left: 67px;
+    text-align: right;
 }
 .place-section{
     padding-top: 50px;

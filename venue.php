@@ -43,7 +43,9 @@
 		 id="placeInfoSection">
 	<div class="container">
 		<div class="col l12 m12 s12 placeWrap flex flex-center fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
-			<img src="img/partners/projections-partners_3.png" alt="" class="placeLogo">
+			<div class="placeLogo">
+				<img src="img/partners/projections-partners_3.png" alt="Concordia Design">
+			</div>
 			<div class="col l5 s12 place-photo animated fadeInUp wow" data-wow-delay="0.5s">
 				<img src="img/place/projections-venue_1.jpg" alt="Sala expo w Concordia Design">
 			</div>
