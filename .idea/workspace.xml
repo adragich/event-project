@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workshops.php" afterPath="$PROJECT_DIR$/workshops.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/partials.js" afterPath="$PROJECT_DIR$/js/partials.js" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,14 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partials.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="partials.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/partials.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#generateFigure#0" expanded="false" />
-                <element signature="e#2727#3414#0" expanded="false" />
+                <element signature="e#2842#3529#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/workshops.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -170,10 +170,10 @@
         <option value="$PROJECT_DIR$/partials/preloader-battles.html" />
         <option value="$PROJECT_DIR$/partials/preloader-workshops.html" />
         <option value="$PROJECT_DIR$/js/workshops.js" />
-        <option value="$PROJECT_DIR$/js/partials.js" />
         <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/workshops.php" />
+        <option value="$PROJECT_DIR$/js/partials.js" />
       </list>
     </option>
   </component>
@@ -411,12 +411,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="60616000" />
+      <workItem from="1471955447206" duration="60805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179670000" />
+    <option name="totallyTimeSpent" value="179859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="23" width="1399" height="877" extended-state="0" />
@@ -762,17 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/partials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!block;n#generateFigure#0" expanded="false" />
-            <element signature="e#2727#3414#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/workshops.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -826,6 +815,17 @@
         <state relative-caret-position="252">
           <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/partials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#generateFigure#0" expanded="false" />
+            <element signature="e#2842#3529#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

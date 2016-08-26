@@ -11,9 +11,16 @@ function constructMenuLinks(){
 		- parseInt($(".lang a").css("line-height")) - $(".socials a").height() - parseInt($(".socials").css("bottom"))) / li.length ;
 	li.css("line-height", height + "px"); 
 }
+
+function getPathFromUrl(url) {
+	return url.split("?")[0];
+}
 $(function() {
 	constructMenuLinks();
     scrollOptions();
+
+	window.location = getPathFromUrl(window.location);
+
 
 	$('a[href="#"]').click(function(e){
 		e.preventDefault();
