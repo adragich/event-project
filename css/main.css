@@ -1116,10 +1116,10 @@ img{
     background: rgba(255, 235, 62, 0.84);
     height:100%;
 }
-.workshop-inner:hover .filter:before{
+.yellow-hover:hover .filter:before{
     left:0;
 }
-.workshop-inner:hover .filter:after{
+.yellow-hover:hover .filter:after{
     opacity: 1;
 }
 /**/

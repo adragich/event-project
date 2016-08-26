@@ -114,9 +114,11 @@
 				<div class="team-sector">
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
-							<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank">
-								<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
-							</a>
+							<div class="yellow-hover">
+								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank" class="filter">
+									<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
+								</a>
+							</div>
 
 							<p class="blockTitle">
 								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank">
@@ -128,9 +130,11 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
+							<div class="filter">
 							<a href="<?php echo BATTLES_LINK_2; ?>" target="_blank">
 								<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
 							</a>
+							</div>
 							<p class="blockTitle">
 								<a href="<?php echo BATTLES_LINK_2; ?>" target="_blank">
 									Piotr Płoch
@@ -141,9 +145,11 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
+							<div class="filter">
 							<a href="<?php echo BATTLES_LINK_3; ?>" target="_blank">
 								<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
 							</a>
+							</div>
 							<p class="blockTitle">
 								<a href="<?php echo BATTLES_LINK_3; ?>" target="_blank">
 									Krzysztof Łabno
@@ -156,9 +162,11 @@
 				<div class="team-sector">
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
+							<div class="filter">
 							<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank">
 								<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
 							</a>
+							</div>
 							<p class="blockTitle">
 								<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank">
 									Kamil Sarnowski
@@ -169,9 +177,11 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
+							<div class="filter">
 							<a href="<?php echo BATTLES_LINK_5; ?>" target="_blank">
 								<img src="img/figures/teams/projections-bitwy_14.png" alt="Team logo">
 							</a>
+							</div>
 							<p class="blockTitle">
 								<a href="<?php echo BATTLES_LINK_5; ?>" target="_blank">
 									Adrian Knopik
@@ -182,9 +192,11 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
+							<div class="filter">
 							<a href="<?php echo BATTLES_LINK_6; ?>" target="_blank">
 								<img src="img/figures/teams/projections-bitwy_16.png" alt="Team logo">
 							</a>
+							</div>
 							<p class="blockTitle">
 								<a href="<?php echo BATTLES_LINK_6; ?>" target="_blank">
 									Jacek Janiczak
