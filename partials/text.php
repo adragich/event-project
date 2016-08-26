@@ -28,6 +28,29 @@
 
 //        partners
         define("PARTNER_LINK_1","http://allegro.pl");
+        define("PARTNER_LINK_2","https://redro.pl");
+        define("PARTNER_LINK_3","http://allegro.pl");
+        define("PARTNER_LINK_4","http://allegro.pl");
+        define("PARTNER_LINK_5","http://allegro.pl");
+        define("PARTNER_LINK_6","http://allegro.pl");
+        define("PARTNER_LINK_7","http://allegro.pl");
+        define("PARTNER_LINK_8","http://allegro.pl");
+        define("PARTNER_LINK_9","http://allegro.pl");
+        define("PARTNER_LINK_10","http://allegro.pl");
+        define("PARTNER_LINK_11","http://allegro.pl");
+        define("PARTNER_LINK_12","http://allegro.pl");
+        define("PARTNER_LINK_13","http://allegro.pl");
+        define("PARTNER_LINK_14","http://allegro.pl");
+        define("PARTNER_LINK_15","http://allegro.pl");
+        define("PARTNER_LINK_16","http://allegro.pl");
+        define("PARTNER_LINK_17","http://allegro.pl");
+        define("PARTNER_LINK_18","http://allegro.pl");
+        define("PARTNER_LINK_19","http://allegro.pl");
+        define("PARTNER_LINK_20","http://allegro.pl");
+        define("PARTNER_LINK_21","http://allegro.pl");
+        define("PARTNER_LINK_22","http://allegro.pl");
+        define("PARTNER_LINK_23","http://allegro.pl");
+        define("PARTNER_LINK_24","http://allegro.pl");
 
 //        about
         define("ABOUT_LINK_1","https://www.behance.net/kommunikat");
