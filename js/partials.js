@@ -19,8 +19,8 @@ $(function() {
 	constructMenuLinks();
     scrollOptions();
 
-	var url = getPathFromUrl(window.location.href);
-	window.history.replaceState("", "", url);
+	// var url = getPathFromUrl(window.location.href);
+	// window.history.replaceState("", "", url);
 
 	$('a[href="#"]').click(function(e){
 		e.preventDefault();
