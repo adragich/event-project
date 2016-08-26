@@ -49,7 +49,7 @@
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
 						 data-wow-delay="<?php echo 0.1*$i;?>s">
 						<div class="inner transition">
-							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
+							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center border" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
 									 alt="<?php echo PARTNERS;?>" class="partner-image">
 							</a>
@@ -65,12 +65,19 @@
 				<?php for($i = 3; $i < 13; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
 						 data-wow-delay="<?php echo 0.1*($i-2);?>s">
+						<?php if($i == 7 ) {?>
+							<div class="inner flex flex-center center-align border">
+									<img src="img/partners/projections-partners_<?php echo $i ?>.png"
+										 alt="<?php echo PARTNERS;?>" class="partner-image">
+							</div>
+						<?php } else{ ?>
 						<div class="inner transition">
-							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
+							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center border" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
 									 alt="<?php echo PARTNERS;?>" class="partner-image">
 							</a>
 						</div>
+						<?php } ?>
 					</div>
 				<?php } ?>
 			</div>
@@ -83,7 +90,7 @@
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
 						 data-wow-delay="<?php echo 0.1*($i-12);?>s">
 						<div class="inner transition">
-							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
+							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center border" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
 									 alt="<?php echo PARTNERS;?>" class="partner-image">
 							</a>
@@ -100,7 +107,7 @@
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
 						 data-wow-delay="<?php echo 0.1*($i-20);?>s">
 						<div class="inner transition">
-							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
+							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center border" target="_blank">
 								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
 									 alt="<?php echo PARTNERS;?>" class="partner-image">
 							</a>

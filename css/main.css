@@ -1908,7 +1908,11 @@ input.hidden, select.hidden{
     padding-left: 47px;
     margin-bottom: 105px;
 }
-.partner .inner:hover{
+.border{
+    border-top:4px solid #dedede;
+    border-left:4px solid #dedede;
+}
+.border:hover{
     border-color: #3e3e3e;
 }
 .partner .inner a{
@@ -1917,8 +1921,6 @@ input.hidden, select.hidden{
 .partner .inner{
     height:124px;
     max-width: 290px;
-    border-top:4px solid #dedede;
-    border-left:4px solid #dedede;
 }
 .sponsors:not(last-child){
     margin-bottom: 45px;

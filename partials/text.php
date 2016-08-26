@@ -29,28 +29,33 @@
 //        partners
         define("PARTNER_LINK_1","http://allegro.pl");
         define("PARTNER_LINK_2","https://redro.pl");
-        define("PARTNER_LINK_3","http://allegro.pl");
-        define("PARTNER_LINK_4","http://allegro.pl");
-        define("PARTNER_LINK_5","http://allegro.pl");
-        define("PARTNER_LINK_6","http://allegro.pl");
-        define("PARTNER_LINK_7","http://allegro.pl");
-        define("PARTNER_LINK_8","http://allegro.pl");
-        define("PARTNER_LINK_9","http://allegro.pl");
-        define("PARTNER_LINK_10","http://allegro.pl");
-        define("PARTNER_LINK_11","http://allegro.pl");
-        define("PARTNER_LINK_12","http://allegro.pl");
-        define("PARTNER_LINK_13","http://allegro.pl");
-        define("PARTNER_LINK_14","http://allegro.pl");
-        define("PARTNER_LINK_15","http://allegro.pl");
-        define("PARTNER_LINK_16","http://allegro.pl");
-        define("PARTNER_LINK_17","http://allegro.pl");
-        define("PARTNER_LINK_18","http://allegro.pl");
-        define("PARTNER_LINK_19","http://allegro.pl");
-        define("PARTNER_LINK_20","http://allegro.pl");
-        define("PARTNER_LINK_21","http://allegro.pl");
-        define("PARTNER_LINK_22","http://allegro.pl");
-        define("PARTNER_LINK_23","http://allegro.pl");
-        define("PARTNER_LINK_24","http://allegro.pl");
+
+        define("PARTNER_LINK_3","https://www.concordiadesign.pl");
+        define("PARTNER_LINK_4","http://purohotel.pl/poznan");
+        define("PARTNER_LINK_5","http://stgu.pl");
+        define("PARTNER_LINK_6","http://eduweb.pl");
+
+//        define("PARTNER_LINK_7","http://allegro.pl");
+
+        define("PARTNER_LINK_8","http://www.cssdesignawards.com");
+        define("PARTNER_LINK_9","http://visualheads.pl");
+        define("PARTNER_LINK_10","https://krugerlegal.com/pl/");
+        define("PARTNER_LINK_11","http://torpedov.com");
+        define("PARTNER_LINK_12","http://brandingowy.pl");
+
+        define("PARTNER_LINK_13","http://wtk.pl");
+        define("PARTNER_LINK_14","http://hatalska.com");
+        define("PARTNER_LINK_15","http://tuumagazyn.pl");
+        define("PARTNER_LINK_16","http://grafmag.pl");
+        define("PARTNER_LINK_17","http://nowymarketing.pl");
+        define("PARTNER_LINK_18","http://epoznan.pl");
+        define("PARTNER_LINK_19","http://www.gloswielkopolski.pl");
+        define("PARTNER_LINK_20","http://poznan.naszemiasto.pl");
+
+        define("PARTNER_LINK_21","https://www.behance.net/kommunikat");
+        define("PARTNER_LINK_22","http://piotrswierkowski.com");
+        define("PARTNER_LINK_23","https://www.behance.net/edmk");
+        define("PARTNER_LINK_24","http://fromsquare.com");
 
 //        about
         define("ABOUT_LINK_1","https://www.behance.net/kommunikat");
