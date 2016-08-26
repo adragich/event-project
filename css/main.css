@@ -2426,6 +2426,14 @@ a.border:hover{
 }
 @media (max-width: 1024px) {
     /*workshops*/
+    .modal .close {
+        padding-top: 30px;
+        top: 0;
+        position: absolute;
+    }
+    .modal .menu-close {
+        margin: 0 30px 0 0;
+    }
     .workshop-popup-footer {
         padding-top: 60px;
         padding-bottom: 100px;
