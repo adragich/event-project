@@ -224,7 +224,7 @@
 
                 define("SPEAKER_NAME_11","Allegro");
                 define("SPEAKER_DESC_11","Allegro");
-                define("SPEAKER_WEBSITE_11","www.allegro.pl");
+                define("SPEAKER_WEBSITE_11","allegro.pl");
 
                 define("SPEAKER_NAME_12","Wojciech Magierski");
                 define("SPEAKER_DESC_12","Digital Artist / Art Director / Kraków");

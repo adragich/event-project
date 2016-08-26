@@ -51,7 +51,8 @@
 							<p class="blockTitle"><?php echo constant(SPEAKER_NAME_.$i);?></p>
 							<p class="block-content"><?php echo constant(SPEAKER_DESC_.$i);?> _</p>
 							<p class="block-note">
-								<a href="<?php echo constant(SPEAKER_WEBSITE_.$i);?>">
+								<a href="www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
+									target="_blank">
 									<?php echo constant(SPEAKER_WEBSITE_.$i);?>
 								</a>
 							</p>
