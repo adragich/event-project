@@ -34,6 +34,11 @@
         define("ABOUT_LINK_3","https://pl.linkedin.com/in/ewelinadmk");
         define("ABOUT_LINK_4","https://www.behance.net/fromsquare");
 
+        define("ABOUT_IMAGE_1","projections-about_03.png");
+        define("ABOUT_IMAGE_2","projections-about_07.png");
+        define("ABOUT_IMAGE_3","projections-about_11.png");
+        define("ABOUT_IMAGE_4","projections-about_15.png");
+
 		switch($_SESSION['lang']) {
 			case "en":
 //			      common
@@ -305,6 +310,22 @@
 							PageMaker including versions of Lorem Ipsum.");
                 define("ABOUT_US_TITLE_3","Organizatorzy projekcji");
                 define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów.");
+
+                define("ABOUT_TITLE_1","Kommunikat");
+                define("ABOUT_SUBTITLE_1","Brand Design Studio");
+                define("ABOUT_WEBSITE_1","www.behance.net/kommunikat");
+
+                define("ABOUT_TITLE_2","Piotr Świerkowski");
+                define("ABOUT_SUBTITLE_2","Owner / Art Director at Torpedov.com");
+                define("ABOUT_WEBSITE_2","www.torpedov.com");
+
+                define("ABOUT_TITLE_3","Ewelina Dymek");
+                define("ABOUT_SUBTITLE_3","Illustrator at Uniforma Studio");
+                define("ABOUT_WEBSITE_3","www.behance.net/edmk");
+
+                define("ABOUT_TITLE_4","Fromsquare");
+                define("ABOUT_SUBTITLE_4","Design Studio");
+                define("ABOUT_WEBSITE_4","www.fromsquare.com");
 
 
 //                battles ???

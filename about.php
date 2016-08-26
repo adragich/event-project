@@ -83,11 +83,11 @@
 		<div class="container">
 			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp" data-parallax='{"y" : -200, "from-scroll": 200, "distance": 1400, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/speakers/Piotr-Swierkowski.jpg" alt="Piotr Swierkowski">
+					<img src="img/about/<?php echo ABOUT_IMAGE_1;?>" alt="<?php echo ABOUT_TITLE_1;?>">
 					<div class="l12 speaker-info">
-						<p class="blockTitle">Piotr Swierkowski</p>
-						<p class="block-content">Owner/Art Director at torpedov.com _</p>
-						<p class="block-note">www.torpedov.com</p>
+						<p class="blockTitle"><?php echo ABOUT_TITLE_1;?></p>
+						<p class="block-content"><?php echo ABOUT_SUBTITLE_1;?> _</p>
+						<p class="block-note"><?php echo ABOUT_WEBSITE_1;?></p>
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
@@ -95,13 +95,14 @@
 						target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
-			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
+			<div class="col xl6 l12 m12 s12 speakerWrap"
+				 data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 40}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/speakers/Kuba-Enzowski.jpg" alt="Kuba Enzowski">
+					<img src="img/about/<?php echo ABOUT_IMAGE_2;?>" alt="<?php echo ABOUT_TITLE_2;?>">
 					<div class="l12 speaker-info">
-						<p class="blockTitle">Kuba Enzowski</p>
-						<p class="block-content">Owner at Komunikat _</p>
-						<p class="block-note">behance.net/komunikat</p>
+						<p class="blockTitle"><?php echo ABOUT_TITLE_2;?></p>
+						<p class="block-content"><?php echo ABOUT_SUBTITLE_2;?> _</p>
+						<p class="block-note"><?php echo ABOUT_WEBSITE_2;?></p>
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
@@ -109,13 +110,14 @@
 					   target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
-			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
+			<div class="col xl6 l12 m12 s12 speakerWrap"
+				 data-parallax='{"y" : -300, "from-scroll": 300, "distance": 1400, "smoothness": 20}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/speakers/Natalia-Zerko.jpg" alt="Natalia Żerko">
+					<img src="img/about/<?php echo ABOUT_IMAGE_3;?>" alt="<?php echo ABOUT_TITLE_3;?>">
 					<div class="l12 speaker-info">
-						<p class="blockTitle">Natalia Żerko</p>
-						<p class="block-content">Head and Art Directior / illustrator w Komunikat _</p>
-						<p class="block-note">behance.net/komunikat</p>
+						<p class="blockTitle"><?php echo ABOUT_TITLE_3;?></p>
+						<p class="block-content"><?php echo ABOUT_SUBTITLE_3;?> _</p>
+						<p class="block-note"><?php echo ABOUT_WEBSITE_3;?></p>
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
@@ -123,13 +125,14 @@
 					   target="_blank"><?php echo LEARN_MORE;?></a>
 				</div>
 			</div>
-			<div class="col xl6 l12 m12 s12 speakerWrap" data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
+			<div class="col xl6 l12 m12 s12 speakerWrap"
+				 data-parallax='{"y" : -250, "from-scroll": 300, "distance": 1600, "smoothness": 10}'>
 				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<img src="img/speakers/Ewelina-Dymek.jpg" alt="Ewelina Dymek">
+					<img src="img/about/<?php echo ABOUT_IMAGE_4;?>" alt="<?php echo ABOUT_TITLE_4;?>">
 					<div class="l12 speaker-info">
-						<p class="blockTitle">Ewelina Dymek</p>
-						<p class="block-content">Branding Studio _</p>
-						<p class="block-note">behance.net/edmk</p>
+						<p class="blockTitle"><?php echo ABOUT_TITLE_4;?></p>
+						<p class="block-content"><?php echo ABOUT_SUBTITLE_4;?> _</p>
+						<p class="block-note"><?php echo ABOUT_WEBSITE_4;?></p>
 					</div>
 				</div>
 				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
