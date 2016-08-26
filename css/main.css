@@ -366,10 +366,10 @@ img{
 }
 
 
-.modal .menu-close {
+.menu-close {
     width: 35px;
 }
-.modal.close{
+.close{
     height: 80px;
     text-align: center;
     padding-top: 50px;
