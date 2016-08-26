@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo TITLE;?></title>
+	<title><?php echo META_TITLE;?></title>
 	<?php
 		@include("partials/head.php")
 	?>

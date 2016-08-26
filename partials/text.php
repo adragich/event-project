@@ -71,6 +71,7 @@
 
 		switch($_SESSION['lang']) {
 			case "en":
+                define("META_TITLE","Projekcje - Design Conference");
 //			      common
                 define("LEARN_MORE","Learn more ???");
                 define("BATTLES","Bitwy graficzne ???");
@@ -155,6 +156,7 @@
 //			      common
                 define("LEARN_MORE","Więcej");
                 define("BATTLES","Bitwy graficzne");
+                define("META_TITLE","Projekcje - Konferencja graficzna");
 
 //                menu
                 define("LANGUAGE","English language");
