@@ -97,7 +97,7 @@
 					<div class="col xl3 l3 m6 s12 partner">
 						<div class="inner transition">
 							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
-								<img src="img/about/projections-about_<?php echo $i ?>.png"
+								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
 									 alt="<?php echo PARTNERS;?>" class="partner-image">
 							</a>
 						</div>
