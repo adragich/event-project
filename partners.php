@@ -54,9 +54,11 @@
 					</div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition">
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
 						<img src="img/partners/projections-partners_03.png"
 							 alt="Redro" class="partner-image">
+						</a>
 					</div>
 				</div>
 			</div>
@@ -66,20 +68,32 @@
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_05.png"
-															 alt="CSSDesignAwards" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_05.png"
+															 alt="CSSDesignAwards" class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_06.png"
-															 alt="eduweb" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_06.png"
+															 alt="eduweb" class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_07.png"
-															 alt="Komm." class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_07.png"
+															 alt="Komm." class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_08.png"
-															 alt="Torpedov" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_08.png"
+															 alt="Torpedov" class="partner-image">
+						</a></div>
 				</div>
 			</div>
 		</div>
@@ -88,20 +102,32 @@
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_05.png"
-															 alt="CSSDesignAwards" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_05.png"
+								 alt="CSSDesignAwards" class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_06.png"
-															 alt="eduweb" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_06.png"
+								 alt="eduweb" class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_07.png"
-															 alt="Komm." class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_07.png"
+								 alt="Komm." class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_08.png"
-															 alt="Torpedov" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_08.png"
+								 alt="Torpedov" class="partner-image">
+						</a></div>
 				</div>
 			</div>
 		</div>
@@ -110,20 +136,32 @@
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_05.png"
-															 alt="CSSDesignAwards" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_05.png"
+								 alt="CSSDesignAwards" class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_06.png"
-															 alt="eduweb" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_06.png"
+								 alt="eduweb" class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_07.png"
-															 alt="Komm." class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_07.png"
+								 alt="Komm." class="partner-image">
+						</a></div>
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center transition"><img src="img/partners/projections-partners_08.png"
-															 alt="Torpedov" class="partner-image"></div>
+					<div class="inner transition">
+						<a href="<?php echo PARTNER_LINK_2; ?>" class="center-align flex flex-center" target="_blank">
+							<img src="img/partners/projections-partners_08.png"
+								 alt="Torpedov" class="partner-image">
+						</a></div>
 				</div>
 			</div>
 		</div>
