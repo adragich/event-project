@@ -1961,9 +1961,10 @@ a.border:hover{
     width: 16%;
     z-index: 1;
     left: 0;
-    top: 20%;
+    top: 50px;
     padding-left: 67px;
     text-align: right;
+    min-width: 169px;
 }
 .place-section{
     padding-top: 50px;
@@ -2920,6 +2921,10 @@ a.border:hover{
         background: #fff;
     }
     /*place*/
+
+    .placeLogo {
+        top: 20%;
+    }
     .grey-corner-left-top {
         left: 176px;
     }
@@ -3536,6 +3541,10 @@ a.border:hover{
     /**/
 
     /*place*/
+    .placeLogo {
+        top: 20px;
+        padding-left: 10px;
+    }
     .place-section {
         margin-top: 0;
         margin-bottom: 80px;
