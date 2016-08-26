@@ -3111,6 +3111,36 @@ input.hidden, select.hidden{
 }
 
 @media (max-width: 675px){
+    /*workshops*/
+    #firstPartWorkshops {
+        top: 100px;
+        right: 71px;
+        width: 100px;
+        height: 90px;
+    }
+    #secondPartWorkshops {
+        top: 120px;
+        right: 31px;
+        width: 40px;
+        height: 70px;
+    }
+    #thirdPartWorkshops {
+        width: 70px;
+        height: 30px;
+    }
+    .overlapThirdFigure {
+        top: 182px;
+        right: 65px;
+    }
+    #fourthPartWorkshops {
+        width: 30px;
+        height: 60px;
+    }
+    .overlapFourthFigure {
+        top: 170px;
+        right: 47px;
+    }
+    /**/
     .anim-space {
         height: 157px;
         margin: 0;
