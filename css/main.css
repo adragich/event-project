@@ -2285,6 +2285,14 @@ a.border:hover{
     color: #525252;
 }
 @media (min-width: 1500px){
+    /*place*/
+
+    .placeLogo {
+        top: 20%;
+    }
+    .grey-corner-left-top {
+        left: 176px;
+    }
     /*workshops*/
     .workshop-popup-inner {
         padding: 0;
@@ -2922,12 +2930,6 @@ a.border:hover{
     }
     /*place*/
 
-    .placeLogo {
-        top: 20%;
-    }
-    .grey-corner-left-top {
-        left: 176px;
-    }
     #topPartPlace {
         width: 78px;
         height: 78px;
