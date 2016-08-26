@@ -58,10 +58,10 @@
         define("ABOUT_LINK_3","https://pl.linkedin.com/in/ewelinadmk");
         define("ABOUT_LINK_4","https://www.behance.net/fromsquare");
 
-        define("ABOUT_IMAGE_1","projections-about_03.png");
-        define("ABOUT_IMAGE_2","projections-about_07.png");
-        define("ABOUT_IMAGE_3","projections-about_11.png");
-        define("ABOUT_IMAGE_4","projections-about_15.png");
+        define("ABOUT_IMAGE_1","projections-about_21.png");
+        define("ABOUT_IMAGE_2","projections-about_22.png");
+        define("ABOUT_IMAGE_3","projections-about_23.png");
+        define("ABOUT_IMAGE_4","projections-about_24.png");
 
 		switch($_SESSION['lang']) {
 			case "en":

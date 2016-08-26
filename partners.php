@@ -61,7 +61,7 @@
 			<p class="blockTitle"><?php echo PARTNERS;?>
 			</p>
 			<div>
-				<?php for($i = 3; $i < 12; $i++){?>
+				<?php for($i = 3; $i < 13; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner">
 						<div class="inner transition">
 							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
@@ -77,96 +77,32 @@
 			<p class="blockTitle"><?php echo MEDIA;?>
 			</p>
 			<div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_13; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_05.png"
-								 alt="CSSDesignAwards" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_14; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_06.png"
-								 alt="eduweb" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_15; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_07.png"
-								 alt="Komm." class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_16; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_08.png"
-								 alt="Torpedov" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_17; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_05.png"
-								 alt="CSSDesignAwards" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_18; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_06.png"
-								 alt="eduweb" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_19; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_07.png"
-								 alt="Komm." class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_20; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_08.png"
-								 alt="Torpedov" class="partner-image">
-						</a></div>
-				</div>
+				<?php for($i = 13; $i < 21; $i++){?>
+					<div class="col xl3 l3 m6 s12 partner">
+						<div class="inner transition">
+							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
+								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
+									 alt="<?php echo PARTNERS;?>" class="partner-image">
+							</a>
+						</div>
+					</div>
+				<?php } ?>
 			</div>
 		</div>
 		<div class="sponsors col l12 left-align">
 			<p class="blockTitle"><?php echo ORGS;?>
 			</p>
 			<div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_21; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_05.png"
-								 alt="CSSDesignAwards" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_22; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_06.png"
-								 alt="eduweb" class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_23; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_07.png"
-								 alt="Komm." class="partner-image">
-						</a></div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_24; ?>" class="center-align flex flex-center" target="_blank">
-							<img src="img/partners/projections-partners_08.png"
-								 alt="Torpedov" class="partner-image">
-						</a></div>
-				</div>
+				<?php for($i = 21; $i < 25; $i++){?>
+					<div class="col xl3 l3 m6 s12 partner">
+						<div class="inner transition">
+							<a href="<?php echo PARTNER_LINK_.$i; ?>" class="center-align flex flex-center" target="_blank">
+								<img src="img/about/projections-about_<?php echo $i ?>.png"
+									 alt="<?php echo PARTNERS;?>" class="partner-image">
+							</a>
+						</div>
+					</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>

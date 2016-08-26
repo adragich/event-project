@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about/projections-about_21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about/projections-about_22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about/projections-about_23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/about/projections-about_24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partners/projections-partners_20.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/projections-about_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/projections-about_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/projections-about_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/about/projections-about_04.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.php" afterPath="$PROJECT_DIR$/partners.php" />
     </list>
     <ignored path="event-project.iws" />
@@ -41,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675">
-              <caret line="57" column="101" selection-start-line="57" selection-start-column="101" selection-end-line="57" selection-end-column="101" />
+            <state relative-caret-position="-435">
+              <caret line="89" column="44" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -75,15 +93,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partners.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partners.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="226">
+              <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
               <folding>
-                <marker date="1472212220000" expanded="true" signature="1826:1827" ph="..." />
-                <marker date="1472212220000" expanded="true" signature="2365:2381" ph="..." />
-                <marker date="1472212220000" expanded="true" signature="5021:5037" ph="..." />
+                <marker date="1472212916000" expanded="true" signature="1826:1827" ph="..." />
+                <marker date="1472212916000" expanded="true" signature="2365:2372" ph="..." />
+                <marker date="1472212916000" expanded="true" signature="2904:2911" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,8 +110,8 @@
       <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="e#3449#8037#0#PHP" expanded="false" />
               </folding>
@@ -161,8 +179,8 @@
         <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/actions/swiftmailer.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/partners.php" />
+        <option value="$PROJECT_DIR$/partials/text.php" />
       </list>
     </option>
   </component>
@@ -302,6 +320,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partners" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,12 +502,12 @@
       <workItem from="1471947996984" duration="1968000" />
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
-      <workItem from="1471955447206" duration="79064000" />
+      <workItem from="1471955447206" duration="79812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198118000" />
+    <option name="totallyTimeSpent" value="198866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1346" height="877" extended-state="0" />
@@ -797,14 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="57" column="101" selection-start-line="57" selection-start-column="101" selection-end-line="57" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -848,14 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="318" column="14" selection-start-line="318" selection-start-column="14" selection-end-line="318" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -878,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding>
             <element signature="e#3449#8037#0#PHP" expanded="false" />
           </folding>
@@ -888,13 +908,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partners.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="226">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
           <folding>
-            <marker date="1472212220000" expanded="true" signature="1826:1827" ph="..." />
-            <marker date="1472212220000" expanded="true" signature="2365:2381" ph="..." />
-            <marker date="1472212220000" expanded="true" signature="5021:5037" ph="..." />
+            <marker date="1472212916000" expanded="true" signature="1826:1827" ph="..." />
+            <marker date="1472212916000" expanded="true" signature="2365:2372" ph="..." />
+            <marker date="1472212916000" expanded="true" signature="2904:2911" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="318" column="14" selection-start-line="318" selection-start-column="14" selection-end-line="318" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
