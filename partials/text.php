@@ -33,7 +33,7 @@
         define("ABOUT_LINK_2","https://pl.linkedin.com/in/piotr-swierkowski-24728499");
         define("ABOUT_LINK_3","https://pl.linkedin.com/in/ewelinadmk");
         define("ABOUT_LINK_4","https://www.behance.net/fromsquare");
-        
+
 		switch($_SESSION['lang']) {
 			case "en":
 //			      common
