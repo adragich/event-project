@@ -349,11 +349,6 @@ img{
     padding: 20px 0;
     position:fixed;
 }
-.close{
-    width: 10%;
-    float: right;
-    cursor: pointer;
-}
 .menu-close{
     float: right;
     height: 4px;
@@ -364,12 +359,10 @@ img{
     border-top: none;
     box-sizing: border-box;
 }
-
-
-.menu-close {
-    width: 35px;
-}
 .close{
+    width: 10%;
+    float: right;
+    cursor: pointer;
     height: 80px;
     text-align: center;
     padding-top: 50px;
@@ -380,6 +373,13 @@ img{
     max-width: 100%;
 }
 
+.sideBar .close {
+    padding-right: 44px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    min-width: 100px;
+}
 .socials{
     position: absolute;
     right: 35px;
