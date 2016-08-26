@@ -1078,6 +1078,10 @@ img{
     border: 3px solid transparent;
     cursor: pointer;
 }
+.filter{
+    position: relative;
+    display: block;
+}
 .filter:after, .filter:before {
     transition: 0.5s ease;
     -ms-transition: 0.5s ease;
@@ -1629,7 +1633,7 @@ img{
     box-sizing: border-box;
     margin-left: 100px;
 }
-.team img{
+.team .figure{
     margin-bottom: 30px;
 }
 

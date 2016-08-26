@@ -114,7 +114,7 @@
 				<div class="team-sector">
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
-							<div class="yellow-hover">
+							<div class="yellow-hover figure">
 								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank" class="filter">
 									<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
 								</a>
@@ -130,8 +130,8 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
-							<div class="filter">
-							<a href="<?php echo BATTLES_LINK_2; ?>" target="_blank">
+							<div class="yellow-hover figure">
+							<a href="<?php echo BATTLES_LINK_2; ?>" target="_blank" class="filter">
 								<img src="img/figures/teams/projections-bitwy_05.png" alt="Team logo">
 							</a>
 							</div>
@@ -145,8 +145,8 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
-							<div class="filter">
-							<a href="<?php echo BATTLES_LINK_3; ?>" target="_blank">
+							<div class="yellow-hover figure">
+							<a href="<?php echo BATTLES_LINK_3; ?>" target="_blank" class="filter">
 								<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
 							</a>
 							</div>
@@ -162,8 +162,8 @@
 				<div class="team-sector">
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
-							<div class="filter">
-							<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank">
+							<div class="yellow-hover figure">
+							<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank" class="filter">
 								<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
 							</a>
 							</div>
@@ -177,8 +177,8 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
-							<div class="filter">
-							<a href="<?php echo BATTLES_LINK_5; ?>" target="_blank">
+							<div class="yellow-hover figure">
+							<a href="<?php echo BATTLES_LINK_5; ?>" target="_blank" class="filter">
 								<img src="img/figures/teams/projections-bitwy_14.png" alt="Team logo">
 							</a>
 							</div>
@@ -192,8 +192,8 @@
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
-							<div class="filter">
-							<a href="<?php echo BATTLES_LINK_6; ?>" target="_blank">
+							<div class="yellow-hover figure">
+							<a href="<?php echo BATTLES_LINK_6; ?>" target="_blank" class="filter">
 								<img src="img/figures/teams/projections-bitwy_16.png" alt="Team logo">
 							</a>
 							</div>
