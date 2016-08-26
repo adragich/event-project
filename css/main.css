@@ -1286,7 +1286,10 @@ img{
     margin-top: 50px;
 }
 /*about*/
-
+.about-image{
+    min-height: 330px;
+    justify-content: center;
+}
 #topPartAbout{
     background: url("../img/figures/top-part-about.png") 0 0 no-repeat;
     background-size: cover;
