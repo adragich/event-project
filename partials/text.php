@@ -263,7 +263,7 @@
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
 
-                define("WORKSHOPS_TITLE_1","Modo 3D");
+                define("WORKSHOPS_TITLE_1","ZBrush + Modo");
                 define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
                 define("WORKSHOPS_PERSON_1","Wojtek Magierski");
                 define("WORKSHOPS_WEBSITE_1","magierski.pl");
@@ -291,13 +291,20 @@
                         tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.
                         W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,a 
                         zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.");
-                define("WORKSHOPS_MODAL_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
-                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.
-                        W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,a 
-                        zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.");
+                define("WORKSHOPS_MODAL_CONTENT_2","Szkło w tubce, guma w sprayu, dym bez ognia... Podczas warsztatów
+                        uczestnicy zapoznają się z praktycznym podejściem do procesu fotografii
+                        projektów.
+                        <br><br>
+                        Począwszy od tworzenia wygodnego stanowiska pracy, poprzez dobór
+                        elementów scenografii i technik fotograficznych, na realizacji sesji zdjęciowej
+                        kończąc.
+                        <br><br>
+                        Prowadzący przedstawią sposoby, których używają aby budować odrealnione
+                        i abstrakcyjne sceny, podnoszące walory estetyczne fotografowanych
+                        przedmiotów.");
 
-                define("WORKSHOPS_TITLE_3","Temat warsztatu");
-                define("WORKSHOPS_SUBTITLE_3","Nazwa dokładna warsztatu.");
+                define("WORKSHOPS_TITLE_3","Warsztat²");
+                define("WORKSHOPS_SUBTITLE_3","");
                 define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
                 define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
                 define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
@@ -305,11 +312,24 @@
                         w Polsce, jak i za granicą. Bez względu na to, czy idea kreacji marki jest Ci bliska, 
                         czy dopiero zaczynasz przygodę z tą tematyką – na pewno znajdziesz tam sporo wartościowych 
                         treści.");
-                define("WORKSHOPS_MODAL_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
-                        tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
-                        w Polsce, jak i za granicą. Bez względu na to, czy idea kreacji marki jest Ci bliska, 
-                        czy dopiero zaczynasz przygodę z tą tematyką – na pewno znajdziesz tam sporo wartościowych 
-                        treści.");
+                define("WORKSHOPS_MODAL_CONTENT_3","Warsztat do drugiej potęgi to nietypowy trening umiejętności, którego
+                        przewrotnym tematem przewodnim będzie sam warsztat projektanta oraz
+                        biznesowa realizacja projektów z obszaru brandingu. W trakcie warsztatu
+                        pochylimy się m.in. nad narzędziami i sposobami pozyskiwania inspiracji
+                        oraz jej roli w projektach brandingowych. Będzie także o trendach, ich
+                        analizie oraz o przekładaniu inspiracji na rzeczywiste potrzeby i oczekiwania
+                        klienta.
+                        <br><br>
+                        Warsztat² to także formuła angażująca uczestników, której bazą będą
+                        aktywne metody warsztatowe (praca w małych grupach, analiza studiów
+                        przypadków, gry symulacyjne, prezentacje, burza mózgów). Warsztat
+                        będzie okazją do wymiany opinii i najlepszych praktyk pomiędzy samymi
+                        uczestnikami, jak również do zastosowania zdobytych kompetencji w
+                        praktyce.
+                        <br><br>
+                        Doświadczenia edukacyjne jakie zbiorą uczestnicy pozwolą
+                        szerzej spojrzeć na sposób realizowanych przez siebie projektów oraz na
+                        usprawnienie współpracy z klientem.");
 
 //                venue
                 define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
