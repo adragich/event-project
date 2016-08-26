@@ -53,7 +53,7 @@ $(function() {
 		var checker = $(this).attr('data-close');
 
 		if( checker != '' && checker){
-			$(checker).slideDown();
+			$(checker).slideUp();
 		}
 		else{
 			$(".lang").slideUp();
