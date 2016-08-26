@@ -20,7 +20,7 @@ $(function() {
     scrollOptions();
 
 	var url = getPathFromUrl(window.location.href);
-	window.history.pushState("", "", url);
+	window.history.replaceState("", "", url);
 
 	$('a[href="#"]').click(function(e){
 		e.preventDefault();
