@@ -925,12 +925,22 @@ img{
     position: relative;
     text-align: left;
     margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 .workshop-popup-header{
     padding-top: 60px;
 }
+.owner.absolute {
+    right: 30px;
+    padding-top: 0;
 
-
+    max-width: 50%;
+    text-align: right;
+}
+.workshop-popup-body .blockTitle, .workshop-popup-body .block-content{
+    max-width: 50%;
+}
 .event-link.modal{
     float: none;
     height: 67px;
@@ -960,9 +970,6 @@ img{
     padding-bottom: 190px;
 }
 
-.owner.absolute{
-    right: 0;
-}
 .workshop-section{
     z-index: 1;
      padding-top: 30px;
@@ -1049,7 +1056,6 @@ img{
     width: 100%;
     object-fit: cover;
 }
-
 .workshop-popup .block-content {
     max-width: 100%;
 }
@@ -2229,7 +2235,13 @@ input.hidden, select.hidden{
 }
 @media (min-width: 1500px){
     /*workshops*/
+    .workshop-popup-inner {
+        padding: 0;
+    }
 
+    .owner.absolute{
+        right: 0;
+    }
     .modal.close{
         position: static;
     }
@@ -2381,6 +2393,10 @@ input.hidden, select.hidden{
 }
 @media (max-width: 1024px) {
     /*workshops*/
+    .workshop-popup-footer {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
     .workshop-modal-section {
         padding-top: 60px;
     }
