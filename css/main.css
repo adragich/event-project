@@ -351,7 +351,6 @@ img{
 }
 .close{
     width: 10%;
-    max-width: 35px;
     float: right;
     cursor: pointer;
 }
@@ -359,12 +358,28 @@ img{
     float: right;
     height: 4px;
     margin: 11px 0;
-    width: 100%;
+    width: 35px;
     background: #3e3e3e;
     border: 1px solid #4e4e4e;
     border-top: none;
     box-sizing: border-box;
 }
+
+
+.modal .menu-close {
+    width: 35px;
+}
+.modal.close{
+    height: 80px;
+    text-align: center;
+    padding-top: 50px;
+    top: -50px;
+    right: 0;
+    z-index: 1;
+    position: relative;
+    max-width: 100%;
+}
+
 .socials{
     position: absolute;
     right: 35px;
@@ -890,19 +905,6 @@ img{
 }
 
 /*workshops*/
-.modal .menu-close {
-    width: 35px;
-}
-.modal.close{
-    height: 80px;
-    text-align: center;
-    padding-top: 50px;
-    top: -50px;
-    right: 0;
-    z-index: 1;
-    position: relative;
-    max-width: 100%;
-}
 .workshop-popup img{
     object-fit: cover;
     object-position: center;
