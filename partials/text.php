@@ -296,20 +296,23 @@
 
 //                about
                 define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
-                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów");
+                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów graficznych");
                 define("ABOUT_US_DESC_1","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum.");
-                define("ABOUT_US_TITLE_2","Dla projektantów");
-                define("ABOUT_US_DESC_2","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum.");
+							Projekcje są imprezą organizowaną przez projektantów graficznych, dla projektantów 
+							graficznych. Event ma integrować środowisko projektantów, ale przede wszystkim ma być 
+							inspiracją do dalszego tworzenia.
+                            <br><br>
+                            Chcemy rozbudzić nowe wizje, podsunąć nowe pomysły i zmotywować projektantów do 
+                            poszukiwania nowych środków ekspresji.
+                            <br><br>
+                            Chcemy się skupić na pasji tworzenia, pielęgnować ją oraz rozwijać.");
+                define("ABOUT_US_TITLE_2","Tematem pierwszej edycji są Inspiracje");
+                define("ABOUT_US_DESC_2","Projekcje mają na celu zainspirować nie tylko młodych projektantów na 
+                        początku ich drogi, ale przede wszystkim natchnąć kreatywnie projektantów pracujących 
+                        zawodowo i przypomnieć im, że projektowanie nie zna granic poza tymi, które sami sobie 
+                        postawiliśmy.");
                 define("ABOUT_US_TITLE_3","Organizatorzy projekcji");
-                define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów.");
+                define("ABOUT_US_DESC_3","Projektanci graficzni dla projektantów graficznych.");
 
                 define("ABOUT_TITLE_1","Kommunikat");
                 define("ABOUT_SUBTITLE_1","Brand Design Studio");
