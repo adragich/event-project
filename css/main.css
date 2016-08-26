@@ -1913,7 +1913,6 @@ input.hidden, select.hidden{
 .partner .inner{
     height:124px;
     max-width: 290px;
-    justify-content: center;
     border-top:4px solid #dedede;
     border-left:4px solid #dedede;
 }
@@ -2162,6 +2161,10 @@ input.hidden, select.hidden{
     height: 60px;
 }
 .left-align{
+    text-align: left;
+}
+.center-align{
+    justify-content: center;
     text-align: left;
 }
 

@@ -47,7 +47,7 @@
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
 					<div class="inner transition">
-						<a href="<?php echo PARTNER_LINK_1; ?>" class=" flex flex-center" target="_blank">
+						<a href="<?php echo PARTNER_LINK_1; ?>" class="center-align flex flex-center" target="_blank">
 							<img src="img/partners/projections-partners_01.png"
 								 alt="Allegro" class="partner-image">
 						</a>
