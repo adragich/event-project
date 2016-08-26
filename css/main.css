@@ -1360,7 +1360,7 @@ img{
 .main.about-us.info{
     padding-top: 0;
     padding-left: 140px;
-    padding-right: 50%;
+    padding-right: 33%;
     background: url("../img/projections-about-desk.png") 80% 80% no-repeat;
     background-size: 21%;
 }
@@ -2365,7 +2365,7 @@ input.hidden, select.hidden{
     }
     /*about*/
     .main.about-us.info{
-        padding-right:60%;
+        padding-right:43%;
     }
     .speakerWrap{
         max-width: none;
