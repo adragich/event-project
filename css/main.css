@@ -2284,6 +2284,12 @@ a.border:hover{
 .modal-trigger:hover{
     color: #525252;
 }
+
+.modal.close {
+    padding-top: 30px;
+    top: 0;
+    position: absolute;
+}
 @media (min-width: 1500px){
     /*place*/
 
@@ -2446,11 +2452,6 @@ a.border:hover{
 }
 @media (max-width: 1024px) {
     /*workshops*/
-    .modal.close {
-        padding-top: 30px;
-        top: 0;
-        position: absolute;
-    }
     .modal .menu-close {
         margin: 0 30px 0 0;
     }
