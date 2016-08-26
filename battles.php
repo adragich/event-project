@@ -299,7 +299,7 @@
 					<div class="form-control tiny flex flex-end" id="acceptedWrap">
 						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
 						<label for="accepted">Oświadczam, że zapoznałem się z
-							<span class="bold modal-trigger" data-open="#content1">Regulaminem “Bitwy Graficznej”</span>
+							<span class="bold modal-trigger" data-open="#rules">Regulaminem “Bitwy Graficznej”</span>
 							i akceptuję jego treść.</label>
 
 					</div>
@@ -323,6 +323,25 @@
 				<p class="footer-text">Masz pytanie? napisz do nas na: <a href="mailto:info@projections.pl">info@projections.pl</a></p>
 			</div>
 	</footer>
+	<div class="workshop-popup" id="rules">
+
+		<div class="workshop-popup-header grey">
+			<div class="close modal" data-close="#rules">
+				<span class="menu-close"></span>
+			</div>
+			<div class="workshop-popup-inner">
+				<p class="blockTitle modal">Regulamin “Bitwy Graficznej”</p>
+			</div>
+		</div>
+
+
+		<div class="workshop-popup-body white">
+			<div class="workshop-popup-inner">
+				<p class="block-content">Regulamin “Bitwy Graficznej”</p>
+			</div>
+		</div>
+
+	</div>
 	<?php
 		@include("partials/sidebar.html");
 		@include("partials/scripts.html");
