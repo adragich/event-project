@@ -20,7 +20,8 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="fillAndCenter main sub flex flex-center padding-2x s speakers" data-parallax='{"y" : -300, "smoothness": 20}'>
+			<div class="fillAndCenter main sub flex flex-center padding-2x s speakers"
+				 data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
 					<p class="mainTitle"><?php echo SPEAKERS;?></p>
 					<p class="note"><?php echo SPEAKERS_NOTE;?></p>
@@ -35,13 +36,14 @@
 			?>
 		</div>
 	</section>	
-	<section class="scrollableContent relative" id="contentSection">
+	<section class="scrollableContent relative" id="contentSection"
+			 data-parallax='{"y" : -100, "smoothness": 20}'>
 		<div class="container">
 
 			<?php for($i = 1; $i <= 14; $i++){?>
 
 				<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
-					 data-parallax='{"y" : -<?php $val = $i % 2 == 0 ? '200' : '250'; echo $val; ?>, "distance": 1400, "smoothness": 10}'>
+					 data-parallax='{"y" : -<?php $val = $i % 2 == 0 ? '100' : '150'; echo $val; ?>, "distance": 1400, "smoothness": 10}'>
 					<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0.2s">
 						<img src="img/speakers/speaker_<?php echo $i;?>.jpg"
 							 alt="<?php echo constant(SPEAKER_NAME_.$i);?>">
