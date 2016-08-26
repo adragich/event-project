@@ -42,7 +42,7 @@
 		 id="partnersInfoSection">
 	<div class="container">
 		<div class="sponsors col l12">
-			<p class="blockTitle left-align"><?php echo MAIN_PARTNERS;?></p>
+			<p class="blockTitle left-align"><?php echo SPONSORS;?>
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
@@ -53,26 +53,58 @@
 				</div>
 				<div class="col xl3 l3 m6 s12 partner">
 					<div class="inner flex flex-center">
-						<img src="img/partners/projections-partners_02.png"
-							 alt="Concordia Designs" class="partner-image">
-					</div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center">
 						<img src="img/partners/projections-partners_03.png"
 							 alt="Redro" class="partner-image">
-					</div>
-				</div>
-				<div class="col xl3 l3 m6 s12 partner">
-					<div class="inner flex flex-center">
-						<img src="img/partners/projections-partners_02.png"
-							 alt="Concordia Designs" class="partner-image">
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="sponsors col l12 left-align">
 			<p class="blockTitle"><?php echo PARTNERS;?>
+			</p>
+			<div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
+															 alt="CSSDesignAwards" class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
+															 alt="eduweb" class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
+															 alt="Komm." class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
+															 alt="Torpedov" class="partner-image"></div>
+				</div>
+			</div>
+		</div>
+		<div class="sponsors col l12 left-align">
+			<p class="blockTitle"><?php echo MEDIA;?>
+			</p>
+			<div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_05.png"
+															 alt="CSSDesignAwards" class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_06.png"
+															 alt="eduweb" class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_07.png"
+															 alt="Komm." class="partner-image"></div>
+				</div>
+				<div class="col xl3 l3 m6 s12 partner">
+					<div class="inner flex flex-center"><img src="img/partners/projections-partners_08.png"
+															 alt="Torpedov" class="partner-image"></div>
+				</div>
+			</div>
+		</div>
+		<div class="sponsors col l12 left-align">
+			<p class="blockTitle"><?php echo ORGS;?>
 			</p>
 			<div>
 				<div class="col xl3 l3 m6 s12 partner">
