@@ -1977,6 +1977,15 @@ a.border:hover{
     top:0;
     position: absolute;
 }
+.placeWrap:first-child:after{
+    content: url('');
+    background: #f6f6f6;
+    width: 84%;
+    height:100%;
+    right:0;
+    top:0;
+    position: absolute;
+}
 .place-info > p{
     text-align: left;
 }
