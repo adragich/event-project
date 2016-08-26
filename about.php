@@ -55,7 +55,7 @@
 			<div class="anim-space-relative" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<img src="img/space.jpg" alt="">
 			</div>
-			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -400, "smoothness": 20}'>
+			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -350, "smoothness": 20}'>
 				<div class="inside orgs">
 						<p class="mainTitle">
 							<?php echo ABOUT_US_TITLE_3;?>
