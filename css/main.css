@@ -1910,6 +1910,9 @@ input.hidden, select.hidden{
 .partner .inner:hover{
     border-color: #3e3e3e;
 }
+.partner .inner a{
+    height: 100%;
+}
 .partner .inner{
     height:124px;
     max-width: 290px;
