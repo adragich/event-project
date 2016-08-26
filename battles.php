@@ -224,17 +224,16 @@
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
 							<div class="figure">
-							<img src="img/members/projections-bitwy-member-1.png" alt="Team logo">
+								<img src="img/members/projections-bitwy-member-3.jpg" alt="Team logo">
 							</div>
-
-							<p class="blockTitle">Bartek Walczuk</p>
-							<p class="block-content">Associate Creative Director w 180heartbeats + JUNG v. MATT</p>
+							<p class="blockTitle">Łukasz Słotwiński</p>
+							<p class="block-content">Creative Director nc+</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
 						<div class="inside">
 							<div class="figure">
-							<img src="img/members/projections-bitwy-member-2.png" alt="Team logo">
+							<img src="img/members/projections-bitwy-member-2.jpg" alt="Team logo">
 							</div>
 							<p class="blockTitle">Oskar Podolski</p>
 							<p class="block-content">Owner / OESU</p>
@@ -243,10 +242,11 @@
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.4s">
 						<div class="inside">
 							<div class="figure">
-							<img src="img/members/projections-bitwy-member-3.png" alt="Team logo">
-								</div>
-							<p class="blockTitle">Łukasz Słotwiński</p>
-							<p class="block-content">Creative Director nc+</p>
+								<img src="img/members/projections-bitwy-member-1.png" alt="Team logo">
+							</div>
+
+							<p class="blockTitle">Bartek Walczuk</p>
+							<p class="block-content">Associate Creative Director w 180heartbeats + JUNG v. MATT</p>
 						</div>
 					</div>
 				</div>
