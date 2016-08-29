@@ -3337,7 +3337,13 @@ a.border:hover{
         margin: 50px auto 35px;
     }
     .program-main-title{
-        padding-top: 65px;
+        padding-top: 80px;
+    }
+
+    .program-main-title .note {
+        font-size: 21px;
+        line-height: 44px;
+        letter-spacing: 0px;
     }
     .workshop-static-section .navigation{
         margin: 50px auto;
