@@ -7,7 +7,7 @@ $(function(){
         var topic = $(this).attr('data-topic'),
             state= $(this).attr('data-state'),
             children = $("[data-topic='" + topic + "'][data-role='child']");
-
+console.log(children.length);
        $(this).on('click', function(){
 
            if(state == 'collapsed'){
