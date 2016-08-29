@@ -764,9 +764,6 @@ img{
 .city{
     font-size: 20px;}
 
-.hide{
-    opacity:0;
-}
 .right-align{
     text-align: right
 }
@@ -2439,7 +2436,12 @@ a.border:hover{
     }
 }
 
-@media (min-width: 678px) and  (max-width: 1024px){
+@media (min-width: 668px) {
+    .hide{
+        opacity:0;
+    }
+}
+@media (min-width: 668px) and  (max-width: 1024px){
     .speakers + .navigation {
         bottom: 32%;
     }
@@ -3198,7 +3200,7 @@ a.border:hover{
     }
 }
 
-@media (max-width: 675px){
+@media (max-width: 667px){
 
     .aside.right {
         width: 78px;
