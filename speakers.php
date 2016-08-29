@@ -53,7 +53,7 @@
 							<p class="block-note">
 								<a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
 									target="_blank">
-									<?php echo constant(SPEAKER_WEBSITE_.$i);?>
+									www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
 								</a>
 							</p>
 						</div>
