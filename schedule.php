@@ -68,8 +68,6 @@
 						</span>
 					</td>
 				</tr>
-
-				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
 				<tr class="content-string no-button" data-role="child" data-topic="speakers">
 					<td class="program-time">10:00</td>
