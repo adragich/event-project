@@ -134,7 +134,7 @@
 					</div>
 				</div>
 				<div class="concordia-image">
-					<a href="#"><img src="img/program/program_concordia.jpg" alt="Concordia design"></a>
+					<a href="#"><img src="img/program/program_concordia.png" alt="Concordia design"></a>
 				</div>
 			</div>
 		</div>
