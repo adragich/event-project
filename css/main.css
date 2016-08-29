@@ -1233,6 +1233,17 @@ a:hover .badge{
     width: calc(58% - 30px);
     width: -webkit-calc(58% - 30px);
 }
+/*speakers*/
+.innerHoverStripe {
+    height: 100%;
+    right: 0;
+    left: 100%;
+    background: #ffeb3e;
+    z-index: 0;
+}
+a:hover .innerHoverStripe {
+    left: 0;
+}
 /*anim speakers*/
 .loadAnimation.speakers {
     width: 28%;

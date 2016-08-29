@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speakers.php" afterPath="$PROJECT_DIR$/speakers.php" />
     </list>
     <ignored path="event-project.iws" />
@@ -31,21 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="2130" column="0" selection-start-line="2130" selection-start-column="0" selection-end-line="2130" selection-end-column="0" />
+            <state relative-caret-position="261">
+              <caret line="1237" column="17" selection-start-line="1237" selection-start-column="17" selection-end-line="1237" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/speakers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+            <state relative-caret-position="302">
+              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -200,8 +201,8 @@
         <option value="$PROJECT_DIR$/js/homepage.js" />
         <option value="$PROJECT_DIR$/partials/top.html" />
         <option value="$PROJECT_DIR$/about.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/speakers.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -456,12 +457,12 @@
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
       <workItem from="1471955447206" duration="89564000" />
-      <workItem from="1472453464797" duration="21302000" />
+      <workItem from="1472453464797" duration="21501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229920000" />
+    <option name="totallyTimeSpent" value="230119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="25" width="1335" height="821" extended-state="0" />
@@ -873,18 +874,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="2130" column="0" selection-start-line="2130" selection-start-column="0" selection-end-line="2130" selection-end-column="0" />
+        <state relative-caret-position="302">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speakers.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+        <state relative-caret-position="261">
+          <caret line="1237" column="17" selection-start-line="1237" selection-start-column="17" selection-end-line="1237" selection-end-column="17" />
           <folding />
         </state>
       </provider>

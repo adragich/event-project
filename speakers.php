@@ -52,10 +52,12 @@
 							<p class="block-content"><?php echo constant(SPEAKER_DESC_.$i);?></p>
 							<p class="block-note">
 								 <a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
-									target="_blank">
-									<span class="innerHoverStripe absolute">
+									target="_blank" class="relative">
+									<span class="innerHoverStripe absolute transition">
 									</span>
-										www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
+									 <span class="text">
+										 www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
+									 </span>
 								 </a>
 							</p>
 						</div>
