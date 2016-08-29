@@ -187,23 +187,23 @@
                 define("SPEAKER_WEBSITE_1","resn.co.nz");
 
                 define("SPEAKER_NAME_2","Marcus Brown");
-                define("SPEAKER_DESC_2","Senior Art Director w Resn / Amsterdam");
+                define("SPEAKER_DESC_2","Senior Art Director w Resn");
                 define("SPEAKER_WEBSITE_2","resn.co.nz");
 
                 define("SPEAKER_NAME_3","Arek Romański");
-                define("SPEAKER_DESC_3","Co-founder/Art Director w Huncwot / Warszawa");
+                define("SPEAKER_DESC_3","Partner w Huncwot");
                 define("SPEAKER_WEBSITE_3","huncwot.com");
 
                 define("SPEAKER_NAME_4","Łukasz Knasiecki");
-                define("SPEAKER_DESC_4","Partner w Huncwot / Warszawa");
+                define("SPEAKER_DESC_4","Partner w Huncwot");
                 define("SPEAKER_WEBSITE_4","huncwot.com");
 
                 define("SPEAKER_NAME_5","Piotr Hołub");
-                define("SPEAKER_DESC_5","Partner w Hopa Studio / Warszawa");
+                define("SPEAKER_DESC_5","Partner w Hopastudio");
                 define("SPEAKER_WEBSITE_5","hopastudio.com");
 
                 define("SPEAKER_NAME_6","Marcin Paściak");
-                define("SPEAKER_DESC_6","Partner w Hopa Studio / Warszawa");
+                define("SPEAKER_DESC_6","Partner w Hopastudio");
                 define("SPEAKER_WEBSITE_6","hopastudio.com");
 
                 define("SPEAKER_NAME_7","Grzegorz Róg");
