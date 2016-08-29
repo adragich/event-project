@@ -55,7 +55,7 @@
 
 				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string no-button" data-role="parent" data-topic="speakers">
+				<tr class="content-string no-button" data-role="parent" data-topic="speakers" data-state="collapsed">
 					<td class="program-time">00:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Wykłady</p>
@@ -110,7 +110,7 @@
 				</tr>
 
 				<tr class="offset-string"></tr>
-				<tr class="content-string no-button" data-role="parent" data-topic="workshops">
+				<tr class="content-string no-button" data-role="parent" data-topic="workshops" data-state="collapsed">
 					<td class="program-time">00:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Warsztaty.</p>
@@ -178,5 +178,6 @@
 		@include("partials/scripts.html")
 	?>		
 	<script type="text/javascript" src="js/appear.js"></script>	
+	<script type="text/javascript" src="js/program.js"></script>
 </body>
 </html>
