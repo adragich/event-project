@@ -2549,7 +2549,7 @@ a.border:hover{
         top: 134px;
         left: 55px;
     }
-    .flex.main.fillAndCenter{
+    .flex.main.fillAndCenter, .fillAndCenter{
         padding-top: 36vh;
         position: relative;
     }
@@ -3328,7 +3328,7 @@ a.border:hover{
         margin: 0;
         top: 90px;
     }
-     .flex.main.fillAndCenter {
+     .flex.main.fillAndCenter, .fillAndCenter{
         padding-top: 36vh;
     }
     .flex.main.fillAndCenter.home {
