@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Meta title</title>
+	<title>Projekcje - Konferencja graficzna - <?php echo BATTLES_2;?></title>
 	<?php
 		@include("partials/head.php");
 	?>
