@@ -86,7 +86,7 @@
 
 			<?php for($i = 1; $i <= 14; $i++){?>
 
-				<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
+				<div class="col xl6 l6 m12 s12 speakerWrap fadeInUp"
 					 data-parallax='{"y" : -<?php $val = $i % 2 == 0 ? '100' : '150'; echo $val; ?>, "distance": 1400, "smoothness": 10}'>
 					<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
 						<div class="light-grey flex flex-center about-image">
@@ -97,10 +97,12 @@
 							<p class="block-content"><?php echo constant(ABOUT_SUBTITLE_.$i);?> _</p>
 							<p class="block-note">
 								<a href="//www.<?php echo constant(ABOUT_WEBSITE_.$i);?>"
-								   target="_blank">
-									<span class="hoverStripe relative">
-										<?php echo constant(ABOUT_WEBSITE_.$i);?>
+								   target="_blank" class="relative">
+									<span class="innerHoverStripe absolute transition">
 									</span>
+									<span class="relative">
+										<?php echo constant(ABOUT_WEBSITE_.$i);?>
+									 </span>
 								</a>
 							</p>
 						</div>
