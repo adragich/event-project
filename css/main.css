@@ -2806,6 +2806,10 @@ a.border:hover{
     .inside{
         padding-right: 37%;
     }
+    .program-main-title{
+        padding-right:0;
+        padding-left: 55px;
+    }
     .main, .main.about-us {
         padding-top: 26vh;
     }
@@ -3141,7 +3145,7 @@ a.border:hover{
     .program-main-title #middlePart {
         top: 90%;
     }
-    .program-static-section .navigation, .workshop-static-section .navigation{
+    .workshop-static-section .navigation{
         margin: 100px auto;
         position: relative;
         left: 0;
