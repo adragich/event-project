@@ -1,14 +1,9 @@
 function constructMenuLinks(){
-	var minHeight = $(window).height(), li;
-	$(".stick .container").css("min-height", minHeight + "px");
-	if($(window).width > 768){
-		li = $(".nav li:not(.workshops)");
-	}
-	else{		
+	var minHeight = $(window).height(),
 		li = $(".nav li");
-	}
-	var height = ($(window).height() - parseInt($(".sideBar").css("padding-top")) - 2*parseInt($(".nav").css("padding-top")) 
-		- parseInt($(".lang a").css("line-height")) - $(".socials a").height() - parseInt($(".socials").css("bottom"))) / li.length ;
+	
+	$(".stick .container").css("min-height", minHeight + "px");
+	var height = $(window).height() * 0.59 / li.length ;
 	li.css("line-height", height + "px"); 
 }
 
