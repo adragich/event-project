@@ -68,48 +68,50 @@
 						</span>
 					</td>
 				</tr>
-				<tr class="offset-string" data-role="child" data-topic="speakers"></tr>
-				<tr class="content-string no-button" data-role="child" data-topic="speakers">
-					<td class="program-time">10:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Grzegorz Róg</p>
-						<p class="block-content">Owner at eduweb.pl _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
-						<span class="block-content">
+				<tr class="offset-string"></tr>
+				<div data-role="child" data-topic="speakers">
+					<tr class="content-string no-button" data-role="child" data-topic="speakers">
+						<td class="program-time">10:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Grzegorz Róg</p>
+							<p class="block-content">Owner at eduweb.pl _</p>
+						</td>
+						<td class="left-align image yellow-gradient">
+							<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
+							<span class="block-content">
 							<?php echo PROGRAM_DESCRIPTION_1;?>
 						</span>
-					</td>
-				</tr>
-				<tr class="offset-string" data-role="child" data-topic="speakers"></tr>
-				<tr class="content-string no-button" data-role="child" data-topic="speakers">
-					<td class="program-time">11:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Martyna Wędzicka</p>
-						<p class="block-content">lesstudio.pl _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_2.jpg" alt="Martyna Wędzicka">
-						<span class="block-content">
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
+					<tr class="content-string no-button" data-role="child" data-topic="speakers">
+						<td class="program-time">11:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Martyna Wędzicka</p>
+							<p class="block-content">lesstudio.pl _</p>
+						</td>
+						<td class="left-align image yellow-gradient">
+							<img src="img/program/program_small_2.jpg" alt="Martyna Wędzicka">
+							<span class="block-content">
 							<?php echo PROGRAM_DESCRIPTION_2;?></span>
-					</td>
-				</tr>
-				<tr class="offset-string" data-role="child" data-topic="speakers"></tr>
-				<tr class="content-string no-button" data-role="child" data-topic="speakers">
-					<td class="program-time">14:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Hopa Studio</p>
-						<p class="block-content">hopastudio.com _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
-						<span class="block-content">
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
+					<tr class="content-string no-button" data-role="child" data-topic="speakers">
+						<td class="program-time">14:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Hopa Studio</p>
+							<p class="block-content">hopastudio.com _</p>
+						</td>
+						<td class="left-align image yellow-gradient">
+							<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
+							<span class="block-content">
 							<?php echo PROGRAM_DESCRIPTION_4;?></span>
-					</td>
-				</tr>
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
+				</div>
 
-				<tr class="offset-string"></tr>
 				<tr class="content-string no-button" data-role="parent" data-topic="workshops" data-state="collapsed">
 					<td class="program-time">00:00</td>
 					<td class="left-align">
@@ -123,37 +125,41 @@
 						</span>
 					</td>
 				</tr>
-
-				<tr class="offset-string" data-role="child" data-topic="workshops"></tr>
-				<tr class="content-string" data-role="child" data-topic="workshops">
-					<td class="program-time">13:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Patryk Hardziej</p>
-						<p class="block-content">negation studio _</p>
-					</td>
-					<td class="left-align image blue-light">
-						<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_3;?></span>
-<!--						<a href="#" class="workshop transition">--><?php //echo APPLY_WORKSHOP; ?><!--</a>-->
-					</td>
-				</tr>
-				<tr class="offset-string" data-role="child" data-topic="workshops"></tr>
-				<tr class="content-string" data-role="child" data-topic="workshops">
-					<td class="program-time">16:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Kriss Hermansson <br>Marcus Brown
-							</p>
-						<p class="block-content">resn.co.nz _</p>
-					</td>
-					<td class="left-align image blue-light">
-						<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_5;?></span>
-<!--						<a href="#" class="workshop transition">--><?php //echo APPLY_WORKSHOP; ?><!--</a>-->
-					</td>
-				</tr>
 				<tr class="offset-string"></tr>
+
+				<div data-role="child" data-topic="workshops">
+
+					<tr class="content-string">
+						<td class="program-time">13:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Patryk Hardziej</p>
+							<p class="block-content">negation studio _</p>
+						</td>
+						<td class="left-align image blue-light">
+							<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
+							<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_3;?></span>
+							<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
+					<tr class="content-string" data-role="child" data-topic="workshops">
+						<td class="program-time">16:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Kriss Hermansson <br>Marcus Brown
+							</p>
+							<p class="block-content">resn.co.nz _</p>
+						</td>
+						<td class="left-align image blue-light">
+							<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
+							<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_5;?></span>
+							<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
+				</div>
+
 				</tbody>
 			</table>
 			<div class="program-post-info">
