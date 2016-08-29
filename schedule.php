@@ -68,7 +68,7 @@
 						</span>
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
+				<tr class="offset-string" data-role="child" data-topic="speakers"></tr>
 				<tr class="content-string no-button" data-role="child" data-topic="speakers">
 					<td class="program-time">10:00</td>
 					<td class="left-align">
@@ -82,7 +82,7 @@
 						</span>
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
+				<tr class="offset-string" data-role="child" data-topic="speakers"></tr>
 				<tr class="content-string no-button" data-role="child" data-topic="speakers">
 					<td class="program-time">11:00</td>
 					<td class="left-align">
@@ -95,7 +95,7 @@
 							<?php echo PROGRAM_DESCRIPTION_2;?></span>
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
+				<tr class="offset-string" data-role="child" data-topic="speakers"></tr>
 				<tr class="content-string no-button" data-role="child" data-topic="speakers">
 					<td class="program-time">14:00</td>
 					<td class="left-align">
@@ -124,7 +124,7 @@
 					</td>
 				</tr>
 
-				<tr class="offset-string"></tr>
+				<tr class="offset-string" data-role="child" data-topic="workshops"></tr>
 				<tr class="content-string" data-role="child" data-topic="workshops">
 					<td class="program-time">13:00</td>
 					<td class="left-align">
@@ -138,7 +138,7 @@
 <!--						<a href="#" class="workshop transition">--><?php //echo APPLY_WORKSHOP; ?><!--</a>-->
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
+				<tr class="offset-string" data-role="child" data-topic="workshops"></tr>
 				<tr class="content-string" data-role="child" data-topic="workshops">
 					<td class="program-time">16:00</td>
 					<td class="left-align">

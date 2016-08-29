@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/program.js" afterPath="$PROJECT_DIR$/js/program.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule.php" afterPath="$PROJECT_DIR$/schedule.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schedule.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="155" column="47" selection-start-line="155" selection-start-column="47" selection-end-line="155" selection-end-column="47" />
+            <state relative-caret-position="485">
+              <caret line="140" column="82" selection-start-line="140" selection-start-column="82" selection-end-line="140" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="program.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/program.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -157,8 +157,8 @@
         <option value="$PROJECT_DIR$/partials/top.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/workshops.php" />
-        <option value="$PROJECT_DIR$/schedule.php" />
         <option value="$PROJECT_DIR$/js/program.js" />
+        <option value="$PROJECT_DIR$/schedule.php" />
       </list>
     </option>
   </component>
@@ -413,12 +413,12 @@
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
       <workItem from="1471955447206" duration="89564000" />
-      <workItem from="1472453464797" duration="18309000" />
+      <workItem from="1472453464797" duration="18380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226927000" />
+    <option name="totallyTimeSpent" value="226998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="25" width="1335" height="821" extended-state="0" />
@@ -803,11 +803,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/top-battles.html">
+    <entry file="file://$PROJECT_DIR$/partials/top.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="7" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/program.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,29 +829,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/top.html">
+    <entry file="file://$PROJECT_DIR$/partials/top-battles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="7" selection-end-column="59" />
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="155" column="47" selection-start-line="155" selection-start-column="47" selection-end-line="155" selection-end-column="47" />
+        <state relative-caret-position="485">
+          <caret line="140" column="82" selection-start-line="140" selection-start-column="82" selection-end-line="140" selection-end-column="82" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/program.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
