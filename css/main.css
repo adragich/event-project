@@ -2033,7 +2033,7 @@ a.border:hover{
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
-    padding: 50px 0;
+    padding: 50px 0 50px 55px;
 }
 .anim-space img, .anim-space-relative img{
     object-position: center;
@@ -2312,6 +2312,10 @@ a.border:hover{
     position: fixed;
 }
 @media (min-width: 1500px){
+    /*program*/
+    .program-main-title {
+        padding-left: 0;
+    }
     /*place*/
 
     .placeLogo {
@@ -2805,7 +2809,6 @@ a.border:hover{
     }
     .program-main-title{
         padding-right:0;
-        padding-left: 54px;
         padding-bottom: 0;
     }
     .main, .main.about-us {
