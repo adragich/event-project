@@ -3202,7 +3202,11 @@ a.border:hover{
 }
 
 @media (max-width: 667px){
-
+    .sideBar .close {
+        padding-right: 33px;
+        padding-top: 30px;
+        height: 35px;
+    }
     .aside.right {
         width: 78px;
         height: 76px;
