@@ -2029,7 +2029,8 @@ a.border:hover{
 }
 .anim-space {
     height: 480px;
-    position: fixed;
+    /*position: fixed;*/
+    position: absolute;
     display: inline-block;
     margin: 0 6.5%;
     top: 160px;
