@@ -54,24 +54,24 @@
 			</table>
 
 			<table class="program-table">
-				<thead>
-				<tr class="clear-string"></tr>
-				<tr class="offset-string"></tr>
-				<tr class="content-string no-button" data-role="parent" data-topic="speakers" data-state="collapsed">
-					<td class="program-time">00:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Wykłady</p>
-						<p class="block-content">
-							prelegentów.</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/speakers.png" alt="Wykłady">
-						<span class="block-content">Pełen program już wkrótce!
-						</span>
-					</td>
-				</tr>
+				<thead data-role="parent" data-topic="speakers" data-state="collapsed">
+					<tr class="clear-string"></tr>
+					<tr class="offset-string"></tr>
+					<tr class="content-string no-button">
+						<td class="program-time">00:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Wykłady</p>
+							<p class="block-content">
+								prelegentów.</p>
+						</td>
+						<td class="left-align image yellow-gradient">
+							<img src="img/speakers.png" alt="Wykłady">
+							<span class="block-content">Pełen program już wkrótce!
+							</span>
+						</td>
+					</tr>
 				</thead>
-				<tbody>
+				<tbody data-role="child" data-topic="speakers">
 
 				<tr class="offset-string"></tr>
 				<tr class="content-string no-button">
@@ -113,14 +113,16 @@
 							<?php echo PROGRAM_DESCRIPTION_4;?></span>
 					</td>
 				</tr>
+				<tr class="offset-string"></tr>
 				</tbody>
 			</table>
 
 
 			<table class="program-table">
-				<thead>
-				
-				<tr class="content-string no-button" data-role="parent" data-topic="workshops" data-state="collapsed">
+				<thead data-role="parent" data-topic="workshops" data-state="collapsed">
+
+
+				<tr class="content-string no-button">
 					<td class="program-time">00:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Warsztaty.</p>
@@ -134,39 +136,37 @@
 					</td>
 				</tr>
 				</thead>
-				<tbody>
-
-
-				<tr class="offset-string"></tr>
-				<tr class="content-string">
-					<td class="program-time">13:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Patryk Hardziej</p>
-						<p class="block-content">negation studio _</p>
-					</td>
-					<td class="left-align image blue-light">
-						<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_3;?></span>
-						<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
-					</td>
-				</tr>
-				<tr class="offset-string"></tr>
-				<tr class="content-string">
-					<td class="program-time">16:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Kriss Hermansson <br>Marcus Brown
-						</p>
-						<p class="block-content">resn.co.nz _</p>
-					</td>
-					<td class="left-align image blue-light">
-						<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_5;?></span>
-						<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
-					</td>
-				</tr>
-				<tr class="offset-string"></tr>
+				<tbody data-role="child" data-topic="workshops">
+					<tr class="offset-string"></tr>
+					<tr class="content-string">
+						<td class="program-time">13:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Patryk Hardziej</p>
+							<p class="block-content">negation studio _</p>
+						</td>
+						<td class="left-align image blue-light">
+							<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
+							<span class="block-content">
+								<?php echo PROGRAM_DESCRIPTION_3;?></span>
+							<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
+					<tr class="content-string">
+						<td class="program-time">16:00</td>
+						<td class="left-align">
+							<p class="blockTitle">Kriss Hermansson <br>Marcus Brown
+							</p>
+							<p class="block-content">resn.co.nz _</p>
+						</td>
+						<td class="left-align image blue-light">
+							<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
+							<span class="block-content">
+								<?php echo PROGRAM_DESCRIPTION_5;?></span>
+							<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
+						</td>
+					</tr>
+					<tr class="offset-string"></tr>
 				</tbody>
 			</table>
 			<div class="program-post-info">
