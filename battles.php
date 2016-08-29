@@ -45,7 +45,7 @@
 				<div class="inside battle-info">
 					<p class="subtitle animated wow fadeInUp" data-wow-delay="0.1s">Głównym zadaniem Bitew będzie stworzenie własnej
 						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
-						szablonu. Chodzi przede wszystkim o pomysł i kreatywność, <br>
+						szablonu. Chodzi przede wszystkim o pomysł i kreatywność,
 						ale jakość realizacji też będzie miała znaczenie.
 					</p>
 <!--					<p class="block-content">Bitwy mają na celu integrację poprzez wspólne projektowanie. Wspólne-->
