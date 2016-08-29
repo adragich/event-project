@@ -1605,6 +1605,9 @@ img{
     margin-top: 250px;
     margin-bottom: 120px;
 }
+.team img{
+    width: 100%;
+}
 .team{
     padding-left: 120px;
 }
@@ -2019,7 +2022,7 @@ a.border:hover{
 .anim-space-relative{
     height: 787px;
     position: relative;
-    left: 46px;
+    left: 60px;
 }
 .anim-space {
     height: 480px;
