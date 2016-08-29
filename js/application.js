@@ -73,8 +73,9 @@ $(document).ready(function(){
     var parts = $(".loadAnimation [class*='rotate']");
 
     parts.each(function(index, part){
+        var class = $(part).attr('data-class');
        setTimeout(function(){
-           $(part).addClass($(part).attr('data-class'));
+           $(part).addClass(class);
        }, index*0.25);
     });
 
