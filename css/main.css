@@ -2307,6 +2307,10 @@ a.border:hover{
     top: 0;
     position: fixed;
 }
+
+#middlePart.workshop-part {
+    left: -400px;
+}
 @media (min-width: 1500px){
     /*program*/
     .program-main-title {
@@ -2321,6 +2325,10 @@ a.border:hover{
         left: 176px;
     }
     /*workshops*/
+
+    #middlePart.workshop-part {
+        left: 35%;
+    }
     .workshop-popup-inner {
         padding: 0;
     }
@@ -2905,7 +2913,7 @@ a.border:hover{
         height: 42px;
         width: 26px;
     }
-    #middlePart:not(.workshop-part) {
+    #middlePart {
         left: 57%;
         top: 46%;
     }
