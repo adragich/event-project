@@ -74,7 +74,7 @@ $(document).ready(function(){
 
     parts.each(function(index, part){
        setTimeout(function(){
-           $(part).addClass("animated");
+           $(part).addClass($(part).attr('data-class'));
        }, index*0.25);
     });
 
