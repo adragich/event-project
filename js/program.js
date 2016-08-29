@@ -17,12 +17,12 @@ $(function(){
 
            if(state == 'collapsed'){
                children.each(function(i, e){
-                   $(e).slideDown();
+                   $(e).fadeIn();
                });
                $(this).attr('data-state', 'expanded');
            }
            else{
-               children.slideUp();
+               children.fadeOut();
                $(this).attr('data-state', 'collapsed');
            }
        });

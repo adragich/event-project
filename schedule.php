@@ -113,7 +113,7 @@
 							<?php echo PROGRAM_DESCRIPTION_4;?></span>
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
+<!--				<tr class="offset-string"></tr>-->
 				</tbody>
 				<tfoot>
 					<tr class="offset-string"></tr>
@@ -169,8 +169,12 @@
 							<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
 						</td>
 					</tr>
-					<tr class="offset-string"></tr>
+<!--					<tr class="offset-string"></tr>-->
 				</tbody>
+
+				<tfoot>
+				<tr class="offset-string"></tr>
+				</tfoot>
 			</table>
 			<div class="program-post-info">
 				<div class="main flex flex-center padding-2x program">
