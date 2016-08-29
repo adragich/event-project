@@ -2069,7 +2069,6 @@ a.border:hover{
 }
 .program-main-title #middlePart{
     left: 75%;
-    top: 110px;
 }
 .program-wrap{
     padding-left: 60px;
@@ -3133,7 +3132,9 @@ a.border:hover{
         background: none
     }
     /*program*/
-
+    .program-main-title #middlePart {
+        top: 80px;
+    }
     .program.main {
         padding-top: 110px;
         min-height: 0;
