@@ -2200,6 +2200,7 @@ a.border:hover{
     bottom: 155px;
     right: 0;
     padding-right: 15%;
+    z-index: 10!important;
 }
 
 .placeWrap:first-child {
