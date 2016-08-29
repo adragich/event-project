@@ -529,6 +529,7 @@ img{
     position: absolute;
     padding-top: 0;
     top: 0;
+    width: 100%;
 }
 
 .flex.main.fillAndCenter{
