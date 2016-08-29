@@ -3,7 +3,7 @@
 	//assign domain
 	$domain = "http://event-project.myhomezy.com/";
 
-    $ticketsLink = 'EXTERNAL_LINK_FOR_TICKETS';
+    $ticketsLink = '#';
 
     $templatePath = '/templates/projekcje_bitwy_szablon.pdf';
     $feedback_email = 'anastasiia.dragich@gmail.com';

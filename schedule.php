@@ -91,7 +91,7 @@
 						<img src="img/program/program_small_3.jpg" alt="Patryk Hardziej">
 						<span class="block-content">
 							<?php echo PROGRAM_DESCRIPTION_3;?></span>
-<!--						<a href="#" class="workshop transition">--><?php //echo APPLY_WORKSHOP; ?><!--</a>-->
+						<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
@@ -119,7 +119,7 @@
 						<img src="img/program/program_small_5.jpg" alt="Kriss Hermansson Marcus Brown">
 						<span class="block-content">
 							<?php echo PROGRAM_DESCRIPTION_5;?></span>
-<!--						<a href="#" class="workshop transition">--><?php //echo APPLY_WORKSHOP; ?><!--</a>-->
+						<a href="#" class="workshop transition"><?php echo APPLY_WORKSHOP; ?></a>
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
