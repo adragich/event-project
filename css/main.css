@@ -2805,7 +2805,7 @@ a.border:hover{
     }
     .program-main-title{
         padding-right:0;
-        padding-left: 55px;
+        padding-left: 54px;
         padding-bottom: 0;
     }
     .main, .main.about-us {
@@ -3327,7 +3327,21 @@ a.border:hover{
     .anim-space {
         height: 157px;
         margin: 0;
-        top: 90px;
+        top: 105px;
+    }
+/*program*/
+    .program-static-section .side-link {
+        padding-top: 45%;
+    }
+    .program-static-section .navigation{
+        margin: 50px auto 35px;
+    }
+    .program-main-title{
+        padding-top: 65px;
+    }
+    .workshop-static-section .navigation{
+        margin: 50px auto;
+        left: 20px;
     }
      .flex.main.fillAndCenter, .fillAndCenter{
         padding-top: 36vh;
@@ -3676,11 +3690,6 @@ a.border:hover{
 
     .content-string td > .blockTitle, .content-string td > .block-content{
         padding-right:0;
-    }
-
-    .program-static-section .navigation, .workshop-static-section .navigation{
-        margin: 50px auto;
-        left: 20px;
     }
     .program.main{
         padding-top: 40px;
@@ -4094,7 +4103,7 @@ a.border:hover{
     /*program*/
 
     .program-section{
-        margin-top: 100px;
+        margin-top: 0px;
     }
     /**/
     /*place*/
