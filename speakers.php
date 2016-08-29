@@ -55,7 +55,7 @@
 									target="_blank" class="relative">
 									<span class="innerHoverStripe absolute transition">
 									</span>
-									 <span class="text">
+									 <span class="relative">
 										 www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
 									 </span>
 								 </a>
