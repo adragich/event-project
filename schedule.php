@@ -114,8 +114,10 @@
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
-				<tr class="offset-string"></tr>
 				</tbody>
+				<tfoot>
+					<tr class="offset-string"></tr>
+				</tfoot>
 			</table>
 
 
