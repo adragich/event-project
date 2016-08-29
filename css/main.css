@@ -520,11 +520,15 @@ img{
     display: -ms-flexbox;
     display: flex;
 }
-.flex.main.fillAndCenter{
+.fillAndCenter{
     display: -webkit-box!important;
     display: -webkit-flex!important;
     display: -ms-flexbox!important;
     display: flex!important;
+    height: 100%;
+    position: absolute;
+    padding-top: 0;
+    top: 0;
 }
 
 .flex.main.fillAndCenter{

@@ -17,15 +17,15 @@
 				@include("partials/top.html")
 			?>
 
-			<div class="fillAndCenter main flex flex-center padding-2x inner-page program">
-				<div class="inside">
+			<div class="fillAndCenter flex flex-end">
+				<div class="inside relative">
 					<p class="mainTitle"><?php echo PROGRAM_TITLE;?></p>
 					<p class="note"><?php echo PROGRAM_NOTE;?></p>
 					<div id="middlePart" class="transition hide animated fadeIn"></div>
+					<div data-offset="0" data-id="#programSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</div>
 				</div>
-			</div>
-			<div data-offset="0" data-id="#programSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
-				<i class="fa fa-angle-down" aria-hidden="true"></i>
 			</div>
 			<!--button for menu-->
 			<?php
