@@ -29,7 +29,11 @@
 				<p class="bold date hide">5-11-2016</p>
 				<p class="city hide"><?php echo CITY;?></p>
 				<p class="company hide">
-					<a href="https://www.concordiadesign.pl/en" target="_blank"><?php echo COMPANY;?></a>
+					<a href="https://www.concordiadesign.pl/en"
+					   target="_blank"
+					   class="">
+						<span class="hoverStripe relative"><?php echo COMPANY;?></span>
+					</a>
 				</p>
 			</div>
 			<!--button for menu-->
