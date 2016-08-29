@@ -269,9 +269,7 @@
                 define("WORKSHOPS_WEBSITE_1","magierski.pl");
                 define("WORKSHOPS_CONTENT_1","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r.
 						Na co dzień mieszka i pracuje w Krakowie. Jego ilustracje publikowane są w magazynach
-						graficznych na całym świecie. W dosyć krótkiej karierze zawodowej osiągnął m.in.
-						dwa znaczące sukcesy - jego projekty zostały zamieszczone na okładkach magazynów Advanced
-						Photoshop w Wielkiej Brytanii oraz Computer Arts w Polsce.");
+						graficznych na całym świecie.");
                 define("WORKSHOPS_MODAL_CONTENT_1","ZBrush Workshop oraz MODO, to pozycje obowiązkowa dla każdego, kto 
                         chce dowiedzieć się jak wykorzystać te fantastyczne narzędzia w zapierających dech w piersiach 
                         projektach. Podczas warsztatów uczestnicy dowiedzą się jak są tworzone światowej klasy 
@@ -288,9 +286,7 @@
                 define("WORKSHOPS_PERSON_2","Andrzej Jakuszko");
                 define("WORKSHOPS_WEBSITE_2","mutostudio.pl");
                 define("WORKSHOPS_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
-                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.
-                        W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,a 
-                        zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.");
+                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.");
                 define("WORKSHOPS_MODAL_CONTENT_2","Szkło w tubce, guma w sprayu, dym bez ognia... Podczas warsztatów
                         uczestnicy zapoznają się z praktycznym podejściem do procesu fotografii
                         projektów.
@@ -309,9 +305,7 @@
                 define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
                 define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
                         tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
-                        w Polsce, jak i za granicą. Bez względu na to, czy idea kreacji marki jest Ci bliska, 
-                        czy dopiero zaczynasz przygodę z tą tematyką – na pewno znajdziesz tam sporo wartościowych 
-                        treści.");
+                        w Polsce, jak i za granicą.");
                 define("WORKSHOPS_MODAL_CONTENT_3","Warsztat do drugiej potęgi to nietypowy trening umiejętności, którego
                         przewrotnym tematem przewodnim będzie sam warsztat projektanta oraz
                         biznesowa realizacja projektów z obszaru brandingu. W trakcie warsztatu
