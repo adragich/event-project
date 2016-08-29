@@ -91,7 +91,9 @@
 					<p class="blockSub modal"><?php echo constant(WORKSHOPS_SUBTITLE_.$i);?></p>
 					<p>
 						<a href="<?php echo $ticketsLink; ?>"
-						   class="event-link yellow transition modal"><?php echo TICKETS; ?></a>
+						   class="event-link yellow transition modal">
+							<span class="badge absolute transition">Wkrótce!</span>
+							<?php echo TICKETS; ?></a>
 					</p>
 					<p class="owner modal"><?php echo TICKETS_NOTE_1; ?>
 					</p>

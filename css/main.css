@@ -172,7 +172,7 @@ img{
 
     /**/
 }
-.tickets:hover .badge{
+a:hover .badge{
     background: #525252;
 }
 .badge:after{
