@@ -4,7 +4,10 @@
     <span class="transition"><?php echo PROJECTS;?></span>
 </a>
 
-<a href="<?php echo $ticketsLink; ?>" class="tickets event-link yellow animScrollLink transition"><?php echo TICKETS;?></a>
+<a href="<?php echo $ticketsLink; ?>" class="tickets event-link yellow animScrollLink transition">
+    <span class="badge absolute">Wkrótce!</span>
+    <?php echo TICKETS;?>
+</a>
 
 <div class="aside left absolute yellow side-link">
     <a href="battles?lang=<?php echo $_SESSION['lang'];?>" class="absolute fill flex-center flex">
