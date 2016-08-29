@@ -180,16 +180,20 @@ img{
     height:17px;
     width: 100%;
     position: absolute;
+    left:0;
+    bottom: -2px;
 }
 .badge{
     font-size: 12px;
     font-family: "stolzlmedium", sans-serif;
     color:#fff;
     background: #434343;
-    text-align: left;
+    text-align: center;
     height:19px;
     line-height: 19px;
     width: 74px;
+    left: -35px;
+    top: -8px;
 }
 
 .cross-element{
