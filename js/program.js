@@ -17,14 +17,12 @@ $(function(){
 
            if(state == 'collapsed'){
                children.each(function(i, e){
-                   setTimeout(function(){
-                       $(e).fadeIn();
-                   }, i*100);
+                   $(e).slideDown();
                });
                $(this).attr('data-state', 'expanded');
            }
            else{
-               children.fadeOut();
+               children.slideUp();
                $(this).attr('data-state', 'collapsed');
            }
        });
