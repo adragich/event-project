@@ -28,7 +28,9 @@
 			<div class="additionalInfo right-align">
 				<p class="bold date hide">5-11-2016</p>
 				<p class="city hide"><?php echo CITY;?></p>
-				<p class="company hide"><?php echo COMPANY;?></p>
+				<p class="company hide">
+					<a href="https://www.concordiadesign.pl/en" target="_blank"><?php echo COMPANY;?></a>
+				</p>
 			</div>
 			<!--button for menu-->
 			<?php
@@ -36,7 +38,7 @@
 			?>
 		</div>
 		<div class="fixer-container absolute">
-			<a href="#" class="bottom-link"><span class="hoverStripe relative"><?php echo SPEAKERS;?></span></a>
+			<a href="speakers?lang=<?php echo $_SESSION['lang'];?>" class="bottom-link"><span class="hoverStripe relative"><?php echo SPEAKERS;?></span></a>
 		</div>
 	</section>	
 	<!--menu-->

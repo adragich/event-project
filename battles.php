@@ -52,7 +52,7 @@
 <!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
 <!--					szerszemu gronu jak i wymianę doświadczeń. </p>-->
 					<p class="offset-top"></p>
-					<p class="subtitle bold no-margin animated wow fadeInUp" data-wow-delay="0.2s">Jak przebiegać będzie bitwa ?</p>
+					<p class="subtitle bold animated wow fadeInUp" data-wow-delay="0.2s">Jak przebiegać będzie bitwa ?</p>
 
 					<p class="block-content animated wow fadeInUp" data-wow-delay="0.3s">
 						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
