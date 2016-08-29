@@ -9,7 +9,6 @@
 </head>
 <body class="partners-body">
 <!--block for animation-->
-<!--TODO: create unique block for the page-->
 <?php
 @include("partials/preloader-partners.html")
 ?>
@@ -47,7 +46,7 @@
 			<div>
 				<?php for($i = 1; $i < 3; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="<?php echo 0.1*$i;?>s">
+						 data-wow-delay="0s">
 						<div class="inner">
 							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
 							   class="center-align transition flex flex-center border" target="_blank">
@@ -65,7 +64,7 @@
 			<div>
 				<?php for($i = 3; $i < 13; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="<?php echo 0.1*($i-2);?>s">
+						 data-wow-delay="0s">
 						<?php if($i == 7 ) {?>
 							<div class="inner flex flex-center center-align border">
 									<img src="img/partners/projections-partners_<?php echo $i ?>.png"
@@ -90,7 +89,7 @@
 			<div>
 				<?php for($i = 13; $i < 21; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="<?php echo 0.1*($i-12);?>s">
+						 data-wow-delay="0s">
 						<div class="inner">
 							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
 							   class="center-align transition flex flex-center border" target="_blank">
@@ -108,7 +107,7 @@
 			<div>
 				<?php for($i = 21; $i < 25; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="<?php echo 0.1*($i-20);?>s">
+						 data-wow-delay="0s">
 						<div class="inner">
 							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
 							   class="center-align transition flex flex-center border" target="_blank">
