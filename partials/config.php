@@ -11,6 +11,9 @@
     $feedback_from = 'user@event-project.myhomezy.com';
     $feedback_username = 'Administrator';
     $feedback_from_name = 'Applicant';
+
+    $instagramLink = '#';
+    $facebookLink = "https://www.facebook.com/projekcje2016/";
 	//$domain = "http://localhost/event/";
 
 ?>
