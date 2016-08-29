@@ -52,7 +52,7 @@
 							<p class="block-content"><?php echo constant(SPEAKER_DESC_.$i);?></p>
 							<p class="block-note">
 								<a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
-									target="_blank" class="hoverStripe">
+									target="_blank" class="hoverStripe relative">
 									www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
 								</a>
 							</p>
