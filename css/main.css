@@ -280,8 +280,7 @@ a:hover .badge{
     z-index: -1;
     position: absolute;
 }
-.nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before, .fill:hover:before, a:hover .hoverStripe:before,
-a.hoverStripe:hover:before{
+.nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before, .fill:hover:before, a:hover .hoverStripe:before{
     left:0;
 }
 .fill:hover:before {
@@ -2128,6 +2127,12 @@ a.border:hover{
     font-family: "stolzlmedium", sans-serif;
     align-items: center;
     padding-right: 80px;
+}
+.inner-hover-link{
+    background: -webkit-linear-gradient(left, #f6f6f6 0%, #ffeb3e 100%);
+}
+.inner-hover-link:hover{
+    background: -webkit-linear-gradient(left, #ffeb3e 0%, #ffeb3e 100%);
 }
 .program-types li span{
     width:44px;

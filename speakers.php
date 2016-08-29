@@ -51,10 +51,10 @@
 							<p class="blockTitle"><?php echo constant(SPEAKER_NAME_.$i);?></p>
 							<p class="block-content"><?php echo constant(SPEAKER_DESC_.$i);?></p>
 							<p class="block-note">
-								<a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
-									target="_blank" class="hoverStripe relative">
-									www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
-								</a>
+								 <a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
+									target="_blank" class="inner-hover-link transition">
+										www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
+								 </a>
 							</p>
 						</div>
 					</div>
