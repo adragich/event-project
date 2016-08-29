@@ -2552,6 +2552,7 @@ a.border:hover{
     .flex.main.fillAndCenter, .fillAndCenter{
         padding-top: 36vh;
         position: relative;
+        width: 100%;
     }
     /*battles*/
     .battle-teams + .battle-teams {
