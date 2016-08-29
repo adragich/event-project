@@ -578,9 +578,6 @@ img{
     font-family: "stolzlmedium", sans-serif;
     line-height: 1.5;
 }
-.mainTitle:not(.animated), .note:not(.animated), .bottom-link:not(.animated){
-    opacity: 0;
-}
 .bottom-link{
     border-top: 4px solid #f6f6f6;
     color: #3e3e3e;
@@ -2439,6 +2436,10 @@ a.border:hover{
 @media (min-width: 668px) {
     .hide{
         opacity:0;
+    }
+
+    .mainTitle:not(.animated), .note:not(.animated), .bottom-link:not(.animated){
+        opacity: 0;
     }
 }
 @media (min-width: 668px) and  (max-width: 1024px){
