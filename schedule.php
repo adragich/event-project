@@ -52,6 +52,39 @@
 					</tr>
 				</thead>
 				<tbody>
+
+				<tr class="clear-string"></tr>
+				<tr class="offset-string"></tr>
+				<tr class="content-string no-button">
+					<td class="program-time">00:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Wykłady</p>
+						<p class="block-content">
+							prelegentów.</p>
+					</td>
+					<td class="left-align image yellow-gradient">
+						<img src="img/speakers.png" alt="Wykłady">
+						<span class="block-content">Pełen program już wkrótce!
+						</span>
+					</td>
+				</tr>
+				<tr class="offset-string"></tr>
+				<tr class="content-string no-button">
+					<td class="program-time">00:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Warsztaty.</p>
+						<p class="block-content">
+							dla chętnych</p>
+					</td>
+					<td class="left-align image yellow-gradient">
+						<img src="img/workshops.png" alt="Warsztaty">
+						<span class="block-content">Harmonogram już niebawem!
+						</span>
+					</td>
+				</tr>
+
+
+
 				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
 				<tr class="content-string no-button">
