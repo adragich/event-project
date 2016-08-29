@@ -83,74 +83,33 @@
 	<section class="scrollableContent about relative"
 			 data-parallax='{"y" : -100, "smoothness": 20}'>
 		<div class="container">
-			<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
-				 data-parallax='{"y" : -100, "distance": 1400, "smoothness": 10}'>
-				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<div class="light-grey flex flex-center about-image">
-						<img src="img/about/<?php echo ABOUT_IMAGE_1;?>" alt="<?php echo ABOUT_TITLE_1;?>">
+
+			<?php for($i = 1; $i <= 14; $i++){?>
+
+				<div class="col xl6 l12 m12 s12 speakerWrap fadeInUp"
+					 data-parallax='{"y" : -<?php $val = $i % 2 == 0 ? '100' : '150'; echo $val; ?>, "distance": 1400, "smoothness": 10}'>
+					<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
+						<div class="light-grey flex flex-center about-image">
+							<img src="img/about/<?php echo constant(ABOUT_IMAGE_.$i);?>" alt="<?php echo ABOUT_TITLE_1;?>">
+						</div>
+						<div class="l12 speaker-info">
+							<p class="blockTitle"><?php echo constant(ABOUT_TITLE_.$i);?></p>
+							<p class="block-content"><?php echo constant(ABOUT_SUBTITLE_.$i);?> _</p>
+							<p class="block-note">
+								<a href="//www.<?php echo constant(ABOUT_WEBSITE_.$i);?>"
+								   target="_blank" class="hoverStripe">
+								<?php echo constant(ABOUT_WEBSITE_.$i);?>
+								</a>
+							</p>
+						</div>
 					</div>
-					<div class="l12 speaker-info">
-						<p class="blockTitle"><?php echo ABOUT_TITLE_1;?></p>
-						<p class="block-content"><?php echo ABOUT_SUBTITLE_1;?> _</p>
-						<p class="block-note"><?php echo ABOUT_WEBSITE_1;?></p>
-					</div>
-				</div>
-				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="<?php echo ABOUT_LINK_1;?>" class="learn-more-link yellow"
-						target="_blank"><?php echo LEARN_MORE;?></a>
-				</div>
-			</div>
-			<div class="col xl6 l12 m12 s12 speakerWrap"
-				 data-parallax='{"y" : -150, "distance": 1600, "smoothness": 20}'>
-				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<div class="light-grey flex flex-center about-image">
-						<img src="img/about/<?php echo ABOUT_IMAGE_2;?>" alt="<?php echo ABOUT_TITLE_2;?>">
-					</div>
-					<div class="l12 speaker-info">
-						<p class="blockTitle"><?php echo ABOUT_TITLE_2;?></p>
-						<p class="block-content"><?php echo ABOUT_SUBTITLE_2;?> _</p>
-						<p class="block-note"><?php echo ABOUT_WEBSITE_2;?></p>
+					<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
+						<a href="<?php echo constant(ABOUT_LINK_.$i);?>" class="learn-more-link yellow"
+						   target="_blank"><?php echo LEARN_MORE;?></a>
 					</div>
 				</div>
-				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="<?php echo ABOUT_LINK_2;?>" class="learn-more-link yellow"
-					   target="_blank"><?php echo LEARN_MORE;?></a>
-				</div>
-			</div>
-			<div class="col xl6 l12 m12 s12 speakerWrap"
-				 data-parallax='{"y" : -100, "distance": 1400, "smoothness": 10}'>
-				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<div class="light-grey flex flex-center about-image">
-						<img src="img/about/<?php echo ABOUT_IMAGE_3;?>" alt="<?php echo ABOUT_TITLE_3;?>">
-					</div>
-					<div class="l12 speaker-info">
-						<p class="blockTitle"><?php echo ABOUT_TITLE_3;?></p>
-						<p class="block-content"><?php echo ABOUT_SUBTITLE_3;?> _</p>
-						<p class="block-note"><?php echo ABOUT_WEBSITE_3;?></p>
-					</div>
-				</div>
-				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="<?php echo ABOUT_LINK_3;?>" class="learn-more-link yellow"
-					   target="_blank"><?php echo LEARN_MORE;?></a>
-				</div>
-			</div>
-			<div class="col xl6 l12 m12 s12 speakerWrap"
-				 data-parallax='{"y" : -150, "distance": 1600, "smoothness": 20}'>
-				<div class="col l9 s12 speaker animated fadeInUp wow" data-wow-delay="0s">
-					<div class="light-grey flex flex-center about-image">
-						<img src="img/about/<?php echo ABOUT_IMAGE_4;?>" alt="<?php echo ABOUT_TITLE_4;?>">
-					</div>
-					<div class="l12 speaker-info">
-						<p class="blockTitle"><?php echo ABOUT_TITLE_4;?></p>
-						<p class="block-content"><?php echo ABOUT_SUBTITLE_4;?> _</p>
-						<p class="block-note"><?php echo ABOUT_WEBSITE_4;?></p>
-					</div>
-				</div>
-				<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-					<a href="<?php echo ABOUT_LINK_4;?>" class="learn-more-link yellow"
-					   target="_blank"><?php echo LEARN_MORE;?></a>
-				</div>
-			</div>
+
+			<?php } ?>
 		</div>
 	</section>
 	<!--menu-->
