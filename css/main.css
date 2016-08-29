@@ -1338,10 +1338,12 @@ a:hover .innerHoverStripe {
     background-size: contain!important;
 }
 .speakerWrap:not(:first-child):nth-child(2n+1){
-    margin-top: 100px;
+    /*margin-top: 100px;*/
+    margin-top: 0px;
 }
 .speakerWrap:nth-child(2n) {
-    margin-top: 50px;
+    margin-top: 150px;
+    /*margin-top: 50px;*/
 }
 /*about*/
 .about-image{
