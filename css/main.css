@@ -1286,6 +1286,10 @@ img{
     top:44%;
     background:#3e3e3e;
 }
+
+.program-main-title #middlePart {
+    top: 110px;
+}
 #bottomPart{
     width:118px;
     height:118px;
@@ -2063,7 +2067,7 @@ a.border:hover{
 .program.main{
     padding-top: 0;
 }
-.program #middlePart{
+.program-main-title #middlePart{
     left: 75%;
     top: 48%;
 }
@@ -2386,8 +2390,8 @@ a.border:hover{
         padding-right: 150px;
     }
     /**/
-    .program #middlePart{
-        left: 950px;
+    .program-main-title #middlePart{
+        left: 600px;
     }
     .xl12{
         width:100%;
@@ -2475,7 +2479,7 @@ a.border:hover{
     .flex.main.fillAndCenter.program {
         padding-top: 52vh;
     }
-    .program #middlePart {
+    .program-main-title #middlePart {
         top: 92%;
     }
 }
@@ -3134,7 +3138,7 @@ a.border:hover{
     .program .inside {
         padding-right: 0;
     }
-    .program #middlePart {
+    .program-main-title #middlePart {
         top: 90%;
     }
     .program-static-section .navigation, .workshop-static-section .navigation{
