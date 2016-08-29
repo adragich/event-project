@@ -72,10 +72,9 @@ $(document).ready(function(){
 
     var parts = $(".loadAnimation [class*='rotate']");
 
-    parts.each(function(index){
-        console.log(index, parts.length);
+    parts.each(function(index, part){
        setTimeout(function(){
-           $(this).addClass("animated");
+           part.addClass("animated");
        }, index*0.25);
     });
 
