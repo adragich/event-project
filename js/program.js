@@ -20,7 +20,7 @@ console.log(state);
                $(this).attr('data-state', 'expanded');
            }
            else{
-               children.fadeOut();
+               children.slideUp();
                $(this).attr('data-state', 'collapsed');
            }
        });
