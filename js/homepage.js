@@ -82,7 +82,7 @@ function animateItems(first, second, third, fourth, duration, wrap){
 
             setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/2);
             setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/2);
-            setTimeout('$(".badge").addClass(" animated fadeIn")',  duration);
+            setTimeout('$(".badge").addClass(" animated fadeIn")',  duration*2);
 
             setTimeout('$(".big-grey-stripe").addClass(" animated fadeInDown")',  duration);
             setTimeout('$(".event-left-link").addClass(" animated fadeIn")',  1.5*duration);
