@@ -53,9 +53,9 @@
 							<p class="block-note">
 								 <a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
 									target="_blank">
-									<span class="hoverStripe relative">
-										www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
+									<span class="innerHoverStripe absolute">
 									</span>
+										www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>
 								 </a>
 							</p>
 						</div>
