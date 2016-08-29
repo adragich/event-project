@@ -5,11 +5,12 @@ $(function(){
    var expanders = $("[data-role='parent']");
     expanders.each(function(){
         var topic = $(this).attr('data-topic'),
-            state= $(this).attr('data-state'),
             children = $("[data-topic='" + topic + "'][data-role='child']");
 console.log(children.length);
        $(this).on('click', function(){
-
+           var state= $(this).attr('data-state');
+           
+console.log(state);
            if(state == 'collapsed'){
                children.each(function(i, e){
                    setTimeout(function(){
