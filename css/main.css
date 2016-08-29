@@ -2129,10 +2129,12 @@ a.border:hover{
     padding-right: 80px;
 }
 .inner-hover-link{
-    background: -webkit-linear-gradient(left, #f6f6f6 0%, #ffeb3e 100%);
+    background: -webkit-linear-gradient(left, #f6f6f6 0%, #f6f6f6 100%, #ffeb3e 100%);
+    background: linear-gradient(left, #f6f6f6 0%, #f6f6f6 100%, #ffeb3e 100%);
 }
 .inner-hover-link:hover{
-    background: -webkit-linear-gradient(left, #ffeb3e 0%, #ffeb3e 100%);
+    background: -webkit-linear-gradient(left, #ffeb3e 0%, #ffeb3e 100%, #ffeb3e 100%);
+    background: linear-gradient(left, #ffeb3e 0%, #ffeb3e 100%, #ffeb3e 100%);
 }
 .program-types li span{
     width:44px;
