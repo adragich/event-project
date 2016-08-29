@@ -55,7 +55,7 @@
 
 				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
+				<tr class="content-string no-button" data-role="parent" data-topic="speakers">
 					<td class="program-time">00:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Wykłady</p>
@@ -68,26 +68,10 @@
 						</span>
 					</td>
 				</tr>
-				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
-					<td class="program-time">00:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Warsztaty.</p>
-						<p class="block-content">
-							dla chętnych</p>
-					</td>
-					<td class="left-align image blue-light">
-						<img src="img/workshops.png" alt="Warsztaty">
-						<span class="block-content">Harmonogram już niebawem!
-						</span>
-					</td>
-				</tr>
-
-
 
 				<tr class="clear-string"></tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
+				<tr class="content-string no-button" data-role="child" data-topic="speakers">
 					<td class="program-time">10:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Grzegorz Róg</p>
@@ -101,7 +85,7 @@
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
+				<tr class="content-string no-button" data-role="child" data-topic="speakers">
 					<td class="program-time">11:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Martyna Wędzicka</p>
@@ -114,7 +98,36 @@
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string">
+				<tr class="content-string no-button" data-role="child" data-topic="speakers">
+					<td class="program-time">14:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Hopa Studio</p>
+						<p class="block-content">hopastudio.com _</p>
+					</td>
+					<td class="left-align image yellow-gradient">
+						<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
+						<span class="block-content">
+							<?php echo PROGRAM_DESCRIPTION_4;?></span>
+					</td>
+				</tr>
+
+				<tr class="offset-string"></tr>
+				<tr class="content-string no-button" data-role="parent" data-topic="workshops">
+					<td class="program-time">00:00</td>
+					<td class="left-align">
+						<p class="blockTitle">Warsztaty.</p>
+						<p class="block-content">
+							dla chętnych</p>
+					</td>
+					<td class="left-align image blue-light">
+						<img src="img/workshops.png" alt="Warsztaty">
+						<span class="block-content">Harmonogram już niebawem!
+						</span>
+					</td>
+				</tr>
+
+				<tr class="offset-string"></tr>
+				<tr class="content-string" data-role="child" data-topic="workshops">
 					<td class="program-time">13:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Patryk Hardziej</p>
@@ -128,20 +141,7 @@
 					</td>
 				</tr>
 				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
-					<td class="program-time">14:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Hopa Studio</p>
-						<p class="block-content">hopastudio.com _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_4;?></span>
-					</td>
-				</tr>
-				<tr class="offset-string"></tr>
-				<tr class="content-string">
+				<tr class="content-string" data-role="child" data-topic="workshops">
 					<td class="program-time">16:00</td>
 					<td class="left-align">
 						<p class="blockTitle">Kriss Hermansson <br>Marcus Brown
