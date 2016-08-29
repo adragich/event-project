@@ -19,7 +19,7 @@ $(function(){
                children.each(function(i, e){
                    setTimeout(function(){
                        $(e).fadeIn();
-                   }, i*250);
+                   }, i*100);
                });
                $(this).attr('data-state', 'expanded');
            }
