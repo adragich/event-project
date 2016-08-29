@@ -75,7 +75,7 @@ $(document).ready(function(){
     part.each(function(index, elem){
         console.log(elem, index);
        setTimeout(function(){
-           elem.find("[class*='rotate'").addClass("animated");
+           elem.find("[class*='rotate']").addClass("animated");
        }, index*0.25);
     });
 
