@@ -2479,9 +2479,6 @@ a.border:hover{
     .flex.main.fillAndCenter.program {
         padding-top: 52vh;
     }
-    .program-main-title #middlePart {
-        top: 92%;
-    }
 }
 @media (max-width: 1024px) {
     /*workshops*/
@@ -3142,9 +3139,6 @@ a.border:hover{
     }
     .program .inside {
         padding-right: 0;
-    }
-    .program-main-title #middlePart {
-        top: 90%;
     }
     .workshop-static-section .navigation{
         margin: 100px auto;
