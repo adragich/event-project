@@ -172,7 +172,9 @@ img{
 
     /**/
 }
-
+.tickets:hover .badge{
+    background: #525252;
+}
 .badge:after{
     content: "";
     border-bottom: 2px solid #f6f6f6;
