@@ -1283,7 +1283,7 @@ img{
     height:4px;
     position:absolute;
     left:35%;
-    top:44%;
+    top:57%;
     background:#3e3e3e;
 }
 
@@ -1361,10 +1361,6 @@ img{
     left: 253px;
     bottom: -91px;
 }
-.about-us #middlePart{
-    top: 60%;
-}
-
 .inside.orgs:after{
     content:"";
     width: 114px;

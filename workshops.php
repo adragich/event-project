@@ -24,7 +24,6 @@
 				<div class="inside">
 					<p class="mainTitle"><?php echo WORKSHOPS;?></p>
 					<p class="note"><?php echo WORKSHOPS_NOTE;?></p>
-					<div id="middlePart" class="transition hide animated fadeIn"></div>
 				</div>
 			</div>
 			<div data-offset="-150" data-id="#workshopSection" class="navigation animated fadeInUp wow" data-wow-delay="1s">
