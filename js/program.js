@@ -9,7 +9,7 @@ $(function(){
 console.log(children.length);
        $(this).on('click', function(){
            var state= $(this).attr('data-state');
-           
+
 console.log(state);
            if(state == 'collapsed'){
                children.each(function(i, e){
@@ -20,11 +20,7 @@ console.log(state);
                $(this).attr('data-state', 'expanded');
            }
            else{
-               children.each(function(i, e){
-                   setTimeout(function(){
-                       $(e).fadeOut();
-                   }, i*250);
-               });
+               children.fadeOut();
                $(this).attr('data-state', 'collapsed');
            }
        });
