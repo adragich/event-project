@@ -65,7 +65,8 @@
 			<div>
 				<?php for($i = 3; $i < 13; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="0s">
+						 data-wow-delay="0s"
+						 data-wow-offset="-200">
 						<?php if($i == 7 ) {?>
 							<div class="inner flex flex-center center-align border">
 									<img src="img/partners/projections-partners_<?php echo $i ?>.png"
@@ -90,7 +91,8 @@
 			<div>
 				<?php for($i = 13; $i < 21; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="0s">
+						 data-wow-delay="0s"
+						 data-wow-offset="-200">
 						<div class="inner">
 							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
 							   class="center-align transition flex flex-center border" target="_blank">
@@ -108,7 +110,8 @@
 			<div>
 				<?php for($i = 21; $i < 25; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="0s">
+						 data-wow-delay="0s"
+						 data-wow-offset="-200">
 						<div class="inner">
 							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
 							   class="center-align transition flex flex-center border" target="_blank">
