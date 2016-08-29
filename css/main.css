@@ -253,6 +253,9 @@ a:hover .badge{
 .nav{
     padding: 20px 0;
 }
+.margin-right{
+    margin: 0 -10px 0 0;
+}
 .clearfix{
     clear: both;}
 .changeLang{

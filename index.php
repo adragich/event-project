@@ -32,7 +32,7 @@
 					<a href="https://www.concordiadesign.pl/en"
 					   target="_blank"
 					   class="">
-						<span class="hoverStripe relative"><?php echo COMPANY;?></span>
+						<span class="hoverStripe relative margin-right"><?php echo COMPANY;?></span>
 					</a>
 				</p>
 			</div>
