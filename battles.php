@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Projekcje - Konferencja graficzna - <?php echo BATTLES_2;?></title>
 	<?php
 		@include("partials/head.php");
 	?>
+	<title>Projekcje - Konferencja graficzna - <?php echo BATTLES_2;?></title>
 
 </head>
 <body>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Projekcje - Konferencja graficzna - <?php echo PARTNERS;?></title>
 	<?php
 	@include("partials/head.php");
 	?>
+	<title>Projekcje - Konferencja graficzna - <?php echo PARTNERS;?></title>
 
 </head>
 <body class="partners-body">
