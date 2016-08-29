@@ -72,10 +72,10 @@ $(document).ready(function(){
 
     var part = $(".loadAnimation > div");
 
-    part.each(function(index, elem){
-        console.log(elem, index);
+    part.each(function(index){
+        console.log(index);
        setTimeout(function(){
-           elem.find("[class*='rotate']").addClass("animated");
+           $(this).find("[class*='rotate']").addClass("animated");
        }, index*0.25);
     });
 
