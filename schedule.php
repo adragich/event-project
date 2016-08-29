@@ -18,7 +18,7 @@
 			?>
 
 			<div class="fillAndCenter flex flex-end">
-				<div class="inside relative">
+				<div class="inside relative program-main-title">
 					<p class="mainTitle"><?php echo PROGRAM_TITLE;?></p>
 					<p class="note"><?php echo PROGRAM_NOTE;?></p>
 					<div id="middlePart" class="transition hide animated fadeIn"></div>

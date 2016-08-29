@@ -2019,6 +2019,15 @@ a.border:hover{
 
 /*program*/
 /*temp*/
+.program-main-title .navigation{
+    position: relative;
+}
+.program-main-title{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px 0;
+}
 .anim-space img, .anim-space-relative img{
     object-position: center;
     object-fit: cover;
