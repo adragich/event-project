@@ -76,7 +76,7 @@
 						<p class="block-content">
 							dla chętnych</p>
 					</td>
-					<td class="left-align image yellow-gradient">
+					<td class="left-align image blue-light">
 						<img src="img/workshops.png" alt="Warsztaty">
 						<span class="block-content">Harmonogram już niebawem!
 						</span>
