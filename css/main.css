@@ -2905,10 +2905,11 @@ a.border:hover{
         height: 42px;
         width: 26px;
     }
-    #middlePart {
+    #middlePart:not(.workshop-part) {
         left: 57%;
         top: 46%;
     }
+
     .subHeight{
         background: #f6f6f6;
     }
