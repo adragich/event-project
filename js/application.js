@@ -70,7 +70,7 @@ $(document).on('click', '.apply-trigger', function(e){
 
 $(document).ready(function(){
 
-    var parts = $(".loadAnimation [class*='rotate']");
+    var parts = $("[data-class*='rotate']");
 
     parts.each(function(index, part){
        var classRotate = $(part).attr('data-class');
