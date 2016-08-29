@@ -1,7 +1,7 @@
 function constructMenuLinks(){
 	var minHeight = $(window).height(),
 		li = $(".nav li");
-	
+
 	$(".stick .container").css("min-height", minHeight + "px");
 	var height = $(window).height() * 0.59 / li.length ;
 	li.css("line-height", height + "px"); 
