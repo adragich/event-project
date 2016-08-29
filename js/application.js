@@ -72,8 +72,8 @@ $(document).ready(function(){
 
     var part = $(".loadAnimation > div");
 
-    part.each(function(elem, index){
-        console.log(elem);
+    part.each(function(index, elem){
+        console.log(elem, index);
        setTimeout(function(){
            elem.find("[class*='rotate'").addClass("animated");
        }, index*0.25);
