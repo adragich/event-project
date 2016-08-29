@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/config.php" afterPath="$PROJECT_DIR$/partials/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/sidebar.html" afterPath="$PROJECT_DIR$/partials/sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
+            <state relative-caret-position="508">
+              <caret line="387" column="84" selection-start-line="387" selection-start-column="84" selection-end-line="387" selection-end-column="84" />
               <folding>
                 <element signature="e#3635#8293#0#PHP" expanded="false" />
               </folding>
@@ -74,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -156,9 +155,9 @@
         <option value="$PROJECT_DIR$/js/application.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/speakers.php" />
-        <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/partials/sidebar.html" />
         <option value="$PROJECT_DIR$/partials/config.php" />
+        <option value="$PROJECT_DIR$/partials/text.php" />
       </list>
     </option>
   </component>
@@ -371,12 +370,12 @@
       <workItem from="1471950058042" duration="927000" />
       <workItem from="1471953579752" duration="1267000" />
       <workItem from="1471955447206" duration="89564000" />
-      <workItem from="1472453464797" duration="7626000" />
+      <workItem from="1472453464797" duration="7700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216244000" />
+    <option name="totallyTimeSpent" value="216318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="151" y="23" width="1192" height="877" extended-state="0" />
@@ -760,16 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="205" column="61" selection-start-line="205" selection-start-column="61" selection-end-line="205" selection-end-column="61" />
-          <folding>
-            <element signature="e#3635#8293#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/preloader-battles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -791,6 +780,16 @@
         <state relative-caret-position="105">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="387" column="84" selection-start-line="387" selection-start-column="84" selection-end-line="387" selection-end-column="84" />
+          <folding>
+            <element signature="e#3635#8293#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
