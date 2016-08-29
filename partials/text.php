@@ -245,7 +245,7 @@
                 define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
                 define("PROGRAM_TITLE_2","Jesteśmy tutaj");
                 define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland");
-                define("MONTH","November");
+                define("MONTH","listopad");
                 define("PROGRAM_TYPE_1","Prelekcje");
                 define("PROGRAM_TYPE_2","Warsztaty");
                 define("APPLY_WORKSHOP","Apply for workshop");
