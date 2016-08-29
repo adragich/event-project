@@ -529,7 +529,7 @@ img{
     position: absolute;
     padding-top: 0;
     top: 0;
-    width: 100%;
+    width: 87%;
 }
 
 .flex.main.fillAndCenter{
@@ -2022,6 +2022,8 @@ a.border:hover{
 /*temp*/
 .program-main-title .navigation{
     position: relative;
+    margin-top: 70px;
+    left: 0;
 }
 .program-main-title{
     margin: 0 auto;
