@@ -70,12 +70,12 @@ $(document).on('click', '.apply-trigger', function(e){
 
 $(document).ready(function(){
 
-    var part = $(".loadAnimation > div");
+    var parts = $(".loadAnimation [class*='rotate']");
 
-    part.each(function(index){
-        console.log(index);
+    parts.each(function(index){
+        console.log(index, parts.length);
        setTimeout(function(){
-           $(this).find("[class*='rotate']").addClass("animated");
+           $(this).addClass("animated");
        }, index*0.25);
     });
 
