@@ -2441,7 +2441,9 @@ a.border:hover{
     .hide{
         opacity:0;
     }
-
+    [class*='rotate']{
+        opacity: 1;
+    }
     .mainTitle:not(.animated), .note:not(.animated), .bottom-link:not(.animated){
         opacity: 0;
     }
