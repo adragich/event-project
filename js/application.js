@@ -73,7 +73,7 @@ $(document).ready(function(){
     var part = $(".loadAnimation > div");
 
     part.each(function(elem, index){
-       setTimeoute(function(){
+       setTimeout(function(){
            elem.find("[class*='rotate'").addClass("animated");
        }, index*0.25);
     });
