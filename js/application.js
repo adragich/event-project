@@ -76,7 +76,7 @@ $(document).ready(function(){
        var classRotate = $(part).attr('data-class');
        setTimeout(function(){
            $(part).addClass(classRotate);
-       }, index*0.25);
+       }, index*250);
     });
 
     var sendButton = $(".send-application"),
