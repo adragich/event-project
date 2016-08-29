@@ -1132,6 +1132,9 @@ img{
 .yellow-hover:hover .filter:after{
     opacity: 1;
 }
+.yellow-hover img {
+    margin-bottom: -2px;
+}
 /**/
 
 
