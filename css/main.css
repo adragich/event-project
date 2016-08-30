@@ -283,7 +283,8 @@ a:hover .badge{
     z-index: -1;
     position: absolute;
 }
-.nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before, .fill:hover:before, a:hover .hoverStripe:before{
+.nav a:hover:before,  .changeLang:hover:before, .socials a:hover:before, .fill:hover:before,
+a:hover .hoverStripe:before, .hoverStripe:hover:before{
     left:0;
 }
 .fill:hover:before {

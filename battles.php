@@ -91,7 +91,8 @@
 		<div class="container">
 			<div class="battle-info">
 				<div class="left-align download-template">
-					<p class="tiny no-margin">Szczegóły określa  <span class="bold">Regulamin “Bitwy Graficznej”</span>
+					<p class="tiny no-margin">Szczegóły określa
+						<span class="bold modal-trigger relative hoverStripe" data-open="#rules">Regulamin “Bitwy Graficznej”</span>
 					</p>
 					<p>
 						<a href="<?php echo $templatePath; ?>" class="event-link display yellow toLeft" download>

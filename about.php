@@ -94,7 +94,7 @@
 						</div>
 						<div class="l12 speaker-info">
 							<p class="blockTitle"><?php echo constant(ABOUT_TITLE_.$i);?></p>
-							<p class="block-content"><?php echo constant(ABOUT_SUBTITLE_.$i);?> _</p>
+							<p class="block-content"><?php echo constant(ABOUT_SUBTITLE_.$i);?></p>
 							<p class="block-note">
 								<a href="//www.<?php echo constant(ABOUT_WEBSITE_.$i);?>"
 								   target="_blank" class="relative">
