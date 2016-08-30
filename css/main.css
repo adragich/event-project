@@ -374,7 +374,8 @@ a:hover .badge{
     z-index: 999;
     height: 100%;
     box-sizing: border-box;
-    padding: 20px 0;
+    padding: 50px 40px 0 60px;
+    /*padding: 20px 0;*/
     position:fixed;
 }
 .menu-close{
@@ -594,7 +595,7 @@ a:hover .badge{
 }
 .appeared{
     opacity:1;
-    padding: 50px 40px 0 60px;
+    /*padding: 50px 40px 0 60px;*/
     width: 455px;
     max-width: 100%;
 }

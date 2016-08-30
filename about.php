@@ -84,7 +84,7 @@
 			 data-parallax='{"y" : -100, "smoothness": 20}'>
 		<div class="container">
 
-			<?php for($i = 1; $i <= 14; $i++){?>
+			<?php for($i = 1; $i <= 4; $i++){?>
 
 				<div class="col xl6 l6 m12 s12 speakerWrap fadeInUp"
 					 data-parallax='{"y" : -<?php $val = $i % 2 == 0 ? '150' : '100'; echo $val; ?>, "distance": 1400, "smoothness": 10}'>
