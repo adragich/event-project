@@ -367,6 +367,9 @@ a:hover .badge{
     padding: 0 10px 0 10%;
     position: relative;
 }
+.sideBar .inner-content{
+    padding: 50px 40px 0 60px;
+}
 .sideBar{
     right:0;
     top:0;
@@ -374,7 +377,7 @@ a:hover .badge{
     z-index: 999;
     height: 100%;
     box-sizing: border-box;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
     position:fixed;
 }
 .menu-close{
@@ -594,7 +597,7 @@ a:hover .badge{
 }
 .appeared{
     opacity:1;
-    padding: 50px 40px 0 60px;
+    /*padding: 50px 40px 0 60px;*/
     width: 455px;
     max-width: 100%;
 }
@@ -691,7 +694,7 @@ a:hover .badge{
     z-index: 10;
 }
 /*homepage elements opacity*/
- .homepage .static-content, .homepage .event-left-link, .homepage .event-link{
+.homepage .static-content, .homepage .event-left-link, .homepage .event-link{
     opacity: 0;
 }
 
@@ -1015,7 +1018,7 @@ a:hover .badge{
 
 .workshop-section{
     z-index: 1;
-     padding-top: 30px;
+    padding-top: 30px;
 }
 .workshop-section .block-content{
     padding-left: 30px;
@@ -2412,7 +2415,7 @@ a.border:hover{
     }
 
     /**/
-/*404 error*/
+    /*404 error*/
 
     .error-content .block-content {
         padding-top: 64px;
@@ -2425,7 +2428,7 @@ a.border:hover{
         line-height: 148px;
     }
 
-/*battles*/
+    /*battles*/
     .battle-info{
         padding: 0 200px 0 250px;
         max-width: 100%;
@@ -3382,7 +3385,7 @@ a.border:hover{
         margin: 0;
         top: 105px;
     }
-/*program*/
+    /*program*/
     .program-static-section .side-link {
         padding-top: 45%;
     }
@@ -3399,7 +3402,7 @@ a.border:hover{
         margin: 50px auto;
         left: 20px;
     }
-     .flex.main.fillAndCenter, .fillAndCenter{
+    .flex.main.fillAndCenter, .fillAndCenter{
         padding-top: 36vh;
     }
     .flex.main.fillAndCenter.home {
