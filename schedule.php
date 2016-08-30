@@ -8,7 +8,7 @@
 
 </head>
 <body>
-	<div class="anim-space"><img src="img/space.jpg" alt=""></div>
+	<div class="anim-space"><img src="img/program/GIF-program_<?php echo $_SESSION['lang'] ? : 'pl'; ?>.gif" alt="Projections Animation"></div>
 	<section class="static-content transition program-static-section">
 		<div class="container">
 
