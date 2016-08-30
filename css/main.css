@@ -2364,6 +2364,10 @@ a.border:hover{
     left: -400px;
 }
 @media (min-width: 1500px){
+
+    .sideBar .inner-content{
+        padding-right:130px;
+    }
     /*program*/
     .program-main-title {
         padding-left: 0;
