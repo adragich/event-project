@@ -92,7 +92,8 @@
 			<div class="battle-info">
 				<div class="left-align download-template">
 					<p class="tiny no-margin">Szczegóły określa
-						<span class="bold modal-trigger relative hoverStripe" data-open="#rules">Regulamin “Bitwy Graficznej”</span>
+						<span class="bold modal-trigger relative hoverStripe no-padding no-margin"
+							  data-open="#rules">Regulamin “Bitwy Graficznej”</span>
 					</p>
 					<p>
 						<a href="<?php echo $templatePath; ?>" class="event-link display yellow toLeft" download>
@@ -300,7 +301,8 @@
 					<div class="form-control tiny flex flex-end" id="acceptedWrap">
 						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
 						<label for="accepted">Oświadczam, że zapoznałem się z
-							<span class="bold modal-trigger" data-open="#rules">Regulaminem “Bitwy Graficznej”</span>
+							<span class="bold modal-trigger relative hoverStripe no-padding no-margin"
+								  data-open="#rules">Regulaminem “Bitwy Graficznej”</span>
 							i akceptuję jego treść.</label>
 
 					</div>
