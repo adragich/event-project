@@ -229,7 +229,7 @@
 								<img src="img/members/projections-bitwy-member-3.jpg" alt="Team logo">
 							</div>
 							<p class="blockTitle">Łukasz Słotwiński</p>
-							<p class="block-content">Creative Director nc+</p>
+							<p class="block-content">Creative Director nc+ / Design Canal</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
