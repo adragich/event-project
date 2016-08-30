@@ -377,6 +377,7 @@ a:hover .badge{
     padding: 50px 40px 0 60px;
     /*padding: 20px 0;*/
     position:fixed;
+    z-index: -1;
 }
 .menu-close{
     float: right;
@@ -598,6 +599,7 @@ a:hover .badge{
     /*padding: 50px 40px 0 60px;*/
     width: 455px;
     max-width: 100%;
+    z-index: 1000;
 }
 .lang, .nav li, .socials a{
     display: none;
