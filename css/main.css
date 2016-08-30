@@ -132,6 +132,9 @@ img{
 .white{
     background: white!important;
 }
+.transparent{
+    background: transparent!important;
+}
 .rotate-90{
     transform: rotate(-90deg);
     -o-transform: rotate(-90deg);

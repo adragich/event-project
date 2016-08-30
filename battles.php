@@ -257,7 +257,7 @@
 	</section>
 
 	<section class="battle-application relative">
-		<div class="container">
+		<div class="container transparent">
 			<div id="application" class="battle-info">
 				<div id="blueTriangle" class="absolute battle-figure"></div>
 				<p class='mainTitle battle-info'>Zgłoś swoją pracę !</p>
