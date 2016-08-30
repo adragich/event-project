@@ -3,6 +3,7 @@ $(function() {
         var duration = 500;
         // $(".static-content").css("opacity", 1);
         $(".aside.left").addClass(" animated fadeInDown");
+        setTimeout('$(".badge").addClass(" animated fadeIn")',  duration*2);
 
         setTimeout('$(".grey-stripe").addClass(" animated fadeInDown")',  duration/3);
         // setTimeout('$(".event-link").addClass(" animated fadeInRight")',  duration/3);

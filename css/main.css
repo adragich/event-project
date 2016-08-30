@@ -691,7 +691,7 @@ a:hover .badge{
     z-index: 10;
 }
 /*homepage elements opacity*/
- .homepage .static-content, .homepage .event-left-link, .homepage .event-link, .homepage .badge{
+ .homepage .static-content, .homepage .event-left-link, .homepage .event-link{
     opacity: 0;
 }
 
