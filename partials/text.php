@@ -130,7 +130,7 @@
 			case "en":
                 define("META_TITLE","Projekcje - Design Conference");
 //			      common
-                define("LEARN_MORE","Learn more ???");
+                define("LEARN_MORE","Learn more");
                 define("BATTLES","Bitwy graficzne ???");
 
 //                menu
