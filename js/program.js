@@ -27,4 +27,17 @@ $(function(){
            }
        });
     });
+
+
+    setAnimHeight();
+
+    $(window).resize(function(){
+        setAnimHeight();
+    });
 });
+//set height
+function setAnimHeight(){
+    var anim = $('.anim-space'),
+        h = $('.program-static-section').height() - anim.offset().top - $('.program-main-title').outerHeight();
+    anim.height(h);
+}
