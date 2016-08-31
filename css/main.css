@@ -2545,7 +2545,7 @@ a.border:hover{
 }
 @media (min-width: 1025px) {
     .ticketsMobileLink{
-        display: none;
+        display: none!important;
     }
 }
 @media (max-width: 1024px) {
