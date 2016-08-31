@@ -3304,6 +3304,9 @@ a.border:hover{
 }
 
 @media (max-width: 667px){
+    .sideBar .inner-content {
+        padding: 40px 30px 0;
+    }
     .sideBar .close {
         padding-right: 33px;
         padding-top: 30px;
