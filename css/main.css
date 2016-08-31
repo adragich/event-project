@@ -3307,7 +3307,7 @@ a.border:hover{
 
 @media (max-width: 667px){
     .loadAnimation.ready {
-         background: #fff;
+         /*background: #fff;*/
         z-index: 9999;
     }
     .sideBar .inner-content {
