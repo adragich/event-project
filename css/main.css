@@ -2543,6 +2543,11 @@ a.border:hover{
         padding-top: 52vh;
     }
 }
+@media (min-width: 1025px) {
+    .ticketsMobileLink{
+        display: none;
+    }
+}
 @media (max-width: 1024px) {
     /*workshops*/
     .modal .menu-close {
