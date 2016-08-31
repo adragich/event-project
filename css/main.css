@@ -3338,6 +3338,9 @@ a.border:hover{
         margin-bottom: 15px;
         margin-top: 15px;
     }
+    .ticketsEventLink{
+        text-align: center;
+    }
     [class*='workshop'] .block-content {
         font-size: 18px;
         line-height: 28px;

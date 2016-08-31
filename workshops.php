@@ -89,7 +89,7 @@
 						<span> / <?php echo constant(WORKSHOPS_WEBSITE_.$i);?></span></p>
 					<p class="blockTitle modal"><?php echo constant(WORKSHOPS_TITLE_.$i);?></p>
 					<p class="blockSub modal"><?php echo constant(WORKSHOPS_SUBTITLE_.$i);?></p>
-					<p>
+					<p class="ticketsEventLink">
 						<a href="<?php echo $ticketsLink; ?>"
 						   class="event-link yellow transition modal">
 							<span class="badge absolute transition">Wkrótce!</span>
