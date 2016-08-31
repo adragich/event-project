@@ -421,7 +421,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 }
 .socials{
     position: absolute;
-    right: 120px;
+    right: 40px;
     bottom: 80px;
 }
 .overlay{
@@ -2365,6 +2365,9 @@ a.border:hover{
 }
 @media (min-width: 1500px){
 
+    .socials {
+        right: 120px;
+    }
     .sideBar .inner-content{
         padding-right:120px;
     }
