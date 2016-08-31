@@ -355,7 +355,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 .socials a{
     color: #3e3e3e;
     padding: 10px;
-    margin-left: 15%;
+    margin-left: 50px;
     float: right;
     font-size: 18px;
     position: relative;
@@ -364,7 +364,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 .nav a{
     color: #3e3e3e;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 36px;
     line-height: 1.5;
     white-space:nowrap;
     font-family: "stolzlmedium", sans-serif;
@@ -388,7 +388,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     float: right;
     height: 4px;
     margin: 11px 0;
-    width: 35px;
+    width: 45px;
     background: #3e3e3e;
     border: 1px solid #4e4e4e;
     border-top: none;
@@ -421,8 +421,8 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 }
 .socials{
     position: absolute;
-    right: 35px;
-    bottom: 60px;
+    right: 120px;
+    bottom: 80px;
 }
 .overlay{
     z-index: 998;
@@ -602,8 +602,8 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 .appeared{
     opacity:1;
     /*padding: 50px 40px 0 60px;*/
-    width: 455px;
-    max-width: 100%;
+    max-width: 639px;
+    width: 100%;
 }
 .lang, .nav li, .socials a{
     display: none;
@@ -2366,7 +2366,7 @@ a.border:hover{
 @media (min-width: 1500px){
 
     .sideBar .inner-content{
-        padding-right:80px;
+        padding-right:120px;
     }
     /*program*/
     .program-main-title {
