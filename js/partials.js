@@ -8,7 +8,7 @@ function constructMenuLinks(){
 		li = $(".nav li:not(.ticketsMobileLink)");
 	}
 
-	$(".stick .container").css("height", minHeight + "px");
+	// $(".stick .container").css("min-height", minHeight + "px");
 	var height = $(window).height() * 0.7 / li.length ;
 	li.css("line-height", height + "px"); 
 }
