@@ -131,18 +131,18 @@
                 define("META_TITLE","Projekcje - Design Conference");
 //			      common
                 define("LEARN_MORE","Learn more");
-                define("BATTLES","Bitwy graficzne ???");
+                define("BATTLES","Battles");
 
 //                menu
-                define("LANGUAGE","Polish language ???");
-                define("HOMEPAGE","Strona główna ???");
-                define("SPEAKERS","Prelegenci ???");
-                define("PROGRAM","Program ???");
-                define("PLACE","Miejsce ???");
-                define("PARTNERS","Partnerzy ???");
-                define("ABOUT_US","O nas ???");
-                define("TICKETS","Bilety ???");
-                define("WORKSHOPS","Workshops ???");
+                define("LANGUAGE","Polish language");
+                define("HOMEPAGE","Homepage");
+                define("SPEAKERS","Speakers");
+                define("PROGRAM","Schedule");
+                define("PLACE","Venue");
+                define("PARTNERS","Partners");
+                define("ABOUT_US","About us");
+                define("TICKETS","Tickes");
+                define("WORKSHOPS","Workshops");
 
 //			      main page
                 define("PROJECTS","Projekcje ???");
@@ -150,8 +150,8 @@
                 define("TITLE","Event dla projektantów ???");
                 define("NOTE","Przez projektantów ???");
 
-                define("CITY","Poznań ???");
-                define("COMPANY","Concordia Design ???");
+                define("CITY","Poznań");
+                define("COMPANY","Concordia Design");
 
 
 //                speakers
