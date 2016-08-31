@@ -3306,10 +3306,6 @@ a.border:hover{
 }
 
 @media (max-width: 667px){
-    .loadAnimation.ready {
-        margin-top: 158px;
-        top:0;
-    }
     .sideBar .inner-content {
         padding: 40px 30px 0;
     }
@@ -4281,6 +4277,11 @@ a.border:hover{
         left: 30px!important;
         height: auto;
         bottom: 0;
+    }
+
+    .loadAnimation.ready {
+        margin-top: 158px;
+        top:0;
     }
     .imageCenter {
         height: 111px;
