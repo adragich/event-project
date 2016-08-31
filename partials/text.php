@@ -141,7 +141,7 @@
                 define("PLACE","Venue");
                 define("PARTNERS","Partners");
                 define("ABOUT_US","About us");
-                define("TICKETS","Tickes");
+                define("TICKETS","Tickets");
                 define("WORKSHOPS","Workshops");
 
 //                change text for english version
