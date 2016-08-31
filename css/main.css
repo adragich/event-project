@@ -602,8 +602,8 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 .appeared{
     opacity:1;
     /*padding: 50px 40px 0 60px;*/
-    max-width: 639px;
-    width: 100%;
+    width: 639px;
+    max-width: 100%;
 }
 .lang, .nav li, .socials a{
     display: none;
