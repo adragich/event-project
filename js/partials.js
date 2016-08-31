@@ -1,6 +1,12 @@
 function constructMenuLinks(){
 	var minHeight = $(window).height(),
+		li;
+	if($(window).width() <= 1024){
 		li = $(".nav li");
+	}
+	else{
+		li = $(".nav li:not(.ticketsMobileLink)");
+	}
 
 	$(".stick .container").css("min-height", minHeight + "px");
 	var height = $(window).height() * 0.7 / li.length ;
