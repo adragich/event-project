@@ -144,69 +144,172 @@
                 define("TICKETS","Tickes");
                 define("WORKSHOPS","Workshops");
 
+//                change text for english version
 //			      main page
-                define("PROJECTS","Projekcje ???");
+                define("PROJECTS","Projekcje");
 
-                define("TITLE","Event dla projektantów ???");
-                define("NOTE","Przez projektantów ???");
+                define("TITLE","Konferencja graficzna");
+                define("NOTE","dla miłośników designu");
 
                 define("CITY","Poznań");
                 define("COMPANY","Concordia Design");
 
 
 //                speakers
-                define("SPEAKERS_NOTE","To oni opowiedzą Wam o inspiracjach i poprowadzą warsztaty. ???");
+                define("SPEAKERS_NOTE","Opowiedzą o inspiracji.");
+
 
 //                schedule
-                define("PROGRAM_TITLE","Program ???");
-                define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej. ???");
-                define("PROGRAM_TITLE_2","Jesteśmy tutaj ???");
-                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland ???");
-                define("MONTH","November ???");
-                define("PROGRAM_TYPE_1","Prelekcje ???");
-                define("PROGRAM_TYPE_2","Warsztaty ???");
-                define("APPLY_WORKSHOP","Apply for workshop ???");
-                define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce ???");
-                define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki ???");
-                define("PROGRAM_DESCRIPTION_3","Ilustracje abstrakcyjne ???");
-                define("PROGRAM_DESCRIPTION_4","Inspiracja marką ???");
-                define("PROGRAM_DESCRIPTION_5","Something new... ???");
+                define("PROGRAM_TITLE","Program");
+                define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
+                define("PROGRAM_TITLE_2","Jesteśmy tutaj");
+                define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland");
+                define("MONTH","listopad");
+                define("PROGRAM_TYPE_1","Prelekcje");
+                define("PROGRAM_TYPE_2","Warsztaty");
+                define("APPLY_WORKSHOP","Apply for workshop");
+                define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce");
+                define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki");
+                define("PROGRAM_DESCRIPTION_3","Ilustracje abstrakcyjne");
+                define("PROGRAM_DESCRIPTION_4","Inspiracja marką");
+                define("PROGRAM_DESCRIPTION_5","Something new...");
+
+//                workshops
+                define("TICKETS_NOTE_1","Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna 
+                        biletu wraz  z warsztatem.");
+                define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
+                        kto pierwszy ten lepszy :)");
+
+                define("WORKSHOPS_NOTE","projektowe");
+                define("WORKSHOPS_ROLE","Prowadzący:");
+                define("WORKSHOPS_TOPIC","Opis warsztatu:");
+
+                define("WORKSHOPS_TITLE_1","ZBrush + Modo");
+                define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
+                define("WORKSHOPS_PERSON_1","Wojtek Magierski");
+                define("WORKSHOPS_WEBSITE_1","magierski.pl");
+                define("WORKSHOPS_CONTENT_1","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r.
+						Na co dzień mieszka i pracuje w Krakowie. Jego ilustracje publikowane są w magazynach
+						graficznych na całym świecie.");
+                define("WORKSHOPS_MODAL_CONTENT_1","ZBrush Workshop oraz MODO, to pozycje obowiązkowa dla każdego, kto 
+                        chce dowiedzieć się jak wykorzystać te fantastyczne narzędzia w zapierających dech w piersiach 
+                        projektach. Podczas warsztatów uczestnicy dowiedzą się jak są tworzone światowej klasy 
+                        ilustracje. Wejdziesz w niesamowity świat możliwości Modo oraz Zbrush’a z Wojtkiem Magierskim. 
+                        Połączysz magię postprodukcji w Photoshop i wolności tworzenia obiektów 3D aby uzyskać 
+                        powalające efekty i przewyższyć oczekiwania klientów, przy okazji odkrywając sekrety światowej 
+                        klasy ilustratora.<br><br>
+                        Wojtek Magierski na podstawie swoich prac przedstawi m.in. niesamowite możliwości rzeźbienia w 
+                        Zbrush’u. Począwszy od stworzenia trójwymiarowej siatki postaci przez wycinanie i kolorowanie 
+                        aż po postprodukcję.");
+
+                define("WORKSHOPS_TITLE_2","Set Design");
+                define("WORKSHOPS_SUBTITLE_2","Złoty styropian, czyli Set Design w fotografii projektów.");
+                define("WORKSHOPS_PERSON_2","Andrzej Jakuszko");
+                define("WORKSHOPS_WEBSITE_2","mutostudio.pl");
+                define("WORKSHOPS_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
+                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.");
+                define("WORKSHOPS_MODAL_CONTENT_2","Szkło w tubce, guma w sprayu, dym bez ognia... Podczas warsztatów
+                        uczestnicy zapoznają się z praktycznym podejściem do procesu fotografii
+                        projektów.
+                        <br><br>
+                        Począwszy od tworzenia wygodnego stanowiska pracy, poprzez dobór
+                        elementów scenografii i technik fotograficznych, na realizacji sesji zdjęciowej
+                        kończąc.
+                        <br><br>
+                        Prowadzący przedstawią sposoby, których używają aby budować odrealnione
+                        i abstrakcyjne sceny, podnoszące walory estetyczne fotografowanych
+                        przedmiotów.");
+
+                define("WORKSHOPS_TITLE_3","Warsztat²");
+                define("WORKSHOPS_SUBTITLE_3","");
+                define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
+                define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
+                define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
+                        tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
+                        w Polsce, jak i za granicą.");
+                define("WORKSHOPS_MODAL_CONTENT_3","Warsztat do drugiej potęgi to nietypowy trening umiejętności, którego
+                        przewrotnym tematem przewodnim będzie sam warsztat projektanta oraz
+                        biznesowa realizacja projektów z obszaru brandingu. W trakcie warsztatu
+                        pochylimy się m.in. nad narzędziami i sposobami pozyskiwania inspiracji
+                        oraz jej roli w projektach brandingowych. Będzie także o trendach, ich
+                        analizie oraz o przekładaniu inspiracji na rzeczywiste potrzeby i oczekiwania
+                        klienta.
+                        <br><br>
+                        Warsztat² to także formuła angażująca uczestników, której bazą będą
+                        aktywne metody warsztatowe (praca w małych grupach, analiza studiów
+                        przypadków, gry symulacyjne, prezentacje, burza mózgów). Warsztat
+                        będzie okazją do wymiany opinii i najlepszych praktyk pomiędzy samymi
+                        uczestnikami, jak również do zastosowania zdobytych kompetencji w
+                        praktyce.
+                        <br><br>
+                        Doświadczenia edukacyjne jakie zbiorą uczestnicy pozwolą
+                        szerzej spojrzeć na sposób realizowanych przez siebie projektów oraz na
+                        usprawnienie współpracy z klientem.");
 
 //                venue
-                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland ???");
-                define("PLACE_TITLE_1","Sala expo w Concordia Design ???");
-                define("PLACE_DESCRIPTION_1","Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building events, fashion shows, and many other occasions. ???");
-                define("PLACE_TITLE_2","Sale warsztatowe w Concordia Design ???");
-                define("PLACE_DESCRIPTION_2","Spacious and easy to arrange – ideal for conferences, banquets,concerts, team-building events, fashion shows, and many other occasions. ???");
-                define("PLACE_TITLE_3","228 m² ???");
-                define("PLACE_DESCRIPTION_3","The interior can be freely divided to create additional space. ???");
+                define("PLACE_NOTE","Concordia Design, Zwierzyniecka 3, Poznań - Poland");
+                define("PLACE_TITLE_1","Concordia Design");
+                define("PLACE_DESCRIPTION_1","
+                         Partnerem Projekcji jest centrum designu Concordia Design,
+                        gdzie odbędą się Projekcje dnia 5 listopada 2016 roku.");
+
+                define("PLACE_TITLE_2","Sala wykładowa i sale warsztatowe");
+                define("PLACE_DESCRIPTION_2","Do dyspozycji prelegentów i gości będzie Sala Lumina oraz sale warsztatowe
+                                tzw. Creative Rooms gdzie odbędą się zajęcia z projektantami graficznymi
+                                prowadzącymi warsztaty podczas Konferencji.");
+
+                define("PLACE_TITLE_3","Tutaj zaczerpniesz inspiracji");
+                define("PLACE_DESCRIPTION_3"," Konferencja oraz warsztaty odbędą się w poznańskim centrum
+                    designu Concordia Design mieszczącym się przy ul. Zwierzynieckiej 3.");
 
 //                partners
-                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne. ???");
-                define("MAIN_PARTNERS","Główni sponsorzy ???");
+                define("PARTNERS_NOTE","Dzięki nim to wszystko staje się realne.");
+                define("SPONSORS","Sponsorzy");
+                define("MEDIA","Patroni medialni");
+                define("ORGS","Organizatorzy");
 
 //                about
-                define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje ???");
-                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów ???");
+                define("ABOUT_US_NOTE","Czyli czym i dla kogo są projekcje oraz kto je organizuje");
+                define("ABOUT_US_TITLE_1","Projekcje to pomysł projektantów graficznych");
                 define("ABOUT_US_DESC_1","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum. ???");
-                define("ABOUT_US_TITLE_2","Dla projektantów ???");
-                define("ABOUT_US_DESC_2","
-							Spacious and easy to arrange – ideal for conferences, banquets, concerts, team-building 
-							events. It was popularised in the 1960s with the release of Letraset sheets containing 
-							Lorem Ipsum passages, and more recently with desktop publishing software like Aldus 
-							PageMaker including versions of Lorem Ipsum. ???");
-                define("ABOUT_US_TITLE_3","Organizatorzy projekcji ???");
-                define("ABOUT_US_DESC_3","Projektanci organizujący event dla projektantów. ???");
+							Projekcje są imprezą organizowaną przez projektantów graficznych, dla projektantów 
+							graficznych. Event ma integrować środowisko projektantów, ale przede wszystkim ma być 
+							inspiracją do dalszego tworzenia.
+                            <br><br>
+                            Chcemy rozbudzić nowe wizje, podsunąć nowe pomysły i zmotywować projektantów do 
+                            poszukiwania nowych środków ekspresji.
+                            <br><br>
+                            Chcemy się skupić na pasji tworzenia, pielęgnować ją oraz rozwijać.");
+                define("ABOUT_US_TITLE_2","Tematem pierwszej edycji są Inspiracje");
+                define("ABOUT_US_DESC_2","Projekcje mają na celu zainspirować nie tylko młodych projektantów na 
+                        początku ich drogi, ale przede wszystkim natchnąć kreatywnie projektantów pracujących 
+                        zawodowo i przypomnieć im, że projektowanie nie zna granic poza tymi, które sami sobie 
+                        postawiliśmy.");
+                define("ABOUT_US_TITLE_3","Organizatorzy projekcji");
+                define("ABOUT_US_DESC_3","Projektanci graficzni dla projektantów graficznych.");
+
+                define("ABOUT_TITLE_1","Kommunikat");
+                define("ABOUT_SUBTITLE_1","Brand Design Studio");
+                define("ABOUT_WEBSITE_1","www.behance.net/kommunikat");
+
+                define("ABOUT_TITLE_2","Piotr Świerkowski");
+                define("ABOUT_SUBTITLE_2","Owner / Art Director at Torpedov.com");
+                define("ABOUT_WEBSITE_2","www.torpedov.com");
+
+                define("ABOUT_TITLE_3","Ewelina Dymek");
+                define("ABOUT_SUBTITLE_3","Illustrator at Uniforma Studio");
+                define("ABOUT_WEBSITE_3","www.behance.net/edmk");
+
+                define("ABOUT_TITLE_4","Fromsquare");
+                define("ABOUT_SUBTITLE_4","Design Studio");
+                define("ABOUT_WEBSITE_4","www.fromsquare.com");
+
 
 //                battles ???
-                define("BATTLES_NOTE","Pojedynek projektowy pomiędzy projektantami z całej Polski. ???");
-                define("BATTLES_2","Gotowi do bitwy? ???");
-                define("APPLY_TO_BATTLE","Dołącz do bitwy ! ???");
-                define("PROJECTS_LINK","Wróć do strony głównej ???");
+                define("BATTLES_NOTE","Pojedynek pomiędzy projektantami graficznymi.");
+                define("BATTLES_2","Gotowi do bitwy?");
+                define("APPLY_TO_BATTLE","Pobierz szablon i rozpocznij projekt");
+                define("PROJECTS_LINK","Wróć do strony głównej");
 			break;
 			default:
 
