@@ -26,7 +26,7 @@ function setPosition(checkAnim){
         bottomDefigned = bottom + heightTemplate - offsetBottom;
         // topDefigned = top + orangeSquare.height(),
         // position = [top, left, right, bottomDefigned];
-console.log(heightWrap);
+    console.log(heightWrap);
     template.css({"top": topT, "left": leftT});
     var top = template.position().top,
         left = template.position().left,

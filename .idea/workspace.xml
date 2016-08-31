@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/homepage.js" afterPath="$PROJECT_DIR$/js/homepage.js" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,50 +35,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="2826" column="24" selection-start-line="2826" selection-start-column="24" selection-end-line="2826" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workshops.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workshops.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="91" column="46" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/head.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="program.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/program.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="15">
+              <caret line="2825" column="23" selection-start-line="2825" selection-start-column="23" selection-end-line="2825" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -131,8 +90,8 @@
       <file leaf-file-name="homepage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/homepage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="44" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="44" />
+            <state relative-caret-position="239">
+              <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -189,7 +148,6 @@
         <option value="$PROJECT_DIR$/partners.php" />
         <option value="$PROJECT_DIR$/partials/config.php" />
         <option value="$PROJECT_DIR$/partials/preloader-workshops.html" />
-        <option value="$PROJECT_DIR$/js/homepage.js" />
         <option value="$PROJECT_DIR$/speakers.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/partials/top.html" />
@@ -203,6 +161,7 @@
         <option value="$PROJECT_DIR$/js/partials.js" />
         <option value="$PROJECT_DIR$/schedule.php" />
         <option value="$PROJECT_DIR$/workshops.php" />
+        <option value="$PROJECT_DIR$/js/homepage.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
@@ -446,12 +405,12 @@
       <workItem from="1471955447206" duration="89564000" />
       <workItem from="1472453464797" duration="22644000" />
       <workItem from="1472545164235" duration="5847000" />
-      <workItem from="1472625833865" duration="8785000" />
+      <workItem from="1472625833865" duration="8975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245894000" />
+    <option name="totallyTimeSpent" value="246084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="30" width="1335" height="821" extended-state="0" />
@@ -794,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/homepage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="44" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -817,14 +768,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,6 +800,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="79" column="51" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workshops.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -867,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="2826" column="24" selection-start-line="2826" selection-start-column="24" selection-end-line="2826" selection-end-column="24" />
+        <state relative-caret-position="15">
+          <caret line="2825" column="23" selection-start-line="2825" selection-start-column="23" selection-end-line="2825" selection-end-column="23" />
           <folding />
         </state>
       </provider>
