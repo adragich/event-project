@@ -2823,7 +2823,8 @@ a.border:hover{
         margin-left: -15px;
     }
     .loadAnimation {
-        background: #fff;
+        /*background: #fff;*/
+        background: none;
     }
     .event-left-link {
         margin-left: -4%;
