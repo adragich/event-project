@@ -4324,12 +4324,12 @@ a.border:hover{
 /* ipad */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    .fullheight {
+    .fullHeight {
         height: 100%;
     }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-    .fullheight {
+    .fullHeight {
         height: 100%;
     }
 }
