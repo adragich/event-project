@@ -1211,11 +1211,13 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     margin-top: 20px;
 }
 .learn-more-link{
+    text-align: center;
     font-size: 15px;
     text-decoration: none;
-    padding: 31px 36px;
+    padding: 31px 0;
     display: inline-block;
-    max-width: 150px;
+    width: 150px;
+    box-sizing: border-box;
     color:#3e3e3e;
     position:relative;
     letter-spacing: 0.5px;
