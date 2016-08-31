@@ -4279,9 +4279,8 @@ a.border:hover{
         bottom: 0;
     }
 
-    .loadAnimation.ready {
-        margin-top: 158px;
-        top:0;
+    [class*='container']{
+        background: transparent;
     }
     .imageCenter {
         height: 111px;
