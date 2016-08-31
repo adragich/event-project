@@ -53,7 +53,7 @@
 				</div>
 			</div>
 			<div class="anim-space-relative" data-parallax='{"y" : -300, "smoothness": 20}'>
-				<img src="img/space.jpg" alt="">
+				<img src="img/about/GIF-onas_<?php echo $_SESSION['lang'] ? : 'pl'; ?>.gif" alt="">
 			</div>
 			<div class="main about-us sub orgs flex flex-center padding-2x" data-parallax='{"y" : -350, "smoothness": 20}'>
 				<div class="inside orgs">
