@@ -3426,6 +3426,7 @@ a.border:hover{
     }
     .flex.main.fillAndCenter.home {
         padding-top: 26vh;
+        display: block!important;
     }
     .side-link {
         padding-top: 36%;
