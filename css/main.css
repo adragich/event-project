@@ -4332,6 +4332,17 @@ a.border:hover{
         height: 1024px;
     }
 }
+/* iphone6 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+    .fullHeight {
+        height: 320px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+    .fullHeight {
+        height: 568px;
+    }
+}
 /* iphone5 */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
     .fullHeight {
