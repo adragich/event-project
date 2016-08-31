@@ -924,7 +924,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
 .stick, .stick-temp{
     overflow: hidden;
     height: 100%;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 .scrollableContent .container, .members .container{
     min-height: 0!important;
