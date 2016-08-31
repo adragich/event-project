@@ -4021,7 +4021,7 @@ a.border:hover{
         word-break: break-all;
     }
     .speakerWrap:not(:first-child):nth-child(2n+1) {
-        margin-top: 80px;
+        margin-top: 0px;
     }
     .speakerWrap:nth-child(2n) {
         margin-top: 0px;
