@@ -3341,6 +3341,9 @@ a.border:hover{
     .ticketsEventLink{
         text-align: center;
     }
+    .badge {
+        left: -15px;
+    }
     [class*='workshop'] .block-content {
         font-size: 18px;
         line-height: 28px;
