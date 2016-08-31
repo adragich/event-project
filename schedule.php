@@ -57,7 +57,7 @@
 				<thead data-role="parent" data-topic="speakers" data-state="collapsed">
 					<tr class="clear-string"></tr>
 					<tr class="offset-string"></tr>
-					<tr class="content-string no-button">
+					<tr class="content-string no-button pointer">
 						<td class="program-time">00:00</td>
 						<td class="left-align">
 							<p class="blockTitle">Wykłady</p>
@@ -72,47 +72,46 @@
 					</tr>
 				</thead>
 				<tbody data-role="child" data-topic="speakers">
-
-				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
-					<td class="program-time">10:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Grzegorz Róg</p>
-						<p class="block-content">Owner at eduweb.pl _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_1;?>
-						</span>
-					</td>
-				</tr>
-				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
-					<td class="program-time">11:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Martyna Wędzicka</p>
-						<p class="block-content">lesstudio.pl _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_2.jpg" alt="Martyna Wędzicka">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_2;?></span>
-					</td>
-				</tr>
-				<tr class="offset-string"></tr>
-				<tr class="content-string no-button">
-					<td class="program-time">14:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Hopa Studio</p>
-						<p class="block-content">hopastudio.com _</p>
-					</td>
-					<td class="left-align image yellow-gradient">
-						<img src="img/program/program_small_4.jpg" alt="Hopa Studio">
-						<span class="block-content">
-							<?php echo PROGRAM_DESCRIPTION_4;?></span>
-					</td>
-				</tr>
+                    <tr class="offset-string"></tr>
+                    <tr class="content-string no-button">
+                        <td class="program-time">10:00</td>
+                        <td class="left-align">
+                            <p class="blockTitle">Grzegorz Róg</p>
+                            <p class="block-content">Owner at eduweb.pl _</p>
+                        </td>
+                        <td class="left-align image yellow-gradient">
+                            <img src="img/program/program_small_1.jpg" alt="Grzegorz Róg">
+                            <span class="block-content">
+                                <?php echo PROGRAM_DESCRIPTION_1;?>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr class="offset-string"></tr>
+                    <tr class="content-string no-button">
+                        <td class="program-time">11:00</td>
+                        <td class="left-align">
+                            <p class="blockTitle">Martyna Wędzicka</p>
+                            <p class="block-content">lesstudio.pl _</p>
+                        </td>
+                        <td class="left-align image yellow-gradient">
+                            <img src="img/program/program_small_2.jpg" alt="Martyna Wędzicka">
+                            <span class="block-content">
+                                <?php echo PROGRAM_DESCRIPTION_2;?></span>
+                        </td>
+                    </tr>
+                    <tr class="offset-string"></tr>
+                    <tr class="content-string no-button">
+                        <td class="program-time">14:00</td>
+                        <td class="left-align">
+                            <p class="blockTitle">Hopa Studio</p>
+                            <p class="block-content">hopastudio.com _</p>
+                        </td>
+                        <td class="left-align image yellow-gradient">
+                            <img src="img/program/program_small_4.jpg" alt="Hopa Studio">
+                            <span class="block-content">
+                                <?php echo PROGRAM_DESCRIPTION_4;?></span>
+                        </td>
+                    </tr>
 <!--				<tr class="offset-string"></tr>-->
 				</tbody>
 				<tfoot>
@@ -123,21 +122,19 @@
 
 			<table class="program-table">
 				<thead data-role="parent" data-topic="workshops" data-state="collapsed">
-
-
-				<tr class="content-string no-button">
-					<td class="program-time">00:00</td>
-					<td class="left-align">
-						<p class="blockTitle">Warsztaty.</p>
-						<p class="block-content">
-							dla chętnych</p>
-					</td>
-					<td class="left-align image blue-light">
-						<img src="img/workshops.png" alt="Warsztaty">
-						<span class="block-content">Harmonogram już niebawem!
-						</span>
-					</td>
-				</tr>
+                    <tr class="content-string no-button pointer">
+                        <td class="program-time">00:00</td>
+                        <td class="left-align">
+                            <p class="blockTitle">Warsztaty.</p>
+                            <p class="block-content">
+                                dla chętnych</p>
+                        </td>
+                        <td class="left-align image blue-light">
+                            <img src="img/workshops.png" alt="Warsztaty">
+                            <span class="block-content">Harmonogram już niebawem!
+                            </span>
+                        </td>
+                    </tr>
 				</thead>
 				<tbody data-role="child" data-topic="workshops">
 					<tr class="offset-string"></tr>
