@@ -4279,7 +4279,7 @@ a.border:hover{
         bottom: 0;
     }
 
-    [class*='container']{
+    .loadAnimatio{
         background: transparent;
     }
     .imageCenter {
