@@ -4327,11 +4327,13 @@ a.border:hover{
     .fullHeight, .fullHeight  .container{
         height: 100%;
         max-height: 375px;
+        overflow: hidden;
     }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
     .fullHeight, .fullHeight .container {
         height: 100%;
         max-height: 667px;
+        overflow: hidden;
     }
 }
