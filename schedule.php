@@ -122,7 +122,7 @@
 
 			<table class="program-table">
 				<thead data-role="parent" data-topic="workshops" data-state="collapsed">
-                    <tr class="content-string no-button pointer">
+                    <tr class="content-string with-button pointer">
                         <td class="program-time">00:00</td>
                         <td class="left-align">
                             <p class="blockTitle">Warsztaty.</p>

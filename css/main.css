@@ -3822,6 +3822,8 @@ a.border:hover{
     }
     .program-wrap .content-string.no-button {
         background: #fff9c3;
+    }
+    .content-string.no-button, .content-string.with-button {
         padding-bottom: 20px;
     }
     .program-time {
