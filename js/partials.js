@@ -24,7 +24,9 @@ $(function() {
 	$(".modal-trigger").click(function(){
 		var modal = $(this).attr("data-open");
 		$(modal).slideDown();
-		$("body").addClass("stick-temp");
+		setTimeout(function() {
+			$("body").addClass("stick-temp");
+		}, 1000);
 	});
 	// var url = getPathFromUrl(window.location.href);
 	// window.history.replaceState("", "", url);
@@ -62,8 +64,10 @@ $(function() {
 		$("body").removeClass("stick-temp");
 		var checker = $(this).attr('data-close');
 
-		if( checker != '' && checker){
-			$(checker).slideUp();
+		if( checker != '' && checker ){
+			setTimeout(function() {
+				$(checker).slideUp();
+			}, 500);
 		}
 		else{
 			$(".lang").slideUp();
