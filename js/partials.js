@@ -36,7 +36,9 @@ $(function() {
 	$(".menu").click(function(){
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
-			$("body").addClass("stick-temp");
+			setTimeout(function() {
+				$("body").addClass("stick-temp");
+			}, 1000);
 			setTimeout(function() {
 				$(".lang").slideDown();
 			}, 1000);

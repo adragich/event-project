@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/partials.js" afterPath="$PROJECT_DIR$/js/partials.js" />
     </list>
     <ignored path="event-project.iws" />
@@ -76,11 +74,11 @@
       <file leaf-file-name="partials.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/partials.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+            <state relative-caret-position="105">
+              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding>
                 <element signature="n#!!block;n#generateFigure#0" expanded="false" />
-                <element signature="e#3051#3738#0" expanded="false" />
+                <element signature="e#3092#3779#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -409,12 +407,12 @@
       <workItem from="1472545164235" duration="5847000" />
       <workItem from="1472625833865" duration="12515000" />
       <workItem from="1472712509333" duration="689000" />
-      <workItem from="1472716254650" duration="518000" />
+      <workItem from="1472716254650" duration="1731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250831000" />
+    <option name="totallyTimeSpent" value="252044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="32" width="1335" height="821" extended-state="0" />
@@ -804,11 +802,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/partials.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+        <state relative-caret-position="105">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
             <element signature="n#!!block;n#generateFigure#0" expanded="false" />
-            <element signature="e#3051#3738#0" expanded="false" />
+            <element signature="e#3092#3779#0" expanded="false" />
           </folding>
         </state>
       </provider>
