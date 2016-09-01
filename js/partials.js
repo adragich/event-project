@@ -59,6 +59,7 @@ $(function() {
 	});
 
 	$(".close, .overlay").click(function(){
+		$("body").removeClass("stick-temp");
 		var checker = $(this).attr('data-close');
 
 		if( checker != '' && checker){
@@ -74,9 +75,6 @@ $(function() {
 			}, 500);
 		}
 
-		setTimeout(function() {
-			$("body").removeClass("stick-temp");
-		}, 500);
 
 	});
 
