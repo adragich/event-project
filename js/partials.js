@@ -1,6 +1,5 @@
 function constructMenuLinks(){
-	var minHeight = $(window).height(),
-		li;
+	var li;
 	if($(window).width() <= 1024){
 		li = $(".nav li");
 	}
@@ -9,7 +8,9 @@ function constructMenuLinks(){
 	}
 
 	// $(".stick .container").css("min-height", minHeight + "px");
-	var height = $(window).height() * 0.7 / li.length ;
+	// var height = $(window).height() * 0.7 / li.length ;
+	var height = ($(window).height() - parseInt($(".inner-content").css("padding-top")) - 2.5*parseInt($(".nav").css("padding-top"))
+		- $(".lang").height() - $(".socials").height() - parseInt($(".socials").css("bottom")))/ li.length;
 	li.css("line-height", height + "px"); 
 }
 
