@@ -64,7 +64,6 @@
 					</div>
 					<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.2s">
 						<a href="<?php echo constant(SPEAKER_LINK_.$i);?>" class="learn-more-link yellow"
-<!--						<a href="/speaker?speaker=--><?php //echo $i;?><!--&lang=--><?php //echo $_SESSION['lang'];?><!--" class="learn-more-link yellow"-->
 						   target="_blank"><?php echo LEARN_MORE;?></a>
 					</div>
 				</div>
