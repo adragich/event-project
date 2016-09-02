@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
-    </list>
+    <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="" />
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -31,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35520">
-              <caret line="2368" column="1" selection-start-line="2368" selection-start-column="1" selection-end-line="2368" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/config.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="battles.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="151" column="82" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+            <state relative-caret-position="225">
+              <caret line="150" column="99" selection-start-line="150" selection-start-column="99" selection-end-line="150" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -445,12 +443,12 @@
       <workItem from="1472625833865" duration="12515000" />
       <workItem from="1472712509333" duration="689000" />
       <workItem from="1472716254650" duration="3179000" />
-      <workItem from="1472815899746" duration="1685000" />
+      <workItem from="1472815899746" duration="1852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255177000" />
+    <option name="totallyTimeSpent" value="255344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
@@ -742,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-610">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -848,8 +839,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/battles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="151" column="82" selection-start-line="151" selection-start-column="82" selection-end-line="151" selection-end-column="82" />
+        <state relative-caret-position="225">
+          <caret line="150" column="99" selection-start-line="150" selection-start-column="99" selection-end-line="150" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding />
         </state>
       </provider>
