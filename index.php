@@ -22,7 +22,7 @@
 			<div class="main flex flex-center fillAndCenter home">
 				<div class="inside">
 					<p class="mainTitle"><?php echo TITLE;?>,</p>
-					<p class="note"><?php echo NOTE;?>./p>
+					<p class="note"><?php echo NOTE;?></p>
 				</div>
 			</div>
 			<div class="additionalInfo right-align">
