@@ -31,14 +31,6 @@
 
         define("SPEAKER_NAME_1","Kriss Hermansson");
         define("SPEAKER_DESC_1","Creative Director at Resn");
-        define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
-                            i niekiedy szokującymi interaktywnymi doświadczeniami.
-                            <br><br>
-                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
-                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
-                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
-                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
-                            marką. Nazywają to Efektem Resn.");
         define("SPEAKER_WEBSITE_1","resn.co.nz");
 
         define("SPEAKER_NAME_2","Marcus Brown");
@@ -174,6 +166,23 @@
 
 //                speakers
                 define("SPEAKERS_NOTE","i prowadzący warsztaty. ??");
+
+                define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+                            i niekiedy szokującymi interaktywnymi doświadczeniami.
+                            <br><br>
+                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+                            marką. Nazywają to Efektem Resn.");
+                define("SPEAKER_FULL_DESC_2","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+                            i niekiedy szokującymi interaktywnymi doświadczeniami.
+                            <br><br>
+                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+                            marką. Nazywają to Efektem Resn.");
 
 
 //                schedule
