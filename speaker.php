@@ -42,7 +42,7 @@
 		<div class="container">
 			<div class="battle-info">
 				<p class="mainTitle battle-info small image-title animated wow fadeInDown" data-wow-delay="0s">
-					Amsterdam
+					<?php echo constant(SPEAKER_CITY_.$i);?>
 				</p>
 				<div class="inside battle-info">
 					<p class="block-content animated wow fadeInUp" data-wow-delay="0s">

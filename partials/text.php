@@ -368,6 +368,49 @@
 //                speakers
                 define("SPEAKERS_NOTE","i prowadzący warsztaty.");
 
+                define("SPEAKERS_CITY_1","Amsterdam");
+                define("SPEAKERS_CITY_2","Amsterdam");
+                define("SPEAKERS_CITY_3","Warszawa");
+                define("SPEAKERS_CITY_4","Warszawa");
+                define("SPEAKERS_CITY_5","Amsterdam");
+
+                define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+                            i niekiedy szokującymi interaktywnymi doświadczeniami.
+                            <br><br>
+                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+                            marką. Nazywają to Efektem Resn.");
+                define("SPEAKER_FULL_DESC_2","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+                            i niekiedy szokującymi interaktywnymi doświadczeniami.
+                            <br><br>
+                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+                            marką. Nazywają to Efektem Resn.");
+                define("SPEAKER_FULL_DESC_3","Huncwot to agencja kreatywna specjalizująca sie w interaktywnym designie i inteligentnych
+                            technologiach. Dążą do tworzenia pięknych i funkcjonalnych projektów digitalowych, za które
+                            zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FWA.
+                            <br><br>
+                            Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
+                            z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
+                define("SPEAKER_FULL_DESC_4","Huncwot to agencja kreatywna specjalizująca sie w interaktywnym designie i inteligentnych
+                            technologiach. Dążą do tworzenia pięknych i funkcjonalnych projektów digitalowych, za które
+                            zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FWA.
+                            <br><br>
+                            Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
+                            z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
+                define("SPEAKER_FULL_DESC_5","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+                            i niekiedy szokującymi interaktywnymi doświadczeniami.
+                            <br><br>
+                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+                            marką. Nazywają to Efektem Resn.");
+
 
 //                schedule
                 define("PROGRAM_TITLE","Program");
