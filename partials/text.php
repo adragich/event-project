@@ -189,7 +189,7 @@
                 define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
                         kto pierwszy ten lepszy :)");
 
-                define("WORKSHOPS_NOTE","projektowe");
+                define("WORKSHOPS_NOTE","projektowe, praktyczne i teoretyczne");
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
 
@@ -373,7 +373,7 @@
                 define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
                         kto pierwszy ten lepszy :)");
 
-                define("WORKSHOPS_NOTE","projektowe");
+                define("WORKSHOPS_NOTE","projektowe, praktyczne i teoretyczne");
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
 

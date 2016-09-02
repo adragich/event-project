@@ -114,20 +114,20 @@
 			</div>
 			<div class="teams">
 				<div class="team-sector">
+
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
 							<div class="yellow-hover figure">
-								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank" class="filter">
-									<img src="img/figures/teams/projections-bitwy_03.png" alt="Team logo">
+								<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank" class="filter">
+									<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
 								</a>
 							</div>
-
 							<p class="blockTitle">
-								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank">
-								Konrad Kirpluk
+								<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank">
+									Kamil Sarnowski
 								</a>
 							</p>
-							<p class="block-content">Illustrator</p>
+							<p class="block-content">Creative Director at Ground Game</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
@@ -165,16 +165,17 @@
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0s">
 						<div class="inside">
 							<div class="yellow-hover figure">
-							<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank" class="filter">
-								<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
-							</a>
+								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank" class="filter">
+									<img src="img/figures/teams/projections-bitwy_03.jpg" alt="Team logo">
+								</a>
 							</div>
+
 							<p class="blockTitle">
-								<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank">
-									Kamil Sarnowski
+								<a href="<?php echo BATTLES_LINK_1; ?>" target="_blank">
+									Konrad Kirpluk
 								</a>
 							</p>
-							<p class="block-content">Creative Director at Ground Game</p>
+							<p class="block-content">Illustrator</p>
 						</div>
 					</div>
 					<div class="team col l4 m4 s12 animated wow fadeInDown" data-wow-delay="0.2s">
@@ -196,7 +197,7 @@
 						<div class="inside">
 							<div class="yellow-hover figure">
 							<a href="<?php echo BATTLES_LINK_6; ?>" target="_blank" class="filter">
-								<img src="img/figures/teams/projections-bitwy_16.png" alt="Team logo">
+								<img src="img/figures/teams/projections-bitwy_16.jpg" alt="Team logo">
 							</a>
 							</div>
 							<p class="blockTitle">
