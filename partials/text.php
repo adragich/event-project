@@ -489,13 +489,13 @@
                 define("ABOUT_SUBTITLE_2","Owner / Art Director at Torpedov.com");
                 define("ABOUT_WEBSITE_2","www.torpedov.com");
 
-                define("ABOUT_TITLE_3","Ewelina Dymek");
-                define("ABOUT_SUBTITLE_3","Illustrator at Uniforma Studio");
-                define("ABOUT_WEBSITE_3","www.behance.net/edmk");
+                define("ABOUT_TITLE_4","Ewelina Dymek");
+                define("ABOUT_SUBTITLE_4","Illustrator at Uniforma Studio");
+                define("ABOUT_WEBSITE_4","www.behance.net/edmk");
 
-                define("ABOUT_TITLE_4","Fromsquare");
-                define("ABOUT_SUBTITLE_4","Design Studio");
-                define("ABOUT_WEBSITE_4","www.fromsquare.com");
+                define("ABOUT_TITLE_3","Fromsquare");
+                define("ABOUT_SUBTITLE_3","Graphic & Motion Design Studio");
+                define("ABOUT_WEBSITE_3","www.fromsquare.com");
 
 
 //                battles ???
