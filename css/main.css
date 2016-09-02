@@ -221,6 +221,15 @@ a:hover .badge{
     /**/
 
 }
+.scroll-logo{
+    opacity: 0;
+}
+.inScroll img:first-child{
+    opacity: 0;
+}
+.inScroll .scroll-logo{
+    opacity: 1;
+}
 .hover-logo{
     top: 0;
     left: 0;
