@@ -569,7 +569,7 @@
                 define("ABOUT_WEBSITE_2","www.torpedov.com");
 
                 define("ABOUT_TITLE_4","Ewelina Dymek");
-                define("ABOUT_SUBTITLE_4","Illustrator at Uniforma Studio");
+                define("ABOUT_SUBTITLE_4","Freelance Illustrator / Graphic Designer w Uniforma");
                 define("ABOUT_WEBSITE_4","www.behance.net/edmk");
 
                 define("ABOUT_TITLE_3","Fromsquare");
