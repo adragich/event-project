@@ -45,7 +45,7 @@
         define("SPEAKER_ANIM_IMAGE_15","/img/speakers/TITLE_OF_GIF");
         define("SPEAKER_ANIM_IMAGE_16","/img/speakers/TITLE_OF_GIF");
 
-        define("SPEAKER_NAME_1","Kriss Hermansson");
+        define("SPEAKER_NAME_1","Kris Hermansson");
         define("SPEAKER_DESC_1","Creative Director at Resn");
         define("SPEAKER_WEBSITE_1","resn.co.nz");
 
