@@ -11,7 +11,7 @@
 <body>
 <!--block for animation-->
 <?php
-@include("partials/preloader-workshops.html");
+@include("partials/preloader-speaker.html");
 ?>
 <section class="static-content transition workshop-static-section">
 	<div class="container">
