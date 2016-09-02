@@ -2824,7 +2824,7 @@ a.border:hover{
         width: calc(31% - 30px);
     }
     .event-left-link img{
-        width: 34px;
+        width: 140px;
         margin-left: -15px;
     }
     .loadAnimation {
@@ -3311,6 +3311,9 @@ a.border:hover{
 }
 
 @media (max-width: 667px){
+    .homepage .event-left-link {
+        opacity: 1;
+    }
     .sideBar .inner-content {
         padding: 40px 30px 0;
     }
@@ -3451,7 +3454,7 @@ a.border:hover{
         -webkit-transform: none!important;
     }
     .event-left-link img {
-        width: 34px;
+        width: 124px;
         margin: 0;
         left: -12px;
         position: relative;
