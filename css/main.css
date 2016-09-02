@@ -358,7 +358,8 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     margin-left: -26px;
 }
 .event-left-link.inScroll img{
-    width:38px;
+    /*width:38px;*/
+    width: 140px;
     margin-left: -17px;
 }
 .socials{
