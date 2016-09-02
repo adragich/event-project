@@ -4,8 +4,9 @@
 	<?php
 		@include("partials/head.php");
 		$speakerName = $_GET['name'] ? : 'speaker';
+		$order = $_GET['order'] ? : '0';
 	?>
-	<title>Projekcje - Konferencja graficzna - <?php echo $speakerName;?></title>
+	<title>Projekcje - Konferencja graficzna - <?php echo constant(SPEAKER_NAME_.$order);?></title>
 
 </head>
 <body>
@@ -22,8 +23,8 @@
 
 			<div class="main fillAndCenter battles sub flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
-					<p class="mainTitle"><?php echo BATTLES_2;?></p>
-					<p class="note"><?php echo BATTLES_NOTE;?></p>
+					<p class="mainTitle"><?php echo constant(SPEAKER_NAME_.$order);?></p>
+					<p class="note"><?php echo constant(SPEAKER_DESC_.$order);?></p>
 					<a href="#downloadTemplate" class="event-link display apply-trigger yellow toLeft"><?php echo APPLY_TO_BATTLE;?></a>
 				</div>
 			</div>

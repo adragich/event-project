@@ -29,7 +29,7 @@
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
-        define("SPEAKER_LINK_1","/speaker?name=marcusabrown");
+        define("SPEAKER_LINK_1","/speaker?name=marcusabrown&order=1");
         define("SPEAKER_LINK_2","https://nl.linkedin.com/in/marcusabrown");
         define("SPEAKER_LINK_3","https://pl.linkedin.com/in/arek-romański-448a575a");
         define("SPEAKER_LINK_4","https://pl.linkedin.com/in/lukasz-knasiecki-56803a8");
