@@ -149,7 +149,7 @@
                 define("PROJECTS","Projekcje");
 
                 define("TITLE","Konferencja graficzna");
-                define("NOTE","dla miłośników designu");
+                define("NOTE","dla projektantów przez projektantów. ???");
 
                 define("CITY","Poznań");
                 define("COMPANY","Concordia Design");
@@ -333,7 +333,7 @@
                 define("PROJECTS","Projekcje");
 
                 define("TITLE","Konferencja graficzna");
-                define("NOTE","dla miłośników designu");
+                define("NOTE","dla projektantów przez projektantów.");
 
                 define("CITY","Poznań");
                 define("COMPANY","Concordia Design");

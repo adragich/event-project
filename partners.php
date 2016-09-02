@@ -41,6 +41,26 @@
 		 id="partnersInfoSection">
 	<div class="container">
 		<div class="sponsors col l12 left-align">
+			<p class="blockTitle"><?php echo ORGS;?>
+			</p>
+			<div>
+				<?php for($i = 21; $i < 25; $i++){?>
+					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
+						 data-wow-delay="<?php echo 0.1*($i-20);?>s"
+						 data-wow-offset="-300"
+						 data-wow-duration="0.5s">
+						<div class="inner">
+							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
+							   class="center-align transition flex flex-center border" target="_blank">
+								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
+									 alt="<?php echo PARTNERS;?>" class="partner-image">
+							</a>
+						</div>
+					</div>
+				<?php } ?>
+			</div>
+		</div>
+		<div class="sponsors col l12 left-align">
 			<p class="blockTitle left-align"><?php echo SPONSORS;?>
 			</p>
 			<div>
@@ -94,26 +114,6 @@
 				<?php for($i = 13; $i < 21; $i++){?>
 					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
 						 data-wow-delay="<?php echo 0.1*($i-12);?>s"
-						 data-wow-offset="-300"
-						 data-wow-duration="0.5s">
-						<div class="inner">
-							<a href="<?php echo constant(PARTNER_LINK_.$i); ?>"
-							   class="center-align transition flex flex-center border" target="_blank">
-								<img src="img/partners/projections-partners_<?php echo $i ?>.png"
-									 alt="<?php echo PARTNERS;?>" class="partner-image">
-							</a>
-						</div>
-					</div>
-				<?php } ?>
-			</div>
-		</div>
-		<div class="sponsors col l12 left-align">
-			<p class="blockTitle"><?php echo ORGS;?>
-			</p>
-			<div>
-				<?php for($i = 21; $i < 25; $i++){?>
-					<div class="col xl3 l3 m6 s12 partner wow animated fadeInDown"
-						 data-wow-delay="<?php echo 0.1*($i-20);?>s"
 						 data-wow-offset="-300"
 						 data-wow-duration="0.5s">
 						<div class="inner">
