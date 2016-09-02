@@ -37,7 +37,7 @@
 	</div>
 </section>
 <section class="scrollableContent relative workshop-section" id="workshopSection"
-		 data-parallax='{"y" : -50, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
+		 data-parallax='{"y" : -100, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 	<div class="container">
 		<p class="blockTitle"><?php echo constant(SPEAKER_CITY_.$i);?></p>
 		<p class="block-content "><?php echo constant(SPEAKER_FULL_DESC_.$i);?>
