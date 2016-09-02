@@ -223,6 +223,8 @@ a:hover .badge{
 }
 .scroll-logo{
     opacity: 0;
+    position: absolute;
+    left: 0;
 }
 .inScroll img:first-child{
     opacity: 0;
