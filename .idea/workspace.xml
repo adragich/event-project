@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/speakers/speaker_6.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_10.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_11.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_12.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_13.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_13.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_14.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_7.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_8.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/speakers/speaker_9.jpg" afterPath="$PROJECT_DIR$/img/speakers/speaker_9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.php" afterPath="$PROJECT_DIR$/partners.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speakers.php" afterPath="$PROJECT_DIR$/speakers.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,21 +71,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="335" column="67" selection-start-line="335" selection-start-column="67" selection-end-line="335" selection-end-column="67" />
+            <state relative-caret-position="540">
+              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partners.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/partners.php">
+      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/speakers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="221">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -177,7 +184,6 @@
         <option value="$PROJECT_DIR$/venue.php" />
         <option value="$PROJECT_DIR$/partials/config.php" />
         <option value="$PROJECT_DIR$/partials/preloader-workshops.html" />
-        <option value="$PROJECT_DIR$/speakers.php" />
         <option value="$PROJECT_DIR$/partials/top.html" />
         <option value="$PROJECT_DIR$/js/appear.js" />
         <option value="$PROJECT_DIR$/battles.php" />
@@ -191,8 +197,9 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/partials.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/partials/text.php" />
         <option value="$PROJECT_DIR$/partners.php" />
+        <option value="$PROJECT_DIR$/speakers.php" />
+        <option value="$PROJECT_DIR$/partials/text.php" />
       </list>
     </option>
   </component>
@@ -438,12 +445,12 @@
       <workItem from="1472625833865" duration="12515000" />
       <workItem from="1472712509333" duration="689000" />
       <workItem from="1472716254650" duration="3179000" />
-      <workItem from="1472815899746" duration="75000" />
+      <workItem from="1472815899746" duration="744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253567000" />
+    <option name="totallyTimeSpent" value="254236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
@@ -700,13 +707,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speakers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-748">
@@ -829,18 +829,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/text.php">
+    <entry file="file://$PROJECT_DIR$/partners.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="335" column="67" selection-start-line="335" selection-start-column="67" selection-end-line="335" selection-end-column="67" />
+        <state relative-caret-position="302">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partners.php">
+    <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
           <folding />
         </state>
       </provider>

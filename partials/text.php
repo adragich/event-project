@@ -18,15 +18,16 @@
         define("SPEAKER_LINK_4","https://pl.linkedin.com/in/lukasz-knasiecki-56803a8");
         define("SPEAKER_LINK_5","https://pl.linkedin.com/in/piotr-holub-24bb9221");
         define("SPEAKER_LINK_6","http://www.hopastudio.com");
-        define("SPEAKER_LINK_7","https://pl.linkedin.com/in/grzegorzrog");
-        define("SPEAKER_LINK_8","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
-        define("SPEAKER_LINK_9","http://lesstudio.pl");
-        define("SPEAKER_LINK_10","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
-        define("SPEAKER_LINK_11","http://allegro.pl");
-        define("SPEAKER_LINK_12","https://www.behance.net/magierski/");
-        define("SPEAKER_LINK_13","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
-        define("SPEAKER_LINK_14","https://www.linkedin.com/in/bartekkotowicz");
-
+        define("SPEAKER_LINK_7","http://www.hopastudio.com");
+        define("SPEAKER_LINK_8","https://pl.linkedin.com/in/grzegorzrog");
+        define("SPEAKER_LINK_9","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
+        define("SPEAKER_LINK_10","http://lesstudio.pl");
+        define("SPEAKER_LINK_11","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
+        define("SPEAKER_LINK_12","http://allegro.pl");
+        define("SPEAKER_LINK_13","https://www.behance.net/magierski/");
+        define("SPEAKER_LINK_14","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
+        define("SPEAKER_LINK_15","www.mutostudio.com");
+        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
         define("SPEAKER_NAME_1","Kriss Hermansson");
         define("SPEAKER_DESC_1","Creative Director at Resn");
@@ -48,41 +49,49 @@
         define("SPEAKER_DESC_5","Partner w Hopastudio");
         define("SPEAKER_WEBSITE_5","hopastudio.com");
 
-        define("SPEAKER_NAME_6","Marcin Paściak");
-        define("SPEAKER_DESC_6","Partner w Hopastudio");
+        define("SPEAKER_NAME_6","Julia Cieszko");
+        define("SPEAKER_DESC_6","Communication Strategist w Hopastudio");
         define("SPEAKER_WEBSITE_6","hopastudio.com");
 
-        define("SPEAKER_NAME_7","Grzegorz Róg");
-        define("SPEAKER_DESC_7","Owner w eduweb.pl");
-        define("SPEAKER_WEBSITE_7","eduweb.pl");
+        define("SPEAKER_NAME_7","Marcin Paściak");
+        define("SPEAKER_DESC_7","Partner w Hopastudio");
+        define("SPEAKER_WEBSITE_7","hopastudio.com");
 
-        define("SPEAKER_NAME_8","Martyna Wędzicka");
-        define("SPEAKER_DESC_8","Partner w less.");
-        define("SPEAKER_WEBSITE_8","lesstudio.pl");
+        define("SPEAKER_NAME_8","Grzegorz Róg");
+        define("SPEAKER_DESC_8","Owner w eduweb.pl");
+        define("SPEAKER_WEBSITE_8","eduweb.pl");
 
-        define("SPEAKER_NAME_9","Gosia Perkowska");
+        define("SPEAKER_NAME_9","Martyna Wędzicka");
         define("SPEAKER_DESC_9","Partner w less.");
         define("SPEAKER_WEBSITE_9","lesstudio.pl");
 
-        define("SPEAKER_NAME_10","Patryk Hardziej");
-        define("SPEAKER_DESC_10","Illustrator / Graphic Designer");
-        define("SPEAKER_WEBSITE_10","negationstudio.com");
+        define("SPEAKER_NAME_10","Gosia Perkowska");
+        define("SPEAKER_DESC_10","Partner w less.");
+        define("SPEAKER_WEBSITE_10","lesstudio.pl");
 
-        define("SPEAKER_NAME_11","Allegro");
-        define("SPEAKER_DESC_11","Allegro");
-        define("SPEAKER_WEBSITE_11","allegro.pl");
+        define("SPEAKER_NAME_11","Patryk Hardziej");
+        define("SPEAKER_DESC_11","Illustrator / Graphic Designer");
+        define("SPEAKER_WEBSITE_11","negationstudio.com");
 
-        define("SPEAKER_NAME_12","Wojciech Magierski");
-        define("SPEAKER_DESC_12","Digital Artist / Art Director");
-        define("SPEAKER_WEBSITE_12","magierski.pl");
+        define("SPEAKER_NAME_12","Allegro");
+        define("SPEAKER_DESC_12","Allegro");
+        define("SPEAKER_WEBSITE_12","allegro.pl");
 
-        define("SPEAKER_NAME_13","Andrzej Jakuszko");
-        define("SPEAKER_DESC_13","Set Designer / Muto");
-        define("SPEAKER_WEBSITE_13","mutostudio.com");
+        define("SPEAKER_NAME_13","Wojciech Magierski");
+        define("SPEAKER_DESC_13","Digital Artist / Art Director");
+        define("SPEAKER_WEBSITE_13","magierski.pl");
 
-        define("SPEAKER_NAME_14","Bartek Kotowicz");
-        define("SPEAKER_DESC_14","Owner w brandingowy.pl");
-        define("SPEAKER_WEBSITE_14","brandingowy.pl");
+        define("SPEAKER_NAME_14","Andrzej Jakuszko");
+        define("SPEAKER_DESC_14","Set Designer / Muto");
+        define("SPEAKER_WEBSITE_14","mutostudio.com");
+
+        define("SPEAKER_NAME_15","Michał Wiatrolik");
+        define("SPEAKER_DESC_15","Head w Muto");
+        define("SPEAKER_WEBSITE_15","www.mutostudio.com");
+
+        define("SPEAKER_NAME_16","Bartek Kotowicz");
+        define("SPEAKER_DESC_16","Owner w brandingowy.pl");
+        define("SPEAKER_WEBSITE_16","brandingowy.pl");
 
 //        partners
         define("PARTNER_LINK_1","http://allegro.pl");
@@ -156,7 +165,7 @@
 
 
 //                speakers
-                define("SPEAKERS_NOTE","Opowiedzą o inspiracji.");
+                define("SPEAKERS_NOTE","i prowadzący warsztaty. ??");
 
 
 //                schedule
@@ -340,7 +349,7 @@
 
 
 //                speakers
-                define("SPEAKERS_NOTE","Opowiedzą o inspiracji.");
+                define("SPEAKERS_NOTE","i prowadzący warsztaty.");
 
 
 //                schedule
