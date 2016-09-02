@@ -149,7 +149,7 @@
 						<div class="inside">
 							<div class="yellow-hover figure">
 							<a href="<?php echo BATTLES_LINK_3; ?>" target="_blank" class="filter">
-								<img src="img/figures/teams/projections-bitwy_07.png" alt="Team logo">
+								<img src="img/figures/teams/projections-bitwy_07.jpg" alt="Team logo">
 							</a>
 							</div>
 							<p class="blockTitle">
