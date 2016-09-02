@@ -132,8 +132,8 @@
 
         define("ABOUT_IMAGE_1","projections-about_21.png");
         define("ABOUT_IMAGE_2","projections-about_22.png");
-        define("ABOUT_IMAGE_3","projections-about_23.png");
-        define("ABOUT_IMAGE_4","projections-about_24.png");
+        define("ABOUT_IMAGE_3","projections-about_24.png");
+        define("ABOUT_IMAGE_4","projections-about_23.png");
 
 		switch($_SESSION['lang']) {
 			case "en":
