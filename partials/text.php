@@ -372,7 +372,10 @@
                 define("SPEAKER_CITY_2","Amsterdam");
                 define("SPEAKER_CITY_3","Warszawa");
                 define("SPEAKER_CITY_4","Warszawa");
-                define("SPEAKER_CITY_5","Amsterdam");
+                define("SPEAKER_CITY_5","Warszawa");
+                define("SPEAKER_CITY_6","Warszawa");
+                define("SPEAKER_CITY_7","Warszawa");
+                define("SPEAKER_CITY_8","Amsterdam");
 
                 define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
                             i niekiedy szokującymi interaktywnymi doświadczeniami.
@@ -402,14 +405,30 @@
                             <br><br>
                             Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
                             z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
-                define("SPEAKER_FULL_DESC_5","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
-                            i niekiedy szokującymi interaktywnymi doświadczeniami.
+                define("SPEAKER_FULL_DESC_5","Hopa Studio to warszawski zespół projektowy specjalizujący się w brandingu. W projektowaniu
+                            systemów identyfikacji wizualnej dostrzegają proces, który znacznie wyprzedza powstanie
+                            logo. Poznają wszystko to, co marka chce komunikować.
                             <br><br>
-                            Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
-                            wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
-                            aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
-                            projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
-                            marką. Nazywają to Efektem Resn.");
+                            Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządzaniu. Pracują dla
+                            dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
+                            dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
+                            Uselab i Paperless.");
+                define("SPEAKER_FULL_DESC_6","Hopa Studio to warszawski zespół projektowy specjalizujący się w brandingu. W projektowaniu
+                            systemów identyfikacji wizualnej dostrzegają proces, który znacznie wyprzedza powstanie
+                            logo. Poznają wszystko to, co marka chce komunikować.
+                            <br><br>
+                            Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządzaniu. Pracują dla
+                            dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
+                            dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
+                            Uselab i Paperless.");
+                define("SPEAKER_FULL_DESC_7","Hopa Studio to warszawski zespół projektowy specjalizujący się w brandingu. W projektowaniu
+                            systemów identyfikacji wizualnej dostrzegają proces, który znacznie wyprzedza powstanie
+                            logo. Poznają wszystko to, co marka chce komunikować.
+                            <br><br>
+                            Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządzaniu. Pracują dla
+                            dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
+                            dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
+                            Uselab i Paperless.");
 
 
 //                schedule
