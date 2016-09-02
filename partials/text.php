@@ -29,23 +29,6 @@
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
-        define("SPEAKER_LINK_1","/speaker?name=marcusabrown&order=1");
-        define("SPEAKER_LINK_2","https://nl.linkedin.com/in/marcusabrown");
-        define("SPEAKER_LINK_3","https://pl.linkedin.com/in/arek-romański-448a575a");
-        define("SPEAKER_LINK_4","https://pl.linkedin.com/in/lukasz-knasiecki-56803a8");
-        define("SPEAKER_LINK_5","https://pl.linkedin.com/in/piotr-holub-24bb9221");
-        define("SPEAKER_LINK_6","http://www.hopastudio.com");
-        define("SPEAKER_LINK_7","http://www.hopastudio.com");
-        define("SPEAKER_LINK_8","https://pl.linkedin.com/in/grzegorzrog");
-        define("SPEAKER_LINK_9","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
-        define("SPEAKER_LINK_10","http://lesstudio.pl");
-        define("SPEAKER_LINK_11","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
-        define("SPEAKER_LINK_12","http://allegro.pl");
-        define("SPEAKER_LINK_13","https://www.behance.net/magierski/");
-        define("SPEAKER_LINK_14","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
-        define("SPEAKER_LINK_15","www.mutostudio.com");
-        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
-
         define("SPEAKER_NAME_1","Kriss Hermansson");
         define("SPEAKER_DESC_1","Creative Director at Resn");
         define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi

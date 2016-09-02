@@ -3,8 +3,7 @@
 <head>
 	<?php
 		@include("partials/head.php");
-		$speakerName = $_GET['name'] ? : 'speaker';
-		$i = $_GET['order'] ? : '0';
+		$i = $_GET['speaker'] ? : '0';
 	?>
 	<title>Projekcje - Konferencja graficzna - <?php echo constant(SPEAKER_NAME_.$i);?></title>
 
