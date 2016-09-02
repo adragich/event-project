@@ -368,11 +368,11 @@
 //                speakers
                 define("SPEAKERS_NOTE","i prowadzący warsztaty.");
 
-                define("SPEAKERS_CITY_1","Amsterdam");
-                define("SPEAKERS_CITY_2","Amsterdam");
-                define("SPEAKERS_CITY_3","Warszawa");
-                define("SPEAKERS_CITY_4","Warszawa");
-                define("SPEAKERS_CITY_5","Amsterdam");
+                define("SPEAKER_CITY_1","Amsterdam");
+                define("SPEAKER_CITY_2","Amsterdam");
+                define("SPEAKER_CITY_3","Warszawa");
+                define("SPEAKER_CITY_4","Warszawa");
+                define("SPEAKER_CITY_5","Amsterdam");
 
                 define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
                             i niekiedy szokującymi interaktywnymi doświadczeniami.
