@@ -28,6 +28,22 @@
 //        define("SPEAKER_LINK_14","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
+        define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_2","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_3","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_4","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_5","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_6","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_7","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_8","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_9","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_10","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_11","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_12","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_13","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_14","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_15","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_ANIM_IMAGE_16","/img/speakers/TITLE_OF_GIF");
 
         define("SPEAKER_NAME_1","Kriss Hermansson");
         define("SPEAKER_DESC_1","Creative Director at Resn");
