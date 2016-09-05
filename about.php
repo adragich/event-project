@@ -135,7 +135,10 @@
 				<div class="workshop-popup-inner">
 					<p class="absolute owner">
 						<a href="//www.<?php echo constant(ABOUT_WEBSITE_.$i);?>"
-						   target="_blank"><span><?php echo constant(ABOUT_WEBSITE_.$i);?></span></a></p>
+						   target="_blank" class="relative">
+							<span class="innerHoverStripe absolute transition">
+									</span>
+							<span><?php echo constant(ABOUT_WEBSITE_.$i);?></span></a></p>
 					<p class="blockTitle modal"><?php echo constant(ABOUT_TITLE_.$i);?></p>
 				</div>
 			</div>
