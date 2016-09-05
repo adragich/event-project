@@ -89,7 +89,7 @@
 			<div class="workshop-popup-body white">
 				<div class="workshop-popup-inner">
 					<p class="absolute owner">
-						<?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></p>
+						<span><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></p>
 					<p class="blockTitle modal"><?php echo constant(SPEAKER_MODAL_TITLE_.$i);?></p>
 					<p class="blockSub modal"><?php echo constant(SPEAKER_MODAL_SUBTITLE_.$i);?></p>
 				</div>
