@@ -170,6 +170,12 @@
         define("ABOUT_IMAGE_3","projections-about_24.png");
         define("ABOUT_IMAGE_4","projections-about_23.png");
 
+
+        define("ABOUT_TITLE_1","Kommunikat");
+        define("ABOUT_TITLE_2","Piotr Świerkowski");
+        define("ABOUT_TITLE_3","Fromsquare");
+        define("ABOUT_TITLE_4","Ewelina Dymek");
+
 		switch($_SESSION['lang']) {
 			case "en":
                 define("META_TITLE","Projections - Design Conference, Poznan - Poland");
@@ -553,19 +559,15 @@ interested especially in such issues as corporation and B2B branding.");
                 define("ABOUT_US_TITLE_3","The organisers");
                 define("ABOUT_US_DESC_3","By graphic designers for other fellow designers.");
 
-                define("ABOUT_TITLE_1","Kommunikat");
                 define("ABOUT_SUBTITLE_1","Brand Design Studio");
                 define("ABOUT_WEBSITE_1","www.behance.net/kommunikat");
 
-                define("ABOUT_TITLE_2","Piotr Świerkowski");
                 define("ABOUT_SUBTITLE_2","Owner / Art Director at Torpedov.com");
                 define("ABOUT_WEBSITE_2","www.torpedov.com");
 
-                define("ABOUT_TITLE_3","Ewelina Dymek");
                 define("ABOUT_SUBTITLE_3","Illustrator at Uniforma Studio");
                 define("ABOUT_WEBSITE_3","www.behance.net/edmk");
 
-                define("ABOUT_TITLE_4","Fromsquare");
                 define("ABOUT_SUBTITLE_4","Design Studio");
                 define("ABOUT_WEBSITE_4","www.fromsquare.com");
 
@@ -984,19 +986,16 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("ABOUT_US_TITLE_3","Organizatorzy projekcji");
                 define("ABOUT_US_DESC_3","Projektanci graficzni dla projektantów graficznych.");
 
-                define("ABOUT_TITLE_1","Kommunikat");
+
                 define("ABOUT_SUBTITLE_1","Brand Design Studio");
                 define("ABOUT_WEBSITE_1","www.behance.net/kommunikat");
 
-                define("ABOUT_TITLE_2","Piotr Świerkowski");
-                define("ABOUT_SUBTITLE_2","Owner / Art Director at Torpedov.com");
+                define("ABOUT_SUBTITLE_2","Owner / Art Director w Torpedov.com");
                 define("ABOUT_WEBSITE_2","www.torpedov.com");
 
-                define("ABOUT_TITLE_4","Ewelina Dymek");
                 define("ABOUT_SUBTITLE_4","Freelance Illustrator / Graphic Designer w Uniforma");
                 define("ABOUT_WEBSITE_4","www.behance.net/edmk");
 
-                define("ABOUT_TITLE_3","Fromsquare");
                 define("ABOUT_SUBTITLE_3","Graphic & Motion Design Studio");
                 define("ABOUT_WEBSITE_3","www.fromsquare.com");
 

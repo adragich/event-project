@@ -108,14 +108,47 @@
 						</div>
 					</div>
 					<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0s">
-						<a href="<?php echo constant(ABOUT_LINK_.$i);?>" class="learn-more-link yellow"
-						   target="_blank"><?php echo LEARN_MORE;?></a>
+						<a href="<?php echo constant(ABOUT_LINK_.$i);?>" class="learn-more-link yellow modal-trigger"
+						   target="_blank" data-open="#content<?php echo $i;?>"><?php echo LEARN_MORE;?></a>
 					</div>
 				</div>
 
 			<?php } ?>
 		</div>
 	</section>
+
+	<?php for($i =1; $i <= 4; $i++){?>
+
+		<div class="workshop-popup" id="content<?php echo $i;?>">
+
+			<div class="workshop-popup-header grey">
+				<div class="close modal" data-close="#content<?php echo $i;?>">
+					<span class="menu-close"></span>
+				</div>
+				<div class="workshop-popup-inner">
+					<img src="img/speakers/projections-speaker-popup_<?php echo $i;?>.png"
+						 alt="<?php echo constant(SPEAKER_MODAL_TITLE_.$i);?>">
+				</div>
+			</div>
+
+			<div class="workshop-popup-body white">
+				<div class="workshop-popup-inner">
+					<p class="absolute owner">
+						<span><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></p>
+					<p class="blockTitle modal"><?php echo constant(SPEAKER_MODAL_TITLE_.$i);?></p>
+					<p class="blockSub modal"><?php echo constant(SPEAKER_MODAL_SUBTITLE_.$i);?></p>
+				</div>
+			</div>
+
+			<div class="workshop-popup-footer grey">
+				<div class="workshop-popup-inner">
+					<p class="block-content"><?php echo constant(SPEAKER_MODAL_CONTENT_.$i);?></p>
+				</div>
+			</div>
+
+		</div>
+
+	<?php } ?>
 	<!--menu-->
 	<?php
 		@include("partials/sidebar.html")
