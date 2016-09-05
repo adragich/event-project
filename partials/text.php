@@ -1,8 +1,9 @@
 <?php
 	function defineStrings() {
 
-//    links
-//        battles
+//  THERE ARE COMMON TEXT STRINGS (START)
+//  Links
+//  battles
         define("BATTLES_LINK_1","https://www.behance.net/kirpluk");
         define("BATTLES_LINK_2","https://www.behance.net/ploch");
         define("BATTLES_LINK_3","https://www.behance.net/crislabno");
@@ -12,10 +13,11 @@
         define("SPEAKER_NAME_12","Allegro");
         define("SPEAKER_DESC_12","Allegro");
 
-
+//MIME TYPES FOR MEDIA INFSIDE POP-UPS
         define("ABOUT_PIC_MIME","png");
         define("SPEAKER_PIC_MIME","png");
 
+        //SPEAKERS
         define("SPEAKER_MODAL_TITLE_1","Resn");
         define("SPEAKER_MODAL_TITLE_2","Resn");
         define("SPEAKER_MODAL_TITLE_3","Huncwot");
@@ -64,6 +66,7 @@
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
+//        BACKGROUND COLOURS FOR POP-UPS
         define("SPEAKER_COLOR_1","#ff6178");
         define("SPEAKER_COLOR_2","#ff6178");
         define("SPEAKER_COLOR_3","#2eab66");
@@ -83,32 +86,19 @@
 
         define("SPEAKER_WEBSITE_1","resn.co.nz");
         define("SPEAKER_WEBSITE_2","resn.co.nz");
-
         define("SPEAKER_WEBSITE_3","huncwot.com");
-
         define("SPEAKER_WEBSITE_4","huncwot.com");
-
         define("SPEAKER_WEBSITE_5","hopastudio.com");
-
         define("SPEAKER_WEBSITE_6","hopastudio.com");
-
         define("SPEAKER_WEBSITE_7","hopastudio.com");
-
         define("SPEAKER_WEBSITE_8","eduweb.pl");
-
         define("SPEAKER_WEBSITE_9","lesstudio.pl");
         define("SPEAKER_WEBSITE_10","lesstudio.pl");
-
         define("SPEAKER_WEBSITE_11","negationstudio.com");
-
         define("SPEAKER_WEBSITE_12","allegro.pl");
-
         define("SPEAKER_WEBSITE_13","magierski.pl");
-
         define("SPEAKER_WEBSITE_14","mutostudio.com");
-
         define("SPEAKER_WEBSITE_15","www.mutostudio.com");
-
         define("SPEAKER_WEBSITE_16","brandingowy.pl");
 
 //        partners
@@ -159,6 +149,10 @@
         define("ABOUT_TITLE_3","Fromsquare");
         define("ABOUT_TITLE_4","Ewelina Dymek");
 
+//  THERE ARE COMMON TEXT STRINGS (FINISH)
+
+
+// ENGLISH VERSION
 		switch($_SESSION['lang']) {
 			case "en":
                 define("META_TITLE","Projections - Design Conference, Poznan - Poland");
@@ -667,6 +661,12 @@ interested especially in such issues as corporation and B2B branding.");
                 define("BATTLES_APPLICATION_FOOTER","In case of questions, please drop us a line:");
                 define("BATTLES_APPLICATION_PHONE","Phone number");
 			break;
+
+
+
+
+
+//          DEFAULT VERSION
 			default:
 
 //			      common
