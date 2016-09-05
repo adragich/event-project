@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.php" afterPath="$PROJECT_DIR$/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/about/projections-about_23.png" afterPath="$PROJECT_DIR$/img/about/projections-about_24.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/about/projections-about_24.png" afterPath="$PROJECT_DIR$/img/about/projections-about_23.png" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +35,8 @@
       <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="1060" column="56" selection-start-line="1060" selection-start-column="56" selection-end-line="1060" selection-end-column="56" />
+            <state relative-caret-position="80">
+              <caret line="1030" column="61" selection-start-line="1030" selection-start-column="61" selection-end-line="1030" selection-end-column="61" />
               <folding>
                 <marker date="1473072134000" expanded="true" signature="10760:10929" ph="..." />
                 <marker date="1473072134000" expanded="true" signature="11566:11572" ph="..." />
@@ -440,18 +440,18 @@
       <workItem from="1472712509333" duration="689000" />
       <workItem from="1472716254650" duration="3179000" />
       <workItem from="1472815899746" duration="9738000" />
-      <workItem from="1473058183844" duration="13185000" />
+      <workItem from="1473058183844" duration="13266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276415000" />
+    <option name="totallyTimeSpent" value="276496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18484145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24903326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294031" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -854,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="1060" column="56" selection-start-line="1060" selection-start-column="56" selection-end-line="1060" selection-end-column="56" />
+        <state relative-caret-position="80">
+          <caret line="1030" column="61" selection-start-line="1030" selection-start-column="61" selection-end-line="1030" selection-end-column="61" />
           <folding>
             <marker date="1473072134000" expanded="true" signature="10760:10929" ph="..." />
             <marker date="1473072134000" expanded="true" signature="11566:11572" ph="..." />
