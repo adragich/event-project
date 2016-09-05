@@ -33,6 +33,21 @@
         define("SPEAKER_MODAL_TITLE_15","Set design");
         define("SPEAKER_MODAL_TITLE_16","Warsztat²");
 
+        define("SPEAKER_MODAL_IMAGE_1","prelegenci-resn");
+        define("SPEAKER_MODAL_IMAGE_2","prelegenci-resn");
+        define("SPEAKER_MODAL_IMAGE_3","prelegenci-romanski-huncwot");
+        define("SPEAKER_MODAL_IMAGE_4","prelegenci-romanski-huncwot");
+        define("SPEAKER_MODAL_IMAGE_5","prelegenci-hopa");
+        define("SPEAKER_MODAL_IMAGE_6","prelegenci-hopa");
+        define("SPEAKER_MODAL_IMAGE_7","prelegenci-hopa");
+        define("SPEAKER_MODAL_IMAGE_8","prelegenci-eduweb");
+        define("SPEAKER_MODAL_IMAGE_9","prelegenci-less");
+        define("SPEAKER_MODAL_IMAGE_10","prelegenci-less");
+        define("SPEAKER_MODAL_IMAGE_13","prelegenci-m4gik");
+        define("SPEAKER_MODAL_IMAGE_14","prelegenci-muto");
+        define("SPEAKER_MODAL_IMAGE_15","prelegenci-muto");
+        define("SPEAKER_MODAL_IMAGE_16","prelegenci-brandingowy");
+
         define("SPEAKER_NAME_1","Kris Hermansson");
         define("SPEAKER_NAME_2","Marcus Brown");
         define("SPEAKER_NAME_3","Arek Romański");
