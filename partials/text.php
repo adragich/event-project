@@ -133,6 +133,16 @@ Pięknych w Gdańsku. Krótko po dyplomie dziewczyny rozpoczęły pracę nad wsp
 projektem less. Studio specjalizuje się w identyfikacji wizualnej, grafice edytorskiej
 i projektowaniu stron www. Internet jest dla nich źródłem inspiracji, środkiem komunikacji
 i nośnikiem promocji.");
+        define("SPEAKER_COLOR_11","#ffeb3c");
+        define("SPEAKER_MODAL_TITLE_11","Negation");
+        define("SPEAKER_MODAL_NOTE_11","gdynia / negationstudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_11","Patryk Hardzie");
+        define("SPEAKER_MODAL_CONTENT_11","Patryk Hardziej, jest ilustratorem i projektantem grafiki. Mieszka i pracuje w Trójmieście ale
+działa międzynarodowo. Wykonuje projekty z zakresu ilustracji, brandingu, projektowania logo,
+komunikacji wizualnej, grafiki edytorskiej, a także projekty artystyczne. Lubi łączyć w różnych
+proporcjach techniczne aspekty projektowania graficznego oraz ilustrację. Jest miłośnikiem
+starych znaków graficznych i ich historii oraz autorem projektów Oldschool Logo i Polskie Znaki
+Graficzne. Razem z Patrycją Podkościelny współtworzy ¬ Negation Studio.");
 
 
         define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
