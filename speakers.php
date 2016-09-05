@@ -76,7 +76,7 @@
 
 		<div class="workshop-popup" id="content<?php echo $i;?>">
 
-			<div class="workshop-popup-header grey">
+			<div class="workshop-popup-header grey" style="background: <?php echo constant(SPEAKER_COLOR_.$i);?>">
 				<div class="close modal" data-close="#content<?php echo $i;?>">
 					<span class="menu-close"></span>
 				</div>

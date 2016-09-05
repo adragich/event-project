@@ -29,6 +29,7 @@
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
+        define("SPEAKER_COLOR_1","#ffeb3e");
         define("SPEAKER_MODAL_NOTE_1","amsterdam / resn.co.nz");
         define("SPEAKER_MODAL_SUBTITLE_1","Kris Hermansson<br>Marcus Brown");
         define("SPEAKER_MODAL_CONTENT_1","<b>Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
