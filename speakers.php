@@ -76,12 +76,12 @@
 
 		<div class="workshop-popup" id="content<?php echo $i;?>">
 
-			<div class="workshop-popup-header grey" style="background: <?php echo constant(SPEAKER_COLOR_.$i);?>">
+			<div class="workshop-popup-header" style="background: <?php echo constant(SPEAKER_COLOR_.$i);?>">
 				<div class="close modal" data-close="#content<?php echo $i;?>">
 					<span class="menu-close"></span>
 				</div>
 				<div class="workshop-popup-inner">
-					<img src="img/speakers/projections-speaker_<?php echo $i;?>.png"
+					<img src="img/speakers/projections-speaker-popup_<?php echo $i;?>.png"
 						 alt="<?php echo constant(SPEAKER_MODAL_TITLE_.$i);?>">
 				</div>
 			</div>
