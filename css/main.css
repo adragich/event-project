@@ -3328,10 +3328,10 @@ a.border:hover{
         width: 124px;
         min-width: 124px;
         margin-left: -15px;
+        left: 0;
     }
     .event-left-link img.scroll-logo{
         position: absolute;
-        left: 0;
     }
     .homepage .event-left-link {
         opacity: 1;
