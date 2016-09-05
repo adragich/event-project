@@ -565,12 +565,83 @@ interested especially in such issues as corporation and B2B branding.");
                 define("ABOUT_SUBTITLE_2","Owner / Art Director at Torpedov.com");
                 define("ABOUT_WEBSITE_2","www.torpedov.com");
 
-                define("ABOUT_SUBTITLE_3","Illustrator at Uniforma Studio");
-                define("ABOUT_WEBSITE_3","www.behance.net/edmk");
+                define("ABOUT_SUBTITLE_4","Illustrator at Uniforma Studio");
+                define("ABOUT_WEBSITE_4","www.behance.net/edmk");
 
-                define("ABOUT_SUBTITLE_4","Design Studio");
-                define("ABOUT_WEBSITE_4","www.fromsquare.com");
+                define("ABOUT_SUBTITLE_3","Design Studio");
+                define("ABOUT_WEBSITE_3","www.fromsquare.com");
 
+                define("ABOUT_CONTENT_1","Kommunikat is a brand design studio which
+                specialises in designing flexible visual identity
+                systems. it was established in 2007 by Kuba \"Enzo\"
+                Rutkowski.<br><br>
+                The experience acquired during his employment
+                in such design studios and agencies as Diagram
+                or Dragon Rouge enabled him to develop a unique
+                work process and pragmatic approach towards
+                design, which stand at the base of Kommunikat's
+                projects. Over the years the studio created a
+                number of unique solutions including a repeatedly
+                honored visual identity system for Autentika.<br><br>
+                In 2013 Kommunikat welcomed Natalia Żerko - an
+                illustrator and a graphic designer, who became a
+                permanent part of the team. As a result, a dynamic
+                duo was created, which successfully works with
+                such brands as Asseco or Allegro.");
+                define("ABOUT_CONTENT_2","For the past 9 years, Piotr has been designing web
+                and app interfaces. He is the winner of the \"Best UI
+                Designer 2015 CSS Design Awards\" award and was
+                nominated for the \"Independent / Freelance of the
+                year 2015\" award.<br><br>
+                 His works can also be found in the following
+                Awwwards publications: \"365 Best Websites
+                Around The World 2014\" and \"365 Best Websites
+                Around the World 2015\". He is a jury member for
+                both Awwwards.com and CSSDesignAwards.com.<br><br>
+                Piotr is the winner of a number of awards and
+                commendations from well-known design websites
+                and magazines, e.g. Web Designer Mag for the
+                ilovethisfame.com project.");
+                define("ABOUT_CONTENT_4","Since she can remember she has been passionate
+                about drawing, and since a few years ago about
+                graphic design as well. She is trying not to restrict
+                herself within one particular sphere of design and
+                illustration, but to develop her skills in various
+                directions, keeping in mind the high quality of her
+                work.<br><br>
+                Qualifying for the prestigeous Fashion Drawing
+                workshops during Art & Fashion Forum by
+                Grażyna Kulczyk (2013) allowed her to step into
+                the illustration business and enabled her to work
+                on projects with such brands as Samsung (PL), Leo
+                Burnett (PL), Saatchi Masius (UK) and a charity
+                organisation Warriors in Pink established by
+                FORD Motor Company (USA), just to name a few.<br><br>
+                For the last few months she's been working with the
+                leading manufacturer of graphic drawing tablets
+                WACOM, and her works were often honored on
+                design and illustration websites such as Behance.");
+                define("ABOUT_CONTENT_3","A Poznań-based graphic design studio, which
+                specialises in animation and branding. its
+                main goal is to create a cohesive and effective
+                communication, which creates a brand's
+                dynamization and visual identity systems.<br><br>
+                The studio was established by the designers
+                duo, Alicja Piotrowska and Jakub Piechota, who
+                has gained a rich experience while working for
+                such clients as Allegro, Amica, Home Broker,
+                H&M, Volkswagen and more. For the past 2
+                years Fromsquare has been collaborating with a
+                Swedish film studio and has made a number of
+                animations released on a Swedish market. As far
+                as branding is concerned, Fromsquare's designed
+                logo was showcased during the Second Polish
+                Graphic Signs Exhibition.<br><br>
+                Alicja and Jakub use their broad knowledge and
+                tools to create the story behind newly-established
+                and already existing brands, which has a crucial
+                impact upon an effective brand communication
+                and its identity.");
 
 //                battles ???
                 define("BATTLES_2","Are you ready for the Battle?");
@@ -1032,7 +1103,7 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 branżowych serwisach i magazynach, wyróżniony
                 między innymi przez Web Designer Mag za projekt
                 ilovethisfame.com");
-                define("ABOUT_CONTENT_3","Odkąd pamięta pasjonuje się rysowaniem, a od
+                define("ABOUT_CONTENT_4","Odkąd pamięta pasjonuje się rysowaniem, a od
                 kilku lat także projektowaniem graficznym. Stara
                 się nie ograniczać tylko do jednej strefy designu
                 i ilustracji, ale rozwijać się kilkutorowo wciąż
@@ -1049,7 +1120,7 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 producentów tabletów graficznych WACOM, a jej
                 prace wielokrotnie wyróżniane są w branżowych
                 serwisach, m.in. Behance.");
-                define("ABOUT_CONTENT_4","Poznańskie studio projektowe specjalizujące się w
+                define("ABOUT_CONTENT_3","Poznańskie studio projektowe specjalizujące się w
                 zakresie animacji oraz brandingu. Jego głównym
                 celem jest tworzenie spójnej oraz skutecznej
                 komunikacji, której wyrazem jest tworzenie
