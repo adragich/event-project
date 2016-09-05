@@ -2947,9 +2947,9 @@ a.border:hover{
         font-size: 35px;
         line-height: 35px;
     }
-    .close {
-        width: 36px;
-    }
+    /*.close {*/
+        /*width: 36px;*/
+    /*}*/
     .socials a {
         font-size: 22px;
     }
