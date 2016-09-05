@@ -78,7 +78,7 @@
 	</section>
 <!--	pop-ups-->
 	<?php for($i =1; $i <=16; $i++){?>
-
+	  <?php if( $i!=12 ){ ?>
 		<div class="workshop-popup" id="content<?php echo $i;?>">
 
 			<div class="workshop-popup-header" style="background: <?php echo constant(SPEAKER_COLOR_.$i);?>">
@@ -112,6 +112,7 @@
 
 		</div>
 
+	  <?php } ?>
 	<?php } ?>
 	<!--menu-->
 	<?php
