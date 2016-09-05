@@ -94,7 +94,8 @@
 			<div class="workshop-popup-body white">
 				<div class="workshop-popup-inner">
 					<p class="absolute owner">
-						<span><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></p>
+						<a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
+						   target="_blank"><span><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></a></p>
 					<p class="blockTitle modal"><?php echo constant(SPEAKER_MODAL_TITLE_.$i);?></p>
 					<p class="blockSub modal"><?php echo constant(SPEAKER_MODAL_SUBTITLE_.$i);?></p>
 				</div>
