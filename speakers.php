@@ -97,7 +97,6 @@
 
 			<div class="workshop-popup-footer grey">
 				<div class="workshop-popup-inner">
-					<p class="blockTitle small"><?php echo constant(SPEAKER_MODAL_TOPIC_.$i);?></p>
 					<p class="block-content"><?php echo constant(SPEAKER_MODAL_CONTENT_.$i);?></p>
 				</div>
 			</div>
