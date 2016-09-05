@@ -812,6 +812,7 @@ a:hover .hoverStripe:before, .hoverStripe:hover:before{
     font-size: 28px;
     font-weight: 600;
     font-family: 'PlayfairDisplayBold', sans-serif;
+    text-transform: uppercase;
 }
 .city{
     font-size: 20px;}
