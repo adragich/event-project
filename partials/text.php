@@ -28,6 +28,7 @@
         define("SPEAKER_MODAL_TITLE_8","eduweb");
         define("SPEAKER_MODAL_TITLE_9",".less");
         define("SPEAKER_MODAL_TITLE_10",".less");
+        define("SPEAKER_MODAL_TITLE_11","HARDZIEJ");
         define("SPEAKER_MODAL_TITLE_13","Zbrush + Modo");
         define("SPEAKER_MODAL_TITLE_14","Set design");
         define("SPEAKER_MODAL_TITLE_15","Set design");
@@ -43,6 +44,7 @@
         define("SPEAKER_MODAL_IMAGE_8","prelegenci-eduweb");
         define("SPEAKER_MODAL_IMAGE_9","prelegenci-less");
         define("SPEAKER_MODAL_IMAGE_10","prelegenci-less");
+        define("SPEAKER_MODAL_IMAGE_11","prelegenci-hardziej");
         define("SPEAKER_MODAL_IMAGE_13","prelegenci-m4gik");
         define("SPEAKER_MODAL_IMAGE_14","prelegenci-muto");
         define("SPEAKER_MODAL_IMAGE_15","prelegenci-muto");
@@ -201,7 +203,6 @@
 //                speakers
                 define("SPEAKERS_MAIN_TITLE","The speakers");
                 define("SPEAKERS_NOTE","and the workshops teachers.");
-                define("SPEAKER_MODAL_TITLE_11","HARDZIEJ");
 
                 define("SPEAKER_DESC_1","Creative Director at Resn");
                 define("SPEAKER_DESC_2","Senior Art Director at Resn");
