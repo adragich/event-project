@@ -999,6 +999,80 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("ABOUT_SUBTITLE_3","Graphic & Motion Design Studio");
                 define("ABOUT_WEBSITE_3","www.fromsquare.com");
 
+                define("ABOUT_CONTENT_1","Kommunikat to studio brandingowe specjalizujące
+                się w projektowaniu elastycznych systemów
+                identyfikacji wizualej, założone w 2007 roku przez
+                Kubę 'Enzo' Rutkowskiego.<br><br>
+                Jego doświadczenie zdobyte podczas współpracy
+                z takimi studiami i agencjami jak Diagram czy
+                Dragon Rouge zaowocowało stworzeniem własnego
+                unikalnego warsztatu pracy i pragmatycznego
+                podejścia do projektowania, które stanowi bazę
+                dla projektów Kommunikatu. Studio na przełomie
+                lat stworzyło szereg unikalnych rozwiązań, w tym
+                wielokrotnie wyróżniany system identyfikacji
+                wizualnej dla marki Autentika.<br><br>
+                W 2013 roku do Kommunikatu na stałe dołączyła
+                ilustratorka Natalia Żerko, dzięki czemu
+                jednoosobowe studio zmieniło się w dynamiczny
+                duet projektowy, który z powodzeniem obsługuje
+                brandingowo takie marki jak Otomoto, Allegro
+                czy Asseco.");
+                define("ABOUT_CONTENT_2","Piotr od 9 lat projektuje interfejsy webowe
+                i  aplikacyjne, jest zdobywcą nagrody „BEST UI
+                DESIGNER 2015 CSS Design Awards”, nominowany
+                przez AWWWARDS.com do nagrody „Independent
+                / Freelance of the year 2015”.<br><br>
+                Dostrzeżony zostały także w wydawnictwach
+                AWWWARDS: „365 Best Websites Around The
+                World 2014” oraz „365 Best Websites Around
+                The World 2015”. Członek Jury: AWWWARDS.com,
+                CSSDESIGNAWARDS.com<br><br>
+                Zdobywca kilkudziesięciu wyróżnień i nagród w
+                branżowych serwisach i magazynach, wyróżniony
+                między innymi przez Web Designer Mag za projekt
+                ilovethisfame.com");
+                define("ABOUT_CONTENT_3","Odkąd pamięta pasjonuje się rysowaniem, a od
+                kilku lat także projektowaniem graficznym. Stara
+                się nie ograniczać tylko do jednej strefy designu
+                i ilustracji, ale rozwijać się kilkutorowo wciąż
+                mając na uwadze jakość wykonywanej pracy.<br><br>
+                Zakwalifikowanie się na prestiżowe warsztaty
+                Fashion Drawing podczas Art & Fashion Forum
+                by Grażyna Kulczyk (2013) pozwoliło jej na
+                wkroczenie do branży ilustracji i współpracę nad
+                wieloma projektami m.in. z Samsungiem (PL), Leo
+                Burnett (PL), Saatchi Masius (UK) czy organizacją
+                charytatywną Warriors in Pink założoną przez
+                FORD Motor Company (USA).<br><br>
+                Od kilku miesięcy współpracuje z liderem wśród
+                producentów tabletów graficznych WACOM, a jej
+                prace wielokrotnie wyróżniane są w branżowych
+                serwisach, m.in. Behance.");
+                define("ABOUT_CONTENT_4","Poznańskie studio projektowe specjalizujące się w
+                zakresie animacji oraz brandingu. Jego głównym
+                celem jest tworzenie spójnej oraz skutecznej
+                komunikacji, której wyrazem jest tworzenie
+                dynamizacji marek oraz systemów identyfikacji
+                wizualnej.<br><br>
+                Studio zostało założone przez parę projektantów,
+                Alicję Piotrowską oraz Jakuba Piechotę, którzy
+                swoje doświadczenie budowali pracując m.in. dla
+                takich Klientów jak Allegro, Amica, Home Broker,
+                H&M, Volkswagen i wielu innych. Od ponad dwóch
+                lat Fromsquare współpracuje ze szwedzkim
+                studiem produkcji filmowej, wykonując animacje
+                na rynek skandynawski. Na obszarze działań
+                brandingowych, logotyp autorstwa Fromsquare
+                został zaprezentowany wśród znaków na II
+                Ogólnopolskiej Wystawie Znaków Graficznych.<br><br>
+                Ideą pracy studia jest budowanie historii nowo
+                powstałych oraz istniejących marek przy
+                wykorzystaniu zdobytej wiedzy oraz narzędzi,
+                dzięki którym każdy element komunikacji
+                skutecznie wpływa na całokształt postrzegania
+                wizerunku marki Klienta.");
+
 
 //                battles ???
                 define("BATTLES_NOTE","Pojedynek pomiędzy projektantami graficznymi.");

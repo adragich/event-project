@@ -126,23 +126,20 @@
 					<span class="menu-close"></span>
 				</div>
 				<div class="workshop-popup-inner">
-					<img src="img/speakers/projections-speaker-popup_<?php echo $i;?>.png"
-						 alt="<?php echo constant(SPEAKER_MODAL_TITLE_.$i);?>">
+					<img src="img/about/projections-about-popup_<?php echo $i;?>.png"
+						 alt="<?php echo constant(ABOUT_TITLE_.$i);?>">
 				</div>
 			</div>
 
 			<div class="workshop-popup-body white">
 				<div class="workshop-popup-inner">
-					<p class="absolute owner">
-						<span><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></p>
-					<p class="blockTitle modal"><?php echo constant(SPEAKER_MODAL_TITLE_.$i);?></p>
-					<p class="blockSub modal"><?php echo constant(SPEAKER_MODAL_SUBTITLE_.$i);?></p>
+					<p class="blockTitle modal"><?php echo constant(ABOUT_TITLE_.$i);?></p>
 				</div>
 			</div>
 
 			<div class="workshop-popup-footer grey">
 				<div class="workshop-popup-inner">
-					<p class="block-content"><?php echo constant(SPEAKER_MODAL_CONTENT_.$i);?></p>
+					<p class="block-content"><?php echo constant(ABOUT_CONTENT_.$i);?></p>
 				</div>
 			</div>
 
