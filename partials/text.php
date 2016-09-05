@@ -143,6 +143,65 @@ komunikacji wizualnej, grafiki edytorskiej, a także projekty artystyczne. Lubi 
 proporcjach techniczne aspekty projektowania graficznego oraz ilustrację. Jest miłośnikiem
 starych znaków graficznych i ich historii oraz autorem projektów Oldschool Logo i Polskie Znaki
 Graficzne. Razem z Patrycją Podkościelny współtworzy ¬ Negation Studio.");
+        
+//        allegro
+        define("SPEAKER_COLOR_12","#ffeb3c");
+        define("SPEAKER_MODAL_TITLE_12","Negation");
+        define("SPEAKER_MODAL_NOTE_12","gdynia / negationstudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_12","Patryk Hardzie");
+        define("SPEAKER_MODAL_CONTENT_12","Patryk Hardziej, jest ilustratorem i projektantem grafiki. Mieszka i pracuje w Trójmieście ale
+działa międzynarodowo. Wykonuje projekty z zakresu ilustracji, brandingu, projektowania logo,
+komunikacji wizualnej, grafiki edytorskiej, a także projekty artystyczne. Lubi łączyć w różnych
+proporcjach techniczne aspekty projektowania graficznego oraz ilustrację. Jest miłośnikiem
+starych znaków graficznych i ich historii oraz autorem projektów Oldschool Logo i Polskie Znaki
+Graficzne. Razem z Patrycją Podkościelny współtworzy ¬ Negation Studio.");
+
+        define("SPEAKER_COLOR_13","#ffeb3c");
+        define("SPEAKER_MODAL_TITLE_13","Zbrush + Modo");
+        define("SPEAKER_MODAL_NOTE_13","kraków / magierski.pl");
+        define("SPEAKER_MODAL_SUBTITLE_13","Wojciech Magierski");
+        define("SPEAKER_MODAL_CONTENT_13","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r. Na co dzień mieszka ipracuje
+w Krakowie. Jego ilustracje publikowane są w magazynach graficznych na całym świecie.
+W dosyć krótkiej karierze zawodowej osiągnął m.in. dwa znaczące sukcesy - jego projekty
+zostały zamieszczone na okładkach magazynów Advanced Photoshop w Wielkiej Brytanii oraz
+Computer Arts w Polsce. Pisze lekcje i nagrywa kursy video dla młodszego pokolenia grafików.
+W swojej twórczości koncentruje się na fotomanipulacjach i ilustracjach cyfrowych. Jest
+aktywnym uczestnikiem międzynarodowego kolektywu graficznego Slashthree i polskiego
+kolektywu Goverdose. Jego portfolio znajduje się na stronie www.magierski.pl.");
+
+        define("SPEAKER_COLOR_14","#21c9e0");
+        define("SPEAKER_MODAL_TITLE_14","Set design");
+        define("SPEAKER_MODAL_NOTE_14","poznań / mutostudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_14","Andrzej Jakuszko<br>Michał Wiatrolik");
+        define("SPEAKER_MODAL_CONTENT_14","<b>Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na tworzeniu komunikacji
+wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.<b><br><br>
+W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,
+a zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.<Br>
+Studio w swoich projektach ucieka od standardowych narzędzi kreacji, budując spójne obrazy
+często jeszcze przed procesem digitalizacji, a wielowymiarowa współpraca z różnego typu
+specjalistami, pozwala na kompleksową obsługę złożonych projektów.");
+        define("SPEAKER_COLOR_15","#21c9e0");
+        define("SPEAKER_MODAL_TITLE_15","Set design");
+        define("SPEAKER_MODAL_NOTE_15","poznań / mutostudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_15","Andrzej Jakuszko<br>Michał Wiatrolik");
+        define("SPEAKER_MODAL_CONTENT_15","<b>Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na tworzeniu komunikacji
+wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.<b><br><br>
+W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,
+a zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.<Br>
+Studio w swoich projektach ucieka od standardowych narzędzi kreacji, budując spójne obrazy
+często jeszcze przed procesem digitalizacji, a wielowymiarowa współpraca z różnego typu
+specjalistami, pozwala na kompleksową obsługę złożonych projektów.");
+
+        define("SPEAKER_COLOR_16","#ffbf9e");
+        define("SPEAKER_MODAL_TITLE_16","Warsztat²");
+        define("SPEAKER_MODAL_NOTE_16","gdańsk / brandingowy.pl");
+        define("SPEAKER_MODAL_SUBTITLE_16","Bartek Kotowicz");
+        define("SPEAKER_MODAL_CONTENT_16","Bartek Kotowicz wychodzi z założenia, że twórcza codzienność jest lepsza niż pewne jutro.
+Z tej przyczyny porzucił przyszłość w instytucjach europejskich na rzecz branży kreatywnej
+i własnej firmy. Z zapałem szkoli, prowadzi zajęcia dydaktyczne i pisze artykuły. Dyrektor
+zarządzający agencji brandingowej Engram. Twórca blogu brandingowy.pl, marki Pan Wizualny
+oraz kreatywnej przestrzeni wielofunkcyjnej O TU_. Strateg oraz fan marek. Interesują go
+zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
 
 
         define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
