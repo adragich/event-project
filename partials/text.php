@@ -106,6 +106,33 @@ Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządza
 dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
 dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
 Uselab i Paperless.");
+        define("SPEAKER_COLOR_8","#ff8193");
+        define("SPEAKER_MODAL_TITLE_8","eduweb");
+        define("SPEAKER_MODAL_NOTE_8","warszawa / eduweb.pl");
+        define("SPEAKER_MODAL_SUBTITLE_8","Grzegorz Róg");
+        define("SPEAKER_MODAL_CONTENT_8","Od wielu lat projektuje serwisy internetowe, dużą wagę przykładając do ich funkcjonalności
+a także skutecznych technik promocji. Swoje umiejętności praktyczne zdobywa projektując
+grafikę oraz strony www dla wiodących polskich i zagranicznych agencji reklamowych.
+Współpracuje między innymi z Adobe, Microsoft, Wacom. Jako trener i spiker prowadzi szkolenia
+oraz eventy i warsztaty. Posiada szereg uprawnień i certyfikatów eksperckich. ");
+        define("SPEAKER_COLOR_9","#21c9e0");
+        define("SPEAKER_MODAL_TITLE_9",".less");
+        define("SPEAKER_MODAL_NOTE_9","gdańsk / lesstudio.pl");
+        define("SPEAKER_MODAL_SUBTITLE_9","Martyna Wędzicka<br>Gosia Perkowska");
+        define("SPEAKER_MODAL_CONTENT_9","Martyna Wędzicka, Małgorzata Perkowska, Anna Okrassa – absolwentki Akademii Sztuk
+Pięknych w Gdańsku. Krótko po dyplomie dziewczyny rozpoczęły pracę nad wspólnym
+projektem less. Studio specjalizuje się w identyfikacji wizualnej, grafice edytorskiej
+i projektowaniu stron www. Internet jest dla nich źródłem inspiracji, środkiem komunikacji
+i nośnikiem promocji.");
+        define("SPEAKER_COLOR_10","#21c9e0");
+        define("SPEAKER_MODAL_TITLE_10",".less");
+        define("SPEAKER_MODAL_NOTE_10","gdańsk / lesstudio.pl");
+        define("SPEAKER_MODAL_SUBTITLE_10","Martyna Wędzicka<br>Gosia Perkowska");
+        define("SPEAKER_MODAL_CONTENT_10","Martyna Wędzicka, Małgorzata Perkowska, Anna Okrassa – absolwentki Akademii Sztuk
+Pięknych w Gdańsku. Krótko po dyplomie dziewczyny rozpoczęły pracę nad wspólnym
+projektem less. Studio specjalizuje się w identyfikacji wizualnej, grafice edytorskiej
+i projektowaniu stron www. Internet jest dla nich źródłem inspiracji, środkiem komunikacji
+i nośnikiem promocji.");
 
 
         define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
