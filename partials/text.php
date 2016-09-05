@@ -185,7 +185,7 @@ specjalistami, pozwala na kompleksową obsługę złożonych projektów.");
         define("SPEAKER_MODAL_NOTE_15","poznań / mutostudio.com");
         define("SPEAKER_MODAL_SUBTITLE_15","Andrzej Jakuszko<br>Michał Wiatrolik");
         define("SPEAKER_MODAL_CONTENT_15","<b>Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na tworzeniu komunikacji
-wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.<b><br><br>
+wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.</b><br><br>
 W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,
 a zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.<Br>
 Studio w swoich projektach ucieka od standardowych narzędzi kreacji, budując spójne obrazy
