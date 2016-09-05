@@ -21,7 +21,8 @@ $(function() {
 	constructMenuLinks();
     scrollOptions();
 
-	$(".modal-trigger").click(function(){
+	$(".modal-trigger").click(function(e){
+		e.preventDefault();
 		var modal = $(this).attr("data-open");
 		$(modal).slideDown();
 		setTimeout(function() {
