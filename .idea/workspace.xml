@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/top-battles.html" afterPath="$PROJECT_DIR$/partials/top-battles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workshops.php" afterPath="$PROJECT_DIR$/workshops.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/about/projections-about_23.png" afterPath="$PROJECT_DIR$/img/about/projections-about_24.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/about/projections-about_24.png" afterPath="$PROJECT_DIR$/img/about/projections-about_23.png" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="874" column="44" selection-start-line="874" selection-start-column="24" selection-end-line="874" selection-end-column="44" />
+            <state relative-caret-position="230">
+              <caret line="874" column="58" selection-start-line="874" selection-start-column="58" selection-end-line="874" selection-end-column="58" />
               <folding>
                 <marker date="1473071084000" expanded="true" signature="10564:10733" ph="..." />
                 <marker date="1473071084000" expanded="true" signature="11370:11376" ph="..." />
@@ -266,6 +264,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event-project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -410,18 +440,18 @@
       <workItem from="1472712509333" duration="689000" />
       <workItem from="1472716254650" duration="3179000" />
       <workItem from="1472815899746" duration="9738000" />
-      <workItem from="1473058183844" duration="12144000" />
+      <workItem from="1473058183844" duration="12372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275374000" />
+    <option name="totallyTimeSpent" value="275602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18484145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18484145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294031" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,8 +856,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="874" column="44" selection-start-line="874" selection-start-column="24" selection-end-line="874" selection-end-column="44" />
+        <state relative-caret-position="230">
+          <caret line="874" column="58" selection-start-line="874" selection-start-column="58" selection-end-line="874" selection-end-column="58" />
           <folding>
             <marker date="1473071084000" expanded="true" signature="10564:10733" ph="..." />
             <marker date="1473071084000" expanded="true" signature="11370:11376" ph="..." />
