@@ -318,10 +318,11 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
 
 		switch($_SESSION['lang']) {
 			case "en":
-                define("META_TITLE","Projekcje - Design Conference");
+                define("META_TITLE","Projections - Design Conference, Poznan - Poland");
 //			      common
                 define("LEARN_MORE","Learn more");
-                define("BATTLES","Battles");
+                define("BATTLES","The Design Battles");
+                define("LABEL_SOON","Soon!");
 
 //                menu
                 define("LANGUAGE","Polish language");
@@ -330,7 +331,7 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("PROGRAM","Schedule");
                 define("PLACE","Venue");
                 define("PARTNERS","Partners");
-                define("ABOUT_US","About us");
+                define("ABOUT_US","About");
                 define("TICKETS","Tickets");
                 define("WORKSHOPS","Workshops");
 
@@ -338,15 +339,15 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
 //			      main page
                 define("PROJECTS","Projekcje");
 
-                define("TITLE","Konferencja graficzna");
-                define("NOTE","dla projektantów przez projektantów. ???");
+                define("TITLE","The Graphic Design Conference");
+                define("NOTE","By graphic designers for other fellow designers.");
 
-                define("CITY","Poznań");
+                define("CITY","Poznan - Poland");
                 define("COMPANY","Concordia Design");
 
 
 //                speakers
-                define("SPEAKERS_NOTE","i prowadzący warsztaty. ??");
+                define("SPEAKERS_NOTE","and the workshops teachers.");
 
                 define("SPEAKER_FULL_DESC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
                             i niekiedy szokującymi interaktywnymi doświadczeniami.
@@ -367,13 +368,17 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
 
 
 //                schedule
-                define("PROGRAM_TITLE","Program");
-                define("PROGRAM_NOTE","Wybierz to co zainteresuje Cię najbardziej.");
-                define("PROGRAM_TITLE_2","Jesteśmy tutaj");
+                define("PROGRAM_TITLE","The Schedule");
+                define("PROGRAM_NOTE","Choose what you are interested in.");
+                define("PROGRAM_TITLE_2","We are here");
                 define("PROGRAM_NOTE_2","Concordia Design, Poznań - Poland");
-                define("MONTH","listopad");
-                define("PROGRAM_TYPE_1","Prelekcje");
-                define("PROGRAM_TYPE_2","Warsztaty");
+                define("MONTH","November");
+                define("PROGRAM_TYPE_1","Lectures");
+                define("PROGRAM_TYPE_NOTE_1","of the speakers.");
+                define("PROGRAM_TYPE_2","Workshops");
+                define("PROGRAM_TYPE_NOTE_2","for anyone interested.");
+                define("PROGRAM_TYPE_CONTENT_1","Full schedule coming soon!");
+                define("PROGRAM_TYPE_CONTENT_2","Full schedule coming soon!");
                 define("APPLY_WORKSHOP","Apply for workshop");
                 define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce");
                 define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki");
@@ -524,6 +529,7 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("LEARN_MORE","Więcej");
                 define("BATTLES","Bitwy graficzne");
                 define("META_TITLE","Projekcje - Konferencja graficzna");
+                define("LABEL_SOON","Wkrótce!");
 
 //                menu
                 define("LANGUAGE","English language");
@@ -620,6 +626,10 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("MONTH","listopad");
                 define("PROGRAM_TYPE_1","Prelekcje");
                 define("PROGRAM_TYPE_2","Warsztaty");
+                define("PROGRAM_TYPE_NOTE_1","prelegentów.");
+                define("PROGRAM_TYPE_NOTE_2","dla chętnych");
+                define("PROGRAM_TYPE_CONTENT_1","Pełen program już wkrótce!");
+                define("PROGRAM_TYPE_CONTENT_2","Harmonogram już niebawem!");
                 define("APPLY_WORKSHOP","Apply for workshop");
                 define("PROGRAM_DESCRIPTION_1","Projektowanie aplikacji w praktyce");
                 define("PROGRAM_DESCRIPTION_2","Inspiracje w projektowaniu marki");

@@ -62,13 +62,13 @@
 					<tr class="content-string no-button pointer">
 						<td class="program-time">00:00</td>
 						<td class="left-align">
-							<p class="blockTitle">Wykłady</p>
+							<p class="blockTitle"><?php echo PROGRAM_TYPE_1;?></p>
 							<p class="block-content">
-								prelegentów.</p>
+								<?php echo PROGRAM_TYPE_NOTE_1;?></p>
 						</td>
 						<td class="left-align image yellow-gradient">
 							<img src="img/speakers.png" alt="Wykłady">
-							<span class="block-content">Pełen program już wkrótce!
+							<span class="block-content"><?php echo PROGRAM_TYPE_CONTENT_1;?>
 							</span>
 						</td>
 					</tr>
@@ -127,13 +127,13 @@
                     <tr class="content-string with-button pointer">
                         <td class="program-time">00:00</td>
                         <td class="left-align">
-                            <p class="blockTitle">Warsztaty.</p>
+                            <p class="blockTitle"><?php echo PROGRAM_TYPE_2;?></p>
                             <p class="block-content">
-                                dla chętnych</p>
+								<?php echo PROGRAM_TYPE_NOTE_2;?></p>
                         </td>
                         <td class="left-align image blue-light">
                             <img src="img/workshops.png" alt="Warsztaty">
-                            <span class="block-content">Harmonogram już niebawem!
+                            <span class="block-content"><?php echo PROGRAM_TYPE_CONTENT_2;?>
                             </span>
                         </td>
                     </tr>
