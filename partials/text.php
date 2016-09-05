@@ -29,7 +29,7 @@
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
-        define("SPEAKER_COLOR_1","#ffeb3e");
+        define("SPEAKER_COLOR_1","#FF6178");
         define("SPEAKER_MODAL_TITLE_1","Resn");
         define("SPEAKER_MODAL_NOTE_1","amsterdam / resn.co.nz");
         define("SPEAKER_MODAL_SUBTITLE_1","Kris Hermansson<br>Marcus Brown");
@@ -40,7 +40,8 @@ wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych techni
 aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
 projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
 marką. Nazywają to Efektem Resn.");
-        define("SPEAKER_COLOR_2","#ffeb3e");
+
+        define("SPEAKER_COLOR_2","#FF6178");
         define("SPEAKER_MODAL_TITLE_2","Resn");
         define("SPEAKER_MODAL_NOTE_2","amsterdam / resn.co.nz");
         define("SPEAKER_MODAL_SUBTITLE_2","Kris Hermansson<br>Marcus Brown");
@@ -52,13 +53,35 @@ aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego pode
 projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
 marką. Nazywają to Efektem Resn.");
 
-        define("SPEAKER_MODAL_TITLE_3","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_MODAL_TITLE_4","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_MODAL_TITLE_5","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_MODAL_TITLE_7","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_MODAL_TITLE_8","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_MODAL_TITLE_9","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_MODAL_TITLE_10","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_COLOR_3","#59a8b4");
+        define("SPEAKER_MODAL_TITLE_3","Huncwot");
+        define("SPEAKER_MODAL_NOTE_3","warszawa / huncwot.com");
+        define("SPEAKER_MODAL_SUBTITLE_3","Arek Romański<br>Łukasz Knasiecki");
+        define("SPEAKER_MODAL_CONTENT_3","<b>Huncwot to agencja kreatywna specjalizująca sie w interaktywnym designie i inteligentnych
+technologiach. Dążą do tworzenia pięknych i funkcjonalnych projektów digitalowych, za które
+zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FWA.</b><br><br>
+Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
+z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
+
+        define("SPEAKER_COLOR_4","#59a8b4");
+        define("SPEAKER_MODAL_TITLE_4","Huncwot");
+        define("SPEAKER_MODAL_NOTE_4","warszawa / huncwot.com");
+        define("SPEAKER_MODAL_SUBTITLE_4","Arek Romański<br>Łukasz Knasiecki");
+        define("SPEAKER_MODAL_CONTENT_4","<b>Huncwot to agencja kreatywna specjalizująca sie w interaktywnym designie i inteligentnych
+technologiach. Dążą do tworzenia pięknych i funkcjonalnych projektów digitalowych, za które
+zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FWA.</b><br><br>
+Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
+z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
+
+        define("SPEAKER_COLOR_5","#59a8b4");
+        define("SPEAKER_MODAL_TITLE_5","Huncwot");
+        define("SPEAKER_MODAL_NOTE_5","warszawa / huncwot.com");
+        define("SPEAKER_MODAL_SUBTITLE_5","Arek Romański<br>Łukasz Knasiecki");
+        define("SPEAKER_MODAL_CONTENT_5","<b>Huncwot to agencja kreatywna specjalizująca sie w interaktywnym designie i inteligentnych
+technologiach. Dążą do tworzenia pięknych i funkcjonalnych projektów digitalowych, za które
+zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FWA.</b><br><br>
+Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
+z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
 
 
         define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
