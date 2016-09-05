@@ -23,7 +23,7 @@
 			<div class="fillAndCenter main sub flex flex-center padding-2x s speakers"
 				 data-parallax='{"y" : -300, "smoothness": 20}'>
 				<div class="inside">
-					<p class="mainTitle"><?php echo SPEAKERS;?></p>
+					<p class="mainTitle"><?php echo SPEAKERS_MAIN_TITLE;?></p>
 					<p class="note"><?php echo SPEAKERS_NOTE;?></p>
 				</div>
 			</div>

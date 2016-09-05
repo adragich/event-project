@@ -201,6 +201,7 @@
 
 
 //                speakers
+                define("SPEAKERS_MAIN_TITLE","The speakers");
                 define("SPEAKERS_NOTE","and the workshops teachers.");
                 define("SPEAKER_MODAL_TITLE_11","HARDZIEJ");
 
@@ -603,6 +604,7 @@ interested especially in such issues as corporation and B2B branding.");
 
 
 //                speakers
+                define("SPEAKERS_MAIN_TITLE","Prelegenci");
                 define("SPEAKERS_NOTE","i prowadzący warsztaty.");
                 define("SPEAKER_MODAL_TITLE_11","Negation");
 
