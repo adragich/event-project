@@ -40,33 +40,24 @@
 		<div class="container">
 			<div class="battle-info">
 				<p class="mainTitle battle-info small image-title animated wow fadeInDown" data-wow-delay="0s">
-					Bitwy graficzne
+					<?php echo BATTLES_CONTENT_TITLE; ?>
 				</p>
 				<div class="inside battle-info">
-					<p class="subtitle animated wow fadeInUp" data-wow-delay="0.1s">Głównym zadaniem Bitew będzie stworzenie własnej
-						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
-						szablonu. Chodzi przede wszystkim o pomysł i kreatywność,
-						ale jakość realizacji też będzie miała znaczenie.
+					<p class="subtitle animated wow fadeInUp" data-wow-delay="0.1s"><?php echo BATTLES_CONTENT_1; ?>
 					</p>
 <!--					<p class="block-content">Bitwy mają na celu integrację poprzez wspólne projektowanie. Wspólne-->
 <!--					projektowanie przekłada się natomiast na prezentację swoich umiejętności-->
 <!--					szerszemu gronu jak i wymianę doświadczeń. </p>-->
 					<p class="offset-top"></p>
-					<p class="subtitle bold animated wow fadeInUp" data-wow-delay="0.2s">Jak przebiegać będzie bitwa ?</p>
+					<p class="subtitle bold animated wow fadeInUp" data-wow-delay="0.2s"><?php echo BATTLES_CONTENT_2; ?></p>
 
-					<p class="block-content animated wow fadeInUp" data-wow-delay="0.3s">
-						Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
-						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.
+					<p class="block-content animated wow fadeInUp" data-wow-delay="0.3s"><?php echo BATTLES_CONTENT_3; ?>
 					</p>
-					<p class="block-content animated wow fadeInUp" data-wow-delay="0.4s">
-						Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
-						Konferencji. Wtedy odbędzie się też rozdanie nagród.
+					<p class="block-content animated wow fadeInUp" data-wow-delay="0.4s"><?php echo BATTLES_CONTENT_4; ?>
 
 					</p>
 					<p class="block-content animated wow fadeInUp" data-wow-delay="0.5s">
-						Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
-						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
-						internetowej bitwy.projections.pl
+						<?php echo BATTLES_CONTENT_5; ?>
 					</p>
 <!--					<p class="subtitle bold">Finalne kreacje zostaną przedstawione podczas-->
 <!--					wernisażu w dniu konferencji.</p>-->
@@ -79,8 +70,8 @@
 		<div class="container">
 			<div class="battle-info">
 				<div class="inside battle-info left-align">
-					<p class="subtitle bold no-margin">Prace można nadsyłać od
-						<span class="dateGrey">15-09-2016</span> do <span class="dateGrey">15-10-2016</span>
+					<p class="subtitle bold no-margin"><?php echo BATTLES_SEND_WORK; ?>
+						<span class="dateGrey">15-09-2016</span> <?php echo BATTLES_SEND_WORK_FROM; ?> <span class="dateGrey">15-10-2016</span>
 					</p>
 				</div>
 			</div>
@@ -91,13 +82,14 @@
 		<div class="container">
 			<div class="battle-info">
 				<div class="left-align download-template">
-					<p class="tiny no-margin">Szczegóły określa
+					<p class="tiny no-margin"><?php echo BATTLES_RULES_TITLE; ?>
 						<span class="bold modal-trigger relative hoverStripe no-padding no-margin"
-							  data-open="#rules">Regulamin “Bitwy Graficznej”</span>
+							  data-open="#rules"><?php echo BATTLES_RULES_SUBTITLE; ?> </span>
+						<?php echo BATTLES_RULES_SUBTITLE_2; ?>
 					</p>
 					<p>
 						<a href="<?php echo $templatePath; ?>" class="event-link display yellow toLeft" download>
-							Pobierz szablon i rozpocznij projekt
+							<?php echo BATTLES_RULES_NOTE; ?>
 						</a>
 					</p>
 				</div>
@@ -109,7 +101,7 @@
 		<div class="container grey">
 			<div class="battle-info teams-header">
 				<div class="inside battle-info">
-					<p class="mainTitle teams">Oni potwierdzili udział</p>
+					<p class="mainTitle teams"><?php echo BATTLES_CONFIRM; ?></p>
 				</div>
 			</div>
 			<div class="teams">
@@ -261,7 +253,7 @@
 		<div class="container transparent">
 			<div id="application" class="battle-info">
 				<div id="blueTriangle" class="absolute battle-figure"></div>
-				<p class='mainTitle battle-info'>Zgłoś swoją pracę !</p>
+				<p class='mainTitle battle-info'><?php echo BATTLES_APPLICATION_TITLE;?></p>
 				<form action="/actions/swiftmailer.php" method="POST" class="apply-form inside battle-info">
 					<?php
 					if(isset($_SESSION['message']) && !empty($_SESSION['message'])){
@@ -269,53 +261,53 @@
 					}
 					?>
 					<div class="form-control">
-						<input name="name" type="text" placeholder="Imię i Nazwisko" required value="">
+						<input name="name" type="text" placeholder="<?php echo BATTLES_APPLICATION_NAME;?>" required value="">
 					</div>
 					<div class="form-control">
-						<input name="email" type="email" placeholder="Adres e-mail" required value="">
+						<input name="email" type="email" placeholder="<?php echo BATTLES_APPLICATION_EMAIL;?>" required value="">
 					</div>
-					<div class="form-control optional" data-text='(optional)'>
-						<input id="phone" name="phone" type="text" placeholder="Numer telefonu" value="">
+					<div class="form-control optional" data-text='(<?php echo BATTLES_APPLICATION_OPTIONAL;?>)'>
+						<input id="phone" name="phone" type="text" placeholder="<?php echo BATTLES_APPLICATION_PHONE;?>" value="">
 					</div>
 					<div class="form-control file" id="pdfInputWrap">
-						<div class="file-input pdf">Dołącz portfolio w formie PDF</div>
+						<div class="file-input pdf"><?php echo BATTLES_APPLICATION_PDF;?></div>
 						<div class="file-uploader" data-input-id="#portfolio"></div>
 						<input id="portfolio" name="portfolio" class="clear" type="text"/>
 						<span class="absolute bold star right">*</span>
 					</div>
 
 					<div class="form-control file">
-						<div class="file-input">Dodaj inspirację Twojego projektu</div>
+						<div class="file-input"><?php echo BATTLES_APPLICATION_INSPIRATION;?></div>
 						<div class="file-uploader" data-input-id="#inspiration"></div>
 						<input id="inspiration" name="inspiration" class="clear" type="text"/>
 					</div>
 					<div class="form-control">
 						<input name="link_inspiration" type="text"
-							   placeholder="Autor / źródło inspiracji dodanej w polu wyżej" value="">
+							   placeholder="<?php echo BATTLES_APPLICATION_SOURCE;?>" value="">
 					</div>
 					<div class="optional form-control address-form"
 						 data-text='(optional)'>
 						<input name="address"
-							   class="address-input" type="text" placeholder="Adres online portfolio">
+							   class="address-input" type="text" placeholder="<?php echo BATTLES_APPLICATION_LINK;?>">
 					</div>
 
 					<div class="form-control tiny flex flex-end" id="acceptedWrap">
 						<input type="checkbox" class="clear" value="0" name="accepted" id="accepted" />
-						<label for="accepted">Oświadczam, że zapoznałem się z
+						<label for="accepted"><?php echo BATTLES_APPLICATION_AGREE;?>
 							<span class="bold modal-trigger relative hoverStripe no-padding no-margin"
-								  data-open="#rules">Regulaminem “Bitwy Graficznej”</span>
-							i akceptuję jego treść.</label>
+								  data-open="#rules"><?php echo BATTLES_APPLICATION_RULES;?></span>
+							<?php echo BATTLES_APPLICATION_ACCEPT;?></label>
 
 					</div>
 					<div class="form-control tiny flex flex-end">
 						<span class="absolute bold star no-padding">*</span>
-						<p class="send-note">Akceptowalne formaty prac:
-							<span class="bold">PDF, Adobe Illustrator lub JPG CMYK, 300 DPI.</span>
+						<p class="send-note"><?php echo BATTLES_APPLICATION_MIME_TITLE;?>
+							<span class="bold"><?php echo BATTLES_APPLICATION_MIME;?></span>
 						</p>
 					</div>
 					<div class="form-control left-align">
 						<button type="submit" class="event-link display yellow send-application">
-							Wyślij swój projekt
+							<?php echo BATTLES_APPLICATION_SEND;?>
 						</button>
 					</div>
 				</form>
@@ -324,7 +316,7 @@
 	</section>
 	<footer class="battle-footer scrollableContent grey">
 			<div class="container grey">
-				<p class="footer-text">Masz pytanie? napisz do nas na: <a href="mailto:info@projections.pl">info@projections.pl</a></p>
+				<p class="footer-text"><?php echo BATTLES_APPLICATION_FOOTER;?> <a href="mailto:info@projections.pl">info@projections.pl</a></p>
 			</div>
 	</footer>
 	<div class="workshop-popup" id="rules">
@@ -334,14 +326,14 @@
 				<span class="menu-close"></span>
 			</div>
 			<div class="workshop-popup-inner">
-				<p class="blockTitle modal">Regulamin “Bitwy Graficznej”</p>
+				<p class="blockTitle modal"><?php echo BATTLES_RULES_SUBTITLE;?></p>
 			</div>
 		</div>
 
 
 		<div class="workshop-popup-body white">
 			<div class="workshop-popup-inner">
-				<p class="block-content">Regulamin “Bitwy Graficznej”</p>
+				<p class="block-content"><?php echo BATTLES_RULES_SUBTITLE;?></p>
 			</div>
 		</div>
 

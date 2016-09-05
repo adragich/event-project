@@ -443,7 +443,8 @@ interested especially in such issues as corporation and B2B branding.");
                 define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
                         kto pierwszy ten lepszy :)");
 
-                define("WORKSHOPS_NOTE","projektowe, praktyczne i teoretyczne");
+                define("WORKSHOPS_MAIN_TITLE","The workshops");
+                define("WORKSHOPS_NOTE","regarding practical and theoretical aspects of a designer's work.");
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
 
@@ -574,6 +575,41 @@ interested especially in such issues as corporation and B2B branding.");
                 define("BATTLES_NOTE","The clash between graphic designers.");
                 define("APPLY_TO_BATTLE","Download the layout and start working");
                 define("PROJECTS_LINK","Back to main page");
+                define("FINISH","Finish");
+
+                define("BATTLES_CONTENT_TITLE","Design Battles");
+                define("BATTLES_SEND_WORK_FROM","and end on");
+                define("BATTLES_SEND_WORK","Submission starts on ");
+                define("BATTLES_CONTENT_1","The main task is to create a personal interpretation of the Projection's 
+                logo in accordance with the layout available to download from official website of the conference.<br>
+                The idea and creativity are the key criterion, however the quality of the finished work is also crucial.");
+                define("BATTLES_CONTENT_2","What is the course of the Battles?");
+                define("BATTLES_CONTENT_3","A selection of the most interesting projects will be chosen by the Jury and 
+                displayed at the exhibition during the conference on the 5th of November 2016 at Concordia Design.");
+                define("BATTLES_CONTENT_4","The winner of the Battle will be chosen during the conference by everyone who will take part in the Projections event and vote. The resultswill be known at the end of the conference during the award ceremony.");
+                define("BATTLES_CONTENT_5","The Jury consists of well-known and talented designers, who will pick the Battles finalists. All of the submissions will be showcased in the Projections gallery.");
+                define("BATTLES_RULES_TITLE","Please, read the");
+                define("BATTLES_RULES_SUBTITLE",'Design Battles rules');
+                define("BATTLES_RULES_SUBTITLE_2",'before submitting your work.');
+                define("BATTLES_RULES_NOTE","Download the layout and start working");
+                define("BATTLES_CONFIRM","They already said yes to the Battles");
+
+                define("BATTLES_APPLICATION_TITLE","Submit your design!");
+                define("BATTLES_APPLICATION_NAME","Name, Surname");
+                define("BATTLES_APPLICATION_EMAIL","E-mail");
+                define("BATTLES_APPLICATION_OPTIONAL","optional");
+                define("BATTLES_APPLICATION_PDF","Attach your portfolio as a PDF file");
+                define("BATTLES_APPLICATION_INSPIRATION","Attach the example of your inspiration");
+                define("BATTLES_APPLICATION_SOURCE","The author / source of inspiration attached above");
+                define("BATTLES_APPLICATION_LINK","Portfolio online");
+                define("BATTLES_APPLICATION_AGREE","I agree to the");
+                define("BATTLES_APPLICATION_RULES","Design Battles terms");
+                define("BATTLES_APPLICATION_ACCEPT",".");
+                define("BATTLES_APPLICATION_MIME_TITLE","Accepted file formats:");
+                define("BATTLES_APPLICATION_MIME","PDF, AI, JPG in CMYK 300 DPI.");
+                define("BATTLES_APPLICATION_SEND","Submit your design");
+                define("BATTLES_APPLICATION_FOOTER","In case of questions, please drop us a line:");
+                define("BATTLES_APPLICATION_PHONE","Phone number");
 			break;
 			default:
 
@@ -836,6 +872,7 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
                         kto pierwszy ten lepszy :)");
 
+                define("WORKSHOPS_MAIN_TITLE","Warsztaty");
                 define("WORKSHOPS_NOTE","projektowe, praktyczne i teoretyczne");
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
@@ -969,6 +1006,44 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("BATTLES_2","Gotowi do bitwy?");
                 define("APPLY_TO_BATTLE","Pobierz szablon i rozpocznij projekt");
                 define("PROJECTS_LINK","Wróć do strony głównej");
+                define("FINISH","Koniec");
+
+                define("BATTLES_CONTENT_TITLE","Bitwy graficzne");
+                define("BATTLES_SEND_WORK_FROM","od");
+                define("BATTLES_SEND_WORK","Prace można nadsyłać od");
+                define("BATTLES_CONTENT_1","Głównym zadaniem Bitew będzie stworzenie własnej
+						interpretacji graficznej dla logo Projekcji, według dostarczonego wcześniej
+						szablonu. Chodzi przede wszystkim o pomysł i kreatywność,
+						ale jakość realizacji też będzie miała znaczenie.");
+                define("BATTLES_CONTENT_2","Jak przebiegać będzie bitwa ?");
+                define("BATTLES_CONTENT_3","Spośród nadesłanych prac Jury wybierze najciekawsze projekty, które zaprezentujemy na
+						wernisażu podczas Projekcji, 5 listopada 2016 roku w Concordia Design.");
+                define("BATTLES_CONTENT_4","Uczestnicy Projekcji wybiorą z kolei zwycięzcę w głosowaniu, a wyniki ogłosimy na zakończenie 
+						Konferencji. Wtedy odbędzie się też rozdanie nagród.");
+                define("BATTLES_CONTENT_5","Do Jury zaprosiliśmy uznanych i utalentowanych projektantów, którzy wyłonią finalistów. 
+						Wszystkie nadesłane prace zostaną również zaprezentowane w formie galerii na stronie
+						internetowej bitwy.projections.pl");
+                define("BATTLES_RULES_TITLE","Szczegóły określa");
+                define("BATTLES_RULES_SUBTITLE_2",'');
+                define("BATTLES_RULES_SUBTITLE",'Regulamin “Bitwy Graficznej”');
+                define("BATTLES_RULES_NOTE","Pobierz szablon i rozpocznij projekt");
+                define("BATTLES_CONFIRM","Oni potwierdzili udział");
+                define("BATTLES_APPLICATION_TITLE","Zgłoś swoją pracę !");
+                define("BATTLES_APPLICATION_NAME","Imię i Nazwisko");
+                define("BATTLES_APPLICATION_EMAIL","Adres e-mail");
+                define("BATTLES_APPLICATION_OPTIONAL","optionalne");
+                define("BATTLES_APPLICATION_PDF","Dołącz portfolio w formie PDF");
+                define("BATTLES_APPLICATION_INSPIRATION","Dodaj inspirację Twojego projektu");
+                define("BATTLES_APPLICATION_SOURCE","Autor / źródło inspiracji dodanej w polu wyżej");
+                define("BATTLES_APPLICATION_LINK","Adres online portfolio");
+                define("BATTLES_APPLICATION_AGREE","Oświadczam, że zapoznałem się z");
+                define("BATTLES_APPLICATION_RULES","Regulaminem “Bitwy Graficznej”");
+                define("BATTLES_APPLICATION_ACCEPT","i akceptuję jego treść.");
+                define("BATTLES_APPLICATION_MIME_TITLE","Akceptowalne formaty prac:");
+                define("BATTLES_APPLICATION_MIME","PDF, Adobe Illustrator lub JPG CMYK, 300 DPI.");
+                define("BATTLES_APPLICATION_SEND","Wyślij swój projekt");
+                define("BATTLES_APPLICATION_FOOTER","Masz pytanie? napisz do nas na:");
+                define("BATTLES_APPLICATION_PHONE","Numer telefonu");
 
 			break;
 		}

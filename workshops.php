@@ -22,7 +22,7 @@
 
 			<div class="fillAndCenter main flex flex-center padding-2x inner-page program">
 				<div class="inside">
-					<p class="mainTitle"><?php echo WORKSHOPS;?></p>
+					<p class="mainTitle"><?php echo WORKSHOPS_MAIN_TITLE;?></p>
 					<p class="note"><?php echo WORKSHOPS_NOTE;?></p>
 				</div>
 			</div>
