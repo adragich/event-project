@@ -143,7 +143,7 @@ komunikacji wizualnej, grafiki edytorskiej, a także projekty artystyczne. Lubi 
 proporcjach techniczne aspekty projektowania graficznego oraz ilustrację. Jest miłośnikiem
 starych znaków graficznych i ich historii oraz autorem projektów Oldschool Logo i Polskie Znaki
 Graficzne. Razem z Patrycją Podkościelny współtworzy ¬ Negation Studio.");
-        
+
 //        allegro
         define("SPEAKER_COLOR_12","#ffeb3c");
         define("SPEAKER_MODAL_TITLE_12","Negation");
@@ -174,7 +174,7 @@ kolektywu Goverdose. Jego portfolio znajduje się na stronie www.magierski.pl.")
         define("SPEAKER_MODAL_NOTE_14","poznań / mutostudio.com");
         define("SPEAKER_MODAL_SUBTITLE_14","Andrzej Jakuszko<br>Michał Wiatrolik");
         define("SPEAKER_MODAL_CONTENT_14","<b>Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na tworzeniu komunikacji
-wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.<b><br><br>
+wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.</b><br><br>
 W swoich realizacjach koncentrują się na przestrzeni otaczającej nośniki z wizerunkiem marki,
 a zainspirowani rzeczywistością poszukują w niej atrakcyjnych form i przedmiotów.<Br>
 Studio w swoich projektach ucieka od standardowych narzędzi kreacji, budując spójne obrazy
