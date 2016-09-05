@@ -135,6 +135,9 @@ img{
 .transparent{
     background: transparent!important;
 }
+.inline-block{
+   display: inline-block!important;
+}
 .rotate-90{
     transform: rotate(-90deg);
     -o-transform: rotate(-90deg);

@@ -95,7 +95,10 @@
 				<div class="workshop-popup-inner">
 					<p class="absolute owner">
 						<a href="//www.<?php echo constant(SPEAKER_WEBSITE_.$i);?>"
-						   target="_blank"><span><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></a></p>
+						   target="_blank" class="relative inline-block">
+							<span class="innerHoverStripe absolute transition">
+									</span>
+							<span class="relative"><?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></span></a></p>
 					<p class="blockTitle modal"><?php echo constant(SPEAKER_MODAL_TITLE_.$i);?></p>
 					<p class="blockSub modal"><?php echo constant(SPEAKER_MODAL_SUBTITLE_.$i);?></p>
 				</div>
