@@ -86,7 +86,7 @@
 					<span class="menu-close"></span>
 				</div>
 				<div class="workshop-popup-inner">
-					<img src="img/speakers/projections-speaker-popup_<?php echo $i;?>.png"
+					<img src="img/speakers/projections-speaker-popup_<?php echo $i;?>.<?php echo SPEAKER_PIC_MIME;?>"
 						 alt="<?php echo constant(SPEAKER_MODAL_TITLE_.$i);?>">
 				</div>
 			</div>

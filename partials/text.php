@@ -13,6 +13,9 @@
         define("SPEAKER_DESC_12","Allegro");
 
 
+        define("ABOUT_PIC_MIME","png");
+        define("SPEAKER_PIC_MIME","png");
+
         define("SPEAKER_MODAL_TITLE_1","Resn");
         define("SPEAKER_MODAL_TITLE_2","Resn");
         define("SPEAKER_MODAL_TITLE_3","Huncwot");
@@ -76,26 +79,6 @@
         define("SPEAKER_COLOR_14","#21c9e0");
         define("SPEAKER_COLOR_15","#21c9e0");
         define("SPEAKER_COLOR_16","#ffbf9e");
-
-
-
-
-        define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_2","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_3","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_4","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_5","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_6","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_7","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_8","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_9","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_10","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_11","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_12","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_13","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_14","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_15","/img/speakers/TITLE_OF_GIF");
-        define("SPEAKER_ANIM_IMAGE_16","/img/speakers/TITLE_OF_GIF");
 
 
         define("SPEAKER_WEBSITE_1","resn.co.nz");

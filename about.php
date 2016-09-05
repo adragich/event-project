@@ -126,7 +126,7 @@
 					<span class="menu-close"></span>
 				</div>
 				<div class="workshop-popup-inner">
-					<img src="img/about/projections-about-popup_<?php echo $i;?>.png"
+					<img src="img/about/projections-about-popup_<?php echo $i;?>.<?php echo ABOUT_PIC_MIME;?>"
 						 alt="<?php echo constant(ABOUT_TITLE_.$i);?>">
 				</div>
 			</div>
