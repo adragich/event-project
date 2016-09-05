@@ -81,37 +81,24 @@
 					<span class="menu-close"></span>
 				</div>
 				<div class="workshop-popup-inner">
-					<img src="img/workshops/projections-speaker_<?php echo $i;?>.png"
-						 alt="<?php echo constant(WORKSHOPS_TITLE_.$i);?>">
+					<img src="img/speakers/projections-speaker_<?php echo $i;?>.png"
+						 alt="<?php echo constant(SPEAKER_MODAL_TITLE_.$i);?>">
 				</div>
 			</div>
 
 			<div class="workshop-popup-body white">
 				<div class="workshop-popup-inner">
 					<p class="absolute owner">
-						<span><?php echo constant(WORKSHOPS_ROLE.$i);?> </span>
-						<?php echo constant(WORKSHOPS_PERSON_.$i);?>
-						<span> / <?php echo constant(WORKSHOPS_WEBSITE_.$i);?></span></p>
-					<p class="blockTitle modal"><?php echo constant(WORKSHOPS_TITLE_.$i);?></p>
-					<p class="blockSub modal"><?php echo constant(WORKSHOPS_SUBTITLE_.$i);?></p>
-					<p class="ticketsEventLink">
-						<a href="<?php echo $ticketsLink; ?>"
-						   class="event-link yellow transition modal">
-							<span class="badge absolute transition">Wkrótce!</span>
-							<?php echo TICKETS; ?></a>
-					</p>
-					<p class="owner modal"><?php echo TICKETS_NOTE_1; ?>
-					</p>
-					<p class="owner modal">
-						<span><?php echo TICKETS_NOTE_2; ?></span>
-					</p>
+						<?php echo constant(SPEAKER_MODAL_NOTE_.$i);?></p>
+					<p class="blockTitle modal"><?php echo constant(SPEAKER_MODAL_TITLE_.$i);?></p>
+					<p class="blockSub modal"><?php echo constant(SPEAKER_MODAL_SUBTITLE_.$i);?></p>
 				</div>
 			</div>
 
 			<div class="workshop-popup-footer grey">
 				<div class="workshop-popup-inner">
-					<p class="blockTitle small"><?php echo WORKSHOPS_TOPIC;?></p>
-					<p class="block-content"><?php echo constant(WORKSHOPS_MODAL_CONTENT_.$i);?></p>
+					<p class="blockTitle small"><?php echo constant(SPEAKER_MODAL_TOPIC_.$i);?></p>
+					<p class="block-content"><?php echo constant(SPEAKER_MODAL_CONTENT_.$i);?></p>
 				</div>
 			</div>
 

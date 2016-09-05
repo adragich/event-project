@@ -29,6 +29,27 @@
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
+        define("SPEAKER_MODAL_NOTE_1","amsterdam / resn.co.nz");
+        define("SPEAKER_MODAL_SUBTITLE_1","Kris Hermansson<br>Marcus Brown");
+        define("SPEAKER_MODAL_CONTENT_1","Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+marką. Nazywają to Efektem Resn.");
+        define("SPEAKER_MODAL_TOPIC_1","Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+i niekiedy szokującymi interaktywnymi doświadczeniami.");
+
+        define("SPEAKER_MODAL_TITLE_1","RESN");
+        define("SPEAKER_MODAL_TITLE_2","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_3","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_4","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_5","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_7","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_8","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_9","/img/speakers/TITLE_OF_GIF");
+        define("SPEAKER_MODAL_TITLE_10","/img/speakers/TITLE_OF_GIF");
+
+
         define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
         define("SPEAKER_ANIM_IMAGE_2","/img/speakers/TITLE_OF_GIF");
         define("SPEAKER_ANIM_IMAGE_3","/img/speakers/TITLE_OF_GIF");
