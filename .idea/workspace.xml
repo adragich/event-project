@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/partials.js" afterPath="$PROJECT_DIR$/js/partials.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speakers.php" afterPath="$PROJECT_DIR$/speakers.php" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="speakers.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/speakers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+            <state relative-caret-position="245">
+              <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partials.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partials.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/partials.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="198">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
                 <element signature="n#!!block;n#generateFigure#0" expanded="false" />
                 <element signature="e#3157#3844#0" expanded="false" />
@@ -198,8 +198,8 @@
         <option value="$PROJECT_DIR$/partials/preloader-speaker.html" />
         <option value="$PROJECT_DIR$/speaker.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
-        <option value="$PROJECT_DIR$/speakers.php" />
         <option value="$PROJECT_DIR$/js/partials.js" />
+        <option value="$PROJECT_DIR$/speakers.php" />
       </list>
     </option>
   </component>
@@ -460,12 +460,12 @@
       <workItem from="1472712509333" duration="689000" />
       <workItem from="1472716254650" duration="3179000" />
       <workItem from="1472815899746" duration="9738000" />
-      <workItem from="1473058183844" duration="365000" />
+      <workItem from="1473058183844" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263595000" />
+    <option name="totallyTimeSpent" value="263650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
@@ -848,11 +848,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/speakers.php">
+    <entry file="file://$PROJECT_DIR$/js/partials.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!block;n#generateFigure#0" expanded="false" />
+            <element signature="e#3157#3844#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -864,14 +867,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/partials.js">
+    <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!block;n#generateFigure#0" expanded="false" />
-            <element signature="e#3157#3844#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="245">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

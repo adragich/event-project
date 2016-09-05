@@ -64,7 +64,7 @@
 					</div>
 					<div class="col m3 s12 stick-bottom animated fadeIn wow" data-wow-delay="0.2s">
 						<a href="<?php echo constant(SPEAKER_LINK_.$i);?>" class="learn-more-link yellow modal-trigger"
-						   target="_blank" data-open="content<?php echo $i;?>"><?php echo LEARN_MORE;?></a>
+						   target="_blank" data-open="#content<?php echo $i;?>"><?php echo LEARN_MORE;?></a>
 					</div>
 				</div>
 
