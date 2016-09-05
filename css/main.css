@@ -3326,6 +3326,7 @@ a.border:hover{
 @media (max-width: 667px){
     .event-left-link.inScroll img{
         width: 140px;
+        min-width: 140px;
         margin-left: -15px;
         position: absolute;
         left: 0;
