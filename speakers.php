@@ -66,7 +66,7 @@
 						<?php if( $i==12 ){ ?>
 						<a href="<?php echo constant(SPEAKER_LINK_.$i);?>" class="learn-more-link yellow"
 						   target="_blank"><?php echo LEARN_MORE;?></a>
-						<?php} else{ ?>
+						<?php }else{ ?>
 						<a href="<?php echo constant(SPEAKER_LINK_.$i);?>" class="learn-more-link yellow modal-trigger"
 						   target="_blank" data-open="#content<?php echo $i;?>"><?php echo LEARN_MORE;?></a>
 						<?php } ?>
