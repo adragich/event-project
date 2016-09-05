@@ -138,7 +138,7 @@
 						   target="_blank" class="relative">
 							<span class="innerHoverStripe absolute transition">
 									</span>
-							<span><?php echo constant(ABOUT_WEBSITE_.$i);?></span></a></p>
+							<span class="relative"><?php echo constant(ABOUT_WEBSITE_.$i);?></span></a></p>
 					<p class="blockTitle modal"><?php echo constant(ABOUT_TITLE_.$i);?></p>
 				</div>
 			</div>
