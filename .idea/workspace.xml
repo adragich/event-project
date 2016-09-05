@@ -44,14 +44,14 @@
       <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="152">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
-                <marker date="1473063203000" expanded="true" signature="2016:2166" ph="..." />
-                <marker date="1473063203000" expanded="true" signature="2843:2993" ph="..." />
-                <marker date="1473063203000" expanded="true" signature="3674:3940" ph="..." />
-                <marker date="1473063203000" expanded="true" signature="4418:4684" ph="..." />
-                <marker date="1473063203000" expanded="true" signature="5163:5429" ph="..." />
+                <marker date="1473063233000" expanded="true" signature="2016:2166" ph="..." />
+                <marker date="1473063233000" expanded="true" signature="2843:2993" ph="..." />
+                <marker date="1473063233000" expanded="true" signature="3675:3941" ph="..." />
+                <marker date="1473063233000" expanded="true" signature="4420:4686" ph="..." />
+                <marker date="1473063233000" expanded="true" signature="5165:5431" ph="..." />
               </folding>
             </state>
           </provider>
@@ -404,12 +404,12 @@
       <workItem from="1472712509333" duration="689000" />
       <workItem from="1472716254650" duration="3179000" />
       <workItem from="1472815899746" duration="9738000" />
-      <workItem from="1473058183844" duration="4282000" />
+      <workItem from="1473058183844" duration="4312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267512000" />
+    <option name="totallyTimeSpent" value="267542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
@@ -815,14 +815,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="152">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
           <folding>
-            <marker date="1473063203000" expanded="true" signature="2016:2166" ph="..." />
-            <marker date="1473063203000" expanded="true" signature="2843:2993" ph="..." />
-            <marker date="1473063203000" expanded="true" signature="3674:3940" ph="..." />
-            <marker date="1473063203000" expanded="true" signature="4418:4684" ph="..." />
-            <marker date="1473063203000" expanded="true" signature="5163:5429" ph="..." />
+            <marker date="1473063233000" expanded="true" signature="2016:2166" ph="..." />
+            <marker date="1473063233000" expanded="true" signature="2843:2993" ph="..." />
+            <marker date="1473063233000" expanded="true" signature="3675:3941" ph="..." />
+            <marker date="1473063233000" expanded="true" signature="4420:4686" ph="..." />
+            <marker date="1473063233000" expanded="true" signature="5165:5431" ph="..." />
           </folding>
         </state>
       </provider>
