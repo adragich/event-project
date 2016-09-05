@@ -160,8 +160,8 @@ marką. Nazywają to Efektem Resn.");
 
         define("PARTNER_LINK_21","https://www.behance.net/kommunikat");
         define("PARTNER_LINK_22","http://piotrswierkowski.com");
-        define("PARTNER_LINK_23","https://www.behance.net/edmk");
-        define("PARTNER_LINK_24","http://fromsquare.com");
+        define("PARTNER_LINK_23","http://fromsquare.com");
+        define("PARTNER_LINK_24","https://www.behance.net/edmk");
 
 //        about
         define("ABOUT_LINK_1","https://www.behance.net/kommunikat");
