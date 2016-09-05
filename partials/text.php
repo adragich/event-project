@@ -69,7 +69,7 @@ marką. Nazywają to Efektem Resn.");
         define("SPEAKER_ANIM_IMAGE_16","/img/speakers/TITLE_OF_GIF");
 
         define("SPEAKER_NAME_1","Kris Hermansson");
-        define("SPEAKER_DESC_1","Creative Director at Resn");
+        define("SPEAKER_DESC_1","Creative Director w Resn");
         define("SPEAKER_WEBSITE_1","resn.co.nz");
 
         define("SPEAKER_NAME_2","Marcus Brown");
@@ -121,7 +121,7 @@ marką. Nazywają to Efektem Resn.");
         define("SPEAKER_WEBSITE_13","magierski.pl");
 
         define("SPEAKER_NAME_14","Andrzej Jakuszko");
-        define("SPEAKER_DESC_14","Set Designer / Muto");
+        define("SPEAKER_DESC_14","Set Designer w Muto");
         define("SPEAKER_WEBSITE_14","mutostudio.com");
 
         define("SPEAKER_NAME_15","Michał Wiatrolik");
