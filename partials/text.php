@@ -30,6 +30,7 @@
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
         define("SPEAKER_COLOR_1","#ffeb3e");
+        define("SPEAKER_MODAL_TITLE_1","Resn");
         define("SPEAKER_MODAL_NOTE_1","amsterdam / resn.co.nz");
         define("SPEAKER_MODAL_SUBTITLE_1","Kris Hermansson<br>Marcus Brown");
         define("SPEAKER_MODAL_CONTENT_1","<b>Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
@@ -39,9 +40,18 @@ wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych techni
 aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
 projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
 marką. Nazywają to Efektem Resn.");
+        define("SPEAKER_COLOR_2","#ffeb3e");
+        define("SPEAKER_MODAL_TITLE_2","Resn");
+        define("SPEAKER_MODAL_NOTE_2","amsterdam / resn.co.nz");
+        define("SPEAKER_MODAL_SUBTITLE_2","Kris Hermansson<br>Marcus Brown");
+        define("SPEAKER_MODAL_CONTENT_2","<b>Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
+i niekiedy szokującymi interaktywnymi doświadczeniami.</b><br><br>
+Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
+wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
+aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
+projektów i wdrożenia najwyższej klasy, dostarczają wartościowych rozwiązań interakcji z
+marką. Nazywają to Efektem Resn.");
 
-        define("SPEAKER_MODAL_TITLE_1","Resn");
-        define("SPEAKER_MODAL_TITLE_2","/img/speakers/TITLE_OF_GIF");
         define("SPEAKER_MODAL_TITLE_3","/img/speakers/TITLE_OF_GIF");
         define("SPEAKER_MODAL_TITLE_4","/img/speakers/TITLE_OF_GIF");
         define("SPEAKER_MODAL_TITLE_5","/img/speakers/TITLE_OF_GIF");
