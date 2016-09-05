@@ -15,7 +15,7 @@
 
 //MIME TYPES FOR MEDIA INFSIDE POP-UPS
         define("ABOUT_PIC_MIME","jpg");
-        define("SPEAKER_PIC_MIME","png");
+        define("SPEAKER_PIC_MIME","jpg");
 
         //SPEAKERS
         define("SPEAKER_MODAL_TITLE_1","Resn");
