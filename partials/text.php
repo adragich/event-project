@@ -73,15 +73,39 @@ zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FW
 Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
 z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
 
-        define("SPEAKER_COLOR_5","#59a8b4");
-        define("SPEAKER_MODAL_TITLE_5","Huncwot");
-        define("SPEAKER_MODAL_NOTE_5","warszawa / huncwot.com");
-        define("SPEAKER_MODAL_SUBTITLE_5","Arek Romański<br>Łukasz Knasiecki");
-        define("SPEAKER_MODAL_CONTENT_5","<b>Huncwot to agencja kreatywna specjalizująca sie w interaktywnym designie i inteligentnych
-technologiach. Dążą do tworzenia pięknych i funkcjonalnych projektów digitalowych, za które
-zdobyli wiele nagród w tym 4 European Design Award, 22 Awwwards i 11 nagórd FWA.</b><br><br>
-Pracowali z największymi markami i najważniejszymi instytucjami kultury w regionie, a także
-z najbardziej kreatywnymi i innowacyjnymi agencjami iw Stanach Zjednoczonych i Europie.");
+        define("SPEAKER_COLOR_5","#ffbf9e");
+        define("SPEAKER_MODAL_TITLE_5","HOPA");
+        define("SPEAKER_MODAL_NOTE_5","warszawa / hopastudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_5","Piotr Hołub<br>Julia Cieszko<br>Marcin Paściak");
+        define("SPEAKER_MODAL_CONTENT_5","<b>Hopa Studio to warszawski zespół projektowy specjalizujący się w brandingu. W projektowaniu
+systemów identyfikacji wizualnej dostrzegają proces, który znacznie wyprzedza powstanie
+logo. Poznają wszystko to, co marka chce komunikować.</b><br><br>
+Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządzaniu. Pracują dla
+dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
+dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
+Uselab i Paperless.");
+        define("SPEAKER_COLOR_6","#ffbf9e");
+        define("SPEAKER_MODAL_TITLE_6","HOPA");
+        define("SPEAKER_MODAL_NOTE_6","warszawa / hopastudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_6","Piotr Hołub<br>Julia Cieszko<br>Marcin Paściak");
+        define("SPEAKER_MODAL_CONTENT_6","<b>Hopa Studio to warszawski zespół projektowy specjalizujący się w brandingu. W projektowaniu
+systemów identyfikacji wizualnej dostrzegają proces, który znacznie wyprzedza powstanie
+logo. Poznają wszystko to, co marka chce komunikować.</b><br><br>
+Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządzaniu. Pracują dla
+dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
+dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
+Uselab i Paperless.");
+        define("SPEAKER_COLOR_7","#ffbf9e");
+        define("SPEAKER_MODAL_TITLE_7","HOPA");
+        define("SPEAKER_MODAL_NOTE_7","warszawa / hopastudio.com");
+        define("SPEAKER_MODAL_SUBTITLE_7","Piotr Hołub<br>Julia Cieszko<br>Marcin Paściak");
+        define("SPEAKER_MODAL_CONTENT_7","<b>Hopa Studio to warszawski zespół projektowy specjalizujący się w brandingu. W projektowaniu
+systemów identyfikacji wizualnej dostrzegają proces, który znacznie wyprzedza powstanie
+logo. Poznają wszystko to, co marka chce komunikować.</b><br><br>
+Przez ostatnie lata zdobywali doświadczenie zarówno w kreacji, jak i zarządzaniu. Pracują dla
+dużych i małych firm. Nowa branża to kolejne wyzwanie. Studio stworzyło ponad 100 projektów
+dla marek oraz instytucji kultury. Otrzymali dwie nagrody KTR za identyfikację wizualną dla
+Uselab i Paperless.");
 
 
         define("SPEAKER_ANIM_IMAGE_1","/img/speakers/TITLE_OF_GIF");
