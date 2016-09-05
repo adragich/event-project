@@ -14,7 +14,7 @@
         define("SPEAKER_DESC_12","Allegro");
 
 //MIME TYPES FOR MEDIA INFSIDE POP-UPS
-        define("ABOUT_PIC_MIME","png");
+        define("ABOUT_PIC_MIME","jpg");
         define("SPEAKER_PIC_MIME","png");
 
         //SPEAKERS
