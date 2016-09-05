@@ -161,9 +161,9 @@ function scrollToElement(id, offset){
 }
 
 $(window).scroll(function() {
-    if($(window).width() > 675){
+    // if($(window).width() > 675){
         scrollOptions();
-    }
+    // }
 });
 
 function scrollOptions(){
