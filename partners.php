@@ -4,7 +4,7 @@
 	<?php
 	@include("partials/head.php");
 	?>
-	<title>Projekcje - Konferencja graficzna - <?php echo PARTNERS;?></title>
+	<title><?php echo META_TITLE;?> - <?php echo PARTNERS;?></title>
 
 </head>
 <body class="partners-body">
@@ -22,7 +22,7 @@
 
 		<div class="fillAndCenter main sub partners-main flex flex-center padding-2x" data-parallax='{"y" : -300, "smoothness": 20}'>
 			<div class="inside">
-				<p class="mainTitle"><?php echo PARTNERS;?></p>
+				<p class="mainTitle"><?php echo PARTNERS_MAIN_TITLE;?></p>
 				<p class="note"><?php echo PARTNERS_NOTE;?></p>
 			</div>
 		</div>

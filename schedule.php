@@ -4,7 +4,7 @@
 	<?php
 		@include("partials/head.php")
 	?>
-	<title>Projekcje - Konferencja graficzna - <?php echo PROGRAM_TITLE;?></title>
+	<title><?php echo META_TITLE;?> - <?php echo PROGRAM_TITLE;?></title>
 
 </head>
 <body>
