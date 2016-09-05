@@ -32,7 +32,7 @@
         define("SPEAKER_MODAL_NOTE_1","amsterdam / resn.co.nz");
         define("SPEAKER_MODAL_SUBTITLE_1","Kris Hermansson<br>Marcus Brown");
         define("SPEAKER_MODAL_CONTENT_1","<b>Resn to agencja kreatywna z digitalową obsesją. Ich misją jest zarażać umysły niesamowitymi
-i niekiedy szokującymi interaktywnymi doświadczeniami.</br>
+i niekiedy szokującymi interaktywnymi doświadczeniami.</b>
 Od 2004 roku Resn pracuje na froncie interaktywnego projektowania i developmentu. Ich
 wysoko wykwalifikowany zespół podejmuje się realizacji skomplikowanych technicznie wyzwań,
 aby spełniać kreatywne marzenia. Od głębokiego wglądu i strategicznego podejścia do
