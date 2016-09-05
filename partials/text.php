@@ -23,7 +23,7 @@
 //        define("SPEAKER_LINK_9","https://pl.linkedin.com/in/martyna-wędzicka-69343252");
 //        define("SPEAKER_LINK_10","http://lesstudio.pl");
 //        define("SPEAKER_LINK_11","https://pl.linkedin.com/in/patryk-hardziej-0a305884");
-//        define("SPEAKER_LINK_12","http://allegro.pl");
+        define("SPEAKER_LINK_12","http://allegro.pl");
 //        define("SPEAKER_LINK_13","https://www.behance.net/magierski/");
 //        define("SPEAKER_LINK_14","https://pl.linkedin.com/in/andrzej-jakuszko-553402b2");
 //        define("SPEAKER_LINK_15","www.mutostudio.com");
@@ -144,17 +144,6 @@ proporcjach techniczne aspekty projektowania graficznego oraz ilustrację. Jest 
 starych znaków graficznych i ich historii oraz autorem projektów Oldschool Logo i Polskie Znaki
 Graficzne. Razem z Patrycją Podkościelny współtworzy ¬ Negation Studio.");
 
-//        allegro
-        define("SPEAKER_COLOR_12","#ffeb3c");
-        define("SPEAKER_MODAL_TITLE_12","Negation");
-        define("SPEAKER_MODAL_NOTE_12","gdynia / negationstudio.com");
-        define("SPEAKER_MODAL_SUBTITLE_12","Patryk Hardzie");
-        define("SPEAKER_MODAL_CONTENT_12","Patryk Hardziej, jest ilustratorem i projektantem grafiki. Mieszka i pracuje w Trójmieście ale
-działa międzynarodowo. Wykonuje projekty z zakresu ilustracji, brandingu, projektowania logo,
-komunikacji wizualnej, grafiki edytorskiej, a także projekty artystyczne. Lubi łączyć w różnych
-proporcjach techniczne aspekty projektowania graficznego oraz ilustrację. Jest miłośnikiem
-starych znaków graficznych i ich historii oraz autorem projektów Oldschool Logo i Polskie Znaki
-Graficzne. Razem z Patrycją Podkościelny współtworzy ¬ Negation Studio.");
 
         define("SPEAKER_COLOR_13","#ffeb3c");
         define("SPEAKER_MODAL_TITLE_13","Zbrush + Modo");
