@@ -29,10 +29,10 @@
         define("SPEAKER_MODAL_TITLE_9",".less");
         define("SPEAKER_MODAL_TITLE_10",".less");
         define("SPEAKER_MODAL_TITLE_11","HARDZIEJ");
-        define("SPEAKER_MODAL_TITLE_13","Zbrush + Modo");
-        define("SPEAKER_MODAL_TITLE_14","Set design");
-        define("SPEAKER_MODAL_TITLE_15","Set design");
-        define("SPEAKER_MODAL_TITLE_16","Warsztat²");
+        define("SPEAKER_MODAL_TITLE_13","m4gik");
+        define("SPEAKER_MODAL_TITLE_14","Muto");
+        define("SPEAKER_MODAL_TITLE_15","Muto");
+        define("SPEAKER_MODAL_TITLE_16","Brandingowy.pl");
 
         define("SPEAKER_MODAL_IMAGE_1","prelegenci-resn");
         define("SPEAKER_MODAL_IMAGE_2","prelegenci-resn");
@@ -146,8 +146,8 @@
 
         define("PARTNER_LINK_21","https://www.behance.net/kommunikat");
         define("PARTNER_LINK_22","http://piotrswierkowski.com");
-        define("PARTNER_LINK_23","http://fromsquare.com");
-        define("PARTNER_LINK_24","https://www.behance.net/edmk");
+        define("PARTNER_LINK_24","http://fromsquare.com");
+        define("PARTNER_LINK_23","https://www.behance.net/edmk");
 
 //        about
         define("ABOUT_LINK_1","https://www.behance.net/kommunikat");
