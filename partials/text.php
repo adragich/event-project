@@ -718,7 +718,6 @@ working on a project with a client.");
 //                speakers
                 define("SPEAKERS_MAIN_TITLE","Prelegenci");
                 define("SPEAKERS_NOTE","i prowadzący warsztaty.");
-                define("SPEAKER_MODAL_TITLE_11","Negation");
 
                 define("SPEAKER_DESC_1","Creative Director w Resn");
                 define("SPEAKER_DESC_2","Senior Art Director w Resn");
