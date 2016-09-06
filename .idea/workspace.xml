@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.php" afterPath="$PROJECT_DIR$/404.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/text.php" afterPath="$PROJECT_DIR$/partials/text.php" />
-    </list>
+    <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="" />
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -42,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="675" column="98" selection-start-line="675" selection-start-column="98" selection-end-line="675" selection-end-column="98" />
+            <state relative-caret-position="257">
+              <caret line="671" column="60" selection-start-line="671" selection-start-column="60" selection-end-line="671" selection-end-column="60" />
               <folding>
                 <marker date="1473148746000" expanded="true" signature="10818:10987" ph="..." />
                 <marker date="1473148746000" expanded="true" signature="11624:11630" ph="..." />
@@ -76,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="404.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -439,12 +436,12 @@
       <workItem from="1472716254650" duration="3179000" />
       <workItem from="1472815899746" duration="9738000" />
       <workItem from="1473058183844" duration="19329000" />
-      <workItem from="1473144962477" duration="2014000" />
+      <workItem from="1473144962477" duration="2079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284573000" />
+    <option name="totallyTimeSpent" value="284638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="70" width="1335" height="821" extended-state="0" />
@@ -821,18 +818,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="675" column="98" selection-start-line="675" selection-start-column="98" selection-end-line="675" selection-end-column="98" />
+        <state relative-caret-position="257">
+          <caret line="671" column="60" selection-start-line="671" selection-start-column="60" selection-end-line="671" selection-end-column="60" />
           <folding>
             <marker date="1473148746000" expanded="true" signature="10818:10987" ph="..." />
             <marker date="1473148746000" expanded="true" signature="11624:11630" ph="..." />
@@ -858,6 +847,14 @@
             <marker date="1473148746000" expanded="true" signature="56640:56808" ph="..." />
             <marker date="1473148746000" expanded="true" signature="57467:57635" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
