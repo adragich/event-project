@@ -673,7 +673,7 @@ working on a project with a client.");
                 define("BATTLES_APPLICATION_PHONE","Phone number");
 //    error 404
                 define("ERROR_404_TITLE","Lack of Projections?");
-                define("ERROR_404_CONTENT","Something went wrong. This subpage doesn't exist. <br>You can visit the homepage.");
+                define("ERROR_404_CONTENT","Something went wrong. This subpage doesn't exist. You can visit the homepage.");
                 define("ERROR_404_LINK","Homepage");
 			break;
 
