@@ -96,7 +96,7 @@
 							<p class="blockTitle"><?php echo constant(ABOUT_TITLE_.$i);?></p>
 							<p class="block-content"><?php echo constant(ABOUT_SUBTITLE_.$i);?></p>
 							<p class="block-note">
-								<a href="//www.<?php echo constant(ABOUT_WEBSITE_.$i);?>"
+								<a href="//<?php echo constant(ABOUT_WEBSITE_.$i);?>"
 								   target="_blank" class="relative">
 									<span class="innerHoverStripe absolute transition">
 									</span>
