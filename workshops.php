@@ -38,10 +38,8 @@
 	<section class="scrollableContent relative workshop-section" id="workshopSection"
 			 data-parallax='{"y" : -150, "from-scroll": 0, "distance": 0, "smoothness": 10}'>
 		<div class="container">
-			<p class="blockTitle">Na wybrane warsztaty możesz zapisać się kupując bilet na konferencję !
-				Warsztaty nie są dodatkowo płatne, lecz ilość miejsc jest ograniczona.</p>
-			<p class="block-content ">Poniżej znajduje się lista warsztatów, które odbędą się podczas konferencji. 
-				Kliknij i dowiedz się więcej o każdym z nich.
+			<p class="blockTitle"><?php echo WORKSHOPS_BLOCK_TEXT_1?></p>
+			<p class="block-content "><?php echo WORKSHOPS_BLOCK_TEXT_2?>
 			</p>
 		</div>
 	</section>

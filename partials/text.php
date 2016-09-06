@@ -444,11 +444,15 @@ interested especially in such issues as corporation and B2B branding.");
 
                 define("WORKSHOPS_MAIN_TITLE","The workshops");
                 define("WORKSHOPS_NOTE","regarding practical and theoretical aspects of a designer's work.");
-                define("WORKSHOPS_ROLE","Prowadzący:");
-                define("WORKSHOPS_TOPIC","Opis warsztatu:");
+                define("WORKSHOPS_ROLE","Leader:");
+                define("WORKSHOPS_TOPIC","Workshop description:");
+                define("WORKSHOPS_BLOCK_TEXT_1","You can sign up for selected workshops by purchasing the conference 
+                ticket! The workshops do not require any additional payments, but the number of seats is limited.");
+                define("WORKSHOPS_BLOCK_TEXT_2","Below you will find a list of Workshops available during the 
+                Conference. Click to learn more about each of them.");
 
                 define("WORKSHOPS_TITLE_1","ZBrush + Modo");
-                define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
+                define("WORKSHOPS_SUBTITLE_1","Design Basics: 3D");
                 define("WORKSHOPS_PERSON_1","Wojtek Magierski");
                 define("WORKSHOPS_WEBSITE_1","magierski.pl");
                 define("WORKSHOPS_CONTENT_1","Wojciech Magierski is an illustrator and a concept artist who was born in 1983. He lives and works
@@ -466,7 +470,7 @@ on his own experiences - starting from creating a 3D mesh of a character,
 through cutting it out and coloring, up to post-production.");
 
                 define("WORKSHOPS_TITLE_2","Set Design");
-                define("WORKSHOPS_SUBTITLE_2","Złoty styropian, czyli Set Design w fotografii projektów.");
+                define("WORKSHOPS_SUBTITLE_2","Gold Styrofoam, or set design in project photography.");
                 define("WORKSHOPS_PERSON_2","Andrzej Jakuszko");
                 define("WORKSHOPS_WEBSITE_2","mutostudio.pl");
                 define("WORKSHOPS_CONTENT_2","Muto is a multidisciplinary design studio located in Poznań, which focuses on establishing visual
@@ -481,7 +485,7 @@ elements and photography techniques, up to the actual photoshoot.
 The teachers will show ways to build surreal and abstract scenes which
 would enhance the aesthetic of photographed items.");
 
-                define("WORKSHOPS_TITLE_3","Warsztat²");
+                define("WORKSHOPS_TITLE_3","Workshop²");
                 define("WORKSHOPS_SUBTITLE_3","");
                 define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
                 define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
@@ -947,6 +951,10 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("WORKSHOPS_NOTE","projektowe, praktyczne i teoretyczne");
                 define("WORKSHOPS_ROLE","Prowadzący:");
                 define("WORKSHOPS_TOPIC","Opis warsztatu:");
+                define("WORKSHOPS_BLOCK_TEXT_1","Na wybrane warsztaty możesz zapisać się kupując bilet na konferencję !
+				Warsztaty nie są dodatkowo płatne, lecz ilość miejsc jest ograniczona.");
+                define("WORKSHOPS_BLOCK_TEXT_2","Poniżej znajduje się lista warsztatów, które odbędą się podczas konferencji. 
+				Kliknij i dowiedz się więcej o każdym z nich.");
 
                 define("WORKSHOPS_TITLE_1","ZBrush + Modo");
                 define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
