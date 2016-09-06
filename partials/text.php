@@ -671,6 +671,10 @@ working on a project with a client.");
                 define("BATTLES_APPLICATION_SEND","Submit your design");
                 define("BATTLES_APPLICATION_FOOTER","In case of questions, please drop us a line:");
                 define("BATTLES_APPLICATION_PHONE","Phone number");
+//    error 404
+                define("ERROR_404_TITLE","Lack of Projections?");
+                define("ERROR_404_CONTENT","Something went wrong. This subpage doesn't exist. <br>You can visit the homepage.");
+                define("ERROR_404_LINK","Homepage");
 			break;
 
 
@@ -1180,7 +1184,11 @@ usprawnienie współpracy z klientem.");
                 define("BATTLES_APPLICATION_SEND","Wyślij swój projekt");
                 define("BATTLES_APPLICATION_FOOTER","Masz pytanie? napisz do nas na:");
                 define("BATTLES_APPLICATION_PHONE","Numer telefonu");
-
+//    error 404
+                define("ERROR_404_TITLE","Brak Projekcji ?");
+                define("ERROR_404_CONTENT","Coś poszło nie tak - ta strona nie istnieje.<br>
+                    Możesz wrócić do strony głównej.");
+                define("ERROR_404_LINK","Strona główna");
 			break;
 		}
 

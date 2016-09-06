@@ -20,13 +20,12 @@
             </div>
             <div class="error-content">
                 <p class="blockTitle wow animated fadeInRight"
-                   data-wow-delay="0.8s">Brak Projekcji ?</p>
+                   data-wow-delay="0.8s"><?php echo ERROR_404_TITLE; ?></p>
                 <p class="block-content wow animated fadeInRight"
-                   data-wow-delay="1s">Coś poszło nie tak - ta strona nie istnieje.<br>
-                    Możesz wrócić do strony głównej.</p>
+                   data-wow-delay="1s"><?php echo ERROR_404_CONTENT; ?></p>
                 <p>
                     <a href="/?lang=<?php echo $_SESSION['lang'];?>" class="event-link yellow wow animated fadeInRight"
-                       data-wow-delay="1.2s">Strona główna</a>
+                       data-wow-delay="1.2s"><?php echo ERROR_404_LINK; ?></a>
                 </p>
             </div>
         </div>
