@@ -451,63 +451,58 @@ interested especially in such issues as corporation and B2B branding.");
                 define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
                 define("WORKSHOPS_PERSON_1","Wojtek Magierski");
                 define("WORKSHOPS_WEBSITE_1","magierski.pl");
-                define("WORKSHOPS_CONTENT_1","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r.
-						Na co dzień mieszka i pracuje w Krakowie. Jego ilustracje publikowane są w magazynach
-						graficznych na całym świecie.");
-                define("WORKSHOPS_MODAL_CONTENT_1","ZBrush Workshop oraz MODO, to pozycje obowiązkowa dla każdego, kto 
-                        chce dowiedzieć się jak wykorzystać te fantastyczne narzędzia w zapierających dech w piersiach 
-                        projektach. Podczas warsztatów uczestnicy dowiedzą się jak są tworzone światowej klasy 
-                        ilustracje. Wejdziesz w niesamowity świat możliwości Modo oraz Zbrush’a z Wojtkiem Magierskim. 
-                        Połączysz magię postprodukcji w Photoshop i wolności tworzenia obiektów 3D aby uzyskać 
-                        powalające efekty i przewyższyć oczekiwania klientów, przy okazji odkrywając sekrety światowej 
-                        klasy ilustratora.<br><br>
-                        Wojtek Magierski na podstawie swoich prac przedstawi m.in. niesamowite możliwości rzeźbienia w 
-                        Zbrush’u. Począwszy od stworzenia trójwymiarowej siatki postaci przez wycinanie i kolorowanie 
-                        aż po postprodukcję.");
+                define("WORKSHOPS_CONTENT_1","Wojciech Magierski is an illustrator and a concept artist who was born in 1983. He lives and works
+in Cracow, Poland. His illustrations are widely published in magazines related to graphic design
+and illustration all over the world. ");
+                define("WORKSHOPS_MODAL_CONTENT_1","ZBrush and Modo are a must for anyone who wishes to create stunning visuals
+with the use of these incredible pieces of software. During the workshops,
+the participants will learn tips and tricks of how world-class illustrations
+are made. What is more, they will step into the magnificent world of Modo
+and ZBrush with Wojtek Magierski who will show how to combine the postproduction
+magic of Photoshop with the freedom of creating 3D objects to
+achieve amazing results and exceed a potential client's expectations.<br><br>
+Wojtek Magierski will demonstrate the ZBrush sculpting possibilities based
+on his own experiences - starting from creating a 3D mesh of a character,
+through cutting it out and coloring, up to post-production.");
 
                 define("WORKSHOPS_TITLE_2","Set Design");
                 define("WORKSHOPS_SUBTITLE_2","Złoty styropian, czyli Set Design w fotografii projektów.");
                 define("WORKSHOPS_PERSON_2","Andrzej Jakuszko");
                 define("WORKSHOPS_WEBSITE_2","mutostudio.pl");
-                define("WORKSHOPS_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
-                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.");
-                define("WORKSHOPS_MODAL_CONTENT_2","Szkło w tubce, guma w sprayu, dym bez ognia... Podczas warsztatów
-                        uczestnicy zapoznają się z praktycznym podejściem do procesu fotografii
-                        projektów.
+                define("WORKSHOPS_CONTENT_2","Muto is a multidisciplinary design studio located in Poznań, which focuses on establishing visual
+communication and pays attention to a high-quality dialogue between a brand and audience");
+                define("WORKSHOPS_MODAL_CONTENT_2","Glass in a tube, spray gum, smoke without a fire. During this particular
+workshops the participants will learn about a more practical approach
+towards the project photography process.
                         <br><br>
-                        Począwszy od tworzenia wygodnego stanowiska pracy, poprzez dobór
-                        elementów scenografii i technik fotograficznych, na realizacji sesji zdjęciowej
-                        kończąc.
+Starting with creating a comfortable workspace, through picking out scene
+elements and photography techniques, up to the actual photoshoot.
                         <br><br>
-                        Prowadzący przedstawią sposoby, których używają aby budować odrealnione
-                        i abstrakcyjne sceny, podnoszące walory estetyczne fotografowanych
-                        przedmiotów.");
+The teachers will show ways to build surreal and abstract scenes which
+would enhance the aesthetic of photographed items.");
 
                 define("WORKSHOPS_TITLE_3","Warsztat²");
                 define("WORKSHOPS_SUBTITLE_3","");
                 define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
                 define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
-                define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
-                        tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
-                        w Polsce, jak i za granicą.");
-                define("WORKSHOPS_MODAL_CONTENT_3","Warsztat do drugiej potęgi to nietypowy trening umiejętności, którego
-                        przewrotnym tematem przewodnim będzie sam warsztat projektanta oraz
-                        biznesowa realizacja projektów z obszaru brandingu. W trakcie warsztatu
-                        pochylimy się m.in. nad narzędziami i sposobami pozyskiwania inspiracji
-                        oraz jej roli w projektach brandingowych. Będzie także o trendach, ich
-                        analizie oraz o przekładaniu inspiracji na rzeczywiste potrzeby i oczekiwania
-                        klienta.
+                define("WORKSHOPS_CONTENT_3","According to Bartek Kotowicz, being creative everyday is better than feeling the deadly
+certainity which comes with the next day. That is the reason why he swapped the idea of
+working in the European corporations for working in creative industry and running his own
+company. ");
+                define("WORKSHOPS_MODAL_CONTENT_3","The Workshop2 is a non-standard training course, whose main theme
+relates to a designer's skills and business execution of a project in terms of
+its branding. During the workshops, the participants will discuss the tools
+and means of gaining inspiration, as well as its influence upon working on
+a branding project. The latest trends will be touched upon and analysed, as
+well as translating inspiration to a client's actual needs and expectations.
                         <br><br>
-                        Warsztat² to także formuła angażująca uczestników, której bazą będą
-                        aktywne metody warsztatowe (praca w małych grupach, analiza studiów
-                        przypadków, gry symulacyjne, prezentacje, burza mózgów). Warsztat
-                        będzie okazją do wymiany opinii i najlepszych praktyk pomiędzy samymi
-                        uczestnikami, jak również do zastosowania zdobytych kompetencji w
-                        praktyce.
-                        <br><br>
-                        Doświadczenia edukacyjne jakie zbiorą uczestnicy pozwolą
-                        szerzej spojrzeć na sposób realizowanych przez siebie projektów oraz na
-                        usprawnienie współpracy z klientem.");
+Apart from the above, The Workshops2 is an opportunity which actively
+engages participants in working in small groups, case study analysis,
+simulation games, presentations and brainstorming. Moreover, it is a chance
+to exchange opinions and experiences between the participants who will
+put the skills they develop during the workshops into practice. The wider
+perspective they gained will make it possible to enhance effectiveness during
+working on a project with a client.");
 
 //                venue
                 define("PLACE_MAIN_TITLE","The Venue");
@@ -953,63 +948,61 @@ zwłaszcza zagadnienia z zakresu brandingu korporacyjnego i marek B2B.");
                 define("WORKSHOPS_SUBTITLE_1","Podstawy projektowania 3D.");
                 define("WORKSHOPS_PERSON_1","Wojtek Magierski");
                 define("WORKSHOPS_WEBSITE_1","magierski.pl");
-                define("WORKSHOPS_CONTENT_1","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r.
-						Na co dzień mieszka i pracuje w Krakowie. Jego ilustracje publikowane są w magazynach
-						graficznych na całym świecie.");
-                define("WORKSHOPS_MODAL_CONTENT_1","ZBrush Workshop oraz MODO, to pozycje obowiązkowa dla każdego, kto 
-                        chce dowiedzieć się jak wykorzystać te fantastyczne narzędzia w zapierających dech w piersiach 
-                        projektach. Podczas warsztatów uczestnicy dowiedzą się jak są tworzone światowej klasy 
-                        ilustracje. Wejdziesz w niesamowity świat możliwości Modo oraz Zbrush’a z Wojtkiem Magierskim. 
-                        Połączysz magię postprodukcji w Photoshop i wolności tworzenia obiektów 3D aby uzyskać 
-                        powalające efekty i przewyższyć oczekiwania klientów, przy okazji odkrywając sekrety światowej 
-                        klasy ilustratora.<br><br>
-                        Wojtek Magierski na podstawie swoich prac przedstawi m.in. niesamowite możliwości rzeźbienia w 
-                        Zbrush’u. Począwszy od stworzenia trójwymiarowej siatki postaci przez wycinanie i kolorowanie 
-                        aż po postprodukcję.");
+                define("WORKSHOPS_CONTENT_1","Wojciech Magierski - ilustrator, artysta cyfrowy - urodził się w 1983 r. 
+                Na co dzień mieszka ipracuje w Krakowie. Jego ilustracje publikowane są w magazynach graficznych na 
+                całym świecie.");
+                define("WORKSHOPS_MODAL_CONTENT_1","ZBrush oraz MODO, to pozycje obowiązkowa dla każdego, kto chce dowiedzieć
+                się jak wykorzystać te fantastyczne narzędzia w swoich projektach. Podczas
+                warsztatów uczestnicy dowiedzą się jak są tworzone ilustracje. Wejdziesz w
+                niesamowity świat możliwości Modo oraz Zbrush'a z Wojtkiem Magierskim.
+                Połączysz magię postprodukcji w Photoshop i wolności tworzenia obiektów
+                3D aby uzyskać powalające efekty i przewyższyć oczekiwania klientów, przy
+                okazji odkrywając sekrety profesjonalnego ilustratora.<br><br>
+                Wojtek Magierski na podstawie swoich prac przedstawi m.in. niesamowite
+                możliwości rzeźbienia w Zbrush'u. Począwszy od stworzenia trójwymiarowej
+                siatki postaci przez wycinanie i kolorowanie aż po postprodukcję.");
 
                 define("WORKSHOPS_TITLE_2","Set Design");
                 define("WORKSHOPS_SUBTITLE_2","Złoty styropian, czyli Set Design w fotografii projektów.");
                 define("WORKSHOPS_PERSON_2","Andrzej Jakuszko");
                 define("WORKSHOPS_WEBSITE_2","mutostudio.pl");
-                define("WORKSHOPS_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na 
-                        tworzeniu komunikacjiwizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami.");
+                define("WORKSHOPS_CONTENT_2","Muto - multidyscyplinarne studio projektowe z Poznania. Skupia się na tworzeniu komunikacji
+wizualnej, zwracając uwagę na wysoką kulturę dialogu marek z odbiorcami. ");
                 define("WORKSHOPS_MODAL_CONTENT_2","Szkło w tubce, guma w sprayu, dym bez ognia... Podczas warsztatów
-                        uczestnicy zapoznają się z praktycznym podejściem do procesu fotografii
-                        projektów.
+uczestnicy zapoznają się z praktycznym podejściem do procesu fotografii
+projektów.
                         <br><br>
-                        Począwszy od tworzenia wygodnego stanowiska pracy, poprzez dobór
-                        elementów scenografii i technik fotograficznych, na realizacji sesji zdjęciowej
-                        kończąc.
+Począwszy od tworzenia wygodnego stanowiska pracy, poprzez dobór
+elementów scenografii i technik fotograficznych, na realizacji sesji zdjęciowej
+kończąc.
                         <br><br>
-                        Prowadzący przedstawią sposoby, których używają aby budować odrealnione
-                        i abstrakcyjne sceny, podnoszące walory estetyczne fotografowanych
-                        przedmiotów.");
+Prowadzący przedstawią sposoby, których używają aby budować odrealnione
+i abstrakcyjne sceny, podnoszące walory estetyczne fotografowanych
+przedmiotów.");
 
                 define("WORKSHOPS_TITLE_3","Warsztat²");
                 define("WORKSHOPS_SUBTITLE_3","");
                 define("WORKSHOPS_PERSON_3","Bartek Kotowicz");
                 define("WORKSHOPS_WEBSITE_3","brandingowy.pl");
-                define("WORKSHOPS_CONTENT_3","brandingowy.pl - to przestrzeń marek i ludzi, którzy na co dzień je 
-                        tworzą. Śledzą trendy, analizują działania, a także opisują zmiany w sferze brandingu, zarówno 
-                        w Polsce, jak i za granicą.");
+                define("WORKSHOPS_CONTENT_3","Bartek Kotowicz wychodzi z założenia, że twórcza codzienność jest lepsza niż pewne jutro.
+Z tej przyczyny porzucił przyszłość w instytucjach europejskich na rzecz branży kreatywnej
+i własnej firmy. ");
                 define("WORKSHOPS_MODAL_CONTENT_3","Warsztat do drugiej potęgi to nietypowy trening umiejętności, którego
-                        przewrotnym tematem przewodnim będzie sam warsztat projektanta oraz
-                        biznesowa realizacja projektów z obszaru brandingu. W trakcie warsztatu
-                        pochylimy się m.in. nad narzędziami i sposobami pozyskiwania inspiracji
-                        oraz jej roli w projektach brandingowych. Będzie także o trendach, ich
-                        analizie oraz o przekładaniu inspiracji na rzeczywiste potrzeby i oczekiwania
-                        klienta.
+przewrotnym tematem przewodnim będzie sam warsztat projektanta oraz
+biznesowa realizacja projektów z obszaru brandingu. W trakcie warsztatu
+pochylimy się m.in. nad narzędziami i sposobami pozyskiwania inspiracji
+oraz jej roli w projektach brandingowych. Będzie także o trendach, ich
+analizie oraz o przekładaniu inspiracji na rzeczywiste potrzeby i oczekiwania
+klienta.
                         <br><br>
-                        Warsztat² to także formuła angażująca uczestników, której bazą będą
-                        aktywne metody warsztatowe (praca w małych grupach, analiza studiów
-                        przypadków, gry symulacyjne, prezentacje, burza mózgów). Warsztat
-                        będzie okazją do wymiany opinii i najlepszych praktyk pomiędzy samymi
-                        uczestnikami, jak również do zastosowania zdobytych kompetencji w
-                        praktyce.
-                        <br><br>
-                        Doświadczenia edukacyjne jakie zbiorą uczestnicy pozwolą
-                        szerzej spojrzeć na sposób realizowanych przez siebie projektów oraz na
-                        usprawnienie współpracy z klientem.");
+Warsztat² to także formuła angażująca uczestników, której bazą będą
+aktywne metody warsztatowe (praca w małych grupach, analiza studiów
+przypadków, gry symulacyjne, prezentacje, burza mózgów). Warsztat
+będzie okazją do wymiany opinii i najlepszych praktyk pomiędzy samymi
+uczestnikami, jak również do zastosowania zdobytych kompetencji w
+praktyce. Doświadczenia edukacyjne jakie zbiorą uczestnicy pozwolą
+szerzej spojrzeć na sposób realizowanych przez siebie projektów oraz na
+usprawnienie współpracy z klientem.");
 
 //                venue
                 define("PLACE_MAIN_TITLE","Miejsce");
