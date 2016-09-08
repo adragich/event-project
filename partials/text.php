@@ -437,10 +437,8 @@ interested especially in such issues as corporation and B2B branding.");
                 define("PROGRAM_DESCRIPTION_5","Something new...");
 
 //                workshops
-                define("TICKETS_NOTE_1","Na ten warsztat, jak i pozostałe, możesz zapisać się wybierając opcję kupna 
-                        biletu wraz  z warsztatem.");
-                define("TICKETS_NOTE_2","Warsztaty nie są dodatkowo płatne, jednak ilośc miejsc jest ograniczona, zatem 
-                        kto pierwszy ten lepszy :)");
+                define("TICKETS_NOTE_1","You can sign up for selected workshops by purchasing the conference ticket!");
+                define("TICKETS_NOTE_2","The workshops do not require any additional payments, but the number of seats is limited.");
 
                 define("WORKSHOPS_MAIN_TITLE","The workshops");
                 define("WORKSHOPS_NOTE","regarding practical and theoretical aspects of a designer's work.");
@@ -528,7 +526,7 @@ working on a project with a client.");
                 define("PARTNERS_MAIN_TITLE","The Partners");
                 define("PARTNERS_NOTE","Everything is possible with their help.");
                 define("SPONSORS","Sponsors");
-                define("MEDIA","Partners");
+                define("MEDIA","Media Partners");
                 define("ORGS","Organisers");
 
 //                about
@@ -654,8 +652,9 @@ working on a project with a client.");
                 define("BATTLES_CONTENT_4","The winner of the Battle will be chosen during the conference by everyone who will take part in the Projections event and vote. The resultswill be known at the end of the conference during the award ceremony.");
                 define("BATTLES_CONTENT_5","The Jury consists of well-known and talented designers, who will pick the Battles finalists. All of the submissions will be showcased in the Projections gallery.");
                 define("BATTLES_RULES_TITLE","Please, read the");
-                define("BATTLES_RULES_SUBTITLE",'Design Battles rules');
+                define("BATTLES_RULES_SUBTITLE",'Design Battles Rules');
                 define("BATTLES_RULES_SUBTITLE_2",'before submitting your work.');
+                define("BATTLES_RULES_CONTENT",'Coming soon (15-09-2016)');
                 define("BATTLES_RULES_NOTE","Download the layout and start working");
                 define("BATTLES_CONFIRM","They already said yes to the Battles");
 
@@ -1172,6 +1171,7 @@ usprawnienie współpracy z klientem.");
 						internetowej bitwy.projections.pl");
                 define("BATTLES_RULES_TITLE","Szczegóły określa");
                 define("BATTLES_RULES_SUBTITLE_2",'');
+                define("BATTLES_RULES_CONETNT",'Już wkrótce (15-09-2016)');
                 define("BATTLES_RULES_SUBTITLE",'Regulamin “Bitwy Graficznej”');
                 define("BATTLES_RULES_NOTE","Pobierz szablon i rozpocznij projekt");
                 define("BATTLES_CONFIRM","Oni potwierdzili udział");

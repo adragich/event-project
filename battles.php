@@ -333,7 +333,7 @@
 
 		<div class="workshop-popup-body white">
 			<div class="workshop-popup-inner">
-				<p class="block-content"><?php echo BATTLES_RULES_SUBTITLE;?></p>
+				<p class="block-content"><?php echo BATTLES_RULES_CONTENT;?></p>
 			</div>
 		</div>
 
