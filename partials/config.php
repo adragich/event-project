@@ -14,6 +14,9 @@
 
     $instagramLink = '#';
     $facebookLink = "https://www.facebook.com/projekcje2016/";
+    $twitterLink = "https://twitter.com/Projekcje";
+
+    $shareImage = "SHARE_IMAGE_PATH.MIME";
 	//$domain = "http://localhost/event/";
 
 ?>

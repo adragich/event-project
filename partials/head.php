@@ -13,3 +13,5 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--	<link rel="stylesheet" type="text/css" href="css/animate.css">-->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<meta property="og:image" content="img/<?php echo $shareImage; ?>" />

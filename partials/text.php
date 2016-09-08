@@ -26,8 +26,8 @@
         define("SPEAKER_MODAL_TITLE_6","HOPA");
         define("SPEAKER_MODAL_TITLE_7","HOPA");
         define("SPEAKER_MODAL_TITLE_8","eduweb");
-        define("SPEAKER_MODAL_TITLE_9",".less");
-        define("SPEAKER_MODAL_TITLE_10",".less");
+        define("SPEAKER_MODAL_TITLE_9","less.");
+        define("SPEAKER_MODAL_TITLE_10","less.");
         define("SPEAKER_MODAL_TITLE_11","HARDZIEJ");
         define("SPEAKER_MODAL_TITLE_13","m4gik");
         define("SPEAKER_MODAL_TITLE_14","Muto");
@@ -160,6 +160,10 @@
         define("ABOUT_IMAGE_3","projections-about_24.png");
         define("ABOUT_IMAGE_4","projections-about_23.png");
 
+        define("ABOUT_MODAL_SUBTITLE_1","Kuba Enzowski<br>Natalia Żerko");
+        define("ABOUT_MODAL_SUBTITLE_2","");
+        define("ABOUT_MODAL_SUBTITLE_3","Alicja Piotrowska<br>Kuba Piechota");
+        define("ABOUT_MODAL_SUBTITLE_4","");
 
         define("ABOUT_TITLE_1","Kommunikat");
         define("ABOUT_TITLE_2","Piotr Świerkowski");

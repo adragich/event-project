@@ -140,6 +140,7 @@
 									</span>
 							<span class="relative"><?php echo constant(ABOUT_WEBSITE_.$i);?></span></a></p>
 					<p class="blockTitle modal"><?php echo constant(ABOUT_TITLE_.$i);?></p>
+					<p class="blockSub modal"><?php echo constant(ABOUT_MODAL_SUBTITLE_.$i);?></p>
 				</div>
 			</div>
 
