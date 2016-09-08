@@ -111,7 +111,7 @@
 						<div class="inside">
 							<div class="yellow-hover figure">
 								<a href="<?php echo BATTLES_LINK_4; ?>" target="_blank" class="filter">
-									<img src="img/figures/teams/projections-bitwy_12.png" alt="Team logo">
+									<img src="img/figures/teams/bitwy-sarnowski.jpg" alt="Team logo">
 								</a>
 							</div>
 							<p class="blockTitle">
@@ -174,7 +174,7 @@
 						<div class="inside">
 							<div class="yellow-hover figure">
 							<a href="<?php echo BATTLES_LINK_5; ?>" target="_blank" class="filter">
-								<img src="img/figures/teams/projections-bitwy_14.png" alt="Team logo">
+								<img src="img/figures/teams/bitwy-knopik.jpg" alt="Team logo">
 							</a>
 							</div>
 							<p class="blockTitle">
