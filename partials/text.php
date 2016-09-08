@@ -84,8 +84,8 @@
 //        define("SPEAKER_LINK_16","https://www.linkedin.com/in/bartekkotowicz");
 
 //        BACKGROUND COLOURS FOR POP-UPS
-        define("SPEAKER_COLOR_1","#ff6178");
-        define("SPEAKER_COLOR_2","#ff6178");
+        define("SPEAKER_COLOR_1","#FFEB43");
+        define("SPEAKER_COLOR_2","#FFEB43");
         define("SPEAKER_COLOR_3","#2eab66");
         define("SPEAKER_COLOR_4","#2eab66");
         define("SPEAKER_COLOR_5","#ffbf9e");
