@@ -52,6 +52,7 @@
 					<p class="subtitle bold animated wow fadeInUp" data-wow-delay="0.2s"><?php echo BATTLES_CONTENT_2; ?></p>
 
 				</div>
+			</div>
 					<div class="battlesPlan col s12 m6 l6">
 						<?php for($i = 1; $i <= 3; $i++){?>
 							<div class="col l12 battlesPlanBlock relative">
@@ -98,6 +99,7 @@
 							</div>
 						<?php } ?>
 					</div>
+			<div class="battle-info">
 				<div class="inside battle-info">
 
 					<p class="block-content animated wow fadeInUp" data-wow-delay="0.3s"><?php echo BATTLES_CONTENT_3; ?>
