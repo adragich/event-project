@@ -1474,6 +1474,9 @@ a:hover .innerHoverStripe {
     text-align: center
 }
 /*battles*/
+.battlesPlan-block p{
+    font-size: 20px;
+}
 .star{
     left: 7px;
     bottom: 0;
