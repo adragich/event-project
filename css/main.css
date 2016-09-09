@@ -3370,6 +3370,9 @@ a.border:hover{
 }
 
 @media (max-width: 667px){
+    .socials a {
+        margin-left: 35px;
+    }
     .event-left-link.inScroll img{
         width: 124px;
         min-width: 124px;
