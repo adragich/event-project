@@ -1927,6 +1927,9 @@ input.hidden, select.hidden{
     background: #fff;
 }
 
+.battlesPlanBlock {
+    min-height: 130px;
+}
 .battlesPlanBlock .digit{
     font-size: 60px;
     text-transform: uppercase;

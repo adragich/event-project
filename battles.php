@@ -54,9 +54,11 @@
 					<div class="battlesPlan col s12 m6 l6">
 						<?php for($i = 1; $i <= 3; $i++){?>
 							<div class="col l12 battlesPlanBlock">
-								<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
+								<div class="battlesPlanImg inline-block">
+									<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
+								</div>
 								<span class="digit">0<?php echo $i; ?>.</span>
-								<div class="content">
+								<div class="content inline-block">
 									<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
 									<p class="block-content battlePlanText ">
 										<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
@@ -75,9 +77,11 @@
 					<div class="battlesPlan col s12 m6 l6">
 						<?php for($i = 4; $i <= 6; $i++){?>
 							<div class="col l12 battlesPlanBlock">
-								<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
+								<div class="battlesPlanImg inline-block">
+									<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
+								</div>
 								<span class="digit">0<?php echo $i; ?>.</span>
-								<div class="content">
+								<div class="content inline-block">
 									<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
 									<p class="block-content battlePlanText ">
 										<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
@@ -93,7 +97,7 @@
 							</div>
 						<?php } ?>
 					</div>
-					
+
 					<p class="block-content animated wow fadeInUp" data-wow-delay="0.3s"><?php echo BATTLES_CONTENT_3; ?>
 					</p>
 					<p class="block-content animated wow fadeInUp" data-wow-delay="0.4s"><?php echo BATTLES_CONTENT_4; ?>
