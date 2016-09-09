@@ -156,9 +156,9 @@
         define("ABOUT_LINK_4","https://www.behance.net/fromsquare");
 
         define("ABOUT_IMAGE_1","projections-about_21.png");
-        define("ABOUT_IMAGE_2","projections-about_22.png");
+        define("ABOUT_IMAGE_2","projections-about_22.jpg");
         define("ABOUT_IMAGE_3","projections-about_24.png");
-        define("ABOUT_IMAGE_4","projections-about_23.png");
+        define("ABOUT_IMAGE_4","projections-about_23.jpg");
 
         define("ABOUT_MODAL_SUBTITLE_1","Kuba Enzowski<br>Natalia Żerko");
         define("ABOUT_MODAL_SUBTITLE_2","");
