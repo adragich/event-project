@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
@@ -52,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="battles.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="46" column="62" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="62" />
+            <state relative-caret-position="96">
+              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -170,8 +169,8 @@
         <option value="$PROJECT_DIR$/partials/config.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
-        <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/battles.php" />
       </list>
     </option>
   </component>
@@ -421,12 +420,12 @@
       <workItem from="1473058183844" duration="19329000" />
       <workItem from="1473144962477" duration="4424000" />
       <workItem from="1473347478127" duration="2841000" />
-      <workItem from="1473430143642" duration="2157000" />
+      <workItem from="1473430143642" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291981000" />
+    <option name="totallyTimeSpent" value="292113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="69" width="1335" height="821" extended-state="0" />
@@ -825,18 +824,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="46" column="62" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="1929" column="25" selection-start-line="1929" selection-start-column="25" selection-end-line="1929" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
           <folding />
         </state>
       </provider>
