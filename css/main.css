@@ -3548,6 +3548,9 @@ a.border:hover{
         min-height: 0;
         padding-bottom: 30px;
     }
+    .battlesPlanWrap{
+        margin-bottom: 0;
+    }
     .date-sign.shift {
         margin-right: 0;
     }
