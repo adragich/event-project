@@ -2058,8 +2058,9 @@ a.border:hover{
     overflow: visible;
 }
 .battlesPlanWrap{
-    padding-left: 0;
-    max-width: 850px;
+    padding-left: 50px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 /**/
 

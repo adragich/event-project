@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			<div class="battlesPlanWrap">
-				<div class="battlesPlan col s12 m6 l6">
+				<div class="battlesPlan col m12 l6">
 					<?php for($i = 1; $i <= 3; $i++){?>
 						<div class="col l12 battlesPlanBlock relative">
 							<div class="battlesPlanImg absolute">
@@ -77,7 +77,7 @@
 						</div>
 					<?php } ?>
 				</div>
-				<div class="battlesPlan col s12 m6 l6">
+				<div class="battlesPlan col m12 l6">
 					<?php for($i = 4; $i <= 6; $i++){?>
 						<div class="col l12 battlesPlanBlock">
 							<div class="battlesPlanImg absolute">
