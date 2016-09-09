@@ -1474,9 +1474,6 @@ a:hover .innerHoverStripe {
     text-align: center
 }
 /*battles*/
-p.battlePlanText {
-    font-size: 20px;
-}
 .star{
     left: 7px;
     bottom: 0;
@@ -1930,6 +1927,9 @@ input.hidden, select.hidden{
     background: #fff;
 }
 
+p.battlePlanText {
+    font-size: 20px;
+}
 /**/
 
 
