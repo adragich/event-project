@@ -8,6 +8,15 @@
     url('../fonts/PlayfairDisplayRegular.svg#PlayfairDisplayRegular') format('svg');
 }
 @font-face {
+    font-family: 'PlayfairDisplayRegular2';
+    src: url('../fonts/PlayfairDisplayRegular2.eot');
+    src: url('../fonts/PlayfairDisplayRegular2.eot') format('embedded-opentype'),
+    url('../fonts/PlayfairDisplayRegular2.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplayRegular2.woff') format('woff'),
+    url('../fonts/PlayfairDisplayRegular2.ttf') format('truetype'),
+    url('../fonts/PlayfairDisplayRegular2.svg#PlayfairDisplayRegular2') format('svg');
+}
+@font-face {
     font-family: 'StolzlMedium';
     src: url('../fonts/StolzlMedium.eot');
     src: url('../fonts/StolzlMedium.eot') format('embedded-opentype'),
@@ -1935,7 +1944,8 @@ input.hidden, select.hidden{
 .battlesPlanBlock .digit{
     font-size: 60px;
     text-transform: uppercase;
-   padding-left: 77px;
+    padding-left: 77px;
+    font-family: "PlayfairDisplayRegular2", serif;
 }
 p.block-content.battlePlanText, p.battlePlanText{
     font-size: 20px;
