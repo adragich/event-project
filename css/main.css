@@ -3532,6 +3532,14 @@ a.border:hover{
         left: 45px;
     }
     /*battles*/
+    .battlesPlanBlock .digit {
+        font-size: 26px;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+    .battlesPlanBlock .content {
+        padding-left: 60px;
+    }
     .date-sign.shift {
         margin-right: 0;
     }
