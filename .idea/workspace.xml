@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb28290-d582-48bc-8fa4-fdf94691e850" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/battles.php" afterPath="$PROJECT_DIR$/battles.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="event-project.iws" />
@@ -41,21 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
-              <caret line="1476" column="41" selection-start-line="1476" selection-start-column="41" selection-end-line="1476" selection-end-column="41" />
+              <caret line="1476" column="17" selection-start-line="1476" selection-start-column="2" selection-end-line="1476" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="battles.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="battles.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/battles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="46" column="63" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="63" />
+            <state relative-caret-position="216">
+              <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -169,8 +170,8 @@
         <option value="$PROJECT_DIR$/partials/config.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/partials/text.php" />
-        <option value="$PROJECT_DIR$/battles.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/battles.php" />
       </list>
     </option>
   </component>
@@ -420,12 +421,12 @@
       <workItem from="1473058183844" duration="19329000" />
       <workItem from="1473144962477" duration="4424000" />
       <workItem from="1473347478127" duration="2841000" />
-      <workItem from="1473430143642" duration="1632000" />
+      <workItem from="1473430143642" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291456000" />
+    <option name="totallyTimeSpent" value="291534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="69" width="1335" height="821" extended-state="0" />
@@ -816,14 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="46" column="63" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/speakers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -835,7 +828,15 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
-          <caret line="1476" column="41" selection-start-line="1476" selection-start-column="41" selection-end-line="1476" selection-end-column="41" />
+          <caret line="1476" column="17" selection-start-line="1476" selection-start-column="2" selection-end-line="1476" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/battles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
           <folding />
         </state>
       </provider>

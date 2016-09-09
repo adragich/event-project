@@ -48,8 +48,8 @@
 						<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
 						<span class="digit">0<?php echo $i; ?>.</span>
 						<div class="content">
-							<p class="blockTitle"><?php echo constant(BATTLES_PLAN_.$i);?></p>
-							<p class="block-content">
+							<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
+							<p class="block-content battlePlanText ">
 								<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
 								   target="_blank" class="relative">
 									<span class="innerHoverStripe absolute transition">
