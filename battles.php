@@ -64,7 +64,7 @@
 					<?php } ?>
 				</div>
 				<div class="battlesPlan col s12 m6 l6">
-					<?php for($i = 3; $i <= 6; $i++){?>
+					<?php for($i = 4; $i <= 6; $i++){?>
 					<div class="col l12 battlesPlanBlock">
 						<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
 						<span class="digit">0<?php echo $i; ?>.</span>
