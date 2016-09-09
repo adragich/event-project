@@ -1174,6 +1174,7 @@ usprawnienie współpracy z klientem.");
                 define("BATTLES_PLAN_3","Stwórz interpretację graficzną logo Projekcji wg szablonu.");
                 define("BATTLES_PLAN_4","Zgłoś swój projekt na stronie:");
                 define("BATTLES_PLAN_5","Nie zapomnij dołączyć Twojej inspiracji wraz z jej autorem/źródłem.");
+                define("BATTLES_PLAN_6","Czekaj na ogłoszneie finalistów wystawy.");
 
                 define("BATTLES_NOTE","Pojedynek pomiędzy projektantami graficznymi.");
                 define("BATTLES_2","Gotowi do bitwy?");

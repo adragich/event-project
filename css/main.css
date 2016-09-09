@@ -1949,6 +1949,8 @@ input.hidden, select.hidden{
 }
 p.block-content.battlePlanText, p.battlePlanText{
     font-size: 20px;
+    padding: 0;
+    line-height: 30px;
 }
 /**/
 
