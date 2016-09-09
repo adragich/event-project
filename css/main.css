@@ -1935,6 +1935,12 @@ input.hidden, select.hidden{
 .teams-list p:hover{
     background: #fff;
 }
+.battlesPlanBlock:first-child .content{
+    max-width: 350px;
+}
+.battlesPlanBlock:nth-child(2) .content {
+    max-width: 450px;
+}
 .battlesPlanBlock .content{
   padding-left:200px;
 }
