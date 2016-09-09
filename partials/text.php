@@ -170,6 +170,15 @@
         define("ABOUT_TITLE_3","Fromsquare");
         define("ABOUT_TITLE_4","Ewelina Dymek");
 
+//        battles
+
+        define("BATTLES_PLAN_SUB_1","");
+        define("BATTLES_PLAN_SUB_2","bitwy.projections.pl");
+        define("BATTLES_PLAN_SUB_3","");
+        define("BATTLES_PLAN_SUB_4","bitwy.projections.pl");
+        define("BATTLES_PLAN_SUB_5","");
+        define("BATTLES_PLAN_SUB_6","");
+
 //  THERE ARE COMMON TEXT STRINGS (FINISH)
 
 
@@ -638,18 +647,13 @@ working on a project with a client.");
                 and its identity.");
 
 //                battles ???
-                define("BATTLES_PLAN_1","Znajdź inspirację.");
-                define("BATTLES_PLAN_2","Pobierz szablon ze strony:");
-                define("BATTLES_PLAN_3","Stwórz interpretację graficzną logo Projekcji wg szablonu.");
-                define("BATTLES_PLAN_4","Zgłoś swój projekt na stronie:");
-                define("BATTLES_PLAN_5","Nie zapomnij dołączyć Twojej inspiracji wraz z jej autorem/źródłem.");
-                define("BATTLES_PLAN_6","Czekaj na ogłoszneie finalistów wystawy.");
-                define("BATTLES_PLAN_SUB_1","");
-                define("BATTLES_PLAN_SUB_2","bitwy.projections.pl");
-                define("BATTLES_PLAN_SUB_3","");
-                define("BATTLES_PLAN_SUB_4","bitwy.projections.pl");
-                define("BATTLES_PLAN_SUB_5","");
-                define("BATTLES_PLAN_SUB_6","");
+                define("BATTLES_PLAN_1","Find your Inspiration.");
+                define("BATTLES_PLAN_2","Download the template from:");
+                define("BATTLES_PLAN_3","Create a graphic Interpretation of the Projections' logo using the template.");
+                define("BATTLES_PLAN_4","Upload your design to: bitwy.projections.pl");
+                define("BATTLES_PLAN_5","Don't forget to include your Inspiration along with its author/source.");
+                define("BATTLES_PLAN_6","Wait for the announcement of the finalists selected for the exhibition.");
+
 
                 define("BATTLES_2","Are you ready for the Battle?");
                 define("BATTLES_NOTE","The clash between graphic designers.");
@@ -1165,6 +1169,12 @@ usprawnienie współpracy z klientem.");
 
 
 //                battles ???
+                define("BATTLES_PLAN_1","Znajdź inspirację.");
+                define("BATTLES_PLAN_2","Pobierz szablon ze strony:");
+                define("BATTLES_PLAN_3","Stwórz interpretację graficzną logo Projekcji wg szablonu.");
+                define("BATTLES_PLAN_4","Zgłoś swój projekt na stronie:");
+                define("BATTLES_PLAN_5","Nie zapomnij dołączyć Twojej inspiracji wraz z jej autorem/źródłem.");
+                
                 define("BATTLES_NOTE","Pojedynek pomiędzy projektantami graficznymi.");
                 define("BATTLES_2","Gotowi do bitwy?");
                 define("APPLY_TO_BATTLE","Pobierz szablon i rozpocznij projekt");
