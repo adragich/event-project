@@ -53,52 +53,54 @@
 
 				</div>
 			</div>
-					<div class="battlesPlan col s12 m6 l6">
-						<?php for($i = 1; $i <= 3; $i++){?>
-							<div class="col l12 battlesPlanBlock relative">
-								<div class="battlesPlanImg absolute">
-									<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
-								</div>
-								<span class="digit absolute">0<?php echo $i; ?>.</span>
-								<div class="content">
-									<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
-									<p class="block-content battlePlanText ">
-										<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
-										   target="_blank" class="relative">
+			<div class="battlesPlanWrap">
+				<div class="battlesPlan col s12 m6 l6">
+					<?php for($i = 1; $i <= 3; $i++){?>
+						<div class="col l12 battlesPlanBlock relative">
+							<div class="battlesPlanImg absolute">
+								<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
+							</div>
+							<span class="digit absolute">0<?php echo $i; ?>.</span>
+							<div class="content">
+								<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
+								<p class="block-content battlePlanText ">
+									<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
+									   target="_blank" class="relative">
 									<span class="innerHoverStripe absolute transition">
 									</span>
-											<span class="relative">
+										<span class="relative">
 										<?php echo constant(BATTLES_PLAN_SUB_.$i);?>
 									</span>
-										</a>
-									</p>
-								</div>
+									</a>
+								</p>
 							</div>
-						<?php } ?>
-					</div>
-					<div class="battlesPlan col s12 m6 l6">
-						<?php for($i = 4; $i <= 6; $i++){?>
-							<div class="col l12 battlesPlanBlock">
-								<div class="battlesPlanImg inline-block">
-									<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
-								</div>
-								<span class="digit">0<?php echo $i; ?>.</span>
-								<div class="content inline-block">
-									<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
-									<p class="block-content battlePlanText ">
-										<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
-										   target="_blank" class="relative">
+						</div>
+					<?php } ?>
+				</div>
+				<div class="battlesPlan col s12 m6 l6">
+					<?php for($i = 4; $i <= 6; $i++){?>
+						<div class="col l12 battlesPlanBlock">
+							<div class="battlesPlanImg inline-block">
+								<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
+							</div>
+							<span class="digit">0<?php echo $i; ?>.</span>
+							<div class="content inline-block">
+								<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
+								<p class="block-content battlePlanText ">
+									<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
+									   target="_blank" class="relative">
 									<span class="innerHoverStripe absolute transition">
 									</span>
-											<span class="relative">
+										<span class="relative">
 										<?php echo constant(BATTLES_PLAN_SUB_.$i);?>
 									</span>
-										</a>
-									</p>
-								</div>
+									</a>
+								</p>
 							</div>
-						<?php } ?>
-					</div>
+						</div>
+					<?php } ?>
+				</div>
+			</div>
 			<div class="battle-info">
 				<div class="inside battle-info">
 

@@ -2049,6 +2049,10 @@ a.border:hover{
     z-index: 1;
     overflow: visible;
 }
+.battlesPlanWrap{
+    padding-left: 0;
+    max-width: 850px;
+}
 /**/
 
 
@@ -2408,6 +2412,11 @@ a.border:hover{
     left: -400px;
 }
 @media (min-width: 1500px){
+
+    .battlesPlanWrap{
+        padding-left: 280px;
+        max-width: 100%;
+    }
     .nav a {
         font-size: 36px;
     }
