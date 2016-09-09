@@ -1927,6 +1927,10 @@ input.hidden, select.hidden{
     background: #fff;
 }
 
+p.block-content.battlePlan-block .digit{
+    font-size: 60px;
+    text-transform: uppercase;
+}
 p.block-content.battlePlanText, p.battlePlanText{
     font-size: 20px;
 }
