@@ -83,7 +83,7 @@
 							<div class="battlesPlanImg absolute">
 								<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
 							</div>
-							<span class="digit">0<?php echo $i; ?>.</span>
+							<span class="digit absolute">0<?php echo $i; ?>.</span>
 							<div class="content inline-block">
 								<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
 								<p class="block-content battlePlanText ">
