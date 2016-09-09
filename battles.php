@@ -53,12 +53,12 @@
 
 					<div class="battlesPlan col s12 m6 l6">
 						<?php for($i = 1; $i <= 3; $i++){?>
-							<div class="col l12 battlesPlanBlock">
-								<div class="battlesPlanImg inline-block">
+							<div class="col l12 battlesPlanBlock relative">
+								<div class="battlesPlanImg absolute">
 									<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
 								</div>
-								<span class="digit">0<?php echo $i; ?>.</span>
-								<div class="content inline-block">
+								<span class="digit absolute">0<?php echo $i; ?>.</span>
+								<div class="content">
 									<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
 									<p class="block-content battlePlanText ">
 										<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"

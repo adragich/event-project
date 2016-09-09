@@ -1926,13 +1926,16 @@ input.hidden, select.hidden{
 .teams-list p:hover{
     background: #fff;
 }
-
+.battlesPlanBlock .content{
+  padding-left:150px;
+}
 .battlesPlanBlock {
     min-height: 130px;
 }
 .battlesPlanBlock .digit{
     font-size: 60px;
     text-transform: uppercase;
+   padding-left: 77px;
 }
 p.block-content.battlePlanText, p.battlePlanText{
     font-size: 20px;
