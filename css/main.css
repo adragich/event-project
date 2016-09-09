@@ -1927,7 +1927,7 @@ input.hidden, select.hidden{
     background: #fff;
 }
 
-p.battlePlanText {
+p.block-content.battlePlanText, p.battlePlanText{
     font-size: 20px;
 }
 /**/
