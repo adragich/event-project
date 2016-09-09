@@ -1935,10 +1935,10 @@ input.hidden, select.hidden{
 .teams-list p:hover{
     background: #fff;
 }
-.battlesPlanBlock:first-child .content{
+.battlesPlan:first-child .content{
     max-width: 350px;
 }
-.battlesPlanBlock:nth-child(2) .content {
+.battlesPlan:nth-child(2) .content {
     max-width: 450px;
 }
 .battlesPlanBlock .content{
@@ -1957,6 +1957,12 @@ p.block-content.battlePlanText, p.battlePlanText{
     font-size: 20px;
     padding: 0;
     line-height: 30px;
+}
+
+.battlesPlanWrap{
+    padding-left: 50px;
+    max-width: 800px;
+    margin: 50px auto;
 }
 /**/
 
@@ -2056,11 +2062,6 @@ a.border:hover{
     padding-top: 10px;
     z-index: 1;
     overflow: visible;
-}
-.battlesPlanWrap{
-    padding-left: 50px;
-    max-width: 800px;
-    margin: 50px auto;
 }
 /**/
 
