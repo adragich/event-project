@@ -3540,6 +3540,14 @@ a.border:hover{
     .battlesPlanBlock .content {
         padding-left: 60px;
     }
+    p.block-content.battlePlanText, p.battlePlanText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .battlesPlanBlock {
+        min-height: 0;
+        padding-bottom: 30px;
+    }
     .date-sign.shift {
         margin-right: 0;
     }
