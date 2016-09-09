@@ -39,9 +39,9 @@ $(function() {
 	$(".menu").click(function(){
 			$(".sideBar").addClass("appeared");
 			$(".overlay").fadeIn();
-			setTimeout(function() {
+			// setTimeout(function() {
 				$("body").addClass("stick-temp");
-			}, 1000);
+			// }, 1000);
 			setTimeout(function() {
 				$(".lang").slideDown();
 			}, 1000);
@@ -62,7 +62,9 @@ $(function() {
 	});
 
 	$(".close, .overlay").click(function(){
-		$("body").removeClass("stick-temp");
+		setTimeout(function() {
+			$("body").removeClass("stick-temp");
+		}, 1000);
 		var checker = $(this).attr('data-close');
 
 		if( checker != '' && checker ){
