@@ -44,7 +44,7 @@
 				</p>
 				<div class="battlesPlan">
 					<?php for($i = 1; $i <= 6; $i++){?>
-					<div class="col s12 m6 l6 battlesPlan-block">
+					<div class="col s12 m6 l6 battlesPlanBlock">
 						<img src="img/battles/battle-figure-<?php echo $i; ?>.png" alt="Battle plan">
 						<span class="digit">0<?php echo $i; ?>.</span>
 						<div class="content">
