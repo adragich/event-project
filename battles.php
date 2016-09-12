@@ -64,7 +64,7 @@
 							<div class="content">
 								<p class="blockTitle battlePlanText "><?php echo constant(BATTLES_PLAN_.$i);?></p>
 								<p class="block-content battlePlanText ">
-									<a href="//.www<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
+									<a href="//<?php echo constant(BATTLES_PLAN_SUB_.$i);?>"
 									   target="_blank" class="relative">
 									<span class="innerHoverStripe absolute transition">
 									</span>
