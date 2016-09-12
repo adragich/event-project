@@ -74,7 +74,7 @@
       <file leaf-file-name="text.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/text.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2355">
+            <state relative-caret-position="15">
               <caret line="157" column="53" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
               <folding>
                 <marker date="1473438168000" expanded="true" signature="11368:11537" ph="..." />
@@ -115,29 +115,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/sendmail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <marker date="1471518519000" expanded="true" signature="133:242" ph="..." />
-                <marker date="1471518519000" expanded="true" signature="144:191" ph="..." />
-                <marker date="1471518519000" expanded="true" signature="202:234" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="swiftmailer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+            <state relative-caret-position="377">
+              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
-                <marker date="1473671273000" expanded="true" signature="1374:2152" ph="..." />
-                <marker date="1473671273000" expanded="true" signature="1405:2124" ph="..." />
-                <marker date="1473671273000" expanded="true" signature="1914:2004" ph="..." />
+                <marker date="1473671422000" expanded="true" signature="1374:2174" ph="..." />
+                <marker date="1473671422000" expanded="true" signature="1405:2146" ph="..." />
+                <marker date="1473671422000" expanded="true" signature="1914:2026" ph="..." />
               </folding>
             </state>
           </provider>
@@ -497,12 +483,12 @@
       <workItem from="1473144962477" duration="4424000" />
       <workItem from="1473347478127" duration="2841000" />
       <workItem from="1473430143642" duration="6577000" />
-      <workItem from="1473670515563" duration="757000" />
+      <workItem from="1473670515563" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297158000" />
+    <option name="totallyTimeSpent" value="297307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="105" y="69" width="1335" height="821" extended-state="0" />
@@ -849,9 +835,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7232">
+          <caret line="3372" column="16" selection-start-line="3372" selection-start-column="16" selection-end-line="3372" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
+        <state relative-caret-position="15">
           <caret line="157" column="53" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
           <folding>
             <marker date="1473438168000" expanded="true" signature="11368:11537" ph="..." />
@@ -881,18 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/battles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7232">
-          <caret line="3372" column="16" selection-start-line="3372" selection-start-column="16" selection-end-line="3372" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="246">
+          <caret line="326" column="71" selection-start-line="326" selection-start-column="67" selection-end-line="326" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -909,22 +895,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battles.php">
+    <entry file="file://$PROJECT_DIR$/partials/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="326" column="71" selection-start-line="326" selection-start-column="67" selection-end-line="326" selection-end-column="71" />
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/actions/swiftmailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state relative-caret-position="377">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
           <folding>
-            <marker date="1473671273000" expanded="true" signature="1374:2152" ph="..." />
-            <marker date="1473671273000" expanded="true" signature="1405:2124" ph="..." />
-            <marker date="1473671273000" expanded="true" signature="1914:2004" ph="..." />
+            <marker date="1473671422000" expanded="true" signature="1374:2174" ph="..." />
+            <marker date="1473671422000" expanded="true" signature="1405:2146" ph="..." />
+            <marker date="1473671422000" expanded="true" signature="1914:2026" ph="..." />
           </folding>
         </state>
       </provider>

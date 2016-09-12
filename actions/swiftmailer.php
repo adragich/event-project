@@ -59,7 +59,7 @@
                             <p>".$onlinePortfolio."</p>
                             <p>".$linkInspiration."</p>
                             <p>
-                                Watch portfolio in annex
+                                Portfolio lub inspiracja projektu w załączniku
                             </p>
                             Best regards,<br>
                             Event-project
