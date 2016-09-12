@@ -30,8 +30,8 @@
         $linkInspiration = '';
     }
 
-    if(isset($_POST['online-portfolio']) && !empty($_POST['online-portfolio'])){
-        $onlinePortfolio = 'Link for online portfolio'.$_POST['online-portfolio'];
+    if(isset($_POST['address']) && !empty($_POST['address'])){
+        $onlinePortfolio = 'Link for online portfolio'.$_POST['address'];
     }
     else{
         $onlinePortfolio = '';
@@ -50,10 +50,13 @@
     $message->setBody("<html>
                         <body>
                             <h2>Application!</h2><br><br>
-                            ".$name." sent an application.<br>
-                            <p>Email: ".$email."</p>".
-                            $phone
-                            ."<p>".$onlinePortfolio."</p>
+                            <p><b>imię i nazwisko:</b></p>
+                            <p>".$name."</p><br>
+                            <p><b>Email:</b></p>
+                            <p>".$email."</p><br>
+                            <p><b>Phone:</b></p>
+                            <p>".$phone ."</p><br>
+                            <p>".$onlinePortfolio."</p>
                             <p>".$linkInspiration."</p>
                             <p>
                                 Watch portfolio in annex
@@ -80,5 +83,5 @@
     else{
         $_SESSION['message'] = 'Your application has been sent!';
     }
-    //header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>
