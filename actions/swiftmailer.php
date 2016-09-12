@@ -24,14 +24,14 @@
     }
 
     if(isset($_POST['link_inspiration']) && !empty($_POST['link_inspiration'])){
-        $linkInspiration = 'Autor / źródło inspiracji: '.$_POST['link_inspiration'];
+        $linkInspiration = "<b>Autor / źródło inspiracji: </b><br>".$_POST['link_inspiration'];
     }
     else{
         $linkInspiration = '';
     }
 
     if(isset($_POST['address']) && !empty($_POST['address'])){
-        $onlinePortfolio = 'Adres online portfolio: '.$_POST['address'];
+        $onlinePortfolio = "<b>Adres online portfolio: </b><br><a href='://".$_POST['address']."'>".$_POST['address']."</a>";
     }
     else{
         $onlinePortfolio = '';
