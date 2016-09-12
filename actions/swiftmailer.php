@@ -31,7 +31,9 @@
     }
 
     if(isset($_POST['address']) && !empty($_POST['address'])){
-        $onlinePortfolio = "<b>Adres online portfolio: </b><br><a href='://".$_POST['address']."'>".$_POST['address']."</a>";
+        $onlinePortfolio = "<b>Adres online portfolio: </b><br>
+                            <a href='://".$_POST['address']."'>".$_POST['address']."
+                            </a>";
     }
     else{
         $onlinePortfolio = '';
