@@ -84,5 +84,5 @@
     else{
         $_SESSION['message'] = 'Your application has been sent!';
     }
-//    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
+    header('Location: ' . $_SERVER['HTTP_REFERER'] . '#application');
 ?>

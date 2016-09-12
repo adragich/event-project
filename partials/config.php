@@ -6,8 +6,7 @@
     $ticketsLink = '#';
 
     $templatePath = '/templates/projekcje_bitwy_szablon.pdf';
-    $feedback_email = 'anastasiia.dragich@gmail.com';
-//    $feedback_email = 'projekcjeconf@gmail.com';
+    $feedback_email = 'projekcjeconf@gmail.com';
     $feedback_subject = 'Application';
     $feedback_from = 'user@event-project.myhomezy.com';
     $feedback_username = 'Administrator';
